@@ -1,0 +1,2771 @@
+{
+  "title": "방법론적 아키타입 용어(Methodological Archetype Terminology)",
+  "intro": "아래 용어는 방법론적 아키타입(Methodological Archetype) 페이지에서 한글(English) 형식으로 사용합니다.",
+  "terms": [
+    {
+      "no": 1,
+      "term": "가변수화(dummy coding)",
+      "term_ko": "가변수화",
+      "term_en": "dummy coding",
+      "definition": "범주형 변수를 0과 1의 더미변수로 바꾸는 것."
+    },
+    {
+      "no": 2,
+      "term": "가설검정(hypothesis testing)",
+      "term_ko": "가설검정",
+      "term_en": "hypothesis testing",
+      "definition": "세운 가설을 자료로 통계적으로 검증하는 절차."
+    },
+    {
+      "no": 3,
+      "term": "가정 검토(assumption checking)",
+      "term_ko": "가정 검토",
+      "term_en": "assumption checking",
+      "definition": "통계기법을 쓰기 전에 전제 조건이 맞는지 확인하는 것."
+    },
+    {
+      "no": 4,
+      "term": "가중치(Term)",
+      "term_ko": "가중치",
+      "term_en": "",
+      "definition": "항목별 중요도에 따라 부여하는 비중."
+    },
+    {
+      "no": 5,
+      "term": "감사기록(audit trail)",
+      "term_ko": "감사기록",
+      "term_en": "audit trail",
+      "definition": "분석의 판단과 과정을 추적할 수 있게 남긴 기록."
+    },
+    {
+      "no": 6,
+      "term": "강건성 점검(robustness check)",
+      "term_ko": "강건성 점검",
+      "term_en": "robustness check",
+      "definition": "방법이나 조건을 바꿔도 결과가 유지되는지 확인하는 것."
+    },
+    {
+      "no": 7,
+      "term": "개념적(conceptual coding)",
+      "term_ko": "개념적",
+      "term_en": "conceptual coding",
+      "definition": "표면 내용이 아니라 개념 수준으로 분류하는."
+    },
+    {
+      "no": 8,
+      "term": "개념화(conceptualization)",
+      "term_ko": "개념화",
+      "term_en": "conceptualization",
+      "definition": "구체적 사실을 개념 수준으로 끌어올리는 것."
+    },
+    {
+      "no": 9,
+      "term": "개방코딩(open coding)",
+      "term_ko": "개방코딩",
+      "term_en": "open coding",
+      "definition": "자료를 열어 놓고 개념에 이름을 붙이는 초기 코딩(QL-008)."
+    },
+    {
+      "no": 10,
+      "term": "개방형 질문(open-ended question)",
+      "term_ko": "개방형 질문",
+      "term_en": "open-ended question",
+      "definition": "정해진 답 없이 자유롭게 응답하도록 하는 질문."
+    },
+    {
+      "no": 11,
+      "term": "개인기록물(personal documents)",
+      "term_ko": "개인기록물",
+      "term_en": "personal documents",
+      "definition": "일기·편지·사진 등 개인이 남긴 기록."
+    },
+    {
+      "no": 12,
+      "term": "결과변수(outcome variable)",
+      "term_ko": "결과변수",
+      "term_en": "outcome variable",
+      "definition": "원인에 따라 나타나는 결과를 나타내는 변수."
+    },
+    {
+      "no": 13,
+      "term": "결측치(missing value)",
+      "term_ko": "결측치",
+      "term_en": "missing value",
+      "definition": "응답이 빠져 비어 있는 값."
+    },
+    {
+      "no": 14,
+      "term": "결측치 보간(imputation)",
+      "term_ko": "결측치 보간",
+      "term_en": "imputation",
+      "definition": "빠진 값을 추정치로 채워 넣는 것."
+    },
+    {
+      "no": 15,
+      "term": "계량서지(bibliometrics)",
+      "term_ko": "계량서지",
+      "term_en": "bibliometrics",
+      "definition": "논문·인용을 계량 분석해 학문 동향을 보는 분야."
+    },
+    {
+      "no": 16,
+      "term": "계량지표(bibliometric index)",
+      "term_ko": "계량지표",
+      "term_en": "bibliometric index",
+      "definition": "논문·인용 등을 수치로 나타낸 계량 지표."
+    },
+    {
+      "no": 17,
+      "term": "계보학적 자료(genealogical data)",
+      "term_ko": "계보학적 자료",
+      "term_en": "genealogical data",
+      "definition": "개념·제도가 역사적으로 형성돼 온 과정을 보여 주는 자료."
+    },
+    {
+      "no": 18,
+      "term": "계보학적 코딩(genealogical coding)",
+      "term_ko": "계보학적 코딩",
+      "term_en": "genealogical coding",
+      "definition": "개념·제도의 형성 계보를 추적하며 코딩하는 것."
+    },
+    {
+      "no": 19,
+      "term": "계보학적 해석(genealogical interpretation)",
+      "term_ko": "계보학적 해석",
+      "term_en": "genealogical interpretation",
+      "definition": "현재의 현상을 그 역사적 형성 과정으로 풀이하는 해석."
+    },
+    {
+      "no": 20,
+      "term": "고유벡터법(eigenvector method)",
+      "term_ko": "고유벡터법",
+      "term_en": "eigenvector method",
+      "definition": "쌍대비교 행렬에서 가중치를 산출하는 계산법(AHP)."
+    },
+    {
+      "no": 21,
+      "term": "고정효과/랜덤효과 모형(fixed/random effects)",
+      "term_ko": "고정효과/랜덤효과 모형",
+      "term_en": "fixed/random effects",
+      "definition": "메타분석에서 연구 간 차이를 다루는 두 가지 통합 모형."
+    },
+    {
+      "no": 22,
+      "term": "공변량 균형성(covariate balance)",
+      "term_ko": "공변량 균형성",
+      "term_en": "covariate balance",
+      "definition": "비교 집단 사이에 배경 변수가 고르게 분포한 정도."
+    },
+    {
+      "no": 23,
+      "term": "공저·인용 네트워크(co-authorship/citation network)",
+      "term_ko": "공저·인용 네트워크",
+      "term_en": "co-authorship/citation network",
+      "definition": "공동저술과 인용 관계로 만든 네트워크."
+    },
+    {
+      "no": 24,
+      "term": "과정추적(process tracing)",
+      "term_ko": "과정추적",
+      "term_en": "process tracing",
+      "definition": "원인이 결과로 이어지는 과정을 단계별로 추적하는 방법."
+    },
+    {
+      "no": 25,
+      "term": "관찰기록지(observation sheet)",
+      "term_ko": "관찰기록지",
+      "term_en": "observation sheet",
+      "definition": "관찰 내용을 적는 양식."
+    },
+    {
+      "no": 26,
+      "term": "관찰자간 신뢰도(inter-observer reliability)",
+      "term_ko": "관찰자간 신뢰도",
+      "term_en": "inter-observer reliability",
+      "definition": "관찰자들의 판단이 일치하는 정도."
+    },
+    {
+      "no": 27,
+      "term": "관찰자간 일치도(inter-observer agreement)",
+      "term_ko": "관찰자간 일치도",
+      "term_en": "inter-observer agreement",
+      "definition": "둘 이상의 관찰자가 같게 판단한 정도."
+    },
+    {
+      "no": 28,
+      "term": "관측자료(observational data)",
+      "term_ko": "관측자료",
+      "term_en": "observational data",
+      "definition": "실제 관측·측정으로 얻은 자료."
+    },
+    {
+      "no": 29,
+      "term": "교란변수(confounder)",
+      "term_ko": "교란변수",
+      "term_en": "confounder",
+      "definition": "원인과 결과의 관계를 왜곡하는 제3의 변수."
+    },
+    {
+      "no": 30,
+      "term": "교차검증(cross-validation)",
+      "term_ko": "교차검증",
+      "term_en": "cross-validation",
+      "definition": "자료를 나눠 번갈아 학습·검증해 성능을 평가하는 것."
+    },
+    {
+      "no": 31,
+      "term": "교차비(OR)",
+      "term_ko": "교차비(OR)",
+      "term_en": "odds ratio",
+      "definition": "사건이 일어날 승산의 비."
+    },
+    {
+      "no": 32,
+      "term": "구성요소로 군집화(clustering)",
+      "term_ko": "구성요소로 군집화",
+      "term_en": "clustering",
+      "definition": "유사한 요소끼리 묶어 구성요소로 만드는 것."
+    },
+    {
+      "no": 33,
+      "term": "HC-001(oral history)",
+      "term_ko": "HC-001",
+      "term_en": "oral history",
+      "definition": "경험 당사자의 증언을 채록해 구성한 역사."
+    },
+    {
+      "no": 34,
+      "term": "구술자료(Term)",
+      "term_ko": "구술자료",
+      "term_en": "",
+      "definition": "말로 채록한 증언 자료."
+    },
+    {
+      "no": 35,
+      "term": "구조적(structural)·직물적(textural) 기술(structural/textural description)",
+      "term_ko": "구조적(structural)·직물적(textural) 기술",
+      "term_en": "structural/textural description",
+      "definition": "경험을 '무엇을 겪었나'(구조적)와 '어떻게 느꼈나'(직물적)로 나눠 서술하는 것."
+    },
+    {
+      "no": 36,
+      "term": "구조적(체크리스트)(structured observation)",
+      "term_ko": "구조적(체크리스트)",
+      "term_en": "structured observation",
+      "definition": "미리 정한 항목표에 따라 체계적으로 관찰하는 방식."
+    },
+    {
+      "no": 37,
+      "term": "구조화된 응답자료(structured data)",
+      "term_ko": "구조화된 응답자료",
+      "term_en": "structured data",
+      "definition": "정해진 선택지·형식으로 모아 수치화가 쉬운 자료."
+    },
+    {
+      "no": 38,
+      "term": "권력/지식 장치(power/knowledge apparatus)",
+      "term_ko": "권력/지식 장치",
+      "term_en": "power/knowledge apparatus",
+      "definition": "권력과 지식이 결합해 사람을 통제·규정하는 장치(푸코)."
+    },
+    {
+      "no": 39,
+      "term": "규율기제(disciplinary mechanism)",
+      "term_ko": "규율기제",
+      "term_en": "disciplinary mechanism",
+      "definition": "규범과 규칙으로 개인을 길들이는 장치."
+    },
+    {
+      "no": 40,
+      "term": "근거수준(GRADE(level of evidence, GRADE)",
+      "term_ko": "근거수준(GRADE",
+      "term_en": "level of evidence, GRADE",
+      "definition": "근거의 확실성 등급."
+    },
+    {
+      "no": 41,
+      "term": "QL-008(grounded theory)",
+      "term_ko": "QL-008",
+      "term_en": "grounded theory",
+      "definition": "자료에서 개념을 뽑아 귀납적으로 이론을 만들어 가는 방법."
+    },
+    {
+      "no": 42,
+      "term": "QL-008(실체이론)(grounded/substantive theory)",
+      "term_ko": "QL-008(실체이론)",
+      "term_en": "grounded/substantive theory",
+      "definition": "자료에서 도출한, 특정 영역에 한정된 실체적 이론."
+    },
+    {
+      "no": 43,
+      "term": "기술적 노트(descriptive notes)",
+      "term_ko": "기술적 노트",
+      "term_en": "descriptive notes",
+      "definition": "본 것을 사실 그대로 적은 노트."
+    },
+    {
+      "no": 44,
+      "term": "기술적 코딩(descriptive coding)",
+      "term_ko": "기술적 코딩",
+      "term_en": "descriptive coding",
+      "definition": "내용을 요약하는 서술적 코드를 붙이는 것."
+    },
+    {
+      "no": 45,
+      "term": "기술통계(descriptive statistics)",
+      "term_ko": "기술통계",
+      "term_en": "descriptive statistics",
+      "definition": "자료의 특징을 요약해 나타내는 통계(평균·빈도 등)."
+    },
+    {
+      "no": 46,
+      "term": "기저모형(baseline model)",
+      "term_ko": "기저모형",
+      "term_en": "baseline model",
+      "definition": "비교의 기준이 되는 기본 모형."
+    },
+    {
+      "no": 47,
+      "term": "기초빈도(basic frequency)",
+      "term_ko": "기초빈도",
+      "term_en": "basic frequency",
+      "definition": "가장 기본적인 빈도 집계."
+    },
+    {
+      "no": 48,
+      "term": "내러티브 유형화(narrative typology)",
+      "term_ko": "내러티브 유형화",
+      "term_en": "narrative typology",
+      "definition": "이야기들을 유형으로 분류하는 것."
+    },
+    {
+      "no": 49,
+      "term": "네트워크 그래프(network graph)",
+      "term_ko": "네트워크 그래프",
+      "term_en": "network graph",
+      "definition": "점(노드)과 선(엣지)으로 관계를 나타낸 그래프."
+    },
+    {
+      "no": 50,
+      "term": "네트워크 맵(Term)",
+      "term_ko": "네트워크 맵",
+      "term_en": "",
+      "definition": "관계를 노드와 엣지로 그린 지도."
+    },
+    {
+      "no": 51,
+      "term": "네트워크 중심성(network centrality)",
+      "term_ko": "네트워크 중심성",
+      "term_en": "network centrality",
+      "definition": "네트워크에서 한 지점의 중요도를 나타내는 지표."
+    },
+    {
+      "no": 52,
+      "term": "노이즈 필터링(noise filtering)",
+      "term_ko": "노이즈 필터링",
+      "term_en": "noise filtering",
+      "definition": "오류나 잡음 자료를 걸러 내는 것."
+    },
+    {
+      "no": 53,
+      "term": "노출(exposure)",
+      "term_ko": "노출",
+      "term_en": "exposure",
+      "definition": "결과의 원인으로 의심되는 요인에 노출된 것."
+    },
+    {
+      "no": 54,
+      "term": "다중 데이터베이스(multiple databases)",
+      "term_ko": "다중 데이터베이스",
+      "term_en": "multiple databases",
+      "definition": "여러 학술 DB를 동시에 검색하는 것."
+    },
+    {
+      "no": 55,
+      "term": "다중사례(multiple-case)",
+      "term_ko": "다중사례",
+      "term_en": "multiple-case",
+      "definition": "둘 이상의 사례를 함께 다루는 것."
+    },
+    {
+      "no": 56,
+      "term": "단면연구(cross-sectional)",
+      "term_ko": "단면연구",
+      "term_en": "cross-sectional",
+      "definition": "한 시점에 원인과 결과를 동시에 조사하는 연구."
+    },
+    {
+      "no": 57,
+      "term": "담론(discourse)",
+      "term_ko": "담론",
+      "term_en": "discourse",
+      "definition": "특정 주제에 대해 사회가 말하고 사고하는 방식의 총체."
+    },
+    {
+      "no": 58,
+      "term": "담론형성체(discursive formation)",
+      "term_ko": "담론형성체",
+      "term_en": "discursive formation",
+      "definition": "한 시대의 담론이 일정하게 조직된 체계."
+    },
+    {
+      "no": 59,
+      "term": "담화구조(Term)",
+      "term_ko": "담화구조",
+      "term_en": "",
+      "definition": "담화가 조직된 구조."
+    },
+    {
+      "no": 60,
+      "term": "담화전략(discursive strategy)",
+      "term_ko": "담화전략",
+      "term_en": "discursive strategy",
+      "definition": "담화로 입장과 관계를 구성하는 전략."
+    },
+    {
+      "no": 61,
+      "term": "대화구조(Term)",
+      "term_ko": "대화구조",
+      "term_en": "",
+      "definition": "대화가 이어지는 구조."
+    },
+    {
+      "no": 62,
+      "term": "델파이(Delphi)",
+      "term_ko": "델파이",
+      "term_en": "Delphi",
+      "definition": "전문가에게 익명 설문을 반복해 의견을 수렴하는 기법."
+    },
+    {
+      "no": 63,
+      "term": "도구변수(IV)",
+      "term_ko": "도구변수(IV)",
+      "term_en": "instrumental variable",
+      "definition": "교란을 우회해 인과를 추정하려고 쓰는 대리 변수."
+    },
+    {
+      "no": 64,
+      "term": "동료검토(peer debriefing)",
+      "term_ko": "동료검토",
+      "term_en": "peer debriefing",
+      "definition": "동료 연구자에게 분석의 타당성을 검토받는 것."
+    },
+    {
+      "no": 65,
+      "term": "동질성 검정(homogeneity test)",
+      "term_ko": "동질성 검정",
+      "term_en": "homogeneity test",
+      "definition": "비교 집단이 처음부터 유사한지 검정하는 것."
+    },
+    {
+      "no": 66,
+      "term": "두꺼운 기술(thick description)",
+      "term_ko": "두꺼운 기술",
+      "term_en": "thick description",
+      "definition": "맥락과 의미까지 촘촘히 서술하는 것(기어츠)."
+    },
+    {
+      "no": 67,
+      "term": "등분산성(homogeneity of variance)",
+      "term_ko": "등분산성",
+      "term_en": "homogeneity of variance",
+      "definition": "비교하는 집단들의 분산이 서로 비슷한 성질."
+    },
+    {
+      "no": 68,
+      "term": "라벨링(labeling)",
+      "term_ko": "라벨링",
+      "term_en": "labeling",
+      "definition": "자료에 정답(범주)을 붙이는 것."
+    },
+    {
+      "no": 69,
+      "term": "라포(rapport)",
+      "term_ko": "라포",
+      "term_en": "rapport",
+      "definition": "연구자와 참여자 사이의 신뢰와 친밀 관계."
+    },
+    {
+      "no": 70,
+      "term": "랜덤포레스트(random forest)",
+      "term_ko": "랜덤포레스트",
+      "term_en": "random forest",
+      "definition": "여러 결정트리를 결합해 예측하는 앙상블 기법."
+    },
+    {
+      "no": 71,
+      "term": "로지스틱회귀(logistic regression)",
+      "term_ko": "로지스틱회귀",
+      "term_en": "logistic regression",
+      "definition": "이분형 결과(예/아니오)를 예측하는 회귀."
+    },
+    {
+      "no": 72,
+      "term": "매개중심성(betweenness centrality)",
+      "term_ko": "매개중심성",
+      "term_en": "betweenness centrality",
+      "definition": "다른 지점들을 잇는 다리 역할의 정도."
+    },
+    {
+      "no": 73,
+      "term": "매칭(matching)",
+      "term_ko": "매칭",
+      "term_en": "matching",
+      "definition": "조건이 비슷한 대상끼리 짝지어 비교하는 것."
+    },
+    {
+      "no": 74,
+      "term": "매트릭스(matrix)",
+      "term_ko": "매트릭스",
+      "term_en": "matrix",
+      "definition": "행과 열로 자료를 정리한 표."
+    },
+    {
+      "no": 75,
+      "term": "맥락정보(context information)",
+      "term_ko": "맥락정보",
+      "term_en": "context information",
+      "definition": "자료가 만들어진 상황·배경 정보."
+    },
+    {
+      "no": 76,
+      "term": "머신러닝(machine learning)",
+      "term_ko": "머신러닝",
+      "term_en": "machine learning",
+      "definition": "자료로부터 규칙을 스스로 학습하는 기법."
+    },
+    {
+      "no": 77,
+      "term": "메모잉(memoing)",
+      "term_ko": "메모잉",
+      "term_en": "memoing",
+      "definition": "분석 도중 떠오른 아이디어를 즉시 기록하는 작업."
+    },
+    {
+      "no": 78,
+      "term": "메타분석(Term)",
+      "term_ko": "메타분석",
+      "term_en": "",
+      "definition": "여러 연구의 수치 결과를 통합해 결론을 내는 분석."
+    },
+    {
+      "no": 79,
+      "term": "메타정보(metadata)",
+      "term_ko": "메타정보",
+      "term_en": "metadata",
+      "definition": "자료에 딸린 부가 정보(생성 시각·출처 등)."
+    },
+    {
+      "no": 80,
+      "term": "메타회귀(meta-regression)",
+      "term_ko": "메타회귀",
+      "term_en": "meta-regression",
+      "definition": "연구 간 효과 차이를 변수로 설명하는 회귀분석."
+    },
+    {
+      "no": 81,
+      "term": "면담 프로토콜(interview protocol)",
+      "term_ko": "면담 프로토콜",
+      "term_en": "interview protocol",
+      "definition": "면담에서 물을 질문과 순서를 정리한 지침."
+    },
+    {
+      "no": 82,
+      "term": "명제 도출(Term)",
+      "term_ko": "명제 도출",
+      "term_en": "",
+      "definition": "결과에서 이론적 명제를 이끌어 내는 것."
+    },
+    {
+      "no": 83,
+      "term": "모집단(population)",
+      "term_ko": "모집단",
+      "term_en": "population",
+      "definition": "조사하려는 대상 전체 집단. 표본을 뽑아 오는 원천이 된다."
+    },
+    {
+      "no": 84,
+      "term": "모형 적합도(model fit)",
+      "term_ko": "모형 적합도",
+      "term_en": "model fit",
+      "definition": "모형이 관측 자료에 부합하는 정도."
+    },
+    {
+      "no": 85,
+      "term": "모형 적합도 지수(CFI, RMSEA(model fit index)",
+      "term_ko": "모형 적합도 지수(CFI, RMSEA",
+      "term_en": "model fit index",
+      "definition": "모형이 자료에 얼마나 잘 맞는지 나타내는 지수들."
+    },
+    {
+      "no": 86,
+      "term": "목적표집(purposive sampling)",
+      "term_ko": "목적표집",
+      "term_en": "purposive sampling",
+      "definition": "연구 목적에 알맞은 대상을 의도적으로 골라 뽑는 표집."
+    },
+    {
+      "no": 87,
+      "term": "무작위배정(randomization)",
+      "term_ko": "무작위배정",
+      "term_en": "randomization",
+      "definition": "참가자를 무작위로 집단에 나눠 배정하는 것(실험의 핵심)."
+    },
+    {
+      "no": 88,
+      "term": "무작위화(randomization)",
+      "term_ko": "무작위화",
+      "term_en": "randomization",
+      "definition": "무작위로 배정하거나 배열하는 것."
+    },
+    {
+      "no": 89,
+      "term": "문화기술적 사례기술(ethnographic description)",
+      "term_ko": "문화기술적 사례기술",
+      "term_en": "ethnographic description",
+      "definition": "문화를 관찰해 사례로 상세히 기술한 것."
+    },
+    {
+      "no": 90,
+      "term": "민감도분석(sensitivity analysis)",
+      "term_ko": "민감도분석",
+      "term_en": "sensitivity analysis",
+      "definition": "가정·값을 바꿔 결과의 안정성을 살피는 분석."
+    },
+    {
+      "no": 91,
+      "term": "반구조화(semi-structured)",
+      "term_ko": "반구조화",
+      "term_en": "semi-structured",
+      "definition": "핵심 질문은 정하되 상황에 따라 유연하게 추가로 묻는 방식."
+    },
+    {
+      "no": 92,
+      "term": "반복 정독(repeated reading)",
+      "term_ko": "반복 정독",
+      "term_en": "repeated reading",
+      "definition": "자료를 여러 번 꼼꼼히 읽는 것."
+    },
+    {
+      "no": 93,
+      "term": "반복측정(repeated measures)",
+      "term_ko": "반복측정",
+      "term_en": "repeated measures",
+      "definition": "같은 대상을 여러 시점에 반복해 측정하는 것."
+    },
+    {
+      "no": 94,
+      "term": "발화단위(utterance unit)",
+      "term_ko": "발화단위",
+      "term_en": "utterance unit",
+      "definition": "한 번의 발화로 구분되는 단위."
+    },
+    {
+      "no": 95,
+      "term": "발화순서(turn-taking)",
+      "term_ko": "발화순서",
+      "term_en": "turn-taking",
+      "definition": "대화에서 말차례를 주고받는 순서(turn-taking)."
+    },
+    {
+      "no": 96,
+      "term": "발화자료(utterance data)",
+      "term_ko": "발화자료",
+      "term_en": "utterance data",
+      "definition": "실제 발화(말)로 이루어진 분석 자료."
+    },
+    {
+      "no": 97,
+      "term": "방법론 전통(Term)",
+      "term_ko": "방법론 전통",
+      "term_en": "",
+      "definition": "현상학·QL-008 등 연구를 수행하는 학문적 계통."
+    },
+    {
+      "no": 98,
+      "term": "범주코딩(categorical coding)",
+      "term_ko": "범주코딩",
+      "term_en": "categorical coding",
+      "definition": "자료를 정해진 범주로 분류해 표시하는 코딩."
+    },
+    {
+      "no": 99,
+      "term": "범주화(categorization)",
+      "term_ko": "범주화",
+      "term_en": "categorization",
+      "definition": "코드들을 상위 범주로 묶는 것."
+    },
+    {
+      "no": 100,
+      "term": "변수 정규화(normalization)",
+      "term_ko": "변수 정규화",
+      "term_en": "normalization",
+      "definition": "값의 범위를 일정한 기준으로 맞추는 것."
+    },
+    {
+      "no": 101,
+      "term": "변수 정의(variable definition)",
+      "term_ko": "변수 정의",
+      "term_en": "variable definition",
+      "definition": "분석에 쓸 변수(값이 변하는 항목)를 규정하는 일."
+    },
+    {
+      "no": 102,
+      "term": "변수 코딩(variable coding)",
+      "term_ko": "변수 코딩",
+      "term_en": "variable coding",
+      "definition": "응답을 분석할 수 있는 수치·기호로 바꾸는 것."
+    },
+    {
+      "no": 103,
+      "term": "변수화(variableization)",
+      "term_ko": "변수화",
+      "term_en": "variableization",
+      "definition": "자료를 분석용 변수로 바꾸는 것."
+    },
+    {
+      "no": 104,
+      "term": "보정변수(adjustment variable)",
+      "term_ko": "보정변수",
+      "term_en": "adjustment variable",
+      "definition": "교란을 통제하려고 분석에 함께 넣는 변수."
+    },
+    {
+      "no": 105,
+      "term": "복수자료원(multiple sources)",
+      "term_ko": "복수자료원",
+      "term_en": "multiple sources",
+      "definition": "여러 종류의 자료원을 함께 활용하는 것."
+    },
+    {
+      "no": 106,
+      "term": "본조사(main survey)",
+      "term_ko": "본조사",
+      "term_en": "main survey",
+      "definition": "실제 자료를 수집하는 정식 조사."
+    },
+    {
+      "no": 107,
+      "term": "본질(essence)",
+      "term_ko": "본질(essence)",
+      "term_en": "",
+      "definition": "여러 경험에 공통된 핵심 의미(현상학)."
+    },
+    {
+      "no": 108,
+      "term": "본질(essence) 기술문(essence description)",
+      "term_ko": "본질(essence) 기술문",
+      "term_en": "essence description",
+      "definition": "경험의 본질을 서술한 글."
+    },
+    {
+      "no": 109,
+      "term": "본질적 구조(essential structure)",
+      "term_ko": "본질적 구조",
+      "term_en": "essential structure",
+      "definition": "그 현상을 성립시키는 핵심 구조."
+    },
+    {
+      "no": 110,
+      "term": "분류/회귀 모형(classification/regression model)",
+      "term_ko": "분류/회귀 모형",
+      "term_en": "classification/regression model",
+      "definition": "범주를 맞히는 분류 모형과 수치를 예측하는 회귀 모형."
+    },
+    {
+      "no": 111,
+      "term": "분석 소프트웨어(NVivo(Term)",
+      "term_ko": "분석 소프트웨어(NVivo",
+      "term_en": "",
+      "definition": "질적 자료의 코딩·정리를 돕는 소프트웨어."
+    },
+    {
+      "no": 112,
+      "term": "분석단위(unit of analysis)",
+      "term_ko": "분석단위",
+      "term_en": "unit of analysis",
+      "definition": "분석의 기본이 되는 단위(단어·문장·사례 등)."
+    },
+    {
+      "no": 113,
+      "term": "분석적 메모(analytic memo)",
+      "term_ko": "분석적 메모",
+      "term_en": "analytic memo",
+      "definition": "관찰에 대한 해석·아이디어를 적은 메모."
+    },
+    {
+      "no": 114,
+      "term": "분석적 일반화(analytic generalization)",
+      "term_ko": "분석적 일반화",
+      "term_en": "analytic generalization",
+      "definition": "통계적 확장이 아니라 이론적 원리로 일반화하는 것."
+    },
+    {
+      "no": 115,
+      "term": "불용어 제거(stopword removal)",
+      "term_ko": "불용어 제거",
+      "term_en": "stopword removal",
+      "definition": "분석에 의미 없는 흔한 단어를 제거하는 것."
+    },
+    {
+      "no": 116,
+      "term": "비교명제(Term)",
+      "term_ko": "비교명제",
+      "term_en": "",
+      "definition": "사례 비교에서 도출한 명제."
+    },
+    {
+      "no": 117,
+      "term": "비교연구(comparative study)",
+      "term_ko": "비교연구",
+      "term_en": "comparative study",
+      "definition": "둘 이상의 사례·집단을 견주어 분석하는 연구."
+    },
+    {
+      "no": 118,
+      "term": "비구조적 관찰(unstructured observation)",
+      "term_ko": "비구조적 관찰",
+      "term_en": "unstructured observation",
+      "definition": "정해진 틀 없이 자유롭게 관찰하는 방식."
+    },
+    {
+      "no": 119,
+      "term": "비용-효과비율(cost-effectiveness ratio)",
+      "term_ko": "비용-효과비율",
+      "term_en": "cost-effectiveness ratio",
+      "definition": "투입 비용 대비 얻은 효과의 비율."
+    },
+    {
+      "no": 120,
+      "term": "EP-005(cost-benefit analysis)",
+      "term_ko": "EP-005",
+      "term_en": "cost-benefit analysis",
+      "definition": "비용과 편익을 화폐로 견주어 판단하는 분석."
+    },
+    {
+      "no": 121,
+      "term": "비지도학습(unsupervised learning)",
+      "term_ko": "비지도학습",
+      "term_en": "unsupervised learning",
+      "definition": "정답 없이 자료의 구조를 스스로 찾게 하는 학습."
+    },
+    {
+      "no": 122,
+      "term": "비판적 개념분석(critical conceptual analysis)",
+      "term_ko": "비판적 개념분석",
+      "term_en": "critical conceptual analysis",
+      "definition": "개념을 비판적으로 검토·분석하는 것."
+    },
+    {
+      "no": 123,
+      "term": "비확률표집(non-probability sampling)",
+      "term_ko": "비확률표집",
+      "term_en": "non-probability sampling",
+      "definition": "확률이 아니라 연구자의 판단이나 편의로 표본을 뽑는 방법."
+    },
+    {
+      "no": 124,
+      "term": "빈도(frequency)",
+      "term_ko": "빈도",
+      "term_en": "frequency",
+      "definition": "특정 값이나 범주가 나타난 횟수."
+    },
+    {
+      "no": 125,
+      "term": "사건연쇄(Term)",
+      "term_ko": "사건연쇄",
+      "term_en": "",
+      "definition": "사건이 인과적으로 이어진 연쇄."
+    },
+    {
+      "no": 126,
+      "term": "사건표집(event sampling)",
+      "term_ko": "사건표집",
+      "term_en": "event sampling",
+      "definition": "특정 사건이 일어날 때마다 그 사건을 기록하는 관찰법."
+    },
+    {
+      "no": 127,
+      "term": "사례 간 비교분석(cross-case analysis)",
+      "term_ko": "사례 간 비교분석",
+      "term_en": "cross-case analysis",
+      "definition": "여러 사례를 비교해 공통점과 차이를 찾는 것."
+    },
+    {
+      "no": 128,
+      "term": "사례 내 분석(within-case analysis)",
+      "term_ko": "사례 내 분석",
+      "term_en": "within-case analysis",
+      "definition": "개별 사례 내부를 분석하는 것."
+    },
+    {
+      "no": 129,
+      "term": "사례기술(case description)",
+      "term_ko": "사례기술",
+      "term_en": "case description",
+      "definition": "사례의 전말을 상세히 서술한 것."
+    },
+    {
+      "no": 130,
+      "term": "QL-020(case study)",
+      "term_ko": "QL-020",
+      "term_en": "case study",
+      "definition": "하나 또는 소수의 사례를 여러 각도로 깊이 분석하는 방법."
+    },
+    {
+      "no": 131,
+      "term": "사료(Term)",
+      "term_ko": "사료",
+      "term_en": "",
+      "definition": "역사 연구의 근거가 되는 기록이나 유물."
+    },
+    {
+      "no": 132,
+      "term": "사료비평(source criticism)",
+      "term_ko": "사료비평",
+      "term_en": "source criticism",
+      "definition": "사료의 진위와 신뢰성을 따져 검토하는 것."
+    },
+    {
+      "no": 133,
+      "term": "사전-사후 측정(pre-post measurement)",
+      "term_ko": "사전-사후 측정",
+      "term_en": "pre-post measurement",
+      "definition": "처치 전과 후를 각각 측정해 변화를 보는 것."
+    },
+    {
+      "no": 134,
+      "term": "사전기반(lexicon)",
+      "term_ko": "사전기반(lexicon)",
+      "term_en": "lexicon-based",
+      "definition": "미리 만든 단어 사전으로 분류·판정하는 방식."
+    },
+    {
+      "no": 135,
+      "term": "삼각검증(triangulation)",
+      "term_ko": "삼각검증",
+      "term_en": "triangulation",
+      "definition": "여러 자료·방법·관점을 교차 확인해 신뢰성을 높이는 기법."
+    },
+    {
+      "no": 136,
+      "term": "상관(correlation)",
+      "term_ko": "상관",
+      "term_en": "correlation",
+      "definition": "두 변수가 함께 변하는 관계의 방향과 강도."
+    },
+    {
+      "no": 137,
+      "term": "상관행렬(correlation matrix)",
+      "term_ko": "상관행렬",
+      "term_en": "correlation matrix",
+      "definition": "변수들 사이 상관계수를 정리한 행렬."
+    },
+    {
+      "no": 138,
+      "term": "상대위험도(RR)",
+      "term_ko": "상대위험도(RR)",
+      "term_en": "relative risk",
+      "definition": "노출군이 비노출군보다 몇 배 위험한지 나타내는 값."
+    },
+    {
+      "no": 139,
+      "term": "상상적 변형(imaginative variation)",
+      "term_ko": "상상적 변형",
+      "term_en": "imaginative variation",
+      "definition": "요소를 이리저리 바꿔 보며 필수 본질을 가려내는 현상학 절차."
+    },
+    {
+      "no": 140,
+      "term": "상징·의미 단위(symbol/meaning units)",
+      "term_ko": "상징·의미 단위",
+      "term_en": "symbol/meaning units",
+      "definition": "상징과 그 의미로 구분한 단위."
+    },
+    {
+      "no": 141,
+      "term": "상호작용(interaction)",
+      "term_ko": "상호작용",
+      "term_en": "interaction",
+      "definition": "둘 이상의 주체가 서로 주고받는 작용."
+    },
+    {
+      "no": 142,
+      "term": "상호텍스트성(intertextuality)",
+      "term_ko": "상호텍스트성",
+      "term_en": "intertextuality",
+      "definition": "한 텍스트가 다른 텍스트를 끌어와 엮이는 성질."
+    },
+    {
+      "no": 143,
+      "term": "색인화(indexing)",
+      "term_ko": "색인화",
+      "term_en": "indexing",
+      "definition": "나중에 찾기 쉽도록 목록·태그를 붙이는 것."
+    },
+    {
+      "no": 144,
+      "term": "생애사(life history)",
+      "term_ko": "생애사",
+      "term_en": "life history",
+      "definition": "한 개인의 생애 경험을 시간 흐름에 따라 다룬 이야기."
+    },
+    {
+      "no": 145,
+      "term": "서사구조(narrative structure)",
+      "term_ko": "서사구조",
+      "term_en": "narrative structure",
+      "definition": "이야기의 구성(발단-전개-절정-결말 등)."
+    },
+    {
+      "no": 146,
+      "term": "서지 데이터베이스(bibliographic database)",
+      "term_ko": "서지 데이터베이스",
+      "term_en": "bibliographic database",
+      "definition": "논문의 서지·인용 정보를 모아 둔 DB."
+    },
+    {
+      "no": 147,
+      "term": "선입견(prejudice)",
+      "term_ko": "선입견",
+      "term_en": "prejudice",
+      "definition": "미리 굳어져 판단에 영향을 주는 생각."
+    },
+    {
+      "no": 148,
+      "term": "선정·배제기준(inclusion/exclusion criteria)",
+      "term_ko": "선정·배제기준",
+      "term_en": "inclusion/exclusion criteria",
+      "definition": "문헌을 선정하거나 제외하는 기준."
+    },
+    {
+      "no": 149,
+      "term": "선택코딩(selective coding)",
+      "term_ko": "선택코딩",
+      "term_en": "selective coding",
+      "definition": "핵심범주를 중심으로 다른 범주를 통합하는 최종 코딩."
+    },
+    {
+      "no": 150,
+      "term": "선호구조(preference organization)",
+      "term_ko": "선호구조",
+      "term_en": "preference organization",
+      "definition": "특정 응답을 더 선호하도록 조직된 대화 구조."
+    },
+    {
+      "no": 151,
+      "term": "설명구축(explanation building)",
+      "term_ko": "설명구축",
+      "term_en": "explanation building",
+      "definition": "인과 설명을 단계적으로 세우는 분석."
+    },
+    {
+      "no": 152,
+      "term": "설명적 순차(explanatory sequential)",
+      "term_ko": "설명적 순차",
+      "term_en": "explanatory sequential",
+      "definition": "양적 조사 뒤 그 결과를 질적으로 설명하는 순차 혼합설계."
+    },
+    {
+      "no": 153,
+      "term": "성능지표(RMSE, MAE, 정확도)",
+      "term_ko": "성능지표(RMSE, MAE, 정확도)",
+      "term_en": "performance metrics",
+      "definition": "예측 모형의 성능을 나타내는 지표들."
+    },
+    {
+      "no": 154,
+      "term": "속성·차원(properties·dimensions)",
+      "term_ko": "속성·차원",
+      "term_en": "properties·dimensions",
+      "definition": "범주의 성질(속성)과 그 정도(차원)."
+    },
+    {
+      "no": 155,
+      "term": "수렴적(convergent design)",
+      "term_ko": "수렴적",
+      "term_en": "convergent design",
+      "definition": "질적·양적 자료를 동시에 모아 결과를 견주는 혼합설계."
+    },
+    {
+      "no": 156,
+      "term": "수리(repair)",
+      "term_ko": "수리",
+      "term_en": "repair",
+      "definition": "대화에서 오류·오해를 고치는 행위(repair)."
+    },
+    {
+      "no": 157,
+      "term": "수사적 장치(rhetorical devices)",
+      "term_ko": "수사적 장치",
+      "term_en": "rhetorical devices",
+      "definition": "설득을 위해 쓰는 표현 기법(비유·반복 등)."
+    },
+    {
+      "no": 158,
+      "term": "수평화(horizontalization)",
+      "term_ko": "수평화",
+      "term_en": "horizontalization",
+      "definition": "모든 진술을 처음엔 동등하게 중요하게 다루는 현상학 절차."
+    },
+    {
+      "no": 159,
+      "term": "순차분석(sequence analysis)",
+      "term_ko": "순차분석",
+      "term_en": "sequence analysis",
+      "definition": "발화·행위의 순서 구조를 분석하는 것."
+    },
+    {
+      "no": 160,
+      "term": "순환적 성찰(reflective cycle)",
+      "term_ko": "순환적 성찰",
+      "term_en": "reflective cycle",
+      "definition": "성찰-개선-재실행을 반복하는 것."
+    },
+    {
+      "no": 161,
+      "term": "순환적으로 반복(iterative)",
+      "term_ko": "순환적으로 반복",
+      "term_en": "iterative",
+      "definition": "자료수집과 분석을 번갈아 되풀이하는 것."
+    },
+    {
+      "no": 162,
+      "term": "스케일링(scaling)",
+      "term_ko": "스케일링",
+      "term_en": "scaling",
+      "definition": "변수의 크기·단위를 비교 가능하게 조정하는 것."
+    },
+    {
+      "no": 163,
+      "term": "스크리닝(screening)",
+      "term_ko": "스크리닝",
+      "term_en": "screening",
+      "definition": "제목·초록만 보고 대상 문헌을 걸러 내는 선별."
+    },
+    {
+      "no": 164,
+      "term": "스토리라인(story line)",
+      "term_ko": "스토리라인",
+      "term_en": "story line",
+      "definition": "이야기의 줄기와 전개선."
+    },
+    {
+      "no": 165,
+      "term": "시각화(Term)",
+      "term_ko": "시각화",
+      "term_en": "",
+      "definition": "자료나 관계를 그래프·그림으로 나타내는 것."
+    },
+    {
+      "no": 166,
+      "term": "시간표집(time sampling)",
+      "term_ko": "시간표집",
+      "term_en": "time sampling",
+      "definition": "정해진 시간 간격마다 관찰해 기록하는 방법."
+    },
+    {
+      "no": 167,
+      "term": "시계열(time series)",
+      "term_ko": "시계열",
+      "term_en": "time series",
+      "definition": "시간 순서로 이어진 관측값의 자료."
+    },
+    {
+      "no": 168,
+      "term": "시계열 회귀분석(time-series regression)",
+      "term_ko": "시계열 회귀분석",
+      "term_en": "time-series regression",
+      "definition": "시간 흐름 자료의 추세·관계를 분석하는 회귀."
+    },
+    {
+      "no": 169,
+      "term": "시대순 배치(chronological ordering)",
+      "term_ko": "시대순 배치",
+      "term_en": "chronological ordering",
+      "definition": "자료를 발생한 시간 순서로 정렬하는 것."
+    },
+    {
+      "no": 170,
+      "term": "시뮬레이션(simulation)",
+      "term_ko": "시뮬레이션",
+      "term_en": "simulation",
+      "definition": "현실을 모형으로 만들어 컴퓨터로 모의실험하는 것."
+    },
+    {
+      "no": 171,
+      "term": "시퀀스 구조(sequence structure)",
+      "term_ko": "시퀀스 구조",
+      "term_en": "sequence structure",
+      "definition": "발화·행위가 이어지는 순서 구조."
+    },
+    {
+      "no": 172,
+      "term": "신뢰구간(confidence interval)",
+      "term_ko": "신뢰구간",
+      "term_en": "confidence interval",
+      "definition": "참값이 있을 것으로 추정되는 범위."
+    },
+    {
+      "no": 173,
+      "term": "신뢰도(Cronbach α)",
+      "term_ko": "신뢰도(Cronbach α)",
+      "term_en": "reliability, Cronbach α",
+      "definition": "문항들이 같은 개념을 일관되게 재는 정도를 나타내는 지표."
+    },
+    {
+      "no": 174,
+      "term": "신뢰성(trustworthiness)",
+      "term_ko": "신뢰성",
+      "term_en": "trustworthiness",
+      "definition": "질적 연구 결과를 믿을 수 있는 정도(trustworthiness)."
+    },
+    {
+      "no": 175,
+      "term": "실체이론(substantive theory)",
+      "term_ko": "실체이론",
+      "term_en": "substantive theory",
+      "definition": "특정 상황·영역에 한정해 도출한 구체적 이론."
+    },
+    {
+      "no": 176,
+      "term": "실행 사이클(action cycle)",
+      "term_ko": "실행 사이클",
+      "term_en": "action cycle",
+      "definition": "계획-실행-관찰-반성이 한 바퀴 도는 순환 과정."
+    },
+    {
+      "no": 177,
+      "term": "실행계획(action plan)",
+      "term_ko": "실행계획",
+      "term_en": "action plan",
+      "definition": "문제 개선을 위한 구체적 행동 계획(실행연구)."
+    },
+    {
+      "no": 178,
+      "term": "실행일지(action journal)",
+      "term_ko": "실행일지",
+      "term_en": "action journal",
+      "definition": "실행 과정을 날마다 적은 일지."
+    },
+    {
+      "no": 179,
+      "term": "심층면담(in-depth interview)",
+      "term_ko": "심층면담",
+      "term_en": "in-depth interview",
+      "definition": "한 사람과 깊이 있게 진행하는 일대일 면담."
+    },
+    {
+      "no": 180,
+      "term": "쌍대비교 행렬(pairwise comparison matrix)",
+      "term_ko": "쌍대비교 행렬",
+      "term_en": "pairwise comparison matrix",
+      "definition": "항목을 둘씩 비교한 결과를 담은 행렬(AHP)."
+    },
+    {
+      "no": 181,
+      "term": "양적자료(quantitative data)",
+      "term_ko": "양적자료",
+      "term_en": "quantitative data",
+      "definition": "수치로 표현되는 자료."
+    },
+    {
+      "no": 182,
+      "term": "어휘빈도(word frequency)",
+      "term_ko": "어휘빈도",
+      "term_en": "word frequency",
+      "definition": "각 단어가 나타난 빈도."
+    },
+    {
+      "no": 183,
+      "term": "언어적·화용적 단위(linguistic/pragmatic units)",
+      "term_ko": "언어적·화용적 단위",
+      "term_en": "linguistic/pragmatic units",
+      "definition": "어휘 등 언어 요소와 그것이 쓰인 맥락 단위."
+    },
+    {
+      "no": 184,
+      "term": "역사적 단절과 연속성(rupture and continuity)",
+      "term_ko": "역사적 단절과 연속성",
+      "term_en": "rupture and continuity",
+      "definition": "역사에서 끊긴 지점과 이어진 흐름."
+    },
+    {
+      "no": 185,
+      "term": "역사적 해석(Term)",
+      "term_ko": "역사적 해석",
+      "term_en": "",
+      "definition": "과거 사실을 맥락 속에서 의미로 풀이하는 것."
+    },
+    {
+      "no": 186,
+      "term": "역채점 문항(reverse-scored item)",
+      "term_ko": "역채점 문항",
+      "term_en": "reverse-scored item",
+      "definition": "방향이 반대인 문항으로, 점수를 뒤집어 계산한다."
+    },
+    {
+      "no": 187,
+      "term": "역학적 연관성(epidemiological association)",
+      "term_ko": "역학적 연관성",
+      "term_en": "epidemiological association",
+      "definition": "요인과 질병 사이의 통계적 관련성."
+    },
+    {
+      "no": 188,
+      "term": "연결정도(degree centrality)",
+      "term_ko": "연결정도",
+      "term_en": "degree centrality",
+      "definition": "한 노드에 직접 연결된 수(연결중심성)."
+    },
+    {
+      "no": 189,
+      "term": "연구동향(Term)",
+      "term_ko": "연구동향",
+      "term_en": "",
+      "definition": "연구가 흘러가는 흐름과 추세."
+    },
+    {
+      "no": 190,
+      "term": "연구방법론(Term)",
+      "term_ko": "연구방법론",
+      "term_en": "",
+      "definition": "연구를 수행하는 방법을 다루는 학문·체계."
+    },
+    {
+      "no": 191,
+      "term": "연구설계(research design)",
+      "term_ko": "연구설계",
+      "term_en": "research design",
+      "definition": "연구 문제 해결을 위해 방법과 절차를 짜는 전체 계획."
+    },
+    {
+      "no": 192,
+      "term": "연구질 평가(quality appraisal)",
+      "term_ko": "연구질 평가",
+      "term_en": "quality appraisal",
+      "definition": "각 연구의 방법적 질을 점검·평가하는 것."
+    },
+    {
+      "no": 193,
+      "term": "연대기(chronology)",
+      "term_ko": "연대기",
+      "term_en": "chronology",
+      "definition": "사건을 시간 순으로 정리한 기록."
+    },
+    {
+      "no": 194,
+      "term": "연어(collocation)",
+      "term_ko": "연어(collocation)",
+      "term_en": "",
+      "definition": "습관적으로 함께 쓰이는 단어 결합."
+    },
+    {
+      "no": 195,
+      "term": "예비조사(pilot test)",
+      "term_ko": "예비조사",
+      "term_en": "pilot test",
+      "definition": "본조사 전에 소수를 대상으로 문항·절차를 점검하는 시험 조사."
+    },
+    {
+      "no": 196,
+      "term": "예비코딩(pilot coding)",
+      "term_ko": "예비코딩",
+      "term_en": "pilot coding",
+      "definition": "본 코딩 전에 일부 자료로 시험 삼아 하는 코딩."
+    },
+    {
+      "no": 197,
+      "term": "요인분석(factor analysis)",
+      "term_ko": "요인분석",
+      "term_en": "factor analysis",
+      "definition": "여러 변수 이면의 공통 요인을 찾는 분석."
+    },
+    {
+      "no": 198,
+      "term": "요인점수(Z-score)",
+      "term_ko": "요인점수(Z-score)",
+      "term_en": "factor score, Z-score",
+      "definition": "평균 0, 표준편차 1로 표준화한 요인 점수."
+    },
+    {
+      "no": 199,
+      "term": "요인추출(factor extraction)",
+      "term_ko": "요인추출",
+      "term_en": "factor extraction",
+      "definition": "여러 변수 이면의 공통 요인을 뽑아내는 것."
+    },
+    {
+      "no": 200,
+      "term": "요인회전(factor rotation)",
+      "term_ko": "요인회전",
+      "term_en": "factor rotation",
+      "definition": "요인 해석을 쉽게 하려고 축을 회전시키는 것."
+    },
+    {
+      "no": 201,
+      "term": "우선순위(Term)",
+      "term_ko": "우선순위",
+      "term_en": "",
+      "definition": "중요도에 따른 처리 순서."
+    },
+    {
+      "no": 202,
+      "term": "유형화(typology)",
+      "term_ko": "유형화",
+      "term_en": "typology",
+      "definition": "대상을 유형으로 나누어 정리하는 것."
+    },
+    {
+      "no": 203,
+      "term": "은유(metaphor)",
+      "term_ko": "은유",
+      "term_en": "metaphor",
+      "definition": "다른 대상에 빗대어 표현하는 비유."
+    },
+    {
+      "no": 204,
+      "term": "응답자(P-sample)",
+      "term_ko": "응답자(P-sample)",
+      "term_en": "",
+      "definition": "Q방법에서 진술문을 분류하는 참여자 집단."
+    },
+    {
+      "no": 205,
+      "term": "의례적 요소(ritual elements)",
+      "term_ko": "의례적 요소",
+      "term_en": "ritual elements",
+      "definition": "관습적으로 반복되는 의례적 행위 요소."
+    },
+    {
+      "no": 206,
+      "term": "의미단위(meaning unit)",
+      "term_ko": "의미단위",
+      "term_en": "meaning unit",
+      "definition": "하나의 의미로 묶이는 최소한의 텍스트 조각."
+    },
+    {
+      "no": 207,
+      "term": "의미체계(meaning system)",
+      "term_ko": "의미체계",
+      "term_en": "meaning system",
+      "definition": "구성원이 공유하는 의미와 상징의 짜임."
+    },
+    {
+      "no": 208,
+      "term": "의미협상(negotiation of meaning)",
+      "term_ko": "의미협상",
+      "term_en": "negotiation of meaning",
+      "definition": "상호작용에서 의미를 서로 맞춰 가는 과정."
+    },
+    {
+      "no": 209,
+      "term": "이데올로기(Term)",
+      "term_ko": "이데올로기",
+      "term_en": "",
+      "definition": "사회를 보는 체계화된 신념의 틀."
+    },
+    {
+      "no": 210,
+      "term": "이데올로기적 장치(ideological apparatus)",
+      "term_ko": "이데올로기적 장치",
+      "term_en": "ideological apparatus",
+      "definition": "특정 가치를 자연스러운 것처럼 만드는 장치."
+    },
+    {
+      "no": 211,
+      "term": "이론적 명제(propositions)",
+      "term_ko": "이론적 명제",
+      "term_en": "propositions",
+      "definition": "이론으로 제시하는 명제(주장) 문장."
+    },
+    {
+      "no": 212,
+      "term": "이론적 통합(theoretical integration)",
+      "term_ko": "이론적 통합",
+      "term_en": "theoretical integration",
+      "definition": "결과를 하나의 이론으로 통합하는 것."
+    },
+    {
+      "no": 213,
+      "term": "이론적 포화(theoretical saturation)",
+      "term_ko": "이론적 포화",
+      "term_en": "theoretical saturation",
+      "definition": "더 이상 새로운 개념이 나오지 않는 상태."
+    },
+    {
+      "no": 214,
+      "term": "이론적 표본추출(theoretical sampling)",
+      "term_ko": "이론적 표본추출",
+      "term_en": "theoretical sampling",
+      "definition": "분석하며 이론 구성에 필요한 대상을 그때그때 더 뽑는 표집(QL-008)."
+    },
+    {
+      "no": 215,
+      "term": "이론적 표집(theoretical sampling)",
+      "term_ko": "이론적 표집",
+      "term_en": "theoretical sampling",
+      "definition": "이론 형성에 필요한 자료가 나오도록 대상을 골라 나가는 표집."
+    },
+    {
+      "no": 216,
+      "term": "이상치(outlier)",
+      "term_ko": "이상치",
+      "term_en": "outlier",
+      "definition": "다른 값들과 크게 동떨어진 극단적인 값."
+    },
+    {
+      "no": 217,
+      "term": "이야기 윤곽(story line)",
+      "term_ko": "이야기 윤곽(story line)",
+      "term_en": "",
+      "definition": "핵심범주를 줄거리로 엮은 서술."
+    },
+    {
+      "no": 218,
+      "term": "이중 관찰자료(double-coded data)",
+      "term_ko": "이중 관찰자료",
+      "term_en": "double-coded data",
+      "definition": "두 관찰자가 각각 독립적으로 기록한 자료."
+    },
+    {
+      "no": 219,
+      "term": "이중차분(DID)",
+      "term_ko": "이중차분(DID)",
+      "term_en": "difference-in-differences",
+      "definition": "처치·비교 집단의 전후 변화 차이로 효과를 추정하는 기법."
+    },
+    {
+      "no": 220,
+      "term": "이질성 검정(heterogeneity test)",
+      "term_ko": "이질성 검정",
+      "term_en": "heterogeneity test",
+      "definition": "통합할 연구들의 결과가 서로 다른 정도를 검정하는 것."
+    },
+    {
+      "no": 221,
+      "term": "이해관계자(stakeholders)",
+      "term_ko": "이해관계자",
+      "term_en": "stakeholders",
+      "definition": "사안에 이해가 걸린 관련 당사자들."
+    },
+    {
+      "no": 222,
+      "term": "익명화(anonymization)",
+      "term_ko": "익명화",
+      "term_en": "anonymization",
+      "definition": "신원을 알 수 없도록 식별 정보를 지우는 것."
+    },
+    {
+      "no": 223,
+      "term": "인공물(artifact)",
+      "term_ko": "인공물",
+      "term_en": "artifact",
+      "definition": "사람이 만든 물건이나 기록물 등 분석 대상이 되는 산물."
+    },
+    {
+      "no": 224,
+      "term": "인과기제(causal mechanism)",
+      "term_ko": "인과기제",
+      "term_en": "causal mechanism",
+      "definition": "원인이 결과를 낳는 내부 작동 원리."
+    },
+    {
+      "no": 225,
+      "term": "인과추정기법(causal inference)",
+      "term_ko": "인과추정기법",
+      "term_en": "causal inference",
+      "definition": "원인-결과 효과를 추정하는 통계 방법들."
+    },
+    {
+      "no": 226,
+      "term": "인용 메타데이터(citation metadata)",
+      "term_ko": "인용 메타데이터",
+      "term_en": "citation metadata",
+      "definition": "인용 관계를 담은 서지 정보."
+    },
+    {
+      "no": 227,
+      "term": "인용지수(citation index)",
+      "term_ko": "인용지수",
+      "term_en": "citation index",
+      "definition": "논문이 인용된 정도를 나타내는 지표."
+    },
+    {
+      "no": 228,
+      "term": "인접쌍(adjacency pair)",
+      "term_ko": "인접쌍",
+      "term_en": "adjacency pair",
+      "definition": "질문-대답처럼 짝을 이루는 인접 발화쌍."
+    },
+    {
+      "no": 229,
+      "term": "일치율(agreement rate)",
+      "term_ko": "일치율",
+      "term_en": "agreement rate",
+      "definition": "두 판정이 일치한 비율."
+    },
+    {
+      "no": 230,
+      "term": "임베딩(embedding)",
+      "term_ko": "임베딩",
+      "term_en": "embedding",
+      "definition": "단어·문장을 의미가 반영된 수치 벡터로 바꾸는 것."
+    },
+    {
+      "no": 231,
+      "term": "자료관리체계(data management)",
+      "term_ko": "자료관리체계",
+      "term_en": "data management",
+      "definition": "자료의 저장·정리·보관 체계."
+    },
+    {
+      "no": 232,
+      "term": "자료원 삼각검증(triangulation)",
+      "term_ko": "자료원 삼각검증",
+      "term_en": "triangulation",
+      "definition": "서로 다른 자료원을 대조해 결론의 타당성을 확인하는 것."
+    },
+    {
+      "no": 233,
+      "term": "자연발생적 대화(naturally occurring talk)",
+      "term_ko": "자연발생적 대화",
+      "term_en": "naturally occurring talk",
+      "definition": "인위적 개입 없이 실제로 일어난 대화."
+    },
+    {
+      "no": 234,
+      "term": "잠정이론(tentative theory)",
+      "term_ko": "잠정이론",
+      "term_en": "tentative theory",
+      "definition": "아직 확정되지 않은 임시 이론."
+    },
+    {
+      "no": 235,
+      "term": "전문(full-text)",
+      "term_ko": "전문(full-text)",
+      "term_en": "",
+      "definition": "초록이 아닌 논문 전체 본문."
+    },
+    {
+      "no": 236,
+      "term": "전문가패널(expert panel)",
+      "term_ko": "전문가패널",
+      "term_en": "expert panel",
+      "definition": "판단·자문을 맡는 전문가 집단."
+    },
+    {
+      "no": 237,
+      "term": "전사(transcription)",
+      "term_ko": "전사",
+      "term_en": "transcription",
+      "definition": "녹음·영상 자료를 문자로 옮겨 적는 것."
+    },
+    {
+      "no": 238,
+      "term": "전사본(transcript)",
+      "term_ko": "전사본",
+      "term_en": "transcript",
+      "definition": "녹음을 문자로 옮긴 문서."
+    },
+    {
+      "no": 239,
+      "term": "전수(complete enumeration)",
+      "term_ko": "전수",
+      "term_en": "complete enumeration",
+      "definition": "표본이 아니라 대상 전체를 빠짐없이 조사하는 것."
+    },
+    {
+      "no": 240,
+      "term": "전이가능성(transferability)",
+      "term_ko": "전이가능성",
+      "term_en": "transferability",
+      "definition": "결과를 다른 맥락에 적용할 수 있는 정도."
+    },
+    {
+      "no": 241,
+      "term": "전체적 인상(sense of the whole)",
+      "term_ko": "전체적 인상",
+      "term_en": "sense of the whole",
+      "definition": "세부 분석 전에 자료 전체의 인상을 먼저 파악하는 단계."
+    },
+    {
+      "no": 242,
+      "term": "절/문장 단위로 분절(clause/sentence segmentation)",
+      "term_ko": "절/문장 단위로 분절",
+      "term_en": "clause/sentence segmentation",
+      "definition": "텍스트를 절·문장 단위로 잘게 나누는 것."
+    },
+    {
+      "no": 243,
+      "term": "정규분포 형태의 그리드(normal-distribution grid)",
+      "term_ko": "정규분포 형태의 그리드",
+      "term_en": "normal-distribution grid",
+      "definition": "가운데는 넓고 양끝은 좁은, 정규분포 모양의 분류판."
+    },
+    {
+      "no": 244,
+      "term": "정규성(normality)",
+      "term_ko": "정규성",
+      "term_en": "normality",
+      "definition": "자료가 정규분포(종 모양)를 따르는 정도."
+    },
+    {
+      "no": 245,
+      "term": "정당화(legitimation)",
+      "term_ko": "정당화",
+      "term_en": "legitimation",
+      "definition": "자기 주장·행위를 옳은 것으로 만드는 담화 전략."
+    },
+    {
+      "no": 246,
+      "term": "정량화(quantification)",
+      "term_ko": "정량화",
+      "term_en": "quantification",
+      "definition": "질적 내용을 수치로 바꾸는 것."
+    },
+    {
+      "no": 247,
+      "term": "정밀전사(detailed transcription)",
+      "term_ko": "정밀전사",
+      "term_en": "detailed transcription",
+      "definition": "억양·침묵 등까지 세밀하게 옮기는 전사."
+    },
+    {
+      "no": 248,
+      "term": "정책자료(policy materials)",
+      "term_ko": "정책자료",
+      "term_en": "policy materials",
+      "definition": "정부·기관의 정책과 관련된 자료."
+    },
+    {
+      "no": 249,
+      "term": "정책적 제언(Term)",
+      "term_ko": "정책적 제언",
+      "term_en": "",
+      "definition": "정책으로 실행하도록 내놓는 제안."
+    },
+    {
+      "no": 250,
+      "term": "정책적 함의(Term)",
+      "term_ko": "정책적 함의",
+      "term_en": "",
+      "definition": "결과가 정책에 주는 시사점."
+    },
+    {
+      "no": 251,
+      "term": "정확도(accuracy)",
+      "term_ko": "정확도",
+      "term_en": "accuracy",
+      "definition": "전체 가운데 올바르게 맞힌 비율."
+    },
+    {
+      "no": 252,
+      "term": "제도적 문헌(institutional documents)",
+      "term_ko": "제도적 문헌",
+      "term_en": "institutional documents",
+      "definition": "기관이나 제도가 만든 공식 문서."
+    },
+    {
+      "no": 253,
+      "term": "종합(synthesis)",
+      "term_ko": "종합(synthesis)",
+      "term_en": "",
+      "definition": "여러 결과를 통합해 하나로 합치는 것."
+    },
+    {
+      "no": 254,
+      "term": "주관적 관점(Term)",
+      "term_ko": "주관적 관점",
+      "term_en": "",
+      "definition": "사람마다 다른 주관적 견해."
+    },
+    {
+      "no": 255,
+      "term": "주제(theme)",
+      "term_ko": "주제(theme)",
+      "term_en": "",
+      "definition": "자료 전반에서 반복적으로 나타나는 핵심 의미."
+    },
+    {
+      "no": 256,
+      "term": "주제분석(thematic analysis)",
+      "term_ko": "주제분석",
+      "term_en": "thematic analysis",
+      "definition": "자료에서 주제를 도출·정리하는 대표적 질적 분석법."
+    },
+    {
+      "no": 257,
+      "term": "주제코딩(thematic coding)",
+      "term_ko": "주제코딩",
+      "term_en": "thematic coding",
+      "definition": "자료에서 주제를 찾아 부여하는 코딩."
+    },
+    {
+      "no": 258,
+      "term": "주효과(main effect)",
+      "term_ko": "주효과",
+      "term_en": "main effect",
+      "definition": "한 독립변수가 종속변수에 미친 단독 효과."
+    },
+    {
+      "no": 259,
+      "term": "준실험(quasi-experiment)",
+      "term_ko": "준실험",
+      "term_en": "quasi-experiment",
+      "definition": "무작위배정 없이 실험에 준해 설계한 연구."
+    },
+    {
+      "no": 260,
+      "term": "중도탈락(attrition)",
+      "term_ko": "중도탈락",
+      "term_en": "attrition",
+      "definition": "연구 도중 참여를 중단하는 것."
+    },
+    {
+      "no": 261,
+      "term": "중복제거(deduplication)",
+      "term_ko": "중복제거",
+      "term_en": "deduplication",
+      "definition": "검색 결과에서 겹치는 문헌을 제거하는 것."
+    },
+    {
+      "no": 262,
+      "term": "중첩발화(overlapping talk)",
+      "term_ko": "중첩발화",
+      "term_en": "overlapping talk",
+      "definition": "두 사람이 동시에 말해 발화가 겹치는 것."
+    },
+    {
+      "no": 263,
+      "term": "증언자(witness)",
+      "term_ko": "증언자",
+      "term_en": "witness",
+      "definition": "사건을 직접 겪어 증언하는 사람."
+    },
+    {
+      "no": 264,
+      "term": "지속적 비교분석(constant comparison)",
+      "term_ko": "지속적 비교분석",
+      "term_en": "constant comparison",
+      "definition": "새 자료를 계속 기존 것과 비교하며 개념을 정교화하는 것."
+    },
+    {
+      "no": 265,
+      "term": "진술문(Q-set)",
+      "term_ko": "진술문(Q-set)",
+      "term_en": "",
+      "definition": "참여자가 분류하도록 만든 의견 문장 세트."
+    },
+    {
+      "no": 266,
+      "term": "질적자료(qualitative data)",
+      "term_ko": "질적자료",
+      "term_en": "qualitative data",
+      "definition": "수치가 아닌 언어·행동·영상 등 의미 중심의 자료."
+    },
+    {
+      "no": 267,
+      "term": "질적코딩(qualitative coding)",
+      "term_ko": "질적코딩",
+      "term_en": "qualitative coding",
+      "definition": "질적 자료에 의미 중심의 코드를 부여하는 작업."
+    },
+    {
+      "no": 268,
+      "term": "참여관찰(participant observation)",
+      "term_ko": "참여관찰",
+      "term_en": "participant observation",
+      "definition": "연구자가 집단에 직접 참여해 함께 지내며 관찰하는 방법."
+    },
+    {
+      "no": 269,
+      "term": "참여자 검토(member checking)",
+      "term_ko": "참여자 검토",
+      "term_en": "member checking",
+      "definition": "참여자에게 결과 해석이 맞는지 확인받는 것."
+    },
+    {
+      "no": 270,
+      "term": "처치군(treatment group)",
+      "term_ko": "처치군",
+      "term_en": "treatment group",
+      "definition": "실험 처치를 받는 집단."
+    },
+    {
+      "no": 271,
+      "term": "처치효과 추정치(treatment effect estimate)",
+      "term_ko": "처치효과 추정치",
+      "term_en": "treatment effect estimate",
+      "definition": "처치가 낳은 효과의 추정값."
+    },
+    {
+      "no": 272,
+      "term": "척도(scale)",
+      "term_ko": "척도",
+      "term_en": "scale",
+      "definition": "측정 대상을 일정한 규칙의 수치로 나타낸 것(예: 5점 평정척도(등간형) 척도)."
+    },
+    {
+      "no": 273,
+      "term": "척도점수(scale score)",
+      "term_ko": "척도점수",
+      "term_en": "scale score",
+      "definition": "여러 문항을 합산하거나 평균해 만든 점수."
+    },
+    {
+      "no": 274,
+      "term": "체계적 검색전략(systematic search)",
+      "term_ko": "체계적 검색전략",
+      "term_en": "systematic search",
+      "definition": "누락 없이 규칙적으로 문헌을 검색하는 전략."
+    },
+    {
+      "no": 275,
+      "term": "체계적 EV-007(Term)",
+      "term_ko": "체계적 EV-007",
+      "term_en": "",
+      "definition": "정해진 절차로 관련 연구를 빠짐없이 종합하는 고찰."
+    },
+    {
+      "no": 276,
+      "term": "초기코드(initial codes)",
+      "term_ko": "초기코드",
+      "term_en": "initial codes",
+      "definition": "코딩 초기 단계에 부여한 코드."
+    },
+    {
+      "no": 277,
+      "term": "추론통계(inferential statistics)",
+      "term_ko": "추론통계",
+      "term_en": "inferential statistics",
+      "definition": "표본으로 모집단을 추론하는 통계."
+    },
+    {
+      "no": 278,
+      "term": "추세그래프(Term)",
+      "term_ko": "추세그래프",
+      "term_en": "",
+      "definition": "시간에 따른 변화를 나타낸 그래프."
+    },
+    {
+      "no": 279,
+      "term": "축어록(verbatim)",
+      "term_ko": "축어록",
+      "term_en": "verbatim",
+      "definition": "발화를 군더더기까지 그대로 옮긴 기록."
+    },
+    {
+      "no": 280,
+      "term": "축코딩(axial coding)",
+      "term_ko": "축코딩",
+      "term_en": "axial coding",
+      "definition": "개방코딩으로 나온 개념을 원인·맥락·결과 등으로 연결하는 코딩."
+    },
+    {
+      "no": 281,
+      "term": "출판편향(publication bias)",
+      "term_ko": "출판편향",
+      "term_en": "publication bias",
+      "definition": "유의한 결과 위주로 출판되어 생기는 편향."
+    },
+    {
+      "no": 282,
+      "term": "측정도구(measurement instrument)",
+      "term_ko": "측정도구",
+      "term_en": "measurement instrument",
+      "definition": "변수를 재기 위한 도구. 설문에서는 문항과 척도가 이에 해당한다."
+    },
+    {
+      "no": 283,
+      "term": "측정오류(measurement error)",
+      "term_ko": "측정오류",
+      "term_en": "measurement error",
+      "definition": "측정 과정에서 생기는 오차."
+    },
+    {
+      "no": 284,
+      "term": "층화분석(stratified analysis)",
+      "term_ko": "층화분석",
+      "term_en": "stratified analysis",
+      "definition": "집단을 층으로 나눠 층별로 분석하는 것."
+    },
+    {
+      "no": 285,
+      "term": "카이제곱검정(chi-square test)",
+      "term_ko": "카이제곱검정",
+      "term_en": "chi-square test",
+      "definition": "범주형 변수 사이의 연관성을 검정하는 방법."
+    },
+    {
+      "no": 286,
+      "term": "코더 간 불일치(coder disagreement)",
+      "term_ko": "코더 간 불일치",
+      "term_en": "coder disagreement",
+      "definition": "코더들이 서로 다르게 코딩한 경우."
+    },
+    {
+      "no": 287,
+      "term": "코더 훈련(coder training)",
+      "term_ko": "코더 훈련",
+      "term_en": "coder training",
+      "definition": "코더들이 같은 기준으로 코딩하도록 미리 교육하는 것."
+    },
+    {
+      "no": 288,
+      "term": "코더간 신뢰도(inter-coder reliability)",
+      "term_ko": "코더간 신뢰도",
+      "term_en": "inter-coder reliability",
+      "definition": "여러 코더의 코딩이 일치하는 정도."
+    },
+    {
+      "no": 289,
+      "term": "코드북(codebook)",
+      "term_ko": "코드북",
+      "term_en": "codebook",
+      "definition": "어떤 내용에 어떤 코드를 부여할지 정한 규칙집."
+    },
+    {
+      "no": 290,
+      "term": "코딩지침서(coding manual)",
+      "term_ko": "코딩지침서",
+      "term_en": "coding manual",
+      "definition": "코딩 방법과 규칙을 설명한 안내서."
+    },
+    {
+      "no": 291,
+      "term": "코딩체계(coding scheme)",
+      "term_ko": "코딩체계",
+      "term_en": "coding scheme",
+      "definition": "무엇을 어떻게 코딩할지 정한 분류 틀."
+    },
+    {
+      "no": 292,
+      "term": "코퍼스(corpus)",
+      "term_ko": "코퍼스",
+      "term_en": "corpus",
+      "definition": "분석용으로 대규모로 모은 텍스트 말뭉치."
+    },
+    {
+      "no": 293,
+      "term": "코호트(cohort)",
+      "term_ko": "코호트",
+      "term_en": "cohort",
+      "definition": "공통 특성의 집단을 오랜 기간 추적 관찰하는 연구."
+    },
+    {
+      "no": 294,
+      "term": "콕스생존분석(Cox survival analysis)",
+      "term_ko": "콕스생존분석",
+      "term_en": "Cox survival analysis",
+      "definition": "사건이 일어나기까지의 시간을 분석하는 생존분석."
+    },
+    {
+      "no": 295,
+      "term": "크롤링(crawling)",
+      "term_ko": "크롤링",
+      "term_en": "crawling",
+      "definition": "프로그램으로 웹의 자료를 자동으로 수집하는 것."
+    },
+    {
+      "no": 296,
+      "term": "클러스터링(clustering)",
+      "term_ko": "클러스터링",
+      "term_en": "clustering",
+      "definition": "유사한 자료끼리 자동으로 묶는 것."
+    },
+    {
+      "no": 297,
+      "term": "타당도(validity)",
+      "term_ko": "타당도",
+      "term_en": "validity",
+      "definition": "재려는 것을 실제로 제대로 재는 정도."
+    },
+    {
+      "no": 298,
+      "term": "타자화(othering)",
+      "term_ko": "타자화",
+      "term_en": "othering",
+      "definition": "특정 대상을 '우리'와 다른 타자로 구분·배제하는 것."
+    },
+    {
+      "no": 299,
+      "term": "탐색적 순차(exploratory sequential)",
+      "term_ko": "탐색적 순차",
+      "term_en": "exploratory sequential",
+      "definition": "질적 탐색 뒤 양적으로 검증하는 순차 혼합설계."
+    },
+    {
+      "no": 300,
+      "term": "태깅(tagging)",
+      "term_ko": "태깅",
+      "term_en": "tagging",
+      "definition": "자료에 표지(태그)를 다는 것."
+    },
+    {
+      "no": 301,
+      "term": "텍스트 구획(text segmentation)",
+      "term_ko": "텍스트 구획",
+      "term_en": "text segmentation",
+      "definition": "긴 텍스트를 의미 단위로 나누는 것."
+    },
+    {
+      "no": 302,
+      "term": "토큰화(tokenization)",
+      "term_ko": "토큰화",
+      "term_en": "tokenization",
+      "definition": "문장을 단어 등 최소 분석 단위로 나누는 것."
+    },
+    {
+      "no": 303,
+      "term": "토픽모형(topic model)",
+      "term_ko": "토픽모형",
+      "term_en": "topic model",
+      "definition": "많은 문서에서 잠재된 주제를 자동으로 뽑아내는 기법."
+    },
+    {
+      "no": 304,
+      "term": "통계적 검정(statistical test)",
+      "term_ko": "통계적 검정",
+      "term_en": "statistical test",
+      "definition": "자료로 가설·차이의 유의성을 판단하는 것."
+    },
+    {
+      "no": 305,
+      "term": "통계적 유의성(statistical significance)",
+      "term_ko": "통계적 유의성",
+      "term_en": "statistical significance",
+      "definition": "결과가 우연이 아닐 만큼 의미 있는지 여부."
+    },
+    {
+      "no": 306,
+      "term": "통계적 유의성(p값)",
+      "term_ko": "통계적 유의성(p값)",
+      "term_en": "statistical significance, p-value",
+      "definition": "결과가 우연으로 나올 확률(p값)로 판단하는 유의성."
+    },
+    {
+      "no": 307,
+      "term": "통제군(control group)",
+      "term_ko": "통제군",
+      "term_en": "control group",
+      "definition": "비교를 위해 처치를 받지 않는 집단."
+    },
+    {
+      "no": 308,
+      "term": "통치성(governmentality)",
+      "term_ko": "통치성",
+      "term_en": "governmentality",
+      "definition": "사람들이 스스로를 규율하도록 이끄는 통치 방식."
+    },
+    {
+      "no": 309,
+      "term": "통합효과크기(pooled effect size)",
+      "term_ko": "통합효과크기",
+      "term_en": "pooled effect size",
+      "definition": "여러 연구를 종합해 산출한 효과크기."
+    },
+    {
+      "no": 310,
+      "term": "특성중요도(feature importance)",
+      "term_ko": "특성중요도",
+      "term_en": "feature importance",
+      "definition": "예측에 각 변수(특성)가 기여한 정도."
+    },
+    {
+      "no": 311,
+      "term": "파라미터(parameter)",
+      "term_ko": "파라미터",
+      "term_en": "parameter",
+      "definition": "모형의 작동을 결정하는 설정값."
+    },
+    {
+      "no": 312,
+      "term": "파일링(filing)",
+      "term_ko": "파일링",
+      "term_en": "filing",
+      "definition": "자료를 분류해 정리·보관하는 것."
+    },
+    {
+      "no": 313,
+      "term": "판단중지(epoché/bracketing)",
+      "term_ko": "판단중지",
+      "term_en": "epoché/bracketing",
+      "definition": "연구자의 선입견을 잠시 보류하고 현상을 있는 그대로 보려는 태도(현상학)."
+    },
+    {
+      "no": 314,
+      "term": "패널(panel data)",
+      "term_ko": "패널",
+      "term_en": "panel data",
+      "definition": "같은 대상을 여러 시점에 반복 조사한 자료."
+    },
+    {
+      "no": 315,
+      "term": "패러다임 모형(paradigm model)",
+      "term_ko": "패러다임 모형",
+      "term_en": "paradigm model",
+      "definition": "원인-맥락-작용-결과로 현상을 구조화한 QL-008 틀."
+    },
+    {
+      "no": 316,
+      "term": "패턴매칭(pattern matching)",
+      "term_ko": "패턴매칭",
+      "term_en": "pattern matching",
+      "definition": "예측한 패턴과 관찰된 패턴을 맞춰 보는 분석."
+    },
+    {
+      "no": 317,
+      "term": "패턴코딩(pattern coding)",
+      "term_ko": "패턴코딩",
+      "term_en": "pattern coding",
+      "definition": "반복되는 패턴을 찾아 묶는 코딩."
+    },
+    {
+      "no": 318,
+      "term": "평가기준(evaluation criteria)",
+      "term_ko": "평가기준",
+      "term_en": "evaluation criteria",
+      "definition": "우열이나 성패를 판단하는 잣대."
+    },
+    {
+      "no": 319,
+      "term": "QL-044(focus group)",
+      "term_ko": "QL-044",
+      "term_en": "focus group",
+      "definition": "여러 참여자를 한자리에 모아 진행하는 집단 면담."
+    },
+    {
+      "no": 320,
+      "term": "포함/배제 기준(inclusion/exclusion criteria)",
+      "term_ko": "포함/배제 기준",
+      "term_en": "inclusion/exclusion criteria",
+      "definition": "분석에 넣을 자료와 뺄 자료를 가르는 기준."
+    },
+    {
+      "no": 321,
+      "term": "포화(saturation)",
+      "term_ko": "포화",
+      "term_en": "saturation",
+      "definition": "새 자료를 더 모아도 새로운 개념이 나오지 않는 상태."
+    },
+    {
+      "no": 322,
+      "term": "표본설계(sampling design)",
+      "term_ko": "표본설계",
+      "term_en": "sampling design",
+      "definition": "모집단에서 표본을 어떤 방식과 규모로 뽑을지 미리 정하는 계획."
+    },
+    {
+      "no": 323,
+      "term": "표준편차(standard deviation)",
+      "term_ko": "표준편차",
+      "term_en": "standard deviation",
+      "definition": "값들이 평균에서 흩어진 정도를 나타내는 수치."
+    },
+    {
+      "no": 324,
+      "term": "표준화(standardization)",
+      "term_ko": "표준화",
+      "term_en": "standardization",
+      "definition": "서로 다른 값을 공통 기준으로 맞추는 것."
+    },
+    {
+      "no": 325,
+      "term": "표준화평균차(standardized mean difference)",
+      "term_ko": "표준화평균차",
+      "term_en": "standardized mean difference",
+      "definition": "서로 다른 척도의 차이를 표준화한 효과크기."
+    },
+    {
+      "no": 326,
+      "term": "표집전략(sampling strategy)",
+      "term_ko": "표집전략",
+      "term_en": "sampling strategy",
+      "definition": "표본을 선정하는 구체적 방법·전략."
+    },
+    {
+      "no": 327,
+      "term": "플롯(plot)",
+      "term_ko": "플롯",
+      "term_en": "plot",
+      "definition": "사건이 인과적으로 짜인 이야기 구조."
+    },
+    {
+      "no": 328,
+      "term": "하위그룹(subgroup)",
+      "term_ko": "하위그룹",
+      "term_en": "subgroup",
+      "definition": "전체를 나눈 소집단."
+    },
+    {
+      "no": 329,
+      "term": "하이퍼파라미터 튜닝(hyperparameter tuning)",
+      "term_ko": "하이퍼파라미터 튜닝",
+      "term_en": "hyperparameter tuning",
+      "definition": "모형의 설정값을 조정해 성능을 최적화하는 것."
+    },
+    {
+      "no": 330,
+      "term": "함축(implicature)",
+      "term_ko": "함축",
+      "term_en": "implicature",
+      "definition": "직접 말하지 않았지만 담긴 뜻."
+    },
+    {
+      "no": 331,
+      "term": "합의도(사분위범위, 표준편차)(consensus (IQR, SD))",
+      "term_ko": "합의도(사분위범위, 표준편차)",
+      "term_en": "consensus (IQR, SD)",
+      "definition": "전문가 의견이 모인 정도(산포로 판단)."
+    },
+    {
+      "no": 332,
+      "term": "합의수준(Term)",
+      "term_ko": "합의수준",
+      "term_en": "",
+      "definition": "참여자·전문가의 의견이 모인 정도."
+    },
+    {
+      "no": 333,
+      "term": "합치도(convergence)",
+      "term_ko": "합치도(convergence)",
+      "term_en": "",
+      "definition": "질적·양적 결과가 서로 수렴·일치하는 정도."
+    },
+    {
+      "no": 334,
+      "term": "해석적으로 명명(Term)",
+      "term_ko": "해석적으로 명명",
+      "term_en": "",
+      "definition": "유형·주제에 해석을 담아 이름 붙이는 것."
+    },
+    {
+      "no": 335,
+      "term": "해석적으로 통합(Term)",
+      "term_ko": "해석적으로 통합",
+      "term_en": "",
+      "definition": "의미를 해석하며 하나로 묶는 것."
+    },
+    {
+      "no": 336,
+      "term": "핵심범주(core category)",
+      "term_ko": "핵심범주",
+      "term_en": "core category",
+      "definition": "자료 전체를 관통하는 중심 범주."
+    },
+    {
+      "no": 337,
+      "term": "행동범주(behavior category)",
+      "term_ko": "행동범주",
+      "term_en": "behavior category",
+      "definition": "관찰 대상 행동을 나눈 범주."
+    },
+    {
+      "no": 338,
+      "term": "행위자(actor)",
+      "term_ko": "행위자",
+      "term_en": "actor",
+      "definition": "상황 속에서 행동하는 주체."
+    },
+    {
+      "no": 339,
+      "term": "행위자기반모형(ABM)",
+      "term_ko": "행위자기반모형(ABM)",
+      "term_en": "agent-based model",
+      "definition": "개별 행위자의 상호작용으로 전체 현상을 모의하는 모형."
+    },
+    {
+      "no": 340,
+      "term": "현상학(phenomenology)",
+      "term_ko": "현상학",
+      "term_en": "phenomenology",
+      "definition": "사람이 겪은 경험의 본질을 그대로 드러내려는 질적 연구 전통."
+    },
+    {
+      "no": 341,
+      "term": "현장노트(fieldnotes)",
+      "term_ko": "현장노트",
+      "term_en": "fieldnotes",
+      "definition": "현장에서 즉시 작성하는 관찰 기록."
+    },
+    {
+      "no": 342,
+      "term": "형태소분석(morphological analysis)",
+      "term_ko": "형태소분석",
+      "term_en": "morphological analysis",
+      "definition": "단어를 뜻을 가진 최소 단위(형태소)로 분해하는 것."
+    },
+    {
+      "no": 343,
+      "term": "혼합설계(mixed-methods design)",
+      "term_ko": "혼합설계",
+      "term_en": "mixed-methods design",
+      "definition": "질적 방법과 양적 방법을 결합한 연구 설계."
+    },
+    {
+      "no": 344,
+      "term": "확률표집(probability sampling)",
+      "term_ko": "확률표집",
+      "term_en": "probability sampling",
+      "definition": "모든 대상이 뽑힐 확률을 정해 무작위로 표본을 뽑는 방법. 대표성이 높다."
+    },
+    {
+      "no": 345,
+      "term": "확증가능성(confirmability)",
+      "term_ko": "확증가능성",
+      "term_en": "confirmability",
+      "definition": "결과가 편향이 아니라 자료에 근거함을 확인할 수 있는 정도."
+    },
+    {
+      "no": 346,
+      "term": "환자-대조군(case-control)",
+      "term_ko": "환자-대조군",
+      "term_en": "case-control",
+      "definition": "질병군과 비질병군을 비교해 원인을 찾는 역학 설계."
+    },
+    {
+      "no": 347,
+      "term": "회귀분석(regression)",
+      "term_ko": "회귀분석",
+      "term_en": "regression",
+      "definition": "독립변수로 종속변수를 예측하는 통계 모형."
+    },
+    {
+      "no": 348,
+      "term": "회귀불연속설계(RDD)",
+      "term_ko": "회귀불연속설계(RDD)",
+      "term_en": "regression discontinuity",
+      "definition": "기준점 전후를 비교해 인과효과를 추정하는 설계."
+    },
+    {
+      "no": 349,
+      "term": "회기(session)",
+      "term_ko": "회기",
+      "term_en": "session",
+      "definition": "면담·상담 등을 진행한 횟수 단위."
+    },
+    {
+      "no": 350,
+      "term": "효과수정(effect modification)",
+      "term_ko": "효과수정",
+      "term_en": "effect modification",
+      "definition": "제3의 변수에 따라 효과의 크기가 달라지는 현상."
+    },
+    {
+      "no": 351,
+      "term": "효과크기(effect size)",
+      "term_ko": "효과크기",
+      "term_en": "effect size",
+      "definition": "차이나 관계의 실질적인 크기."
+    },
+    {
+      "no": 352,
+      "term": "훈련/검증/테스트 데이터 분할(train/validation/test split)",
+      "term_ko": "훈련/검증/테스트 데이터 분할",
+      "term_en": "train/validation/test split",
+      "definition": "자료를 학습용·조정용·평가용으로 나누는 것."
+    },
+    {
+      "no": 353,
+      "term": "\"번역\"(translation)",
+      "term_ko": "\"번역\"",
+      "term_en": "translation",
+      "definition": "서로 다른 연구의 개념을 대응시켜 옮기는 메타종합 절차."
+    },
+    {
+      "no": 354,
+      "term": "1차 사료(primary source)",
+      "term_ko": "1차 사료",
+      "term_en": "primary source",
+      "definition": "그 시대에 직접 생산된 원본 사료."
+    },
+    {
+      "no": 355,
+      "term": "2차 문헌(secondary source)",
+      "term_ko": "2차 문헌",
+      "term_en": "secondary source",
+      "definition": "후대에 1차 자료를 정리·해석한 문헌."
+    },
+    {
+      "no": 356,
+      "term": "AHP(계층분석법)",
+      "term_ko": "AHP",
+      "term_en": "계층분석법",
+      "definition": "여러 기준을 둘씩 비교해 상대적 중요도를 산출하는 의사결정 기법."
+    },
+    {
+      "no": 357,
+      "term": "ANOVA(분산분석)",
+      "term_ko": "ANOVA",
+      "term_en": "분산분석",
+      "definition": "세 집단 이상의 평균 차이를 검정하는 분산분석."
+    },
+    {
+      "no": 358,
+      "term": "API(응용프로그램 인터페이스)",
+      "term_ko": "API",
+      "term_en": "응용프로그램 인터페이스",
+      "definition": "프로그램끼리 데이터를 주고받게 해 주는 연결 창구."
+    },
+    {
+      "no": 359,
+      "term": "AUC(곡선아래면적)",
+      "term_ko": "AUC",
+      "term_en": "곡선아래면적",
+      "definition": "분류 성능을 0~1로 나타낸 ROC 곡선 아래 면적."
+    },
+    {
+      "no": 360,
+      "term": "Bradford Hill 기준(브래드포드 힐 기준)",
+      "term_ko": "Bradford Hill 기준",
+      "term_en": "브래드포드 힐 기준",
+      "definition": "관찰된 연관이 인과인지 판단하는 여러 기준."
+    },
+    {
+      "no": 361,
+      "term": "centroid법(centroid method)",
+      "term_ko": "centroid법",
+      "term_en": "centroid method",
+      "definition": "요인분석에서 중심값으로 요인을 추출하는 방법."
+    },
+    {
+      "no": 362,
+      "term": "Cohen's Kappa(코헨 카파)",
+      "term_ko": "Cohen's Kappa",
+      "term_en": "코헨 카파",
+      "definition": "두 평정자의 일치도를 우연 보정해 나타낸 지수."
+    },
+    {
+      "no": 363,
+      "term": "concourse(개념 총체)",
+      "term_ko": "concourse",
+      "term_en": "개념 총체",
+      "definition": "특정 주제에 대해 존재하는 의견 전체의 모음(GN-029)."
+    },
+    {
+      "no": 364,
+      "term": "data extraction form(자료추출표)",
+      "term_ko": "data extraction form",
+      "term_en": "자료추출표",
+      "definition": "각 연구에서 필요한 정보를 뽑아 정리하는 양식."
+    },
+    {
+      "no": 365,
+      "term": "Egger 검정(에거 검정)",
+      "term_ko": "Egger 검정",
+      "term_en": "에거 검정",
+      "definition": "출판편향을 통계적으로 검정하는 방법."
+    },
+    {
+      "no": 366,
+      "term": "ethnography(문화기술지)",
+      "term_ko": "ethnography",
+      "term_en": "문화기술지",
+      "definition": "한 집단의 문화를 참여관찰로 기술한 문화기술지."
+    },
+    {
+      "no": 367,
+      "term": "F1-score(F1 점수)",
+      "term_ko": "F1-score",
+      "term_en": "F1 점수",
+      "definition": "정밀도와 재현율을 조화평균한 성능 지표."
+    },
+    {
+      "no": 368,
+      "term": "funnel plot(깔때기 그림)",
+      "term_ko": "funnel plot",
+      "term_en": "깔때기 그림",
+      "definition": "출판편향을 눈으로 점검하는 깔때기 모양 그래프."
+    },
+    {
+      "no": 369,
+      "term": "gatekeeper(문지기)",
+      "term_ko": "gatekeeper",
+      "term_en": "문지기",
+      "definition": "연구 현장 접근을 허락하거나 중개해 주는 사람."
+    },
+    {
+      "no": 370,
+      "term": "GRADE(그레이드)",
+      "term_ko": "GRADE",
+      "term_en": "그레이드",
+      "definition": "근거의 확실성을 등급으로 평가하는 체계."
+    },
+    {
+      "no": 371,
+      "term": "h-지수(h-index)",
+      "term_ko": "h-지수",
+      "term_en": "h-index",
+      "definition": "생산성과 피인용을 함께 반영한 연구자 영향력 지표."
+    },
+    {
+      "no": 372,
+      "term": "in-vivo code(인비보 코드)",
+      "term_ko": "in-vivo code",
+      "term_en": "인비보 코드",
+      "definition": "참여자가 실제 쓴 말을 그대로 딴 코드."
+    },
+    {
+      "no": 373,
+      "term": "I² 지수(I-squared)",
+      "term_ko": "I² 지수",
+      "term_en": "I-squared",
+      "definition": "전체 변동 중 이질성이 차지하는 비율(%)."
+    },
+    {
+      "no": 374,
+      "term": "Jefferson 표기법(Jefferson transcription)",
+      "term_ko": "Jefferson 표기법",
+      "term_en": "Jefferson transcription",
+      "definition": "대화의 억양·겹침·침묵을 기호로 나타내는 전사 규칙."
+    },
+    {
+      "no": 375,
+      "term": "Kappa(카파)",
+      "term_ko": "Kappa",
+      "term_en": "카파",
+      "definition": "우연에 의한 일치를 보정한 관찰자 간 일치도 지수."
+    },
+    {
+      "no": 376,
+      "term": "key informant(핵심정보제공자)",
+      "term_ko": "key informant",
+      "term_en": "핵심정보제공자",
+      "definition": "그 집단·현장을 깊이 아는 핵심 정보 제공자."
+    },
+    {
+      "no": 377,
+      "term": "Krippendorff's alpha(크리펜도르프 알파)",
+      "term_ko": "Krippendorff's alpha",
+      "term_en": "크리펜도르프 알파",
+      "definition": "여러 평정자·자료 형태에 두루 쓰는 일치도 지수."
+    },
+    {
+      "no": 378,
+      "term": "line of argument(논증선)",
+      "term_ko": "line of argument",
+      "term_en": "논증선",
+      "definition": "여러 연구를 관통하는 상위 논증."
+    },
+    {
+      "no": 379,
+      "term": "meta-inference(통합해석)",
+      "term_ko": "meta-inference",
+      "term_en": "통합해석",
+      "definition": "질적·양적 결과를 통합해 내리는 상위 추론."
+    },
+    {
+      "no": 380,
+      "term": "OR(교차비)",
+      "term_ko": "OR",
+      "term_en": "교차비",
+      "definition": "사건이 일어날 승산의 비(교차비)."
+    },
+    {
+      "no": 381,
+      "term": "PCA(주성분분석)",
+      "term_ko": "PCA",
+      "term_en": "주성분분석",
+      "definition": "여러 변수를 소수의 주성분으로 압축하는 주성분분석."
+    },
+    {
+      "no": 382,
+      "term": "PICO(피코)",
+      "term_ko": "PICO",
+      "term_en": "피코",
+      "definition": "임상 질문을 대상·중재·비교·결과로 구조화한 틀."
+    },
+    {
+      "no": 383,
+      "term": "Q-sort(큐 분류)",
+      "term_ko": "Q-sort",
+      "term_en": "큐 분류",
+      "definition": "진술문을 동의~비동의 순서 판에 배열해 분류하는 절차."
+    },
+    {
+      "no": 384,
+      "term": "qualitizing(질적화)",
+      "term_ko": "qualitizing",
+      "term_en": "질적화",
+      "definition": "양적 자료를 질적으로 해석·서술하는 것."
+    },
+    {
+      "no": 385,
+      "term": "quantitizing(양적화)",
+      "term_ko": "quantitizing",
+      "term_en": "양적화",
+      "definition": "질적 자료를 수치로 변환하는 것."
+    },
+    {
+      "no": 386,
+      "term": "Q통계량(Q statistic)",
+      "term_ko": "Q통계량",
+      "term_en": "Q statistic",
+      "definition": "연구 간 이질성을 나타내는 통계량."
+    },
+    {
+      "no": 387,
+      "term": "risk of bias(편향 위험)",
+      "term_ko": "risk of bias",
+      "term_en": "편향 위험",
+      "definition": "연구 결과가 편향됐을 위험의 정도."
+    },
+    {
+      "no": 388,
+      "term": "RR(상대위험도)",
+      "term_ko": "RR",
+      "term_en": "상대위험도",
+      "definition": "두 집단의 위험도 비(상대위험도)."
+    },
+    {
+      "no": 389,
+      "term": "Scopus(스코퍼스)",
+      "term_ko": "Scopus",
+      "term_en": "스코퍼스",
+      "definition": "대규모 학술 문헌·인용 데이터베이스."
+    },
+    {
+      "no": 390,
+      "term": "SEM(구조방정식모형)",
+      "term_ko": "SEM",
+      "term_en": "구조방정식모형",
+      "definition": "여러 변수 사이의 인과·관계를 동시에 검증하는 구조방정식모형."
+    },
+    {
+      "no": 391,
+      "term": "TF-IDF(티에프 아이디에프)",
+      "term_ko": "TF-IDF",
+      "term_en": "티에프 아이디에프",
+      "definition": "문서에서 단어의 중요도를 빈도로 가중해 나타낸 값."
+    },
+    {
+      "no": 392,
+      "term": "t검정(t-test)",
+      "term_ko": "t검정",
+      "term_en": "t-test",
+      "definition": "두 집단의 평균 차이가 통계적으로 유의한지 검정하는 방법."
+    },
+    {
+      "no": 393,
+      "term": "varimax(베리맥스)",
+      "term_ko": "varimax",
+      "term_en": "베리맥스",
+      "definition": "요인 간 독립성을 높이는 대표적 직교 회전법."
+    },
+    {
+      "no": 394,
+      "term": "Web of Science(웹 오브 사이언스)",
+      "term_ko": "Web of Science",
+      "term_en": "웹 오브 사이언스",
+      "definition": "대표적 학술 인용 색인 데이터베이스."
+    },
+    {
+      "no": 395,
+      "term": "word2vec(워드투벡)",
+      "term_ko": "word2vec",
+      "term_en": "워드투벡",
+      "definition": "단어를 의미 관계가 담긴 벡터로 바꾸는 대표적 임베딩 기법."
+    }
+  ]
+}

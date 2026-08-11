@@ -1,0 +1,511 @@
+{
+  "stageViews": [
+    {
+      "registryStageId": "meta-analysis-02.s1",
+      "uiStage": 1,
+      "title": "연구 초점 설정(Research Focus)",
+      "oneLine": "메타분석(Meta-Analysis)에서 연구 초점 설정 기능을 수행한다.",
+      "stepRole": [
+        "연구질문 작성(Research Question)",
+        "방법 적합성 검토(Method Fit)",
+        "분석단위 정의(Unit Definition)"
+      ],
+      "inFunction": "연구 아이디어",
+      "outFunction": "연구 초점 정의서",
+      "why": "연구 초점 설정를 먼저 확정해야 뒤의 작업이 서로 다른 기준으로 진행되지 않는다.",
+      "exampleText": "Stage는 큰 연구 목적을 묶은 단계이다. 이 Stage에서는 연구 초점 설정(Research Focus)를 수행한다.",
+      "table": {
+        "title": "연구 초점 설정에서 만드는 것",
+        "columns": [
+          "세부 항목",
+          "나오는 것",
+          "자동화"
+        ],
+        "rows": [
+          [
+            "연구질문 작성(Research Question)",
+            "질문·목적",
+            "수동화(Manual)"
+          ],
+          [
+            "방법 적합성 검토(Method Fit)",
+            "적합성 근거",
+            "반자동화(Semi-automatic)"
+          ],
+          [
+            "분석단위 정의(Unit Definition)",
+            "효과크기 기록(Effect-size Record)",
+            "수동화(Manual)"
+          ]
+        ]
+      },
+      "figure": {
+        "type": "flow",
+        "inputs": [
+          "연구 아이디어"
+        ],
+        "outputs": [
+          "연구 초점 정의서"
+        ],
+        "step": "연구 초점 설정"
+      },
+      "moreExamples": [],
+      "beginnerTip": "방법 고유 절차는 Stage 5의 Process로 두고 공통 Stage와 혼합하지 않는다."
+    },
+    {
+      "registryStageId": "meta-analysis-02.s2",
+      "uiStage": 2,
+      "title": "연구 윤리 협의(Research Ethics)",
+      "oneLine": "메타분석(Meta-Analysis)에서 연구 윤리 협의 기능을 수행한다.",
+      "stepRole": [
+        "위험·동의 점검(Risk and Consent)",
+        "비식별·보안계획(De-identification and Security)"
+      ],
+      "inFunction": "연구 초점·대상",
+      "outFunction": "윤리·보안 계획",
+      "why": "연구 윤리 협의를 먼저 확정해야 뒤의 작업이 서로 다른 기준으로 진행되지 않는다.",
+      "exampleText": "Stage는 큰 연구 목적을 묶은 단계이다. 이 Stage에서는 연구 윤리 협의(Research Ethics)를 수행한다.",
+      "table": {
+        "title": "연구 윤리 협의에서 만드는 것",
+        "columns": [
+          "세부 항목",
+          "나오는 것",
+          "자동화"
+        ],
+        "rows": [
+          [
+            "위험·동의 점검(Risk and Consent)",
+            "윤리 점검표",
+            "수동화(Manual)"
+          ],
+          [
+            "비식별·보안계획(De-identification and Security)",
+            "보안계획",
+            "반자동화(Semi-automatic)"
+          ]
+        ]
+      },
+      "figure": {
+        "type": "flow",
+        "inputs": [
+          "연구 초점·대상"
+        ],
+        "outputs": [
+          "윤리·보안 계획"
+        ],
+        "step": "연구 윤리 협의"
+      },
+      "moreExamples": [],
+      "beginnerTip": "방법 고유 절차는 Stage 5의 Process로 두고 공통 Stage와 혼합하지 않는다."
+    },
+    {
+      "registryStageId": "meta-analysis-02.s3",
+      "uiStage": 3,
+      "title": "문헌 검토(Literature Review)",
+      "oneLine": "메타분석(Meta-Analysis)에서 문헌 검토 기능을 수행한다.",
+      "stepRole": [
+        "방법 근거 검색(Method Evidence Search)",
+        "표준프로토콜 기능 매핑(Standard Protocol Mapping)"
+      ],
+      "inFunction": "연구질문·표준프로토콜",
+      "outFunction": "문헌·기능 매핑",
+      "why": "문헌 검토를 먼저 확정해야 뒤의 작업이 서로 다른 기준으로 진행되지 않는다.",
+      "exampleText": "Stage는 큰 연구 목적을 묶은 단계이다. 이 Stage에서는 문헌 검토(Literature Review)를 수행한다.",
+      "table": {
+        "title": "문헌 검토에서 만드는 것",
+        "columns": [
+          "세부 항목",
+          "나오는 것",
+          "자동화"
+        ],
+        "rows": [
+          [
+            "방법 근거 검색(Method Evidence Search)",
+            "근거목록",
+            "반자동화(Semi-automatic)"
+          ],
+          [
+            "표준프로토콜 기능 매핑(Standard Protocol Mapping)",
+            "기능 매핑표",
+            "반자동화(Semi-automatic)"
+          ]
+        ]
+      },
+      "figure": {
+        "type": "flow",
+        "inputs": [
+          "연구질문·표준프로토콜"
+        ],
+        "outputs": [
+          "문헌·기능 매핑"
+        ],
+        "step": "문헌 검토"
+      },
+      "moreExamples": [],
+      "beginnerTip": "방법 고유 절차는 Stage 5의 Process로 두고 공통 Stage와 혼합하지 않는다."
+    },
+    {
+      "registryStageId": "meta-analysis-02.s4",
+      "uiStage": 4,
+      "title": "연구 설계 확정(Research Design)",
+      "oneLine": "메타분석(Meta-Analysis)에서 연구 설계 확정 기능을 수행한다.",
+      "stepRole": [
+        "표집·단위 규모 확정(Sample and Unit Scale)",
+        "Process·Task 확정(Process and Task Lock)",
+        "분석·품질 기준(Analysis and Quality Criteria)"
+      ],
+      "inFunction": "문헌·기능 매핑",
+      "outFunction": "연구 설계서",
+      "why": "공통 준비절차와 방법 고유 분석을 분리해야 다른 방법의 Process가 잘못 섞이는 것을 막을 수 있다.",
+      "exampleText": "Phase 2는 승인된 설계와 자료를 사용해 방법 고유 메커니즘을 실제로 실행하는 국면이다.",
+      "table": {
+        "title": "연구 설계 확정에서 만드는 것",
+        "columns": [
+          "세부 항목",
+          "나오는 것",
+          "자동화"
+        ],
+        "rows": [
+          [
+            "표집·단위 규모 확정(Sample and Unit Scale)",
+            "표집계획",
+            "수동화(Manual)"
+          ],
+          [
+            "Process·Task 확정(Process and Task Lock)",
+            "실행순서",
+            "반자동화(Semi-automatic)"
+          ],
+          [
+            "분석·품질 기준(Analysis and Quality Criteria)",
+            "Gate 기준",
+            "수동화(Manual)"
+          ]
+        ]
+      },
+      "figure": {
+        "type": "flow",
+        "inputs": [
+          "문헌·기능 매핑"
+        ],
+        "outputs": [
+          "연구 설계서"
+        ],
+        "step": "연구 설계 확정"
+      },
+      "moreExamples": [],
+      "beginnerTip": "방법 고유 절차는 Stage 5의 Process로 두고 공통 Stage와 혼합하지 않는다."
+    },
+    {
+      "registryStageId": "meta-analysis-02.s5",
+      "uiStage": 5,
+      "title": "메타분석 실행(Meta-Analysis Execution)",
+      "oneLine": "연구선별→효과크기 변환→가중통합→이질성→조절·민감도→출판편향→종합효과",
+      "stepRole": [
+        "연구 선별(Study Selection)",
+        "효과크기 추출·변환(Effect Size Extraction and Conversion)",
+        "가중 통합(Weighted Pooling)",
+        "이질성·조절 분석(Heterogeneity and Moderator Analysis)",
+        "민감도·출판편향(Sensitivity and Publication Bias)",
+        "종합효과 해석(Pooled Effect Interpretation)"
+      ],
+      "inFunction": "승인된 연구 설계·자료",
+      "outFunction": "메타분석 분석결과 + SampleDeliverable",
+      "why": "효과크기 추출·변환가 누락되면 메커니즘의 2번째 연결이 끊겨 뒤의 결과를 정당화할 수 없다.",
+      "exampleText": "Process는 Stage 5 안에서 방법 고유 기능 하나를 처음부터 끝까지 수행하는 절차이다. 현재 Process는 효과크기 추출·변환(Effect Size Extraction and Conversion)이다.",
+      "table": {
+        "title": "메타분석 실행에서 만드는 것",
+        "columns": [
+          "세부 항목",
+          "나오는 것",
+          "자동화"
+        ],
+        "rows": [
+          [
+            "연구 선별",
+            "연구 선별 산출물(Study Selection Output)",
+            "1"
+          ],
+          [
+            "효과크기 추출·변환",
+            "효과크기 추출·변환 산출물(Effect Size Extraction and Conversion Output)",
+            "1"
+          ],
+          [
+            "가중 통합",
+            "가중 통합 산출물(Weighted Pooling Output)",
+            "1"
+          ],
+          [
+            "이질성·조절 분석",
+            "이질성·조절 분석 산출물(Heterogeneity and Moderator Analysis Output)",
+            "1"
+          ],
+          [
+            "민감도·출판편향",
+            "민감도·출판편향 산출물(Sensitivity and Publication Bias Output)",
+            "1"
+          ],
+          [
+            "종합효과 해석",
+            "종합효과 해석 산출물(Pooled Effect Interpretation Output)",
+            "1"
+          ]
+        ]
+      },
+      "figure": {
+        "type": "flow",
+        "inputs": [
+          "승인된 연구 설계·자료"
+        ],
+        "outputs": [
+          "메타분석 분석결과 + SampleDeliverable"
+        ],
+        "step": "메타분석 실행"
+      },
+      "moreExamples": [],
+      "beginnerTip": ""
+    },
+    {
+      "registryStageId": "meta-analysis-02.s6",
+      "uiStage": 6,
+      "title": "보고 및 성찰(Reporting and Reflection)",
+      "oneLine": "메타분석(Meta-Analysis)에서 보고 및 성찰 기능을 수행한다.",
+      "stepRole": [
+        "결과표·그림 생성(Tables and Figures)",
+        "주장-근거 서술(Claim-evidence Narrative)",
+        "한계·재현 패키지(Limits and Reproducibility)"
+      ],
+      "inFunction": "승인된 방법 분석결과",
+      "outFunction": "최종 보고서·재현 패키지",
+      "why": "보고 및 성찰를 먼저 확정해야 뒤의 작업이 서로 다른 기준으로 진행되지 않는다.",
+      "exampleText": "Stage는 큰 연구 목적을 묶은 단계이다. 이 Stage에서는 보고 및 성찰(Reporting and Reflection)를 수행한다.",
+      "table": {
+        "title": "보고 및 성찰에서 만드는 것",
+        "columns": [
+          "세부 항목",
+          "나오는 것",
+          "자동화"
+        ],
+        "rows": [
+          [
+            "결과표·그림 생성(Tables and Figures)",
+            "표·FigureSpec·ChartSpec",
+            "반자동화(Semi-automatic)"
+          ],
+          [
+            "주장-근거 서술(Claim-evidence Narrative)",
+            "결과 서술",
+            "수동화(Manual)"
+          ],
+          [
+            "한계·재현 패키지(Limits and Reproducibility)",
+            "최종 보고·재현팩",
+            "반자동화(Semi-automatic)"
+          ]
+        ]
+      },
+      "figure": {
+        "type": "flow",
+        "inputs": [
+          "승인된 방법 분석결과"
+        ],
+        "outputs": [
+          "최종 보고서·재현 패키지"
+        ],
+        "step": "보고 및 성찰"
+      },
+      "moreExamples": [],
+      "beginnerTip": "방법 고유 절차는 Stage 5의 Process로 두고 공통 Stage와 혼합하지 않는다."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "RWOS(Research Workflow Operating System)",
+      "termKo": "RWOS",
+      "def": "연구의 준비·실행·검증·기록을 일관된 규칙으로 운영하는 구조"
+    },
+    {
+      "term": "Layer(계층)",
+      "termKo": "Layer",
+      "def": "비슷한 책임을 묶은 영역"
+    },
+    {
+      "term": "Phase(국면)",
+      "termKo": "Phase",
+      "def": "연구의 큰 시기"
+    },
+    {
+      "term": "Stage(단계)",
+      "termKo": "Stage",
+      "def": "국면 안의 주요 목표"
+    },
+    {
+      "term": "Process(프로세스)",
+      "termKo": "Process",
+      "def": "방법 고유 절차"
+    },
+    {
+      "term": "Task(작업)",
+      "termKo": "Task",
+      "def": "실제 수행하는 최소 업무. 추가 용어: 효과크기(Effect Size): 연구 결과의 차이나 관계를 공통 척도로 바꾼 값"
+    },
+    {
+      "term": "가중치(Weight)",
+      "termKo": "가중치",
+      "def": "정밀한 연구에 더 큰 영향력을 주는 값"
+    },
+    {
+      "term": "이질성(Heterogeneity)",
+      "termKo": "이질성",
+      "def": "연구별 효과가 서로 다른 정도"
+    },
+    {
+      "term": "신뢰구간(Confidence Interval)",
+      "termKo": "신뢰구간",
+      "def": "참값이 있을 것으로 보는 불확실성 범위"
+    },
+    {
+      "term": "민감도·출판편향(Sensitivity and Publication Bias)",
+      "termKo": "민감도·출판편향",
+      "def": "이 방법에서 입력자료를 점검하고 판단 근거가 남는 산출물로 바꾸는 핵심 절차. 종합효과 해석(Pooled Effect Interpretation): 이 방법에서 입력자료를 점검하고 판단 근거가 남는 산출물로 바꾸는 핵심 절차. 연구 선별(Study Selection): 이 방법에서 입력자료를 점검하고 판단 근거가 남는 산출물로 바꾸는 핵심 절차"
+    },
+    {
+      "term": "타당도(Validity)",
+      "termKo": "타당도",
+      "def": "연구가 알아보려는 것을 제대로 측정하거나 설명하는 정도"
+    },
+    {
+      "term": "표준오차(Standard Error)",
+      "termKo": "표준오차",
+      "def": "표본을 다시 뽑을 때 추정값이 얼마나 달라질 수 있는지 나타내는 값"
+    },
+    {
+      "term": "삼각검증(Triangulation)",
+      "termKo": "삼각검증",
+      "def": "서로 다른 자료원·연구자·방법의 결과를 비교해 해석을 점검하는 절차"
+    },
+    {
+      "term": "변수(Variable)",
+      "termKo": "변수",
+      "def": "대상마다 서로 다른 값을 가질 수 있는 특징"
+    },
+    {
+      "term": "효과크기(Effect Size)",
+      "termKo": "효과크기",
+      "def": "연구 결과의 차이나 관계를 공통 척도로 바꾼 값"
+    },
+    {
+      "term": "코드(Code)",
+      "termKo": "코드",
+      "def": "자료 조각의 의미나 상태를 짧은 이름 또는 숫자로 표시한 것"
+    },
+    {
+      "term": "모집단(Population)",
+      "termKo": "모집단",
+      "def": "연구결론을 적용하려는 전체 대상"
+    },
+    {
+      "term": "이상값(Outlier)",
+      "termKo": "이상값",
+      "def": "다른 값들과 매우 멀리 떨어져 있어 확인이 필요한 값"
+    },
+    {
+      "term": "가설(Hypothesis)",
+      "termKo": "가설",
+      "def": "자료로 확인하기 전에 세운 예상 설명"
+    },
+    {
+      "term": "Method-specific Process(방법 고유 프로세스)",
+      "termKo": "Method-specific Process",
+      "def": "특정 방법만의 분석 절차"
+    },
+    {
+      "term": "효과크기 추출·변환(Effect Size Extraction and Conversion)",
+      "termKo": "효과크기 추출·변환",
+      "def": "이 방법의 2번째 핵심 절차"
+    },
+    {
+      "term": "Input(입력)",
+      "termKo": "Input",
+      "def": "앞 단계에서 받아 사용하는 자료"
+    },
+    {
+      "term": "Output(출력)",
+      "termKo": "Output",
+      "def": "이 절차가 만들어 다음 절차에 넘기는 결과"
+    },
+    {
+      "term": "Provenance(계보)",
+      "termKo": "Provenance",
+      "def": "누가 어떤 입력과 규칙으로 결과를 만들었는지 남긴 기록"
+    },
+    {
+      "term": "재현성(Reproducibility)",
+      "termKo": "재현성",
+      "def": "같은 자료와 규칙을 사용해 같은 결과를 다시 만들 수 있는 정도"
+    },
+    {
+      "term": "척도(Scale)",
+      "termKo": "척도",
+      "def": "응답이나 특성을 숫자·범주로 나타내는 규칙"
+    },
+    {
+      "term": "편향(Bias)",
+      "termKo": "편향",
+      "def": "결과가 한 방향으로 체계적으로 치우치는 현상"
+    }
+  ],
+  "purpose": "연구선별→효과크기 변환→가중통합→이질성→조절·민감도→출판편향→종합효과",
+  "source": "Prompt Design Structure 6.1",
+  "flow": "Phase1(Stage1–4) → Phase2(Stage5 Processes) → Phase3(Stage6)",
+  "domain": "문헌·근거합성",
+  "beginnerIntro": "아키텍처(Architecture)는 연구 전체를 여러 계층과 실행 단위로 나눈 설계도이다.",
+  "phases": [
+    {
+      "no": 1,
+      "name": "연구 준비",
+      "nameEn": "",
+      "what": "",
+      "why": ""
+    },
+    {
+      "no": 2,
+      "name": "방법 실행",
+      "nameEn": "",
+      "what": "",
+      "why": ""
+    },
+    {
+      "no": 3,
+      "name": "보고",
+      "nameEn": "",
+      "what": "정의 계층은 연구의 순서와 각 단위의 입력·출력·책임을 설계하는 곳이다.",
+      "why": "무엇을 먼저 하고 무엇을 나중에 할지 정하지 않으면 자료수집과 분석이 뒤섞여 결과의 근거가 불분명해진다."
+    },
+    {
+      "no": 1,
+      "name": "연구 준비",
+      "nameEn": "Research Preparation",
+      "what": "Phase 1은 실제 분석 전에 질문·윤리·문헌·연구설계를 준비하는 국면이다.",
+      "why": "준비 없이 자료부터 모으면 필요한 자료가 빠지거나 사용할 수 없는 자료를 수집할 수 있다."
+    },
+    {
+      "no": 2,
+      "name": "방법 실행",
+      "nameEn": "Method Execution",
+      "what": "Phase 2는 승인된 설계와 자료를 사용해 방법 고유 메커니즘을 실제로 실행하는 국면이다.",
+      "why": "공통 준비절차와 방법 고유 분석을 분리해야 다른 방법의 Process가 잘못 섞이는 것을 막을 수 있다."
+    },
+    {
+      "no": 3,
+      "name": "보고",
+      "nameEn": "Reporting",
+      "what": "Phase 3은 분석결과를 표·그림·설명·한계·재현자료로 정리하는 국면이다.",
+      "why": "분석값만 제시하면 독자가 무엇을 의미하는지, 근거가 어디서 왔는지, 어느 정도 믿을 수 있는지 판단하기 어렵다."
+    }
+  ],
+  "mechanism": "연구선별→효과크기 변환→가중통합→이질성→조절·민감도→출판편향→종합효과",
+  "rwosVersion": "6.1",
+  "stageCount": 6
+}

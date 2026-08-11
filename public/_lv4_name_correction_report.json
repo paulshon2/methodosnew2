@@ -1,0 +1,127 @@
+{
+  "registryChanged": 181,
+  "catalogChanged": 4,
+  "v61Changed": 4,
+  "mergeCount": 24,
+  "registrySample": [
+    {
+      "id": "EV-009",
+      "from": "인용분석(Citation Analysis in Research Evaluation)",
+      "to": "인용분석(Citation Analysis)"
+    },
+    {
+      "id": "EV-003",
+      "from": "계량서지분석(Bibliometrics)",
+      "to": "계량서지분석(Bibliometric Analysis)"
+    },
+    {
+      "id": "EV-001",
+      "from": "비판적 문헌평가(Critical Review / EBM)",
+      "to": "비판적 문헌평가(Critical Appraisal of Literature)"
+    },
+    {
+      "id": "EV-002",
+      "from": "신속 EV-007(Rapid Review)",
+      "to": "신속 문헌고찰(Rapid Literature Review)"
+    },
+    {
+      "id": "EV-011",
+      "from": "사회과학체계적고찰(Systematic Reviews in the Social Sciences)",
+      "to": "사회과학 체계적 고찰(Systematic Review in Social Science)"
+    },
+    {
+      "id": "EV-008",
+      "from": "우산EV-007(Umbrella Review)",
+      "to": "우산 문헌고찰(Umbrella Review)"
+    },
+    {
+      "id": "HC-002",
+      "from": "문헌(기록물) 연구(Documentary Research)",
+      "to": "문헌·기록물 연구(Documentary and Archival Research)"
+    },
+    {
+      "id": "EV-007",
+      "from": "서사적 EV-007(Narrative Review)",
+      "to": "서사적 문헌고찰(Narrative Literature Review)"
+    },
+    {
+      "id": "EV-006",
+      "from": "체계적 EV-007(The Literature Review Six Steps)",
+      "to": "체계적 문헌고찰(Systematic Literature Review)"
+    },
+    {
+      "id": "QT-014",
+      "from": "예측 모델링(Predictive Modeling)",
+      "to": "예측 모형(Forecasting Models)"
+    },
+    {
+      "id": "EV-004",
+      "from": "메타민족지 연구(Meta-Ethnography)",
+      "to": "메타민족지(Meta-Ethnography)"
+    },
+    {
+      "id": "EV-010",
+      "from": "질적 메타합성(Meta-synthesis)",
+      "to": "질적 메타합성(Qualitative Meta-Synthesis)"
+    },
+    {
+      "id": "QT-022",
+      "from": "QT-022(Longitudinal Study)",
+      "to": "종단연구(Longitudinal Research)"
+    },
+    {
+      "id": "EV-005",
+      "from": "메타분석(Meta-analysis)",
+      "to": "메타분석(Meta-Analysis)"
+    },
+    {
+      "id": "SV-001",
+      "from": "마케팅리서치(Marketing Research An Applied Orientation)",
+      "to": "마케팅 조사(Marketing Research)"
+    }
+  ],
+  "catalogSample": [
+    {
+      "slug": "grounded-theory-02",
+      "from": "근거이론(Grounded Theory)",
+      "to": "근거이론 — 2세대 편(Grounded Theory: Second Generation)"
+    },
+    {
+      "slug": "grounded-theory-03",
+      "from": "근거이론(Grounded Theory)",
+      "to": "절차적 근거이론(Procedural Grounded Theory)"
+    },
+    {
+      "slug": "causal-inference-01",
+      "from": "인과추론(Causal Inference)",
+      "to": "인과추론 — 준실험설계 편(Causal Inference: Quasi-Experimental)"
+    },
+    {
+      "slug": "causal-inference-02",
+      "from": "인과추론(Causal Inference)",
+      "to": "인과추론 — 응용계량 편(Causal Inference: Applied Econometrics)"
+    }
+  ],
+  "v61Sample": [
+    {
+      "slug": "causal-inference-01",
+      "from": "인과추론(Causal Inference)",
+      "to": "인과추론 — 준실험설계 편(Causal Inference: Quasi-Experimental)"
+    },
+    {
+      "slug": "causal-inference-02",
+      "from": "인과추론(Causal Inference)",
+      "to": "인과추론 — 응용계량 편(Causal Inference: Applied Econometrics)"
+    },
+    {
+      "slug": "grounded-theory-02",
+      "from": "근거이론(Grounded Theory)",
+      "to": "근거이론 — 2세대 편(Grounded Theory: Second Generation)"
+    },
+    {
+      "slug": "grounded-theory-03",
+      "from": "근거이론(Grounded Theory)",
+      "to": "절차적 근거이론(Procedural Grounded Theory)"
+    }
+  ]
+}

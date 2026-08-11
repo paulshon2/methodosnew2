@@ -1,0 +1,3267 @@
+{
+  "id": 3,
+  "name": "민족지·참여관찰 아키타입(Ethnography–Participant Observation Archetype)",
+  "name_ko": "민족지·참여관찰 아키타입",
+  "name_en": "Ethnography–Participant Observation Archetype",
+  "methodCount": 14,
+  "methods": [
+    {
+      "no": 14,
+      "name": "네트노그래피",
+      "family": "질적·해석",
+      "label": "네트노그래피(질적·해석)",
+      "methodKey": "QL-010",
+      "caseId": "A03-C037",
+      "perfSlug": "netnography",
+      "status": "linked"
+    },
+    {
+      "no": 16,
+      "name": "민족지 연구방법",
+      "family": "질적·해석",
+      "label": "민족지 연구방법(질적·해석)",
+      "methodKey": null,
+      "status": "pending-registration",
+      "caseId": "A03-C041",
+      "perfSlug": "ethnography"
+    },
+    {
+      "no": 17,
+      "name": "문화와조직",
+      "family": "질적·해석",
+      "label": "문화와조직(질적·해석)",
+      "methodKey": "QL-013",
+      "caseId": "A03-C039",
+      "perfSlug": "organizational-culture-research",
+      "status": "linked"
+    },
+    {
+      "no": 18,
+      "name": "민족지 실천원리",
+      "family": "질적·해석",
+      "label": "민족지 실천원리(질적·해석)",
+      "methodKey": null,
+      "status": "pending-registration",
+      "caseId": "A03-C040",
+      "perfSlug": "ethnography"
+    },
+    {
+      "no": 19,
+      "name": "민족지 현장기록법",
+      "family": "질적·해석",
+      "label": "민족지 현장기록법(질적·해석)",
+      "methodKey": "QL-015",
+      "caseId": "A03-C042",
+      "perfSlug": "ethnographic-fieldnotes",
+      "status": "linked"
+    },
+    {
+      "no": 20,
+      "name": "문헌기반 민족지 재구성",
+      "family": "질적·해석",
+      "label": "문헌기반 민족지 재구성(질적·해석)",
+      "methodKey": null,
+      "caseId": "A03-C045",
+      "status": "pending-registration",
+      "perfSlug": "ethnography"
+    },
+    {
+      "no": 21,
+      "name": "자문화기술지",
+      "family": "질적·해석",
+      "label": "자문화기술지(질적·해석)",
+      "methodKey": "QL-016",
+      "caseId": "A03-C048",
+      "perfSlug": "autoethnography",
+      "status": "linked"
+    },
+    {
+      "no": 33,
+      "name": "고전 민족지",
+      "family": "질적·해석",
+      "label": "고전 민족지(질적·해석)",
+      "methodKey": null,
+      "status": "pending-registration",
+      "caseId": "A03-C036",
+      "perfSlug": "ethnography"
+    },
+    {
+      "no": 35,
+      "name": "비판적 민족지",
+      "family": "질적·해석",
+      "label": "비판적 민족지(질적·해석)",
+      "methodKey": "QL-017",
+      "caseId": "A03-C044",
+      "perfSlug": "critical-ethnography",
+      "status": "linked"
+    },
+    {
+      "no": 46,
+      "name": "참여관찰",
+      "family": "질적·해석",
+      "label": "참여관찰(질적·해석)",
+      "methodKey": "QL-042",
+      "caseId": "A03-C049",
+      "perfSlug": "participant-observation",
+      "status": "linked"
+    },
+    {
+      "no": 58,
+      "name": "비판민족지학",
+      "family": "질적·해석",
+      "label": "비판민족지학(질적·해석)",
+      "methodKey": "QL-017",
+      "caseId": "A03-C043",
+      "status": "linked",
+      "perfSlug": "critical-ethnography"
+    },
+    {
+      "no": 59,
+      "name": "시각 민족지",
+      "family": "질적·해석",
+      "label": "시각 민족지(질적·해석)",
+      "methodKey": "QL-031",
+      "caseId": "A03-C046",
+      "perfSlug": "visual-ethnography",
+      "status": "linked"
+    },
+    {
+      "no": 157,
+      "name": "메타민족지 연구",
+      "family": "문헌·근거합성",
+      "label": "메타민족지 연구(문헌·근거합성)",
+      "methodKey": "EV-004",
+      "caseId": "A03-C038",
+      "perfSlug": "meta-ethnography",
+      "status": "linked"
+    },
+    {
+      "no": 177,
+      "name": "시각민족지학",
+      "family": "기타",
+      "label": "시각민족지학(기타)",
+      "methodKey": "QL-031",
+      "caseId": "A03-C047",
+      "status": "linked",
+      "perfSlug": "visual-ethnography"
+    }
+  ],
+  "overview": "민족지·참여관찰 아키타입(Ethnography–Participant Observation Archetype)은(는) 연구 과정(수집→전처리→코딩→통계→결과→산출)이 같은 연구방법 14개를 하나의 방법론적 아키타입(Methodological Archetype)으로 묶은 유형입니다. 같은 프로세스 유형을 선택하면 공통 절차적 단계(Procedural Stage)와 절차적 태스크(Procedural Task)를 AI 기반 실습으로 따라갈 수 있습니다.",
+  "processes": [
+    {
+      "id": "collect",
+      "label": "자료수집(Data Collection)",
+      "label_ko": "① 자료수집",
+      "label_en": "Data Collection",
+      "order": 1,
+      "procedure": "①현장 접근(gatekeeper 섭외) 및 라포 형성 →②장기간 참여관찰(participant observation) 수행 →③비형식 면담·핵심정보제공자(key informant) 면담 병행 →④사진·문서·유물 등 인공물(artifact) 수집",
+      "easy": "▸gatekeeper(문지기): 그 집단에 들어가게 허락해주는 사람.(예: 동아리 회장에게 허락받기.)\n▸라포(rapport): 서로 편하게 믿는 친밀한 관계.(예: 처음 만난 사람과 마음을 트는 것.)\n▸참여관찰(participant observation): 직접 그 무리에 끼어 함께 지내며 관찰.(예: 동아리에 들어가 같이 활동하며 지켜보기.)\n▸key informant(핵심정보제공자): 그 집단을 잘 아는 핵심 정보원.(예: 반 사정을 다 아는 반장.)\n▸인공물(artifact): 사람이 만든 물건·자료.(예: 사진, 일기장, 만든 작품.)",
+      "steps": [
+        "현장 접근(gatekeeper 섭외) 및 라포 형성",
+        "장기간 참여관찰(participant observation) 수행",
+        "비형식 면담·핵심정보제공자(key informant) 면담 병행",
+        "사진·문서·유물 등 인공물(artifact) 수집"
+      ],
+      "terms": [
+        {
+          "term": "gatekeeper(문지기)",
+          "term_ko": "gatekeeper",
+          "term_en": "문지기",
+          "definition": "그 집단에 들어가게 허락해주는 사람. (예: 동아리 회장에게 허락받기.)"
+        },
+        {
+          "term": "라포(rapport)",
+          "term_ko": "라포",
+          "term_en": "rapport",
+          "definition": "서로 편하게 믿는 친밀한 관계. (예: 처음 만난 사람과 마음을 트는 것.)"
+        },
+        {
+          "term": "참여관찰(participant observation)",
+          "term_ko": "참여관찰",
+          "term_en": "participant observation",
+          "definition": "직접 그 무리에 끼어 함께 지내며 관찰. (예: 동아리에 들어가 같이 활동하며 지켜보기.)"
+        },
+        {
+          "term": "key informant(핵심정보제공자)",
+          "term_ko": "key informant",
+          "term_en": "핵심정보제공자",
+          "definition": "그 집단을 잘 아는 핵심 정보원. (예: 반 사정을 다 아는 반장.)"
+        },
+        {
+          "term": "인공물(artifact)",
+          "term_ko": "인공물",
+          "term_en": "artifact",
+          "definition": "사람이 만든 물건·자료. (예: 사진, 일기장, 만든 작품.)"
+        }
+      ]
+    },
+    {
+      "id": "preprocess",
+      "label": "전처리(Preprocessing)",
+      "label_ko": "② 전처리",
+      "label_en": "Preprocessing",
+      "order": 2,
+      "procedure": "①매일 현장노트(fieldnotes)작성(기술적 노트+분석적 메모 구분) →②녹음자료 전사 →③자료를 사건·장소·시간별로 정리 및 색인화",
+      "easy": "▸현장노트(fieldnotes): 현장에서 바로 적은 메모.(예: 관찰하며 수첩에 적기.)\n▸기술적 노트(descriptive notes): 본 것을 그대로 적은 메모.(예: '철수가 손을 들었다'.)\n▸분석적 메모(analytic memo): 본 것에 대한 내 생각·해석 메모.(예: '왜 손을 들었을까?' 라고 적기.)\n▸전사(transcription): 녹음을 글자로 그대로 옮기기.(예: 인터뷰 녹음을 받아쓰기.)\n▸색인화(indexing): 나중에 찾기 쉽게 목록·꼬리표 붙이기.(예: 책 뒤 '찾아보기'처럼 정리.)",
+      "steps": [
+        "매일 현장노트(fieldnotes)작성(기술적 노트+분석적 메모 구분)",
+        "녹음자료 전사",
+        "자료를 사건·장소·시간별로 정리 및 색인화"
+      ],
+      "terms": [
+        {
+          "term": "현장노트(fieldnotes)",
+          "term_ko": "현장노트",
+          "term_en": "fieldnotes",
+          "definition": "현장에서 바로 적은 메모. (예: 관찰하며 수첩에 적기.)"
+        },
+        {
+          "term": "기술적 노트(descriptive notes)",
+          "term_ko": "기술적 노트",
+          "term_en": "descriptive notes",
+          "definition": "본 것을 그대로 적은 메모. (예: '철수가 손을 들었다'.)"
+        },
+        {
+          "term": "분석적 메모(analytic memo)",
+          "term_ko": "분석적 메모",
+          "term_en": "analytic memo",
+          "definition": "본 것에 대한 내 생각·해석 메모. (예: '왜 손을 들었을까?' 라고 적기.)"
+        },
+        {
+          "term": "전사(transcription)",
+          "term_ko": "전사",
+          "term_en": "transcription",
+          "definition": "녹음을 글자로 그대로 옮기기. (예: 인터뷰 녹음을 받아쓰기.)"
+        },
+        {
+          "term": "색인화(indexing)",
+          "term_ko": "색인화",
+          "term_en": "indexing",
+          "definition": "나중에 찾기 쉽게 목록·꼬리표 붙이기. (예: 책 뒤 '찾아보기'처럼 정리.)"
+        }
+      ]
+    },
+    {
+      "id": "coding",
+      "label": "코딩(Coding)",
+      "label_ko": "③ 코딩",
+      "label_en": "Coding",
+      "order": 3,
+      "procedure": "①기술적 코딩(descriptive coding)으로 초기 범주 부여 →②패턴코딩(pattern coding)으로 반복되는 주제·규범 식별 →③주제 간 관계를 개념적으로 통합 →④두꺼운 기술(thick description)로 문화적 의미 해석",
+      "easy": "▸기술적 코딩(descriptive coding): 내용을 요약한 한 단어로 표시.(예: 문단에 '점심시간' 딱지.)\n▸패턴코딩(pattern coding): 반복되는 규칙·패턴을 찾아 묶기.(예: 자주 나오는 행동 묶기.)\n▸개념적(conceptual coding):겉말이 아니라 속뜻(개념)으로 분류.(예: 여러 말을 '불안'이라는 개념으로 묶기.)\n▸두꺼운 기술(thick description): 상황·속뜻까지 아주 자세히 풀어 쓰기.(예: 윙크를 '왜·어떤 뜻인지'까지 설명.)",
+      "steps": [
+        "기술적 코딩(descriptive coding)으로 초기 범주 부여",
+        "패턴코딩(pattern coding)으로 반복되는 주제·규범 식별",
+        "주제 간 관계를 개념적으로 통합",
+        "두꺼운 기술(thick description)로 문화적 의미 해석"
+      ],
+      "terms": [
+        {
+          "term": "기술적 코딩(descriptive coding)",
+          "term_ko": "기술적 코딩",
+          "term_en": "descriptive coding",
+          "definition": "내용을 요약한 한 단어로 표시. (예: 문단에 '점심시간' 딱지.)"
+        },
+        {
+          "term": "패턴코딩(pattern coding)",
+          "term_ko": "패턴코딩",
+          "term_en": "pattern coding",
+          "definition": "반복되는 규칙·패턴을 찾아 묶기. (예: 자주 나오는 행동 묶기.)"
+        },
+        {
+          "term": "개념적(conceptual coding)",
+          "term_ko": "개념적",
+          "term_en": "conceptual coding",
+          "definition": "겉말이 아니라 속뜻(개념)으로 분류. (예: 여러 말을 '불안'이라는 개념으로 묶기.)"
+        },
+        {
+          "term": "두꺼운 기술(thick description)",
+          "term_ko": "두꺼운 기술",
+          "term_en": "thick description",
+          "definition": "상황·속뜻까지 아주 자세히 풀어 쓰기. (예: 윙크를 '왜·어떤 뜻인지'까지 설명.)"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "label": "통계기법(Statistical Technique)",
+      "label_ko": "④ 통계기법",
+      "label_en": "Statistical Technique",
+      "order": 4,
+      "procedure": "①원칙적으로 통계 미사용 →②필요시 참여자 인구통계·행동빈도의 기초빈도/백분율만 보조적으로 제시",
+      "easy": "▸기초빈도(basic frequency): 가장 단순한 횟수 세기.(예: '남 20명, 여 15명'.)",
+      "steps": [
+        "원칙적으로 통계 미사용",
+        "필요시 참여자 인구통계·행동빈도의 기초빈도/백분율만 보조적으로 제시"
+      ],
+      "terms": [
+        {
+          "term": "기초빈도(basic frequency)",
+          "term_ko": "기초빈도",
+          "term_en": "basic frequency",
+          "definition": "가장 단순한 횟수 세기. (예: '남 20명, 여 15명'.)"
+        }
+      ]
+    },
+    {
+      "id": "result",
+      "label": "결과도출(Result Derivation)",
+      "label_ko": "⑤ 결과도출",
+      "label_en": "Result Derivation",
+      "order": 5,
+      "procedure": "①현장노트·코딩 결과를 주제별로 통합 →②문화적 패턴·상징체계를 해석적으로 재구성 →③참여자 검토(member checking)로 타당성 확보",
+      "easy": "▸현장노트(fieldnotes): 현장에서 바로 적은 메모.(예: 관찰하며 수첩에 적기.)\n▸참여자 검토(member checking): 당사자에게 결과 해석이 맞는지 확인받기.(예: 인터뷰한 사람에게 다시 확인.)",
+      "steps": [
+        "현장노트·코딩 결과를 주제별로 통합",
+        "문화적 패턴·상징체계를 해석적으로 재구성",
+        "참여자 검토(member checking)로 타당성 확보"
+      ],
+      "terms": [
+        {
+          "term": "현장노트(fieldnotes)",
+          "term_ko": "현장노트",
+          "term_en": "fieldnotes",
+          "definition": "현장에서 바로 적은 메모. (예: 관찰하며 수첩에 적기.)"
+        },
+        {
+          "term": "참여자 검토(member checking)",
+          "term_ko": "참여자 검토",
+          "term_en": "member checking",
+          "definition": "당사자에게 결과 해석이 맞는지 확인받기. (예: 인터뷰한 사람에게 다시 확인.)"
+        }
+      ]
+    },
+    {
+      "id": "deliverable",
+      "label": "최종 산출물(Final Deliverable)",
+      "label_ko": "⑥ 최종 산출물",
+      "label_en": "Final Deliverable",
+      "order": 6,
+      "procedure": "문화기술적 사례기술(ethnography)",
+      "easy": "▸문화기술적 사례기술(ethnographic description): 한 집단의 문화를 깊이 관찰해 쓴 기록.(예: 동아리 문화를 자세히 서술.)\n▸ethnography(문화기술지): 한 집단의 문화·생활을 자세히 적은 글.(예: 어느 마을 풍습을 관찰해 기록.)",
+      "steps": [
+        "문화기술적 사례기술(ethnography)"
+      ],
+      "terms": [
+        {
+          "term": "문화기술적 사례기술(ethnographic description)",
+          "term_ko": "문화기술적 사례기술",
+          "term_en": "ethnographic description",
+          "definition": "한 집단의 문화를 깊이 관찰해 쓴 기록. (예: 동아리 문화를 자세히 서술.)"
+        },
+        {
+          "term": "ethnography(문화기술지)",
+          "term_ko": "ethnography",
+          "term_en": "문화기술지",
+          "definition": "한 집단의 문화·생활을 자세히 적은 글. (예: 어느 마을 풍습을 관찰해 기록.)"
+        }
+      ]
+    }
+  ],
+  "deliverable": "문화기술적 사례기술(ethnography)",
+  "stages": [
+    {
+      "id": "collect-11081",
+      "processKey": "collect",
+      "processLabel": "자료수집(Data Collection)",
+      "name": "①현장 접근(gatekeeper 섭외) 및 라포 형성 →②장기간 참여관찰(participant observation) 수행 →③비형식 면담·핵심정보제공자(key informant) 면담 병행 →④사진·문서·유물 등 인공물(artifact) 수집",
+      "name_ko": "①현장 접근(gatekeeper 섭외) 및 라포 형성 →②장기간 참여관찰(participant observation) 수행 →③비형식 면담·핵심정보제공자(key informant) 면담 병행 →④사진·문서·유물 등 인공물(artifact) 수집",
+      "procedure": "①현장 접근(gatekeeper 섭외) 및 라포 형성 →②장기간 참여관찰(participant observation) 수행 →③비형식 면담·핵심정보제공자(key informant) 면담 병행 →④사진·문서·유물 등 인공물(artifact) 수집",
+      "easy": "▸gatekeeper(문지기): 그 집단에 들어가게 허락해주는 사람.(예: 동아리 회장에게 허락받기.)\n▸라포(rapport): 서로 편하게 믿는 친밀한 관계.(예: 처음 만난 사람과 마음을 트는 것.)\n▸참여관찰(participant observation): 직접 그 무리에 끼어 함께 지내며 관찰.(예: 동아리에 들어가 같이 활동하며 지켜보기.)\n▸key informant(핵심정보제공자): 그 집단을 잘 아는 핵심 정보원.(예: 반 사정을 다 아는 반장.)\n▸인공물(artifact): 사람이 만든 물건·자료.(예: 사진, 일기장, 만든 작품.)",
+      "terms": [
+        {
+          "term": "gatekeeper(문지기)",
+          "term_ko": "gatekeeper",
+          "term_en": "문지기",
+          "definition": "그 집단에 들어가게 허락해주는 사람. (예: 동아리 회장에게 허락받기.)"
+        },
+        {
+          "term": "라포(rapport)",
+          "term_ko": "라포",
+          "term_en": "rapport",
+          "definition": "서로 편하게 믿는 친밀한 관계. (예: 처음 만난 사람과 마음을 트는 것.)"
+        },
+        {
+          "term": "참여관찰(participant observation)",
+          "term_ko": "참여관찰",
+          "term_en": "participant observation",
+          "definition": "직접 그 무리에 끼어 함께 지내며 관찰. (예: 동아리에 들어가 같이 활동하며 지켜보기.)"
+        },
+        {
+          "term": "key informant(핵심정보제공자)",
+          "term_ko": "key informant",
+          "term_en": "핵심정보제공자",
+          "definition": "그 집단을 잘 아는 핵심 정보원. (예: 반 사정을 다 아는 반장.)"
+        },
+        {
+          "term": "인공물(artifact)",
+          "term_ko": "인공물",
+          "term_en": "artifact",
+          "definition": "사람이 만든 물건·자료. (예: 사진, 일기장, 만든 작품.)"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "b3-t1",
+          "task": "1)현장 접근(gatekeeper 섭외) 및 라포 형성",
+          "taskRaw": "1)현장 접근(gatekeeper 섭외) 및 라포 형성",
+          "processKey": "collect",
+          "processLabel": "자료수집(Data Collection)",
+          "stageLabel": "①현장 접근(gatekeeper 섭외) 및 라포 형성 →②장기간 참여관찰(participant observation) 수행 →③비형식 면담·핵심정보제공자(key informant) 면담 병행 →④사진·문서·유물 등 인공물(artifact) 수집",
+          "why": "이 절차적 태스크(Procedural Task) '1)현장 접근(gatekeeper 섭외) 및 라포 형성'는 민족지·참여관찰 아키타입(Ethnography–Participant Observation Archetype)의 '자료수집' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "표준 흐름: 1) 현장 접근(gatekeeper 섭외) 및 라포 형성 → 2) 장기간 참여관찰(participant observation) 수행 → 3) 비형식 면담·핵심정보제공자(key informant) 면담 병행 → 4) 사진·문서·유물 등 인공물(artifact) 수집. 각 하위 절차를 문서에 남기며 순서대로 실행하고, 완료 여부를 체크합니다.",
+          "protocol": "연구질문(Research Question)과 모집단(Population)을 먼저 문서화하고, 수집 도구·동의·기록 양식을 준비합니다. 수집 로그(날짜·출처·담당)를 남깁니다. 태스크 초점: 1)현장 접근(gatekeeper 섭외) 및 라포 형성.",
+          "sampleExplain": "민족지·참여관찰 맥락에서 '1)현장 접근(gatekeeper 섭외) 및 라포 형성' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'1)현장 접근(gatekeeper 섭외) 및 라포 형성'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'1)현장 접근(gatekeeper 섭외) 및 라포 형성'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 학교 급식 만족도 조사. 올바른 다음 행동은?",
+              "options": [
+                "모집단을 '우리 학교 전교생'으로 정의하고 표본 40명을 층화표집한다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 모집단을 '우리 학교 전교생'으로 정의하고 표본 40명을 층화표집한다.",
+              "usable": "실습: '학교 급식 만족도 조사'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'1)현장 접근(gatekeeper 섭외) 및 라포 형성'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "ethnography_collect",
+          "formFields": [
+            {
+              "key": "context",
+              "label": "연구·현장 맥락(Context)",
+              "placeholder": "누구·어디·언제"
+            },
+            {
+              "key": "input",
+              "label": "입력자료(Input Materials)",
+              "type": "textarea",
+              "placeholder": "파일명·건수·출처"
+            },
+            {
+              "key": "procedure",
+              "label": "실행 절차(Procedure Steps)",
+              "type": "textarea",
+              "placeholder": "순서·도구·소요"
+            },
+            {
+              "key": "output",
+              "label": "산출물(Output)",
+              "type": "textarea",
+              "placeholder": "표·코드북·로그·파일"
+            },
+            {
+              "key": "quality",
+              "label": "품질·윤리 점검(Quality & Ethics)",
+              "placeholder": "동의·익명·검증"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "강남·성수 공유오피스 12주 관찰",
+              "body": "【사례】강남·성수 공유오피스 12주 관찰\n【태스크】현장 접근(gatekeeper 섭외) 및 라포 형성\n【1일차】gatekeeper(센터장) 서면 동의, 현장 규칙 3개 합의\n【2–8주차】주 3회 4시간 참관, FN 매일 2페이지(기술+분석 분리)\n【면담】KI 4명 × 40분, 녹음·전사·동의\n【산출】사진 120장(메타태그), 오디오 18시간, 동의서 스캔\n【윤리】현장명 가명 'C공간'",
+              "relevance": "이 예시는 「강남·성수 공유오피스 12주 관찰」 상황에서 「현장 접근(gatekeeper 섭외) 및 라포 형성」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 자료수집 태스크「현장 접근(gatekeeper 섭외) 및 라포 형성」에 맞게 일정·도구·산출물·윤리를 구체적으로 적었습니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "키 informant 4명(운영·이용)",
+              "body": "【사례】키 informant 4명(운영·이용)\n【태스크】현장 접근(gatekeeper 섭외) 및 라포 형성\n【1일차】gatekeeper(센터장) 서면 동의, 현장 규칙 3개 합의\n【2–8주차】주 3회 4시간 참관, FN 매일 2페이지(기술+분석 분리)\n【면담】KI 4명 × 40분, 녹음·전사·동의\n【산출】사진 120장(메타태그), 오디오 18시간, 동의서 스캔\n【윤리】현장명 가명 'C공간'",
+              "relevance": "이 예시는 「키 informant 4명(운영·이용)」 상황에서 「현장 접근(gatekeeper 섭외) 및 라포 형성」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 자료수집 태스크「현장 접근(gatekeeper 섭외) 및 라포 형성」에 맞게 일정·도구·산출물·윤리를 구체적으로 적었습니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "공간 사용 사진·플로어맵",
+              "body": "【사례】공간 사용 사진·플로어맵\n【태스크】현장 접근(gatekeeper 섭외) 및 라포 형성\n【1일차】gatekeeper(센터장) 서면 동의, 현장 규칙 3개 합의\n【2–8주차】주 3회 4시간 참관, FN 매일 2페이지(기술+분석 분리)\n【면담】KI 4명 × 40분, 녹음·전사·동의\n【산출】사진 120장(메타태그), 오디오 18시간, 동의서 스캔\n【윤리】현장명 가명 'C공간'",
+              "relevance": "이 예시는 「공간 사용 사진·플로어맵」 상황에서 「현장 접근(gatekeeper 섭외) 및 라포 형성」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 자료수집 태스크「현장 접근(gatekeeper 섭외) 및 라포 형성」에 맞게 일정·도구·산출물·윤리를 구체적으로 적었습니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "커뮤니티 이벤트 5회 참관",
+              "body": "【사례】커뮤니티 이벤트 5회 참관\n【태스크】현장 접근(gatekeeper 섭외) 및 라포 형성\n【1일차】gatekeeper(센터장) 서면 동의, 현장 규칙 3개 합의\n【2–8주차】주 3회 4시간 참관, FN 매일 2페이지(기술+분석 분리)\n【면담】KI 4명 × 40분, 녹음·전사·동의\n【산출】사진 120장(메타태그), 오디오 18시간, 동의서 스캔\n【윤리】현장명 가명 'C공간'",
+              "relevance": "이 예시는 「커뮤니티 이벤트 5회 참관」 상황에서 「현장 접근(gatekeeper 섭외) 및 라포 형성」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 자료수집 태스크「현장 접근(gatekeeper 섭외) 및 라포 형성」에 맞게 일정·도구·산출물·윤리를 구체적으로 적었습니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "채팅·게시판 아카이브",
+              "body": "【사례】채팅·게시판 아카이브\n【태스크】현장 접근(gatekeeper 섭외) 및 라포 형성\n【1일차】gatekeeper(센터장) 서면 동의, 현장 규칙 3개 합의\n【2–8주차】주 3회 4시간 참관, FN 매일 2페이지(기술+분석 분리)\n【면담】KI 4명 × 40분, 녹음·전사·동의\n【산출】사진 120장(메타태그), 오디오 18시간, 동의서 스캔\n【윤리】현장명 가명 'C공간'",
+              "relevance": "이 예시는 「채팅·게시판 아카이브」 상황에서 「현장 접근(gatekeeper 섭외) 및 라포 형성」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 자료수집 태스크「현장 접근(gatekeeper 섭외) 및 라포 형성」에 맞게 일정·도구·산출물·윤리를 구체적으로 적었습니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · 현장 접근(gatekeeper 섭외) 및 라포 형성",
+            "kind": "ethnography_collect",
+            "hint": "이 태스크(현장 접근(gatekeeper 섭외) 및 라포 형성)의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": null,
+          "nextTaskId": "b3-t2"
+        },
+        {
+          "id": "b3-t2",
+          "task": "2)장기간 참여관찰(participant observation) 수행하기",
+          "taskRaw": "2)장기간 참여관찰(participant observation) 수행하기",
+          "processKey": "collect",
+          "processLabel": "자료수집(Data Collection)",
+          "stageLabel": "①현장 접근(gatekeeper 섭외) 및 라포 형성 →②장기간 참여관찰(participant observation) 수행 →③비형식 면담·핵심정보제공자(key informant) 면담 병행 →④사진·문서·유물 등 인공물(artifact) 수집",
+          "why": "이 절차적 태스크(Procedural Task) '2)장기간 참여관찰(participant observation) 수행하기'는 민족지·참여관찰 아키타입(Ethnography–Participant Observation Archetype)의 '자료수집' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "표준 흐름: 1) 현장 접근(gatekeeper 섭외) 및 라포 형성 → 2) 장기간 참여관찰(participant observation) 수행 → 3) 비형식 면담·핵심정보제공자(key informant) 면담 병행 → 4) 사진·문서·유물 등 인공물(artifact) 수집. 각 하위 절차를 문서에 남기며 순서대로 실행하고, 완료 여부를 체크합니다.",
+          "protocol": "연구질문(Research Question)과 모집단(Population)을 먼저 문서화하고, 수집 도구·동의·기록 양식을 준비합니다. 수집 로그(날짜·출처·담당)를 남깁니다. 태스크 초점: 2)장기간 참여관찰(participant observation) 수행하기.",
+          "sampleExplain": "민족지·참여관찰 맥락에서 '2)장기간 참여관찰(participant observation) 수행하기' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'2)장기간 참여관찰(participant observation) 수행하기'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'2)장기간 참여관찰(participant observation) 수행하기'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 학교 급식 만족도 조사. 올바른 다음 행동은?",
+              "options": [
+                "모집단을 '우리 학교 전교생'으로 정의하고 표본 40명을 층화표집한다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 모집단을 '우리 학교 전교생'으로 정의하고 표본 40명을 층화표집한다.",
+              "usable": "실습: '학교 급식 만족도 조사'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'2)장기간 참여관찰(participant observation) 수행하기'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "ethnography_collect",
+          "formFields": [
+            {
+              "key": "context",
+              "label": "연구·현장 맥락(Context)",
+              "placeholder": "누구·어디·언제"
+            },
+            {
+              "key": "input",
+              "label": "입력자료(Input Materials)",
+              "type": "textarea",
+              "placeholder": "파일명·건수·출처"
+            },
+            {
+              "key": "procedure",
+              "label": "실행 절차(Procedure Steps)",
+              "type": "textarea",
+              "placeholder": "순서·도구·소요"
+            },
+            {
+              "key": "output",
+              "label": "산출물(Output)",
+              "type": "textarea",
+              "placeholder": "표·코드북·로그·파일"
+            },
+            {
+              "key": "quality",
+              "label": "품질·윤리 점검(Quality & Ethics)",
+              "placeholder": "동의·익명·검증"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "공간 사용 사진·플로어맵",
+              "body": "【사례】공간 사용 사진·플로어맵\n【태스크】장기간 참여관찰(participant observation) 수행하기\n【1일차】gatekeeper(센터장) 서면 동의, 현장 규칙 3개 합의\n【2–8주차】주 3회 4시간 참관, FN 매일 2페이지(기술+분석 분리)\n【면담】KI 4명 × 40분, 녹음·전사·동의\n【산출】사진 120장(메타태그), 오디오 18시간, 동의서 스캔\n【윤리】현장명 가명 'C공간'",
+              "relevance": "이 예시는 「공간 사용 사진·플로어맵」 상황에서 「장기간 참여관찰(participant observation) 수행하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 자료수집 태스크「장기간 참여관찰(participant observation) 수행하기」에 맞게 일정·도구·산출물·윤리를 구체적으로 적었습니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "커뮤니티 이벤트 5회 참관",
+              "body": "【사례】커뮤니티 이벤트 5회 참관\n【태스크】장기간 참여관찰(participant observation) 수행하기\n【1일차】gatekeeper(센터장) 서면 동의, 현장 규칙 3개 합의\n【2–8주차】주 3회 4시간 참관, FN 매일 2페이지(기술+분석 분리)\n【면담】KI 4명 × 40분, 녹음·전사·동의\n【산출】사진 120장(메타태그), 오디오 18시간, 동의서 스캔\n【윤리】현장명 가명 'C공간'",
+              "relevance": "이 예시는 「커뮤니티 이벤트 5회 참관」 상황에서 「장기간 참여관찰(participant observation) 수행하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 자료수집 태스크「장기간 참여관찰(participant observation) 수행하기」에 맞게 일정·도구·산출물·윤리를 구체적으로 적었습니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "채팅·게시판 아카이브",
+              "body": "【사례】채팅·게시판 아카이브\n【태스크】장기간 참여관찰(participant observation) 수행하기\n【1일차】gatekeeper(센터장) 서면 동의, 현장 규칙 3개 합의\n【2–8주차】주 3회 4시간 참관, FN 매일 2페이지(기술+분석 분리)\n【면담】KI 4명 × 40분, 녹음·전사·동의\n【산출】사진 120장(메타태그), 오디오 18시간, 동의서 스캔\n【윤리】현장명 가명 'C공간'",
+              "relevance": "이 예시는 「채팅·게시판 아카이브」 상황에서 「장기간 참여관찰(participant observation) 수행하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 자료수집 태스크「장기간 참여관찰(participant observation) 수행하기」에 맞게 일정·도구·산출물·윤리를 구체적으로 적었습니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "강남·성수 공유오피스 12주 관찰",
+              "body": "【사례】강남·성수 공유오피스 12주 관찰\n【태스크】장기간 참여관찰(participant observation) 수행하기\n【1일차】gatekeeper(센터장) 서면 동의, 현장 규칙 3개 합의\n【2–8주차】주 3회 4시간 참관, FN 매일 2페이지(기술+분석 분리)\n【면담】KI 4명 × 40분, 녹음·전사·동의\n【산출】사진 120장(메타태그), 오디오 18시간, 동의서 스캔\n【윤리】현장명 가명 'C공간'",
+              "relevance": "이 예시는 「강남·성수 공유오피스 12주 관찰」 상황에서 「장기간 참여관찰(participant observation) 수행하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 자료수집 태스크「장기간 참여관찰(participant observation) 수행하기」에 맞게 일정·도구·산출물·윤리를 구체적으로 적었습니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "키 informant 4명(운영·이용)",
+              "body": "【사례】키 informant 4명(운영·이용)\n【태스크】장기간 참여관찰(participant observation) 수행하기\n【1일차】gatekeeper(센터장) 서면 동의, 현장 규칙 3개 합의\n【2–8주차】주 3회 4시간 참관, FN 매일 2페이지(기술+분석 분리)\n【면담】KI 4명 × 40분, 녹음·전사·동의\n【산출】사진 120장(메타태그), 오디오 18시간, 동의서 스캔\n【윤리】현장명 가명 'C공간'",
+              "relevance": "이 예시는 「키 informant 4명(운영·이용)」 상황에서 「장기간 참여관찰(participant observation) 수행하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 자료수집 태스크「장기간 참여관찰(participant observation) 수행하기」에 맞게 일정·도구·산출물·윤리를 구체적으로 적었습니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · 장기간 참여관찰(participant observation) 수행하기",
+            "kind": "ethnography_collect",
+            "hint": "이 태스크(장기간 참여관찰(participant observation) 수행하기)의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": "b3-t1",
+          "nextTaskId": "b3-t3"
+        },
+        {
+          "id": "b3-t3",
+          "task": "3)비형식 면담·핵심정보제공자(key informant) 면담 병행하기",
+          "taskRaw": "3)비형식 면담·핵심정보제공자(key informant) 면담 병행하기",
+          "processKey": "collect",
+          "processLabel": "자료수집(Data Collection)",
+          "stageLabel": "①현장 접근(gatekeeper 섭외) 및 라포 형성 →②장기간 참여관찰(participant observation) 수행 →③비형식 면담·핵심정보제공자(key informant) 면담 병행 →④사진·문서·유물 등 인공물(artifact) 수집",
+          "why": "이 절차적 태스크(Procedural Task) '3)비형식 면담·핵심정보제공자(key informant) 면담 병행하기'는 민족지·참여관찰 아키타입(Ethnography–Participant Observation Archetype)의 '자료수집' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "표준 흐름: 1) 현장 접근(gatekeeper 섭외) 및 라포 형성 → 2) 장기간 참여관찰(participant observation) 수행 → 3) 비형식 면담·핵심정보제공자(key informant) 면담 병행 → 4) 사진·문서·유물 등 인공물(artifact) 수집. 각 하위 절차를 문서에 남기며 순서대로 실행하고, 완료 여부를 체크합니다.",
+          "protocol": "연구질문(Research Question)과 모집단(Population)을 먼저 문서화하고, 수집 도구·동의·기록 양식을 준비합니다. 수집 로그(날짜·출처·담당)를 남깁니다. 태스크 초점: 3)비형식 면담·핵심정보제공자(key informant) 면담 병행하기.",
+          "sampleExplain": "민족지·참여관찰 맥락에서 '3)비형식 면담·핵심정보제공자(key informant) 면담 병행하기' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'3)비형식 면담·핵심정보제공자(key informant) 면담 병행하기'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'3)비형식 면담·핵심정보제공자(key informant) 면담 병행하기'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 학교 급식 만족도 조사. 올바른 다음 행동은?",
+              "options": [
+                "모집단을 '우리 학교 전교생'으로 정의하고 표본 40명을 층화표집한다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 모집단을 '우리 학교 전교생'으로 정의하고 표본 40명을 층화표집한다.",
+              "usable": "실습: '학교 급식 만족도 조사'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'3)비형식 면담·핵심정보제공자(key informant) 면담 병행하기'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "interview",
+          "formFields": [
+            {
+              "key": "participant",
+              "label": "참여자(Participant)",
+              "placeholder": "예: 교사 3년차"
+            },
+            {
+              "key": "guide",
+              "label": "면담질문(Interview Guide)",
+              "type": "textarea",
+              "placeholder": "주요 질문 3~5개"
+            },
+            {
+              "key": "note",
+              "label": "핵심발화(Key Quote)",
+              "type": "textarea",
+              "placeholder": "인상적인 발화"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "공간 사용 사진·플로어맵",
+              "body": "【사례】공간 사용 사진·플로어맵\n【태스크】비형식 면담·핵심정보제공자(key informant) 면담 병행하기\n【1일차】gatekeeper(센터장) 서면 동의, 현장 규칙 3개 합의\n【2–8주차】주 3회 4시간 참관, FN 매일 2페이지(기술+분석 분리)\n【면담】KI 4명 × 40분, 녹음·전사·동의\n【산출】사진 120장(메타태그), 오디오 18시간, 동의서 스캔\n【윤리】현장명 가명 'C공간'",
+              "relevance": "이 예시는 「공간 사용 사진·플로어맵」 상황에서 「비형식 면담·핵심정보제공자(key informant) 면담 병행하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 자료수집 태스크「비형식 면담·핵심정보제공자(key informant) 면담 병행하기」에 맞게 일정·도구·산출물·윤리를 구체적으로 적었습니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "커뮤니티 이벤트 5회 참관",
+              "body": "【사례】커뮤니티 이벤트 5회 참관\n【태스크】비형식 면담·핵심정보제공자(key informant) 면담 병행하기\n【1일차】gatekeeper(센터장) 서면 동의, 현장 규칙 3개 합의\n【2–8주차】주 3회 4시간 참관, FN 매일 2페이지(기술+분석 분리)\n【면담】KI 4명 × 40분, 녹음·전사·동의\n【산출】사진 120장(메타태그), 오디오 18시간, 동의서 스캔\n【윤리】현장명 가명 'C공간'",
+              "relevance": "이 예시는 「커뮤니티 이벤트 5회 참관」 상황에서 「비형식 면담·핵심정보제공자(key informant) 면담 병행하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 자료수집 태스크「비형식 면담·핵심정보제공자(key informant) 면담 병행하기」에 맞게 일정·도구·산출물·윤리를 구체적으로 적었습니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "채팅·게시판 아카이브",
+              "body": "【사례】채팅·게시판 아카이브\n【태스크】비형식 면담·핵심정보제공자(key informant) 면담 병행하기\n【1일차】gatekeeper(센터장) 서면 동의, 현장 규칙 3개 합의\n【2–8주차】주 3회 4시간 참관, FN 매일 2페이지(기술+분석 분리)\n【면담】KI 4명 × 40분, 녹음·전사·동의\n【산출】사진 120장(메타태그), 오디오 18시간, 동의서 스캔\n【윤리】현장명 가명 'C공간'",
+              "relevance": "이 예시는 「채팅·게시판 아카이브」 상황에서 「비형식 면담·핵심정보제공자(key informant) 면담 병행하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 자료수집 태스크「비형식 면담·핵심정보제공자(key informant) 면담 병행하기」에 맞게 일정·도구·산출물·윤리를 구체적으로 적었습니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "강남·성수 공유오피스 12주 관찰",
+              "body": "【사례】강남·성수 공유오피스 12주 관찰\n【태스크】비형식 면담·핵심정보제공자(key informant) 면담 병행하기\n【1일차】gatekeeper(센터장) 서면 동의, 현장 규칙 3개 합의\n【2–8주차】주 3회 4시간 참관, FN 매일 2페이지(기술+분석 분리)\n【면담】KI 4명 × 40분, 녹음·전사·동의\n【산출】사진 120장(메타태그), 오디오 18시간, 동의서 스캔\n【윤리】현장명 가명 'C공간'",
+              "relevance": "이 예시는 「강남·성수 공유오피스 12주 관찰」 상황에서 「비형식 면담·핵심정보제공자(key informant) 면담 병행하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 자료수집 태스크「비형식 면담·핵심정보제공자(key informant) 면담 병행하기」에 맞게 일정·도구·산출물·윤리를 구체적으로 적었습니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "키 informant 4명(운영·이용)",
+              "body": "【사례】키 informant 4명(운영·이용)\n【태스크】비형식 면담·핵심정보제공자(key informant) 면담 병행하기\n【1일차】gatekeeper(센터장) 서면 동의, 현장 규칙 3개 합의\n【2–8주차】주 3회 4시간 참관, FN 매일 2페이지(기술+분석 분리)\n【면담】KI 4명 × 40분, 녹음·전사·동의\n【산출】사진 120장(메타태그), 오디오 18시간, 동의서 스캔\n【윤리】현장명 가명 'C공간'",
+              "relevance": "이 예시는 「키 informant 4명(운영·이용)」 상황에서 「비형식 면담·핵심정보제공자(key informant) 면담 병행하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 자료수집 태스크「비형식 면담·핵심정보제공자(key informant) 면담 병행하기」에 맞게 일정·도구·산출물·윤리를 구체적으로 적었습니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · 비형식 면담·핵심정보제공자(key informant) 면담 병행하기",
+            "kind": "interview",
+            "hint": "이 태스크(비형식 면담·핵심정보제공자(key informant) 면담 병행하기)의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": "b3-t2",
+          "nextTaskId": "b3-t4"
+        },
+        {
+          "id": "b3-t4",
+          "task": "4)사진·문서·유물 등 인공물(artifact) 수집하기",
+          "taskRaw": "4)사진·문서·유물 등 인공물(artifact) 수집하기",
+          "processKey": "collect",
+          "processLabel": "자료수집(Data Collection)",
+          "stageLabel": "①현장 접근(gatekeeper 섭외) 및 라포 형성 →②장기간 참여관찰(participant observation) 수행 →③비형식 면담·핵심정보제공자(key informant) 면담 병행 →④사진·문서·유물 등 인공물(artifact) 수집",
+          "why": "이 절차적 태스크(Procedural Task) '4)사진·문서·유물 등 인공물(artifact) 수집하기'는 민족지·참여관찰 아키타입(Ethnography–Participant Observation Archetype)의 '자료수집' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "표준 흐름: 1) 현장 접근(gatekeeper 섭외) 및 라포 형성 → 2) 장기간 참여관찰(participant observation) 수행 → 3) 비형식 면담·핵심정보제공자(key informant) 면담 병행 → 4) 사진·문서·유물 등 인공물(artifact) 수집. 각 하위 절차를 문서에 남기며 순서대로 실행하고, 완료 여부를 체크합니다.",
+          "protocol": "연구질문(Research Question)과 모집단(Population)을 먼저 문서화하고, 수집 도구·동의·기록 양식을 준비합니다. 수집 로그(날짜·출처·담당)를 남깁니다. 태스크 초점: 4)사진·문서·유물 등 인공물(artifact) 수집하기.",
+          "sampleExplain": "민족지·참여관찰 맥락에서 '4)사진·문서·유물 등 인공물(artifact) 수집하기' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'4)사진·문서·유물 등 인공물(artifact) 수집하기'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'4)사진·문서·유물 등 인공물(artifact) 수집하기'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 학교 급식 만족도 조사. 올바른 다음 행동은?",
+              "options": [
+                "모집단을 '우리 학교 전교생'으로 정의하고 표본 40명을 층화표집한다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 모집단을 '우리 학교 전교생'으로 정의하고 표본 40명을 층화표집한다.",
+              "usable": "실습: '학교 급식 만족도 조사'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'4)사진·문서·유물 등 인공물(artifact) 수집하기'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "main_survey",
+          "formFields": [
+            {
+              "key": "mode",
+              "label": "조사방식(Survey Mode)",
+              "placeholder": "예: 온라인(Google Forms)"
+            },
+            {
+              "key": "period",
+              "label": "조사기간(Field Period)",
+              "placeholder": "예: 5일, 리마인더 2회"
+            },
+            {
+              "key": "sent",
+              "label": "발송수(Invited n)",
+              "placeholder": "예: 1200"
+            },
+            {
+              "key": "responded",
+              "label": "응답수(Responded n)",
+              "placeholder": "예: 412"
+            },
+            {
+              "key": "structure",
+              "label": "자료구조(Data Structure)",
+              "type": "textarea",
+              "placeholder": "1행=1응답자, 1열=1변수 예시"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "키 informant 4명(운영·이용)",
+              "body": "【조사명】키 informant 4명(운영·이용)\n【모드】온라인(Google Forms) + 문자 리마인더 2회\n【기간】2025-04-07~04-14 (7일)\n【초대】1,240명 / 【완료】412명 (33.2%)\n【결측】소득 11건, 소요시간<120초 18건 제외 → 분석 n=389\n【변수】ID, Q1–Q28, 성별, 연령, 거주구, 소요초\n【품질】중복 IP 3건 삭제, attention check 2문항",
+              "relevance": "이 예시는 「키 informant 4명(운영·이용)」 상황에서 「사진·문서·유물 등 인공물(artifact) 수집하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 본조사 태스크는 초대·응답·제외 규칙과 변수 목록을 한 표처럼 적는 것이 핵심입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "공간 사용 사진·플로어맵",
+              "body": "【조사명】공간 사용 사진·플로어맵\n【모드】온라인(Google Forms) + 문자 리마인더 2회\n【기간】2025-04-07~04-14 (7일)\n【초대】1,240명 / 【완료】412명 (33.2%)\n【결측】소득 11건, 소요시간<120초 18건 제외 → 분석 n=389\n【변수】ID, Q1–Q28, 성별, 연령, 거주구, 소요초\n【품질】중복 IP 3건 삭제, attention check 2문항",
+              "relevance": "이 예시는 「공간 사용 사진·플로어맵」 상황에서 「사진·문서·유물 등 인공물(artifact) 수집하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 본조사 태스크는 초대·응답·제외 규칙과 변수 목록을 한 표처럼 적는 것이 핵심입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "커뮤니티 이벤트 5회 참관",
+              "body": "【조사명】커뮤니티 이벤트 5회 참관\n【모드】온라인(Google Forms) + 문자 리마인더 2회\n【기간】2025-04-07~04-14 (7일)\n【초대】1,240명 / 【완료】412명 (33.2%)\n【결측】소득 11건, 소요시간<120초 18건 제외 → 분석 n=389\n【변수】ID, Q1–Q28, 성별, 연령, 거주구, 소요초\n【품질】중복 IP 3건 삭제, attention check 2문항",
+              "relevance": "이 예시는 「커뮤니티 이벤트 5회 참관」 상황에서 「사진·문서·유물 등 인공물(artifact) 수집하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 본조사 태스크는 초대·응답·제외 규칙과 변수 목록을 한 표처럼 적는 것이 핵심입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "채팅·게시판 아카이브",
+              "body": "【조사명】채팅·게시판 아카이브\n【모드】온라인(Google Forms) + 문자 리마인더 2회\n【기간】2025-04-07~04-14 (7일)\n【초대】1,240명 / 【완료】412명 (33.2%)\n【결측】소득 11건, 소요시간<120초 18건 제외 → 분석 n=389\n【변수】ID, Q1–Q28, 성별, 연령, 거주구, 소요초\n【품질】중복 IP 3건 삭제, attention check 2문항",
+              "relevance": "이 예시는 「채팅·게시판 아카이브」 상황에서 「사진·문서·유물 등 인공물(artifact) 수집하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 본조사 태스크는 초대·응답·제외 규칙과 변수 목록을 한 표처럼 적는 것이 핵심입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "강남·성수 공유오피스 12주 관찰",
+              "body": "【조사명】강남·성수 공유오피스 12주 관찰\n【모드】온라인(Google Forms) + 문자 리마인더 2회\n【기간】2025-04-07~04-14 (7일)\n【초대】1,240명 / 【완료】412명 (33.2%)\n【결측】소득 11건, 소요시간<120초 18건 제외 → 분석 n=389\n【변수】ID, Q1–Q28, 성별, 연령, 거주구, 소요초\n【품질】중복 IP 3건 삭제, attention check 2문항",
+              "relevance": "이 예시는 「강남·성수 공유오피스 12주 관찰」 상황에서 「사진·문서·유물 등 인공물(artifact) 수집하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 본조사 태스크는 초대·응답·제외 규칙과 변수 목록을 한 표처럼 적는 것이 핵심입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · 사진·문서·유물 등 인공물(artifact) 수집하기",
+            "kind": "main_survey",
+            "hint": "이 태스크(사진·문서·유물 등 인공물(artifact) 수집하기)의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": "b3-t3",
+          "nextTaskId": null
+        }
+      ],
+      "prevStageId": null,
+      "nextStageId": "preprocess-86847"
+    },
+    {
+      "id": "preprocess-86847",
+      "processKey": "preprocess",
+      "processLabel": "전처리(Preprocessing)",
+      "name": "①매일 현장노트(fieldnotes)작성(기술적 노트+분석적 메모 구분) →②녹음자료 전사 →③자료를 사건·장소·시간별로 정리 및 색인화",
+      "name_ko": "①매일 현장노트(fieldnotes)작성(기술적 노트+분석적 메모 구분) →②녹음자료 전사 →③자료를 사건·장소·시간별로 정리 및 색인화",
+      "procedure": "①매일 현장노트(fieldnotes)작성(기술적 노트+분석적 메모 구분) →②녹음자료 전사 →③자료를 사건·장소·시간별로 정리 및 색인화",
+      "easy": "▸현장노트(fieldnotes): 현장에서 바로 적은 메모.(예: 관찰하며 수첩에 적기.)\n▸기술적 노트(descriptive notes): 본 것을 그대로 적은 메모.(예: '철수가 손을 들었다'.)\n▸분석적 메모(analytic memo): 본 것에 대한 내 생각·해석 메모.(예: '왜 손을 들었을까?' 라고 적기.)\n▸전사(transcription): 녹음을 글자로 그대로 옮기기.(예: 인터뷰 녹음을 받아쓰기.)\n▸색인화(indexing): 나중에 찾기 쉽게 목록·꼬리표 붙이기.(예: 책 뒤 '찾아보기'처럼 정리.)",
+      "terms": [
+        {
+          "term": "현장노트(fieldnotes)",
+          "term_ko": "현장노트",
+          "term_en": "fieldnotes",
+          "definition": "현장에서 바로 적은 메모. (예: 관찰하며 수첩에 적기.)"
+        },
+        {
+          "term": "기술적 노트(descriptive notes)",
+          "term_ko": "기술적 노트",
+          "term_en": "descriptive notes",
+          "definition": "본 것을 그대로 적은 메모. (예: '철수가 손을 들었다'.)"
+        },
+        {
+          "term": "분석적 메모(analytic memo)",
+          "term_ko": "분석적 메모",
+          "term_en": "analytic memo",
+          "definition": "본 것에 대한 내 생각·해석 메모. (예: '왜 손을 들었을까?' 라고 적기.)"
+        },
+        {
+          "term": "전사(transcription)",
+          "term_ko": "전사",
+          "term_en": "transcription",
+          "definition": "녹음을 글자로 그대로 옮기기. (예: 인터뷰 녹음을 받아쓰기.)"
+        },
+        {
+          "term": "색인화(indexing)",
+          "term_ko": "색인화",
+          "term_en": "indexing",
+          "definition": "나중에 찾기 쉽게 목록·꼬리표 붙이기. (예: 책 뒤 '찾아보기'처럼 정리.)"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "b3-t5",
+          "task": "1)매일 현장노트(fieldnotes)작성(기술적 노트+분석적 메모 구분)",
+          "taskRaw": "1)매일 현장노트(fieldnotes)작성(기술적 노트+분석적 메모 구분)",
+          "processKey": "preprocess",
+          "processLabel": "전처리(Preprocessing)",
+          "stageLabel": "①매일 현장노트(fieldnotes)작성(기술적 노트+분석적 메모 구분) →②녹음자료 전사 →③자료를 사건·장소·시간별로 정리 및 색인화",
+          "why": "이 절차적 태스크(Procedural Task) '1)매일 현장노트(fieldnotes)작성(기술적 노트+분석적 메모 구분)'는 민족지·참여관찰 아키타입(Ethnography–Participant Observation Archetype)의 '전처리' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "표준 흐름: 1) 매일 현장노트(fieldnotes)작성(기술적 노트+분석적 메모 구분) → 2) 녹음자료 전사 → 3) 자료를 사건·장소·시간별로 정리 및 색인화. 각 하위 절차를 문서에 남기며 순서대로 실행하고, 완료 여부를 체크합니다.",
+          "protocol": "원본은 보존하고 작업본에서만 수정합니다. 결측·이상치·코딩 규칙을 코드북(Codebook)에 기록합니다. 태스크 초점: 1)매일 현장노트(fieldnotes)작성(기술적 노트+분석적 메모 구분).",
+          "sampleExplain": "민족지·참여관찰 맥락에서 '1)매일 현장노트(fieldnotes)작성(기술적 노트+분석적 메모 구분)' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'1)매일 현장노트(fieldnotes)작성(기술적 노트+분석적 메모 구분)'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'1)매일 현장노트(fieldnotes)작성(기술적 노트+분석적 메모 구분)'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 응답 표에 빈칸·극단값 있음. 올바른 다음 행동은?",
+              "options": [
+                "결측치(Missing Value)와 이상치(Outlier)를 표시한 뒤 처리 규칙을 적용한다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 결측치(Missing Value)와 이상치(Outlier)를 표시한 뒤 처리 규칙을 적용한다.",
+              "usable": "실습: '응답 표에 빈칸·극단값 있음'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'1)매일 현장노트(fieldnotes)작성(기술적 노트+분석적 메모 구분)'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "ethnography_collect",
+          "formFields": [
+            {
+              "key": "context",
+              "label": "연구·현장 맥락(Context)",
+              "placeholder": "누구·어디·언제"
+            },
+            {
+              "key": "input",
+              "label": "입력자료(Input Materials)",
+              "type": "textarea",
+              "placeholder": "파일명·건수·출처"
+            },
+            {
+              "key": "procedure",
+              "label": "실행 절차(Procedure Steps)",
+              "type": "textarea",
+              "placeholder": "순서·도구·소요"
+            },
+            {
+              "key": "output",
+              "label": "산출물(Output)",
+              "type": "textarea",
+              "placeholder": "표·코드북·로그·파일"
+            },
+            {
+              "key": "quality",
+              "label": "품질·윤리 점검(Quality & Ethics)",
+              "placeholder": "동의·익명·검증"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "커뮤니티 이벤트 5회 참관",
+              "body": "【사례】커뮤니티 이벤트 5회 참관\n【원본】raw/20250312_T07.wav (SHA256 기록)\n【전사】Jefferson: (0.8) … (.) 침묵, [ ] 겹침\n【익명】학교명→S중, 지명→G구\n【QC】10% 재청취 오류율 1.2%\n【산출】transcripts/T07_v2.docx → NVivo import\n【로그】결측 발화 2건 [inaudible] 표기",
+              "relevance": "이 예시는 「커뮤니티 이벤트 5회 참관」 상황에서 「매일 현장노트(fieldnotes)작성(기술적 노트+분석적 메모 구분)」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 전처리는 원본 보존·전사 규칙·품질검사·파일명을 로그처럼 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "채팅·게시판 아카이브",
+              "body": "【사례】채팅·게시판 아카이브\n【원본】raw/20250312_T07.wav (SHA256 기록)\n【전사】Jefferson: (0.8) … (.) 침묵, [ ] 겹침\n【익명】학교명→S중, 지명→G구\n【QC】10% 재청취 오류율 1.2%\n【산출】transcripts/T07_v2.docx → NVivo import\n【로그】결측 발화 2건 [inaudible] 표기",
+              "relevance": "이 예시는 「채팅·게시판 아카이브」 상황에서 「매일 현장노트(fieldnotes)작성(기술적 노트+분석적 메모 구분)」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 전처리는 원본 보존·전사 규칙·품질검사·파일명을 로그처럼 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "강남·성수 공유오피스 12주 관찰",
+              "body": "【사례】강남·성수 공유오피스 12주 관찰\n【원본】raw/20250312_T07.wav (SHA256 기록)\n【전사】Jefferson: (0.8) … (.) 침묵, [ ] 겹침\n【익명】학교명→S중, 지명→G구\n【QC】10% 재청취 오류율 1.2%\n【산출】transcripts/T07_v2.docx → NVivo import\n【로그】결측 발화 2건 [inaudible] 표기",
+              "relevance": "이 예시는 「강남·성수 공유오피스 12주 관찰」 상황에서 「매일 현장노트(fieldnotes)작성(기술적 노트+분석적 메모 구분)」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 전처리는 원본 보존·전사 규칙·품질검사·파일명을 로그처럼 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "키 informant 4명(운영·이용)",
+              "body": "【사례】키 informant 4명(운영·이용)\n【원본】raw/20250312_T07.wav (SHA256 기록)\n【전사】Jefferson: (0.8) … (.) 침묵, [ ] 겹침\n【익명】학교명→S중, 지명→G구\n【QC】10% 재청취 오류율 1.2%\n【산출】transcripts/T07_v2.docx → NVivo import\n【로그】결측 발화 2건 [inaudible] 표기",
+              "relevance": "이 예시는 「키 informant 4명(운영·이용)」 상황에서 「매일 현장노트(fieldnotes)작성(기술적 노트+분석적 메모 구분)」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 전처리는 원본 보존·전사 규칙·품질검사·파일명을 로그처럼 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "공간 사용 사진·플로어맵",
+              "body": "【사례】공간 사용 사진·플로어맵\n【원본】raw/20250312_T07.wav (SHA256 기록)\n【전사】Jefferson: (0.8) … (.) 침묵, [ ] 겹침\n【익명】학교명→S중, 지명→G구\n【QC】10% 재청취 오류율 1.2%\n【산출】transcripts/T07_v2.docx → NVivo import\n【로그】결측 발화 2건 [inaudible] 표기",
+              "relevance": "이 예시는 「공간 사용 사진·플로어맵」 상황에서 「매일 현장노트(fieldnotes)작성(기술적 노트+분석적 메모 구분)」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 전처리는 원본 보존·전사 규칙·품질검사·파일명을 로그처럼 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · 매일 현장노트(fieldnotes)작성(기술적 노트+분석적 메모 구분)",
+            "kind": "ethnography_collect",
+            "hint": "이 태스크(매일 현장노트(fieldnotes)작성(기술적 노트+분석적 메모 구분))의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": null,
+          "nextTaskId": "b3-t6",
+          "linkPrevStageTaskId": "b3-t4"
+        },
+        {
+          "id": "b3-t6",
+          "task": "2) 녹음자료 전사(Procedural Task)",
+          "taskRaw": "2) 녹음자료 전사",
+          "processKey": "preprocess",
+          "processLabel": "전처리(Preprocessing)",
+          "stageLabel": "①매일 현장노트(fieldnotes)작성(기술적 노트+분석적 메모 구분) →②녹음자료 전사 →③자료를 사건·장소·시간별로 정리 및 색인화",
+          "why": "이 절차적 태스크(Procedural Task) '2) 녹음자료 전사'는 민족지·참여관찰 아키타입(Ethnography–Participant Observation Archetype)의 '전처리' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "표준 흐름: 1) 매일 현장노트(fieldnotes)작성(기술적 노트+분석적 메모 구분) → 2) 녹음자료 전사 → 3) 자료를 사건·장소·시간별로 정리 및 색인화. 각 하위 절차를 문서에 남기며 순서대로 실행하고, 완료 여부를 체크합니다.",
+          "protocol": "원본은 보존하고 작업본에서만 수정합니다. 결측·이상치·코딩 규칙을 코드북(Codebook)에 기록합니다. 태스크 초점: 2) 녹음자료 전사.",
+          "sampleExplain": "민족지·참여관찰 맥락에서 '2) 녹음자료 전사' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'2) 녹음자료 전사'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'2) 녹음자료 전사'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 응답 표에 빈칸·극단값 있음. 올바른 다음 행동은?",
+              "options": [
+                "결측치(Missing Value)와 이상치(Outlier)를 표시한 뒤 처리 규칙을 적용한다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 결측치(Missing Value)와 이상치(Outlier)를 표시한 뒤 처리 규칙을 적용한다.",
+              "usable": "실습: '응답 표에 빈칸·극단값 있음'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'2) 녹음자료 전사'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "fieldnotes",
+          "formFields": [
+            {
+              "key": "context",
+              "label": "연구·현장 맥락(Context)",
+              "placeholder": "누구·어디·언제"
+            },
+            {
+              "key": "input",
+              "label": "입력자료(Input Materials)",
+              "type": "textarea",
+              "placeholder": "파일명·건수·출처"
+            },
+            {
+              "key": "procedure",
+              "label": "실행 절차(Procedure Steps)",
+              "type": "textarea",
+              "placeholder": "순서·도구·소요"
+            },
+            {
+              "key": "output",
+              "label": "산출물(Output)",
+              "type": "textarea",
+              "placeholder": "표·코드북·로그·파일"
+            },
+            {
+              "key": "quality",
+              "label": "품질·윤리 점검(Quality & Ethics)",
+              "placeholder": "동의·익명·검증"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "채팅·게시판 아카이브",
+              "body": "【사례】채팅·게시판 아카이브\n【원본】raw/20250312_T07.wav (SHA256 기록)\n【전사】Jefferson: (0.8) … (.) 침묵, [ ] 겹침\n【익명】학교명→S중, 지명→G구\n【QC】10% 재청취 오류율 1.2%\n【산출】transcripts/T07_v2.docx → NVivo import\n【로그】결측 발화 2건 [inaudible] 표기",
+              "relevance": "이 예시는 「채팅·게시판 아카이브」 상황에서 「녹음자료 전사」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 전처리는 원본 보존·전사 규칙·품질검사·파일명을 로그처럼 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "강남·성수 공유오피스 12주 관찰",
+              "body": "【사례】강남·성수 공유오피스 12주 관찰\n【원본】raw/20250312_T07.wav (SHA256 기록)\n【전사】Jefferson: (0.8) … (.) 침묵, [ ] 겹침\n【익명】학교명→S중, 지명→G구\n【QC】10% 재청취 오류율 1.2%\n【산출】transcripts/T07_v2.docx → NVivo import\n【로그】결측 발화 2건 [inaudible] 표기",
+              "relevance": "이 예시는 「강남·성수 공유오피스 12주 관찰」 상황에서 「녹음자료 전사」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 전처리는 원본 보존·전사 규칙·품질검사·파일명을 로그처럼 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "키 informant 4명(운영·이용)",
+              "body": "【사례】키 informant 4명(운영·이용)\n【원본】raw/20250312_T07.wav (SHA256 기록)\n【전사】Jefferson: (0.8) … (.) 침묵, [ ] 겹침\n【익명】학교명→S중, 지명→G구\n【QC】10% 재청취 오류율 1.2%\n【산출】transcripts/T07_v2.docx → NVivo import\n【로그】결측 발화 2건 [inaudible] 표기",
+              "relevance": "이 예시는 「키 informant 4명(운영·이용)」 상황에서 「녹음자료 전사」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 전처리는 원본 보존·전사 규칙·품질검사·파일명을 로그처럼 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "공간 사용 사진·플로어맵",
+              "body": "【사례】공간 사용 사진·플로어맵\n【원본】raw/20250312_T07.wav (SHA256 기록)\n【전사】Jefferson: (0.8) … (.) 침묵, [ ] 겹침\n【익명】학교명→S중, 지명→G구\n【QC】10% 재청취 오류율 1.2%\n【산출】transcripts/T07_v2.docx → NVivo import\n【로그】결측 발화 2건 [inaudible] 표기",
+              "relevance": "이 예시는 「공간 사용 사진·플로어맵」 상황에서 「녹음자료 전사」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 전처리는 원본 보존·전사 규칙·품질검사·파일명을 로그처럼 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "커뮤니티 이벤트 5회 참관",
+              "body": "【사례】커뮤니티 이벤트 5회 참관\n【원본】raw/20250312_T07.wav (SHA256 기록)\n【전사】Jefferson: (0.8) … (.) 침묵, [ ] 겹침\n【익명】학교명→S중, 지명→G구\n【QC】10% 재청취 오류율 1.2%\n【산출】transcripts/T07_v2.docx → NVivo import\n【로그】결측 발화 2건 [inaudible] 표기",
+              "relevance": "이 예시는 「커뮤니티 이벤트 5회 참관」 상황에서 「녹음자료 전사」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 전처리는 원본 보존·전사 규칙·품질검사·파일명을 로그처럼 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · 녹음자료 전사",
+            "kind": "fieldnotes",
+            "hint": "이 태스크(녹음자료 전사)의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": "b3-t5",
+          "nextTaskId": "b3-t7"
+        },
+        {
+          "id": "b3-t7",
+          "task": "3) 자료를 사건·장소·시간별로 정리 및 색인화(Procedural Task)",
+          "taskRaw": "3) 자료를 사건·장소·시간별로 정리 및 색인화",
+          "processKey": "preprocess",
+          "processLabel": "전처리(Preprocessing)",
+          "stageLabel": "①매일 현장노트(fieldnotes)작성(기술적 노트+분석적 메모 구분) →②녹음자료 전사 →③자료를 사건·장소·시간별로 정리 및 색인화",
+          "why": "이 절차적 태스크(Procedural Task) '3) 자료를 사건·장소·시간별로 정리 및 색인화'는 민족지·참여관찰 아키타입(Ethnography–Participant Observation Archetype)의 '전처리' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "표준 흐름: 1) 매일 현장노트(fieldnotes)작성(기술적 노트+분석적 메모 구분) → 2) 녹음자료 전사 → 3) 자료를 사건·장소·시간별로 정리 및 색인화. 각 하위 절차를 문서에 남기며 순서대로 실행하고, 완료 여부를 체크합니다.",
+          "protocol": "원본은 보존하고 작업본에서만 수정합니다. 결측·이상치·코딩 규칙을 코드북(Codebook)에 기록합니다. 태스크 초점: 3) 자료를 사건·장소·시간별로 정리 및 색인화.",
+          "sampleExplain": "민족지·참여관찰 맥락에서 '3) 자료를 사건·장소·시간별로 정리 및 색인화' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'3) 자료를 사건·장소·시간별로 정리 및 색인화'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'3) 자료를 사건·장소·시간별로 정리 및 색인화'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 응답 표에 빈칸·극단값 있음. 올바른 다음 행동은?",
+              "options": [
+                "결측치(Missing Value)와 이상치(Outlier)를 표시한 뒤 처리 규칙을 적용한다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 결측치(Missing Value)와 이상치(Outlier)를 표시한 뒤 처리 규칙을 적용한다.",
+              "usable": "실습: '응답 표에 빈칸·극단값 있음'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'3) 자료를 사건·장소·시간별로 정리 및 색인화'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "fieldnotes",
+          "formFields": [
+            {
+              "key": "context",
+              "label": "연구·현장 맥락(Context)",
+              "placeholder": "누구·어디·언제"
+            },
+            {
+              "key": "input",
+              "label": "입력자료(Input Materials)",
+              "type": "textarea",
+              "placeholder": "파일명·건수·출처"
+            },
+            {
+              "key": "procedure",
+              "label": "실행 절차(Procedure Steps)",
+              "type": "textarea",
+              "placeholder": "순서·도구·소요"
+            },
+            {
+              "key": "output",
+              "label": "산출물(Output)",
+              "type": "textarea",
+              "placeholder": "표·코드북·로그·파일"
+            },
+            {
+              "key": "quality",
+              "label": "품질·윤리 점검(Quality & Ethics)",
+              "placeholder": "동의·익명·검증"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "키 informant 4명(운영·이용)",
+              "body": "【사례】키 informant 4명(운영·이용)\n【원본】raw/20250312_T07.wav (SHA256 기록)\n【전사】Jefferson: (0.8) … (.) 침묵, [ ] 겹침\n【익명】학교명→S중, 지명→G구\n【QC】10% 재청취 오류율 1.2%\n【산출】transcripts/T07_v2.docx → NVivo import\n【로그】결측 발화 2건 [inaudible] 표기",
+              "relevance": "이 예시는 「키 informant 4명(운영·이용)」 상황에서 「자료를 사건·장소·시간별로 정리 및 색인화」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 전처리는 원본 보존·전사 규칙·품질검사·파일명을 로그처럼 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "공간 사용 사진·플로어맵",
+              "body": "【사례】공간 사용 사진·플로어맵\n【원본】raw/20250312_T07.wav (SHA256 기록)\n【전사】Jefferson: (0.8) … (.) 침묵, [ ] 겹침\n【익명】학교명→S중, 지명→G구\n【QC】10% 재청취 오류율 1.2%\n【산출】transcripts/T07_v2.docx → NVivo import\n【로그】결측 발화 2건 [inaudible] 표기",
+              "relevance": "이 예시는 「공간 사용 사진·플로어맵」 상황에서 「자료를 사건·장소·시간별로 정리 및 색인화」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 전처리는 원본 보존·전사 규칙·품질검사·파일명을 로그처럼 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "커뮤니티 이벤트 5회 참관",
+              "body": "【사례】커뮤니티 이벤트 5회 참관\n【원본】raw/20250312_T07.wav (SHA256 기록)\n【전사】Jefferson: (0.8) … (.) 침묵, [ ] 겹침\n【익명】학교명→S중, 지명→G구\n【QC】10% 재청취 오류율 1.2%\n【산출】transcripts/T07_v2.docx → NVivo import\n【로그】결측 발화 2건 [inaudible] 표기",
+              "relevance": "이 예시는 「커뮤니티 이벤트 5회 참관」 상황에서 「자료를 사건·장소·시간별로 정리 및 색인화」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 전처리는 원본 보존·전사 규칙·품질검사·파일명을 로그처럼 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "채팅·게시판 아카이브",
+              "body": "【사례】채팅·게시판 아카이브\n【원본】raw/20250312_T07.wav (SHA256 기록)\n【전사】Jefferson: (0.8) … (.) 침묵, [ ] 겹침\n【익명】학교명→S중, 지명→G구\n【QC】10% 재청취 오류율 1.2%\n【산출】transcripts/T07_v2.docx → NVivo import\n【로그】결측 발화 2건 [inaudible] 표기",
+              "relevance": "이 예시는 「채팅·게시판 아카이브」 상황에서 「자료를 사건·장소·시간별로 정리 및 색인화」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 전처리는 원본 보존·전사 규칙·품질검사·파일명을 로그처럼 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "강남·성수 공유오피스 12주 관찰",
+              "body": "【사례】강남·성수 공유오피스 12주 관찰\n【원본】raw/20250312_T07.wav (SHA256 기록)\n【전사】Jefferson: (0.8) … (.) 침묵, [ ] 겹침\n【익명】학교명→S중, 지명→G구\n【QC】10% 재청취 오류율 1.2%\n【산출】transcripts/T07_v2.docx → NVivo import\n【로그】결측 발화 2건 [inaudible] 표기",
+              "relevance": "이 예시는 「강남·성수 공유오피스 12주 관찰」 상황에서 「자료를 사건·장소·시간별로 정리 및 색인화」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 전처리는 원본 보존·전사 규칙·품질검사·파일명을 로그처럼 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · 자료를 사건·장소·시간별로 정리 및 색인화",
+            "kind": "fieldnotes",
+            "hint": "이 태스크(자료를 사건·장소·시간별로 정리 및 색인화)의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": "b3-t6",
+          "nextTaskId": null
+        }
+      ],
+      "prevStageId": "collect-11081",
+      "nextStageId": "coding-56330"
+    },
+    {
+      "id": "coding-56330",
+      "processKey": "coding",
+      "processLabel": "코딩(Coding)",
+      "name": "①기술적 코딩(descriptive coding)으로 초기 범주 부여 →②패턴코딩(pattern coding)으로 반복되는 주제·규범 식별 →③주제 간 관계를 개념적으로 통합 →④두꺼운 기술(thick description)로 문화적 의미 해석",
+      "name_ko": "①기술적 코딩(descriptive coding)으로 초기 범주 부여 →②패턴코딩(pattern coding)으로 반복되는 주제·규범 식별 →③주제 간 관계를 개념적으로 통합 →④두꺼운 기술(thick description)로 문화적 의미 해석",
+      "procedure": "①기술적 코딩(descriptive coding)으로 초기 범주 부여 →②패턴코딩(pattern coding)으로 반복되는 주제·규범 식별 →③주제 간 관계를 개념적으로 통합 →④두꺼운 기술(thick description)로 문화적 의미 해석",
+      "easy": "▸기술적 코딩(descriptive coding): 내용을 요약한 한 단어로 표시.(예: 문단에 '점심시간' 딱지.)\n▸패턴코딩(pattern coding): 반복되는 규칙·패턴을 찾아 묶기.(예: 자주 나오는 행동 묶기.)\n▸개념적(conceptual coding):겉말이 아니라 속뜻(개념)으로 분류.(예: 여러 말을 '불안'이라는 개념으로 묶기.)\n▸두꺼운 기술(thick description): 상황·속뜻까지 아주 자세히 풀어 쓰기.(예: 윙크를 '왜·어떤 뜻인지'까지 설명.)",
+      "terms": [
+        {
+          "term": "기술적 코딩(descriptive coding)",
+          "term_ko": "기술적 코딩",
+          "term_en": "descriptive coding",
+          "definition": "내용을 요약한 한 단어로 표시. (예: 문단에 '점심시간' 딱지.)"
+        },
+        {
+          "term": "패턴코딩(pattern coding)",
+          "term_ko": "패턴코딩",
+          "term_en": "pattern coding",
+          "definition": "반복되는 규칙·패턴을 찾아 묶기. (예: 자주 나오는 행동 묶기.)"
+        },
+        {
+          "term": "개념적(conceptual coding)",
+          "term_ko": "개념적",
+          "term_en": "conceptual coding",
+          "definition": "겉말이 아니라 속뜻(개념)으로 분류. (예: 여러 말을 '불안'이라는 개념으로 묶기.)"
+        },
+        {
+          "term": "두꺼운 기술(thick description)",
+          "term_ko": "두꺼운 기술",
+          "term_en": "thick description",
+          "definition": "상황·속뜻까지 아주 자세히 풀어 쓰기. (예: 윙크를 '왜·어떤 뜻인지'까지 설명.)"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "b3-t8",
+          "task": "1)기술적 코딩(descriptive coding)으로 초기 범주 부여하기",
+          "taskRaw": "1)기술적 코딩(descriptive coding)으로 초기 범주 부여하기",
+          "processKey": "coding",
+          "processLabel": "코딩(Coding)",
+          "stageLabel": "①기술적 코딩(descriptive coding)으로 초기 범주 부여 →②패턴코딩(pattern coding)으로 반복되는 주제·규범 식별 →③주제 간 관계를 개념적으로 통합 →④두꺼운 기술(thick description)로 문화적 의미 해석",
+          "why": "이 절차적 태스크(Procedural Task) '1)기술적 코딩(descriptive coding)으로 초기 범주 부여하기'는 민족지·참여관찰 아키타입(Ethnography–Participant Observation Archetype)의 '코딩' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "표준 흐름: 1) 기술적 코딩(descriptive coding)으로 초기 범주 부여 → 2) 패턴코딩(pattern coding)으로 반복되는 주제·규범 식별 → 3) 주제 간 관계를 개념적으로 통합 → 4) 두꺼운 기술(thick description)로 문화적 의미 해석. 각 하위 절차를 문서에 남기며 순서대로 실행하고, 완료 여부를 체크합니다.",
+          "protocol": "코드북(Codebook)을 사전 정의하고, 이중코딩(Double Coding) 또는 동료검토로 일관성을 점검합니다. 태스크 초점: 1)기술적 코딩(descriptive coding)으로 초기 범주 부여하기.",
+          "sampleExplain": "민족지·참여관찰 맥락에서 '1)기술적 코딩(descriptive coding)으로 초기 범주 부여하기' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'1)기술적 코딩(descriptive coding)으로 초기 범주 부여하기'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'1)기술적 코딩(descriptive coding)으로 초기 범주 부여하기'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 인터뷰 문장 20개. 올바른 다음 행동은?",
+              "options": [
+                "비슷한 뜻끼리 코드(Code)를 붙이고 상위 범주(Category)로 묶는다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 비슷한 뜻끼리 코드(Code)를 붙이고 상위 범주(Category)로 묶는다.",
+              "usable": "실습: '인터뷰 문장 20개'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'1)기술적 코딩(descriptive coding)으로 초기 범주 부여하기'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "qual_coding",
+          "formFields": [
+            {
+              "key": "codebook",
+              "label": "코드북 조항(Codebook Entry)",
+              "type": "textarea",
+              "placeholder": "코드명·정의·포함/제외 기준"
+            },
+            {
+              "key": "excerpt",
+              "label": "자료발췌(Excerpt)",
+              "type": "textarea"
+            },
+            {
+              "key": "code",
+              "label": "코드(Code)",
+              "placeholder": "in-vivo / 개념코드"
+            },
+            {
+              "key": "category",
+              "label": "범주(Category)"
+            },
+            {
+              "key": "memo",
+              "label": "분석메모(Analytic Memo)",
+              "type": "textarea"
+            },
+            {
+              "key": "audit",
+              "label": "감사기록(Audit Trail)",
+              "placeholder": "일시·코더·합의"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "커뮤니티 이벤트 5회 참관",
+              "body": "【출처】커뮤니티 이벤트 5회 참관 · 면담 T07 (2025-03-12, 52분)\n【원문·줄번호】L34–L38\n  \"화면 공유 버튼이 안 보여서 … 아이들이랑 … 그냥 PPT만 돌렸어요.\"\n【in-vivo 코드】화면공유_실패\n【1차 범주】기술적 장벽(Technical Barrier)\n【메모】'그냥'은 차선책 → Axial: 조건(원격)·행위(대체수업)·결과(상호작용 감소)\n【코더】A,B 독립 → 불일치 1건 합의 → κ=.84",
+              "relevance": "이 예시는 「커뮤니티 이벤트 5회 참관」 상황에서 「기술적 코딩(descriptive coding)으로 초기 범주 부여하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 개방코딩은 실제 발화 한 덩어리·줄번호·코드·왜 그 코드인지 메모까지 한 세트로 보여 줍니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "채팅·게시판 아카이브",
+              "body": "【출처】채팅·게시판 아카이브 · T03 L12–L15\n  \"연수는 많은데 … 우리 학교 상황이랑 … 맞는 예시가 없었어요.\"\n【코드】연수-현장_불일치\n【범주】제도-현장 간극(Policy-Practice Gap)\n【비교】T11 유사 발화 2건 → constant comparison\n【다음】Axial: 중재조건 '학년부장 지원' 연결 검토",
+              "relevance": "이 예시는 「채팅·게시판 아카이브」 상황에서 「기술적 코딩(descriptive coding)으로 초기 범주 부여하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. QL-008·질적 코딩 태스크는 비슷한 발화끼리 묶는 과정을 적어야 합니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "강남·성수 공유오피스 12주 관찰",
+              "body": "【출처】강남·성수 공유오피스 12주 관찰 · 현장노트 FN-2025-03-08\n  \"키보드 소리만 길게 … 침묵 4.2초 … '네, 알겠습니다'\"\n【코드】침묵_수용\n【범주】적응적 순응\n【화용】Jefferson (4.2) 표기 유지\n【감사】코드 정의를 코드북 v0.4에 반영",
+              "relevance": "이 예시는 「강남·성수 공유오피스 12주 관찰」 상황에서 「기술적 코딩(descriptive coding)으로 초기 범주 부여하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 현장·면담 혼합 시 노트와 전사를 같은 코드북으로 연결하는 예시입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "키 informant 4명(운영·이용)",
+              "body": "【출처】키 informant 4명(운영·이용) · T15 L67–L71\n  \"아이들이 먼저 … '선생님, 링크요' … 그때부터는 … 제가 따라가기만 …\"\n【코드】역할_역전\n【범주】교사-학생 역할 재협상\n【선택코딩 후보】'따라가기' 반복 7/22명 → 핵심범주 검토",
+              "relevance": "이 예시는 「키 informant 4명(운영·이용)」 상황에서 「기술적 코딩(descriptive coding)으로 초기 범주 부여하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 반복되는 표현(in-vivo)을 세어 핵심범주로 올리는 과정을 보여 줍니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "공간 사용 사진·플로어맵",
+              "body": "【출처】공간 사용 사진·플로어맵 · T02 L21–L24\n  \"학부모 문자가 … 부담 … 그래서 … 녹화본만 올렸어요.\"\n【코드】학부모_압력\n【범주】외부 이해관계자\n【삼각】공문 2건·동료 T05와 교차 확인",
+              "relevance": "이 예시는 「공간 사용 사진·플로어맵」 상황에서 「기술적 코딩(descriptive coding)으로 초기 범주 부여하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 코딩만이 아니라 문서로 교차 확인한 흔적을 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · 기술적 코딩(descriptive coding)으로 초기 범주 부여하기",
+            "kind": "qual_coding",
+            "hint": "이 태스크(기술적 코딩(descriptive coding)으로 초기 범주 부여하기)의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": null,
+          "nextTaskId": "b3-t9",
+          "linkPrevStageTaskId": "b3-t7"
+        },
+        {
+          "id": "b3-t9",
+          "task": "2)패턴코딩(pattern coding)으로 반복되는 주제·규범 식별",
+          "taskRaw": "2)패턴코딩(pattern coding)으로 반복되는 주제·규범 식별",
+          "processKey": "coding",
+          "processLabel": "코딩(Coding)",
+          "stageLabel": "①기술적 코딩(descriptive coding)으로 초기 범주 부여 →②패턴코딩(pattern coding)으로 반복되는 주제·규범 식별 →③주제 간 관계를 개념적으로 통합 →④두꺼운 기술(thick description)로 문화적 의미 해석",
+          "why": "이 절차적 태스크(Procedural Task) '2)패턴코딩(pattern coding)으로 반복되는 주제·규범 식별'는 민족지·참여관찰 아키타입(Ethnography–Participant Observation Archetype)의 '코딩' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "표준 흐름: 1) 기술적 코딩(descriptive coding)으로 초기 범주 부여 → 2) 패턴코딩(pattern coding)으로 반복되는 주제·규범 식별 → 3) 주제 간 관계를 개념적으로 통합 → 4) 두꺼운 기술(thick description)로 문화적 의미 해석. 각 하위 절차를 문서에 남기며 순서대로 실행하고, 완료 여부를 체크합니다.",
+          "protocol": "코드북(Codebook)을 사전 정의하고, 이중코딩(Double Coding) 또는 동료검토로 일관성을 점검합니다. 태스크 초점: 2)패턴코딩(pattern coding)으로 반복되는 주제·규범 식별.",
+          "sampleExplain": "민족지·참여관찰 맥락에서 '2)패턴코딩(pattern coding)으로 반복되는 주제·규범 식별' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'2)패턴코딩(pattern coding)으로 반복되는 주제·규범 식별'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'2)패턴코딩(pattern coding)으로 반복되는 주제·규범 식별'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 인터뷰 문장 20개. 올바른 다음 행동은?",
+              "options": [
+                "비슷한 뜻끼리 코드(Code)를 붙이고 상위 범주(Category)로 묶는다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 비슷한 뜻끼리 코드(Code)를 붙이고 상위 범주(Category)로 묶는다.",
+              "usable": "실습: '인터뷰 문장 20개'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'2)패턴코딩(pattern coding)으로 반복되는 주제·규범 식별'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "qual_coding",
+          "formFields": [
+            {
+              "key": "codebook",
+              "label": "코드북 조항(Codebook Entry)",
+              "type": "textarea",
+              "placeholder": "코드명·정의·포함/제외 기준"
+            },
+            {
+              "key": "excerpt",
+              "label": "자료발췌(Excerpt)",
+              "type": "textarea"
+            },
+            {
+              "key": "code",
+              "label": "코드(Code)",
+              "placeholder": "in-vivo / 개념코드"
+            },
+            {
+              "key": "category",
+              "label": "범주(Category)"
+            },
+            {
+              "key": "memo",
+              "label": "분석메모(Analytic Memo)",
+              "type": "textarea"
+            },
+            {
+              "key": "audit",
+              "label": "감사기록(Audit Trail)",
+              "placeholder": "일시·코더·합의"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "공간 사용 사진·플로어맵",
+              "body": "【출처】공간 사용 사진·플로어맵 · 면담 T07 (2025-03-12, 52분)\n【원문·줄번호】L34–L38\n  \"화면 공유 버튼이 안 보여서 … 아이들이랑 … 그냥 PPT만 돌렸어요.\"\n【in-vivo 코드】화면공유_실패\n【1차 범주】기술적 장벽(Technical Barrier)\n【메모】'그냥'은 차선책 → Axial: 조건(원격)·행위(대체수업)·결과(상호작용 감소)\n【코더】A,B 독립 → 불일치 1건 합의 → κ=.84",
+              "relevance": "이 예시는 「공간 사용 사진·플로어맵」 상황에서 「패턴코딩(pattern coding)으로 반복되는 주제·규범 식별」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 개방코딩은 실제 발화 한 덩어리·줄번호·코드·왜 그 코드인지 메모까지 한 세트로 보여 줍니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "커뮤니티 이벤트 5회 참관",
+              "body": "【출처】커뮤니티 이벤트 5회 참관 · T03 L12–L15\n  \"연수는 많은데 … 우리 학교 상황이랑 … 맞는 예시가 없었어요.\"\n【코드】연수-현장_불일치\n【범주】제도-현장 간극(Policy-Practice Gap)\n【비교】T11 유사 발화 2건 → constant comparison\n【다음】Axial: 중재조건 '학년부장 지원' 연결 검토",
+              "relevance": "이 예시는 「커뮤니티 이벤트 5회 참관」 상황에서 「패턴코딩(pattern coding)으로 반복되는 주제·규범 식별」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. QL-008·질적 코딩 태스크는 비슷한 발화끼리 묶는 과정을 적어야 합니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "채팅·게시판 아카이브",
+              "body": "【출처】채팅·게시판 아카이브 · 현장노트 FN-2025-03-08\n  \"키보드 소리만 길게 … 침묵 4.2초 … '네, 알겠습니다'\"\n【코드】침묵_수용\n【범주】적응적 순응\n【화용】Jefferson (4.2) 표기 유지\n【감사】코드 정의를 코드북 v0.4에 반영",
+              "relevance": "이 예시는 「채팅·게시판 아카이브」 상황에서 「패턴코딩(pattern coding)으로 반복되는 주제·규범 식별」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 현장·면담 혼합 시 노트와 전사를 같은 코드북으로 연결하는 예시입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "강남·성수 공유오피스 12주 관찰",
+              "body": "【출처】강남·성수 공유오피스 12주 관찰 · T15 L67–L71\n  \"아이들이 먼저 … '선생님, 링크요' … 그때부터는 … 제가 따라가기만 …\"\n【코드】역할_역전\n【범주】교사-학생 역할 재협상\n【선택코딩 후보】'따라가기' 반복 7/22명 → 핵심범주 검토",
+              "relevance": "이 예시는 「강남·성수 공유오피스 12주 관찰」 상황에서 「패턴코딩(pattern coding)으로 반복되는 주제·규범 식별」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 반복되는 표현(in-vivo)을 세어 핵심범주로 올리는 과정을 보여 줍니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "키 informant 4명(운영·이용)",
+              "body": "【출처】키 informant 4명(운영·이용) · T02 L21–L24\n  \"학부모 문자가 … 부담 … 그래서 … 녹화본만 올렸어요.\"\n【코드】학부모_압력\n【범주】외부 이해관계자\n【삼각】공문 2건·동료 T05와 교차 확인",
+              "relevance": "이 예시는 「키 informant 4명(운영·이용)」 상황에서 「패턴코딩(pattern coding)으로 반복되는 주제·규범 식별」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 코딩만이 아니라 문서로 교차 확인한 흔적을 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · 패턴코딩(pattern coding)으로 반복되는 주제·규범 식별",
+            "kind": "qual_coding",
+            "hint": "이 태스크(패턴코딩(pattern coding)으로 반복되는 주제·규범 식별)의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": "b3-t8",
+          "nextTaskId": "b3-t10"
+        },
+        {
+          "id": "b3-t10",
+          "task": "3) 주제 간 관계를 개념적으로 통합하기(Procedural Task)",
+          "taskRaw": "3) 주제 간 관계를 개념적으로 통합하기",
+          "processKey": "coding",
+          "processLabel": "코딩(Coding)",
+          "stageLabel": "①기술적 코딩(descriptive coding)으로 초기 범주 부여 →②패턴코딩(pattern coding)으로 반복되는 주제·규범 식별 →③주제 간 관계를 개념적으로 통합 →④두꺼운 기술(thick description)로 문화적 의미 해석",
+          "why": "이 절차적 태스크(Procedural Task) '3) 주제 간 관계를 개념적으로 통합하기'는 민족지·참여관찰 아키타입(Ethnography–Participant Observation Archetype)의 '코딩' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "표준 흐름: 1) 기술적 코딩(descriptive coding)으로 초기 범주 부여 → 2) 패턴코딩(pattern coding)으로 반복되는 주제·규범 식별 → 3) 주제 간 관계를 개념적으로 통합 → 4) 두꺼운 기술(thick description)로 문화적 의미 해석. 각 하위 절차를 문서에 남기며 순서대로 실행하고, 완료 여부를 체크합니다.",
+          "protocol": "코드북(Codebook)을 사전 정의하고, 이중코딩(Double Coding) 또는 동료검토로 일관성을 점검합니다. 태스크 초점: 3) 주제 간 관계를 개념적으로 통합하기.",
+          "sampleExplain": "민족지·참여관찰 맥락에서 '3) 주제 간 관계를 개념적으로 통합하기' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'3) 주제 간 관계를 개념적으로 통합하기'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'3) 주제 간 관계를 개념적으로 통합하기'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 인터뷰 문장 20개. 올바른 다음 행동은?",
+              "options": [
+                "비슷한 뜻끼리 코드(Code)를 붙이고 상위 범주(Category)로 묶는다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 비슷한 뜻끼리 코드(Code)를 붙이고 상위 범주(Category)로 묶는다.",
+              "usable": "실습: '인터뷰 문장 20개'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'3) 주제 간 관계를 개념적으로 통합하기'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "generic",
+          "formFields": [
+            {
+              "key": "context",
+              "label": "연구·현장 맥락(Context)",
+              "placeholder": "누구·어디·언제"
+            },
+            {
+              "key": "input",
+              "label": "입력자료(Input Materials)",
+              "type": "textarea",
+              "placeholder": "파일명·건수·출처"
+            },
+            {
+              "key": "procedure",
+              "label": "실행 절차(Procedure Steps)",
+              "type": "textarea",
+              "placeholder": "순서·도구·소요"
+            },
+            {
+              "key": "output",
+              "label": "산출물(Output)",
+              "type": "textarea",
+              "placeholder": "표·코드북·로그·파일"
+            },
+            {
+              "key": "quality",
+              "label": "품질·윤리 점검(Quality & Ethics)",
+              "placeholder": "동의·익명·검증"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "강남·성수 공유오피스 12주 관찰",
+              "body": "【코드북】강남·성수 공유오피스 12주 관찰 · v0.6\n코드: C14_디지털_피로\n정의: 디지털 도구 사용과 감정적 소진을 동시에 언급\n포함: '지친다'+'화면/플랫폼' 공존\n제외: 단순 '바쁘다'만 있는 경우\n예: T07 L34–L38\nκ(A,B)=.86 (n=120 segment)",
+              "relevance": "이 예시는 「강남·성수 공유오피스 12주 관찰」 상황에서 「주제 간 관계를 개념적으로 통합하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 코드북 태스크는 정의·포함/제외·예시 인용·신뢰도를 한 카드에 모읍니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "키 informant 4명(운영·이용)",
+              "body": "【코드북】키 informant 4명(운영·이용) · v0.6\n코드: C14_디지털_피로\n정의: 디지털 도구 사용과 감정적 소진을 동시에 언급\n포함: '지친다'+'화면/플랫폼' 공존\n제외: 단순 '바쁘다'만 있는 경우\n예: T07 L34–L38\nκ(A,B)=.86 (n=120 segment)",
+              "relevance": "이 예시는 「키 informant 4명(운영·이용)」 상황에서 「주제 간 관계를 개념적으로 통합하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 코드북 태스크는 정의·포함/제외·예시 인용·신뢰도를 한 카드에 모읍니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "공간 사용 사진·플로어맵",
+              "body": "【코드북】공간 사용 사진·플로어맵 · v0.6\n코드: C14_디지털_피로\n정의: 디지털 도구 사용과 감정적 소진을 동시에 언급\n포함: '지친다'+'화면/플랫폼' 공존\n제외: 단순 '바쁘다'만 있는 경우\n예: T07 L34–L38\nκ(A,B)=.86 (n=120 segment)",
+              "relevance": "이 예시는 「공간 사용 사진·플로어맵」 상황에서 「주제 간 관계를 개념적으로 통합하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 코드북 태스크는 정의·포함/제외·예시 인용·신뢰도를 한 카드에 모읍니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "커뮤니티 이벤트 5회 참관",
+              "body": "【코드북】커뮤니티 이벤트 5회 참관 · v0.6\n코드: C14_디지털_피로\n정의: 디지털 도구 사용과 감정적 소진을 동시에 언급\n포함: '지친다'+'화면/플랫폼' 공존\n제외: 단순 '바쁘다'만 있는 경우\n예: T07 L34–L38\nκ(A,B)=.86 (n=120 segment)",
+              "relevance": "이 예시는 「커뮤니티 이벤트 5회 참관」 상황에서 「주제 간 관계를 개념적으로 통합하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 코드북 태스크는 정의·포함/제외·예시 인용·신뢰도를 한 카드에 모읍니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "채팅·게시판 아카이브",
+              "body": "【코드북】채팅·게시판 아카이브 · v0.6\n코드: C14_디지털_피로\n정의: 디지털 도구 사용과 감정적 소진을 동시에 언급\n포함: '지친다'+'화면/플랫폼' 공존\n제외: 단순 '바쁘다'만 있는 경우\n예: T07 L34–L38\nκ(A,B)=.86 (n=120 segment)",
+              "relevance": "이 예시는 「채팅·게시판 아카이브」 상황에서 「주제 간 관계를 개념적으로 통합하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 코드북 태스크는 정의·포함/제외·예시 인용·신뢰도를 한 카드에 모읍니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · 주제 간 관계를 개념적으로 통합하기",
+            "kind": "generic",
+            "hint": "이 태스크(주제 간 관계를 개념적으로 통합하기)의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": "b3-t9",
+          "nextTaskId": "b3-t11"
+        },
+        {
+          "id": "b3-t11",
+          "task": "4)두꺼운 기술(thick description)로 문화적 의미 해석하기",
+          "taskRaw": "4)두꺼운 기술(thick description)로 문화적 의미 해석하기",
+          "processKey": "coding",
+          "processLabel": "코딩(Coding)",
+          "stageLabel": "①기술적 코딩(descriptive coding)으로 초기 범주 부여 →②패턴코딩(pattern coding)으로 반복되는 주제·규범 식별 →③주제 간 관계를 개념적으로 통합 →④두꺼운 기술(thick description)로 문화적 의미 해석",
+          "why": "이 절차적 태스크(Procedural Task) '4)두꺼운 기술(thick description)로 문화적 의미 해석하기'는 민족지·참여관찰 아키타입(Ethnography–Participant Observation Archetype)의 '코딩' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "표준 흐름: 1) 기술적 코딩(descriptive coding)으로 초기 범주 부여 → 2) 패턴코딩(pattern coding)으로 반복되는 주제·규범 식별 → 3) 주제 간 관계를 개념적으로 통합 → 4) 두꺼운 기술(thick description)로 문화적 의미 해석. 각 하위 절차를 문서에 남기며 순서대로 실행하고, 완료 여부를 체크합니다.",
+          "protocol": "코드북(Codebook)을 사전 정의하고, 이중코딩(Double Coding) 또는 동료검토로 일관성을 점검합니다. 태스크 초점: 4)두꺼운 기술(thick description)로 문화적 의미 해석하기.",
+          "sampleExplain": "민족지·참여관찰 맥락에서 '4)두꺼운 기술(thick description)로 문화적 의미 해석하기' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'4)두꺼운 기술(thick description)로 문화적 의미 해석하기'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'4)두꺼운 기술(thick description)로 문화적 의미 해석하기'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 인터뷰 문장 20개. 올바른 다음 행동은?",
+              "options": [
+                "비슷한 뜻끼리 코드(Code)를 붙이고 상위 범주(Category)로 묶는다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 비슷한 뜻끼리 코드(Code)를 붙이고 상위 범주(Category)로 묶는다.",
+              "usable": "실습: '인터뷰 문장 20개'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'4)두꺼운 기술(thick description)로 문화적 의미 해석하기'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "result_viz",
+          "formFields": [
+            {
+              "key": "figure_type",
+              "label": "그래프 유형(Chart Type)",
+              "placeholder": "bar|line|scatter|hist|box"
+            },
+            {
+              "key": "table",
+              "label": "결과표(Result Table)",
+              "type": "textarea"
+            },
+            {
+              "key": "interp",
+              "label": "해석(Interpretation)",
+              "type": "textarea"
+            },
+            {
+              "key": "limitation",
+              "label": "한계(Limitation)",
+              "type": "textarea"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "키 informant 4명(운영·이용)",
+              "body": "【연구질문】도시 청년 공유오피스 문화 — 두꺼운 기술(thick description)로 문화적 의미 해석하기\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】민족지·참여관찰 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「키 informant 4명(운영·이용)」 상황에서 「두꺼운 기술(thick description)로 문화적 의미 해석하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "공간 사용 사진·플로어맵",
+              "body": "【연구질문】도시 청년 공유오피스 문화 — 두꺼운 기술(thick description)로 문화적 의미 해석하기\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】민족지·참여관찰 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「공간 사용 사진·플로어맵」 상황에서 「두꺼운 기술(thick description)로 문화적 의미 해석하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "커뮤니티 이벤트 5회 참관",
+              "body": "【연구질문】도시 청년 공유오피스 문화 — 두꺼운 기술(thick description)로 문화적 의미 해석하기\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】민족지·참여관찰 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「커뮤니티 이벤트 5회 참관」 상황에서 「두꺼운 기술(thick description)로 문화적 의미 해석하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "채팅·게시판 아카이브",
+              "body": "【연구질문】도시 청년 공유오피스 문화 — 두꺼운 기술(thick description)로 문화적 의미 해석하기\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】민족지·참여관찰 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「채팅·게시판 아카이브」 상황에서 「두꺼운 기술(thick description)로 문화적 의미 해석하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "강남·성수 공유오피스 12주 관찰",
+              "body": "【연구질문】도시 청년 공유오피스 문화 — 두꺼운 기술(thick description)로 문화적 의미 해석하기\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】민족지·참여관찰 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「강남·성수 공유오피스 12주 관찰」 상황에서 「두꺼운 기술(thick description)로 문화적 의미 해석하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · 두꺼운 기술(thick description)로 문화적 의미 해석하기",
+            "kind": "result_viz",
+            "hint": "이 태스크(두꺼운 기술(thick description)로 문화적 의미 해석하기)의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": "b3-t10",
+          "nextTaskId": null
+        }
+      ],
+      "prevStageId": "preprocess-86847",
+      "nextStageId": "stats-65898"
+    },
+    {
+      "id": "stats-65898",
+      "processKey": "stats",
+      "processLabel": "통계기법(Statistical Technique)",
+      "name": "①원칙적으로 통계 미사용 →②필요시 참여자 인구통계·행동빈도의 기초빈도/백분율만 보조적으로 제시",
+      "name_ko": "①원칙적으로 통계 미사용 →②필요시 참여자 인구통계·행동빈도의 기초빈도/백분율만 보조적으로 제시",
+      "procedure": "①원칙적으로 통계 미사용 →②필요시 참여자 인구통계·행동빈도의 기초빈도/백분율만 보조적으로 제시",
+      "easy": "▸기초빈도(basic frequency): 가장 단순한 횟수 세기.(예: '남 20명, 여 15명'.)",
+      "terms": [
+        {
+          "term": "기초빈도(basic frequency)",
+          "term_ko": "기초빈도",
+          "term_en": "basic frequency",
+          "definition": "가장 단순한 횟수 세기. (예: '남 20명, 여 15명'.)"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "b3-t12",
+          "task": "1) 원칙적으로 통계 미사용(Procedural Task)",
+          "taskRaw": "1) 원칙적으로 통계 미사용",
+          "processKey": "stats",
+          "processLabel": "통계기법(Statistical Technique)",
+          "stageLabel": "①원칙적으로 통계 미사용 →②필요시 참여자 인구통계·행동빈도의 기초빈도/백분율만 보조적으로 제시",
+          "why": "이 절차적 태스크(Procedural Task) '1) 원칙적으로 통계 미사용'는 민족지·참여관찰 아키타입(Ethnography–Participant Observation Archetype)의 '통계기법' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "표준 흐름: 1) 원칙적으로 통계 미사용 → 2) 필요시 참여자 인구통계·행동빈도의 기초빈도/백분율만 보조적으로 제시. 각 하위 절차를 문서에 남기며 순서대로 실행하고, 완료 여부를 체크합니다.",
+          "protocol": "분석 전 가정 검토(Assumption Checking)를 수행하고, 사용한 모형·소프트웨어·옵션을 재현 가능하게 기록합니다. 태스크 초점: 1) 원칙적으로 통계 미사용.",
+          "sampleExplain": "민족지·참여관찰 맥락에서 '1) 원칙적으로 통계 미사용' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'1) 원칙적으로 통계 미사용'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'1) 원칙적으로 통계 미사용'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 두 반 평균 점수 비교. 올바른 다음 행동은?",
+              "options": [
+                "기술통계(Descriptive Statistics) 후 t검정(t-test) 가정을 점검한다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 기술통계(Descriptive Statistics) 후 t검정(t-test) 가정을 점검한다.",
+              "usable": "실습: '두 반 평균 점수 비교'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'1) 원칙적으로 통계 미사용'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "generic",
+          "formFields": [
+            {
+              "key": "context",
+              "label": "연구·현장 맥락(Context)",
+              "placeholder": "누구·어디·언제"
+            },
+            {
+              "key": "input",
+              "label": "입력자료(Input Materials)",
+              "type": "textarea",
+              "placeholder": "파일명·건수·출처"
+            },
+            {
+              "key": "procedure",
+              "label": "실행 절차(Procedure Steps)",
+              "type": "textarea",
+              "placeholder": "순서·도구·소요"
+            },
+            {
+              "key": "output",
+              "label": "산출물(Output)",
+              "type": "textarea",
+              "placeholder": "표·코드북·로그·파일"
+            },
+            {
+              "key": "quality",
+              "label": "품질·윤리 점검(Quality & Ethics)",
+              "placeholder": "동의·익명·검증"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "채팅·게시판 아카이브",
+              "body": "【분석】채팅·게시판 아카이브 · 기술통계\nN=389, 직무만족 M=3.62, SD=0.71, 왜도=−0.18, 첨도=0.04\n성별: 남 203(52.2%), 여 186(47.8%)\nCronbach α=.89 (8문항)\n【표】Table 1. Sample characteristics (APA)",
+              "relevance": "이 예시는 「채팅·게시판 아카이브」 상황에서 「원칙적으로 통계 미사용」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 기술통계 태스크는 N·평균·SD·빈도를 실제 숫자로 채운 표 형식이어야 합니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "강남·성수 공유오피스 12주 관찰",
+              "body": "【가설】H1: 실험>대조 (직무만족)\nLevene p=.31 → t(387)=2.91, p=.004, Cohen d=0.37\n실험 M=3.78 (SD=.68), 대조 M=3.51 (SD=.74)\n【보고】95% CI diff [0.09, 0.45]",
+              "relevance": "이 예시는 「강남·성수 공유오피스 12주 관찰」 상황에서 「원칙적으로 통계 미사용」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. t검정·ANOVA 태스크는 가정검정→검정통계량→효과크기 순으로 적습니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "키 informant 4명(운영·이용)",
+              "body": "【모형】OLS: 만족 ~ 스트레스 + 지원 + 성별\nF(3,385)=42.1, p<.001, R²adj=.234\nβ(스트레스)=−.31, SE=.06, p<.001; VIFmax=1.8\n【잔차】Durbin-Watson=1.97",
+              "relevance": "이 예시는 「키 informant 4명(운영·이용)」 상황에서 「원칙적으로 통계 미사용」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 회귀 예시는 계수표·모형적합·다중공선성을 함께 제시합니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "공간 사용 사진·플로어맵",
+              "body": "【SEM】CFA 3요인, n=389\nχ²/df=1.82, CFI=.962, TLI=.951, RMSEA=.046 [.038–.054], SRMR=.038\n적재량 .62–.84\n【경로】조직지지 → 몰입 β=.42*** → 이직의도 β=−.28***",
+              "relevance": "이 예시는 「공간 사용 사진·플로어맵」 상황에서 「원칙적으로 통계 미사용」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. SEM/요인 태스크는 적합도 지수와 경로를 구분해 적습니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "커뮤니티 이벤트 5회 참관",
+              "body": "【메타】k=18 RCT, random effects\nPooled SMD=0.41, 95% CI [0.28, 0.54], I²=42%, τ²=.04\nEgger p=.18, funnel 대칭\n【민감】고위험 편향 3편 제외 후 SMD=0.38",
+              "relevance": "이 예시는 「커뮤니티 이벤트 5회 참관」 상황에서 「원칙적으로 통계 미사용」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 메타분석은 효과크기·이질성·편향 점검을 한 블록으로 씁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · 원칙적으로 통계 미사용",
+            "kind": "generic",
+            "hint": "이 태스크(원칙적으로 통계 미사용)의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": null,
+          "nextTaskId": "b3-t13",
+          "linkPrevStageTaskId": "b3-t11"
+        },
+        {
+          "id": "b3-t13",
+          "task": "2) 필요시 참여자 인구통계·행동빈도의 기초빈도/백분율만 보조적으로 제시하기(Procedural Task)",
+          "taskRaw": "2) 필요시 참여자 인구통계·행동빈도의 기초빈도/백분율만 보조적으로 제시하기",
+          "processKey": "stats",
+          "processLabel": "통계기법(Statistical Technique)",
+          "stageLabel": "①원칙적으로 통계 미사용 →②필요시 참여자 인구통계·행동빈도의 기초빈도/백분율만 보조적으로 제시",
+          "why": "이 절차적 태스크(Procedural Task) '2) 필요시 참여자 인구통계·행동빈도의 기초빈도/백분율만 보조적으로 제시하기'는 민족지·참여관찰 아키타입(Ethnography–Participant Observation Archetype)의 '통계기법' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "표준 흐름: 1) 원칙적으로 통계 미사용 → 2) 필요시 참여자 인구통계·행동빈도의 기초빈도/백분율만 보조적으로 제시. 각 하위 절차를 문서에 남기며 순서대로 실행하고, 완료 여부를 체크합니다.",
+          "protocol": "분석 전 가정 검토(Assumption Checking)를 수행하고, 사용한 모형·소프트웨어·옵션을 재현 가능하게 기록합니다. 태스크 초점: 2) 필요시 참여자 인구통계·행동빈도의 기초빈도/백분율만 보조적으로 제시하기.",
+          "sampleExplain": "민족지·참여관찰 맥락에서 '2) 필요시 참여자 인구통계·행동빈도의 기초빈도/백분율만 보조적으로 제시하기' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'2) 필요시 참여자 인구통계·행동빈도의 기초빈도/백분율만 보조적으로 제시하기'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'2) 필요시 참여자 인구통계·행동빈도의 기초빈도/백분율만 보조적으로 제시하기'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 두 반 평균 점수 비교. 올바른 다음 행동은?",
+              "options": [
+                "기술통계(Descriptive Statistics) 후 t검정(t-test) 가정을 점검한다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 기술통계(Descriptive Statistics) 후 t검정(t-test) 가정을 점검한다.",
+              "usable": "실습: '두 반 평균 점수 비교'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'2) 필요시 참여자 인구통계·행동빈도의 기초빈도/백분율만 보조적으로 제시하기'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "descriptive",
+          "formFields": [
+            {
+              "key": "var",
+              "label": "변수(Variable)",
+              "placeholder": "예: 직무만족"
+            },
+            {
+              "key": "stats",
+              "label": "기술통계(Descriptives)",
+              "type": "textarea",
+              "placeholder": "평균, SD, 범위, 빈도"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "공간 사용 사진·플로어맵",
+              "body": "【분석】공간 사용 사진·플로어맵 · 기술통계\nN=389, 직무만족 M=3.62, SD=0.71, 왜도=−0.18, 첨도=0.04\n성별: 남 203(52.2%), 여 186(47.8%)\nCronbach α=.89 (8문항)\n【표】Table 1. Sample characteristics (APA)",
+              "relevance": "이 예시는 「공간 사용 사진·플로어맵」 상황에서 「필요시 참여자 인구통계·행동빈도의 기초빈도/백분율만 보조적으로 제시하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 기술통계 태스크는 N·평균·SD·빈도를 실제 숫자로 채운 표 형식이어야 합니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "커뮤니티 이벤트 5회 참관",
+              "body": "【가설】H1: 실험>대조 (직무만족)\nLevene p=.31 → t(387)=2.91, p=.004, Cohen d=0.37\n실험 M=3.78 (SD=.68), 대조 M=3.51 (SD=.74)\n【보고】95% CI diff [0.09, 0.45]",
+              "relevance": "이 예시는 「커뮤니티 이벤트 5회 참관」 상황에서 「필요시 참여자 인구통계·행동빈도의 기초빈도/백분율만 보조적으로 제시하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. t검정·ANOVA 태스크는 가정검정→검정통계량→효과크기 순으로 적습니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "채팅·게시판 아카이브",
+              "body": "【모형】OLS: 만족 ~ 스트레스 + 지원 + 성별\nF(3,385)=42.1, p<.001, R²adj=.234\nβ(스트레스)=−.31, SE=.06, p<.001; VIFmax=1.8\n【잔차】Durbin-Watson=1.97",
+              "relevance": "이 예시는 「채팅·게시판 아카이브」 상황에서 「필요시 참여자 인구통계·행동빈도의 기초빈도/백분율만 보조적으로 제시하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 회귀 예시는 계수표·모형적합·다중공선성을 함께 제시합니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "강남·성수 공유오피스 12주 관찰",
+              "body": "【SEM】CFA 3요인, n=389\nχ²/df=1.82, CFI=.962, TLI=.951, RMSEA=.046 [.038–.054], SRMR=.038\n적재량 .62–.84\n【경로】조직지지 → 몰입 β=.42*** → 이직의도 β=−.28***",
+              "relevance": "이 예시는 「강남·성수 공유오피스 12주 관찰」 상황에서 「필요시 참여자 인구통계·행동빈도의 기초빈도/백분율만 보조적으로 제시하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. SEM/요인 태스크는 적합도 지수와 경로를 구분해 적습니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "키 informant 4명(운영·이용)",
+              "body": "【메타】k=18 RCT, random effects\nPooled SMD=0.41, 95% CI [0.28, 0.54], I²=42%, τ²=.04\nEgger p=.18, funnel 대칭\n【민감】고위험 편향 3편 제외 후 SMD=0.38",
+              "relevance": "이 예시는 「키 informant 4명(운영·이용)」 상황에서 「필요시 참여자 인구통계·행동빈도의 기초빈도/백분율만 보조적으로 제시하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 메타분석은 효과크기·이질성·편향 점검을 한 블록으로 씁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · 필요시 참여자 인구통계·행동빈도의 기초빈도/백분율만 보조적으로 제시하기",
+            "kind": "descriptive",
+            "hint": "이 태스크(필요시 참여자 인구통계·행동빈도의 기초빈도/백분율만 보조적으로 제시하기)의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": "b3-t12",
+          "nextTaskId": null
+        }
+      ],
+      "prevStageId": "coding-56330",
+      "nextStageId": "result-72802"
+    },
+    {
+      "id": "result-72802",
+      "processKey": "result",
+      "processLabel": "결과도출(Result Derivation)",
+      "name": "①현장노트·코딩 결과를 주제별로 통합 →②문화적 패턴·상징체계를 해석적으로 재구성 →③참여자 검토(member checking)로 타당성 확보",
+      "name_ko": "①현장노트·코딩 결과를 주제별로 통합 →②문화적 패턴·상징체계를 해석적으로 재구성 →③참여자 검토(member checking)로 타당성 확보",
+      "procedure": "①현장노트·코딩 결과를 주제별로 통합 →②문화적 패턴·상징체계를 해석적으로 재구성 →③참여자 검토(member checking)로 타당성 확보",
+      "easy": "▸현장노트(fieldnotes): 현장에서 바로 적은 메모.(예: 관찰하며 수첩에 적기.)\n▸참여자 검토(member checking): 당사자에게 결과 해석이 맞는지 확인받기.(예: 인터뷰한 사람에게 다시 확인.)",
+      "terms": [
+        {
+          "term": "현장노트(fieldnotes)",
+          "term_ko": "현장노트",
+          "term_en": "fieldnotes",
+          "definition": "현장에서 바로 적은 메모. (예: 관찰하며 수첩에 적기.)"
+        },
+        {
+          "term": "참여자 검토(member checking)",
+          "term_ko": "참여자 검토",
+          "term_en": "member checking",
+          "definition": "당사자에게 결과 해석이 맞는지 확인받기. (예: 인터뷰한 사람에게 다시 확인.)"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "b3-t14",
+          "task": "1) 현장노트·코딩 결과를 주제별로 통합하기(Procedural Task)",
+          "taskRaw": "1) 현장노트·코딩 결과를 주제별로 통합하기",
+          "processKey": "result",
+          "processLabel": "결과도출(Result Derivation)",
+          "stageLabel": "①현장노트·코딩 결과를 주제별로 통합 →②문화적 패턴·상징체계를 해석적으로 재구성 →③참여자 검토(member checking)로 타당성 확보",
+          "why": "이 절차적 태스크(Procedural Task) '1) 현장노트·코딩 결과를 주제별로 통합하기'는 민족지·참여관찰 아키타입(Ethnography–Participant Observation Archetype)의 '결과도출' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "표준 흐름: 1) 현장노트·코딩 결과를 주제별로 통합 → 2) 문화적 패턴·상징체계를 해석적으로 재구성 → 3) 참여자 검토(member checking)로 타당성 확보. 각 하위 절차를 문서에 남기며 순서대로 실행하고, 완료 여부를 체크합니다.",
+          "protocol": "결과표·그림·해석을 연구질문별로 대응시키고, 한계(Limitation)와 함의(Implication)를 함께 적습니다. 태스크 초점: 1) 현장노트·코딩 결과를 주제별로 통합하기.",
+          "sampleExplain": "민족지·참여관찰 맥락에서 '1) 현장노트·코딩 결과를 주제별로 통합하기' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'1) 현장노트·코딩 결과를 주제별로 통합하기'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'1) 현장노트·코딩 결과를 주제별로 통합하기'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 유의한 차이가 나옴. 올바른 다음 행동은?",
+              "options": [
+                "효과크기(Effect Size)와 함께 표·그림으로 해석한다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 효과크기(Effect Size)와 함께 표·그림으로 해석한다.",
+              "usable": "실습: '유의한 차이가 나옴'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'1) 현장노트·코딩 결과를 주제별로 통합하기'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "ethnography_collect",
+          "formFields": [
+            {
+              "key": "context",
+              "label": "연구·현장 맥락(Context)",
+              "placeholder": "누구·어디·언제"
+            },
+            {
+              "key": "input",
+              "label": "입력자료(Input Materials)",
+              "type": "textarea",
+              "placeholder": "파일명·건수·출처"
+            },
+            {
+              "key": "procedure",
+              "label": "실행 절차(Procedure Steps)",
+              "type": "textarea",
+              "placeholder": "순서·도구·소요"
+            },
+            {
+              "key": "output",
+              "label": "산출물(Output)",
+              "type": "textarea",
+              "placeholder": "표·코드북·로그·파일"
+            },
+            {
+              "key": "quality",
+              "label": "품질·윤리 점검(Quality & Ethics)",
+              "placeholder": "동의·익명·검증"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "공간 사용 사진·플로어맵",
+              "body": "【연구질문】도시 청년 공유오피스 문화 — 현장노트·코딩 결과를 주제별로 통합하기\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】민족지·참여관찰 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「공간 사용 사진·플로어맵」 상황에서 「현장노트·코딩 결과를 주제별로 통합하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "커뮤니티 이벤트 5회 참관",
+              "body": "【연구질문】도시 청년 공유오피스 문화 — 현장노트·코딩 결과를 주제별로 통합하기\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】민족지·참여관찰 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「커뮤니티 이벤트 5회 참관」 상황에서 「현장노트·코딩 결과를 주제별로 통합하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "채팅·게시판 아카이브",
+              "body": "【연구질문】도시 청년 공유오피스 문화 — 현장노트·코딩 결과를 주제별로 통합하기\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】민족지·참여관찰 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「채팅·게시판 아카이브」 상황에서 「현장노트·코딩 결과를 주제별로 통합하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "강남·성수 공유오피스 12주 관찰",
+              "body": "【연구질문】도시 청년 공유오피스 문화 — 현장노트·코딩 결과를 주제별로 통합하기\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】민족지·참여관찰 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「강남·성수 공유오피스 12주 관찰」 상황에서 「현장노트·코딩 결과를 주제별로 통합하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "키 informant 4명(운영·이용)",
+              "body": "【연구질문】도시 청년 공유오피스 문화 — 현장노트·코딩 결과를 주제별로 통합하기\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】민족지·참여관찰 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「키 informant 4명(운영·이용)」 상황에서 「현장노트·코딩 결과를 주제별로 통합하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · 현장노트·코딩 결과를 주제별로 통합하기",
+            "kind": "ethnography_collect",
+            "hint": "이 태스크(현장노트·코딩 결과를 주제별로 통합하기)의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": null,
+          "nextTaskId": "b3-t15",
+          "linkPrevStageTaskId": "b3-t13"
+        },
+        {
+          "id": "b3-t15",
+          "task": "2) 문화적 패턴·상징체계를 해석적으로 재구성하기(Procedural Task)",
+          "taskRaw": "2) 문화적 패턴·상징체계를 해석적으로 재구성하기",
+          "processKey": "result",
+          "processLabel": "결과도출(Result Derivation)",
+          "stageLabel": "①현장노트·코딩 결과를 주제별로 통합 →②문화적 패턴·상징체계를 해석적으로 재구성 →③참여자 검토(member checking)로 타당성 확보",
+          "why": "이 절차적 태스크(Procedural Task) '2) 문화적 패턴·상징체계를 해석적으로 재구성하기'는 민족지·참여관찰 아키타입(Ethnography–Participant Observation Archetype)의 '결과도출' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "표준 흐름: 1) 현장노트·코딩 결과를 주제별로 통합 → 2) 문화적 패턴·상징체계를 해석적으로 재구성 → 3) 참여자 검토(member checking)로 타당성 확보. 각 하위 절차를 문서에 남기며 순서대로 실행하고, 완료 여부를 체크합니다.",
+          "protocol": "결과표·그림·해석을 연구질문별로 대응시키고, 한계(Limitation)와 함의(Implication)를 함께 적습니다. 태스크 초점: 2) 문화적 패턴·상징체계를 해석적으로 재구성하기.",
+          "sampleExplain": "민족지·참여관찰 맥락에서 '2) 문화적 패턴·상징체계를 해석적으로 재구성하기' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'2) 문화적 패턴·상징체계를 해석적으로 재구성하기'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'2) 문화적 패턴·상징체계를 해석적으로 재구성하기'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 유의한 차이가 나옴. 올바른 다음 행동은?",
+              "options": [
+                "효과크기(Effect Size)와 함께 표·그림으로 해석한다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 효과크기(Effect Size)와 함께 표·그림으로 해석한다.",
+              "usable": "실습: '유의한 차이가 나옴'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'2) 문화적 패턴·상징체계를 해석적으로 재구성하기'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "result_viz",
+          "formFields": [
+            {
+              "key": "figure_type",
+              "label": "그래프 유형(Chart Type)",
+              "placeholder": "bar|line|scatter|hist|box"
+            },
+            {
+              "key": "table",
+              "label": "결과표(Result Table)",
+              "type": "textarea"
+            },
+            {
+              "key": "interp",
+              "label": "해석(Interpretation)",
+              "type": "textarea"
+            },
+            {
+              "key": "limitation",
+              "label": "한계(Limitation)",
+              "type": "textarea"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "채팅·게시판 아카이브",
+              "body": "【연구질문】도시 청년 공유오피스 문화 — 문화적 패턴·상징체계를 해석적으로 재구성하기\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】민족지·참여관찰 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「채팅·게시판 아카이브」 상황에서 「문화적 패턴·상징체계를 해석적으로 재구성하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "강남·성수 공유오피스 12주 관찰",
+              "body": "【연구질문】도시 청년 공유오피스 문화 — 문화적 패턴·상징체계를 해석적으로 재구성하기\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】민족지·참여관찰 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「강남·성수 공유오피스 12주 관찰」 상황에서 「문화적 패턴·상징체계를 해석적으로 재구성하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "키 informant 4명(운영·이용)",
+              "body": "【연구질문】도시 청년 공유오피스 문화 — 문화적 패턴·상징체계를 해석적으로 재구성하기\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】민족지·참여관찰 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「키 informant 4명(운영·이용)」 상황에서 「문화적 패턴·상징체계를 해석적으로 재구성하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "공간 사용 사진·플로어맵",
+              "body": "【연구질문】도시 청년 공유오피스 문화 — 문화적 패턴·상징체계를 해석적으로 재구성하기\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】민족지·참여관찰 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「공간 사용 사진·플로어맵」 상황에서 「문화적 패턴·상징체계를 해석적으로 재구성하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "커뮤니티 이벤트 5회 참관",
+              "body": "【연구질문】도시 청년 공유오피스 문화 — 문화적 패턴·상징체계를 해석적으로 재구성하기\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】민족지·참여관찰 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「커뮤니티 이벤트 5회 참관」 상황에서 「문화적 패턴·상징체계를 해석적으로 재구성하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · 문화적 패턴·상징체계를 해석적으로 재구성하기",
+            "kind": "result_viz",
+            "hint": "이 태스크(문화적 패턴·상징체계를 해석적으로 재구성하기)의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": "b3-t14",
+          "nextTaskId": "b3-t16"
+        },
+        {
+          "id": "b3-t16",
+          "task": "3)참여자 검토(member checking)로 타당성 확보하기",
+          "taskRaw": "3)참여자 검토(member checking)로 타당성 확보하기",
+          "processKey": "result",
+          "processLabel": "결과도출(Result Derivation)",
+          "stageLabel": "①현장노트·코딩 결과를 주제별로 통합 →②문화적 패턴·상징체계를 해석적으로 재구성 →③참여자 검토(member checking)로 타당성 확보",
+          "why": "이 절차적 태스크(Procedural Task) '3)참여자 검토(member checking)로 타당성 확보하기'는 민족지·참여관찰 아키타입(Ethnography–Participant Observation Archetype)의 '결과도출' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "표준 흐름: 1) 현장노트·코딩 결과를 주제별로 통합 → 2) 문화적 패턴·상징체계를 해석적으로 재구성 → 3) 참여자 검토(member checking)로 타당성 확보. 각 하위 절차를 문서에 남기며 순서대로 실행하고, 완료 여부를 체크합니다.",
+          "protocol": "결과표·그림·해석을 연구질문별로 대응시키고, 한계(Limitation)와 함의(Implication)를 함께 적습니다. 태스크 초점: 3)참여자 검토(member checking)로 타당성 확보하기.",
+          "sampleExplain": "민족지·참여관찰 맥락에서 '3)참여자 검토(member checking)로 타당성 확보하기' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'3)참여자 검토(member checking)로 타당성 확보하기'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'3)참여자 검토(member checking)로 타당성 확보하기'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 유의한 차이가 나옴. 올바른 다음 행동은?",
+              "options": [
+                "효과크기(Effect Size)와 함께 표·그림으로 해석한다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 효과크기(Effect Size)와 함께 표·그림으로 해석한다.",
+              "usable": "실습: '유의한 차이가 나옴'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'3)참여자 검토(member checking)로 타당성 확보하기'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "generic",
+          "formFields": [
+            {
+              "key": "context",
+              "label": "연구·현장 맥락(Context)",
+              "placeholder": "누구·어디·언제"
+            },
+            {
+              "key": "input",
+              "label": "입력자료(Input Materials)",
+              "type": "textarea",
+              "placeholder": "파일명·건수·출처"
+            },
+            {
+              "key": "procedure",
+              "label": "실행 절차(Procedure Steps)",
+              "type": "textarea",
+              "placeholder": "순서·도구·소요"
+            },
+            {
+              "key": "output",
+              "label": "산출물(Output)",
+              "type": "textarea",
+              "placeholder": "표·코드북·로그·파일"
+            },
+            {
+              "key": "quality",
+              "label": "품질·윤리 점검(Quality & Ethics)",
+              "placeholder": "동의·익명·검증"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "강남·성수 공유오피스 12주 관찰",
+              "body": "【연구질문】도시 청년 공유오피스 문화 — 참여자 검토(member checking)로 타당성 확보하기\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】민족지·참여관찰 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「강남·성수 공유오피스 12주 관찰」 상황에서 「참여자 검토(member checking)로 타당성 확보하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "키 informant 4명(운영·이용)",
+              "body": "【연구질문】도시 청년 공유오피스 문화 — 참여자 검토(member checking)로 타당성 확보하기\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】민족지·참여관찰 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「키 informant 4명(운영·이용)」 상황에서 「참여자 검토(member checking)로 타당성 확보하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "공간 사용 사진·플로어맵",
+              "body": "【연구질문】도시 청년 공유오피스 문화 — 참여자 검토(member checking)로 타당성 확보하기\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】민족지·참여관찰 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「공간 사용 사진·플로어맵」 상황에서 「참여자 검토(member checking)로 타당성 확보하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "커뮤니티 이벤트 5회 참관",
+              "body": "【연구질문】도시 청년 공유오피스 문화 — 참여자 검토(member checking)로 타당성 확보하기\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】민족지·참여관찰 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「커뮤니티 이벤트 5회 참관」 상황에서 「참여자 검토(member checking)로 타당성 확보하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "채팅·게시판 아카이브",
+              "body": "【연구질문】도시 청년 공유오피스 문화 — 참여자 검토(member checking)로 타당성 확보하기\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】민족지·참여관찰 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「채팅·게시판 아카이브」 상황에서 「참여자 검토(member checking)로 타당성 확보하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · 참여자 검토(member checking)로 타당성 확보하기",
+            "kind": "generic",
+            "hint": "이 태스크(참여자 검토(member checking)로 타당성 확보하기)의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": "b3-t15",
+          "nextTaskId": null
+        }
+      ],
+      "prevStageId": "stats-65898",
+      "nextStageId": "deliverable-69419"
+    },
+    {
+      "id": "deliverable-69419",
+      "processKey": "deliverable",
+      "processLabel": "최종 산출물(Final Deliverable)",
+      "name": "문화기술적 사례기술(ethnography)",
+      "name_ko": "문화기술적 사례기술(ethnography)",
+      "procedure": "문화기술적 사례기술(ethnography)",
+      "easy": "▸문화기술적 사례기술(ethnographic description): 한 집단의 문화를 깊이 관찰해 쓴 기록.(예: 동아리 문화를 자세히 서술.)\n▸ethnography(문화기술지): 한 집단의 문화·생활을 자세히 적은 글.(예: 어느 마을 풍습을 관찰해 기록.)",
+      "terms": [
+        {
+          "term": "문화기술적 사례기술(ethnographic description)",
+          "term_ko": "문화기술적 사례기술",
+          "term_en": "ethnographic description",
+          "definition": "한 집단의 문화를 깊이 관찰해 쓴 기록. (예: 동아리 문화를 자세히 서술.)"
+        },
+        {
+          "term": "ethnography(문화기술지)",
+          "term_ko": "ethnography",
+          "term_en": "문화기술지",
+          "definition": "한 집단의 문화·생활을 자세히 적은 글. (예: 어느 마을 풍습을 관찰해 기록.)"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "b3-t17",
+          "task": "▶ 산출물:문화기술적 사례기술(ethnography)",
+          "taskRaw": "▶ 산출물:문화기술적 사례기술(ethnography)",
+          "processKey": "deliverable",
+          "processLabel": "최종 산출물(Final Deliverable)",
+          "stageLabel": "문화기술적 사례기술(ethnography)",
+          "why": "이 절차적 태스크(Procedural Task) '▶ 산출물:문화기술적 사례기술(ethnography)'는 민족지·참여관찰 아키타입(Ethnography–Participant Observation Archetype)의 '최종 산출물' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "①목표를 한 문장으로 적기 → ②필요한 자료·도구 준비 → ③'▶ 산출물:문화기술적 사례기술(ethnography)' 실행 → ④결과물 점검 → ⑤다음 절차적 단계(Procedural Stage)로 전달.",
+          "protocol": "산출물 템플릿(표·그림·요약문)에 맞춰 최종본을 정리하고 버전을 남깁니다. 태스크 초점: ▶ 산출물:문화기술적 사례기술(ethnography).",
+          "sampleExplain": "민족지·참여관찰 맥락에서 '▶ 산출물:문화기술적 사례기술(ethnography)' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'▶ 산출물:문화기술적 사례기술(ethnography)'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'▶ 산출물:문화기술적 사례기술(ethnography)'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 분석 완료. 올바른 다음 행동은?",
+              "options": [
+                "결과표·요약문·한계를 한 세트로 묶어 산출한다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 결과표·요약문·한계를 한 세트로 묶어 산출한다.",
+              "usable": "실습: '분석 완료'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'▶ 산출물:문화기술적 사례기술(ethnography)'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "deliverable",
+          "formFields": [
+            {
+              "key": "outline",
+              "label": "산출물 목차(Deliverable Outline)",
+              "type": "textarea",
+              "placeholder": "①표본특성 → ②신뢰도 → …"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "강남·성수 공유오피스 12주 관찰",
+              "body": "【연구질문】도시 청년 공유오피스 문화 — ▶ 산출물:문화기술적 사례기술(ethnography)\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】민족지·참여관찰 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「강남·성수 공유오피스 12주 관찰」 상황에서 「▶ 산출물:문화기술적 사례기술(ethnography)」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "키 informant 4명(운영·이용)",
+              "body": "【연구질문】도시 청년 공유오피스 문화 — ▶ 산출물:문화기술적 사례기술(ethnography)\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】민족지·참여관찰 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「키 informant 4명(운영·이용)」 상황에서 「▶ 산출물:문화기술적 사례기술(ethnography)」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "공간 사용 사진·플로어맵",
+              "body": "【연구질문】도시 청년 공유오피스 문화 — ▶ 산출물:문화기술적 사례기술(ethnography)\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】민족지·참여관찰 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「공간 사용 사진·플로어맵」 상황에서 「▶ 산출물:문화기술적 사례기술(ethnography)」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "커뮤니티 이벤트 5회 참관",
+              "body": "【연구질문】도시 청년 공유오피스 문화 — ▶ 산출물:문화기술적 사례기술(ethnography)\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】민족지·참여관찰 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「커뮤니티 이벤트 5회 참관」 상황에서 「▶ 산출물:문화기술적 사례기술(ethnography)」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "채팅·게시판 아카이브",
+              "body": "【연구질문】도시 청년 공유오피스 문화 — ▶ 산출물:문화기술적 사례기술(ethnography)\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】민족지·참여관찰 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「채팅·게시판 아카이브」 상황에서 「▶ 산출물:문화기술적 사례기술(ethnography)」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · ▶ 산출물:문화기술적 사례기술(ethnography)",
+            "kind": "deliverable",
+            "hint": "이 태스크(▶ 산출물:문화기술적 사례기술(ethnography))의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": null,
+          "nextTaskId": null,
+          "linkPrevStageTaskId": "b3-t16"
+        }
+      ],
+      "prevStageId": "result-72802",
+      "nextStageId": null
+    }
+  ],
+  "stats": {
+    "stageCount": 6,
+    "taskCount": 17
+  }
+}

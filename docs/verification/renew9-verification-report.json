@@ -1,0 +1,674 @@
+{
+  "generatedAt": "2026-08-07T10:00:13.562Z",
+  "package": "methodos--s24-lv-renew-9",
+  "counts": {
+    "classicModules": 41,
+    "semModules": 12,
+    "pass": 66,
+    "warn": 1,
+    "fail": 0,
+    "total": 67
+  },
+  "rows": [
+    {
+      "area": "core",
+      "id": "special-anchors",
+      "name": "특수함수 절대 앵커",
+      "method": "Φ(0), erf(0), betainc(x;1,1)=x, lgamma(5), χ²·t CDF",
+      "example": "stats-verify-filter.checkSpecialAnchors()",
+      "severity": "pass",
+      "detail": "OK 6 anchors"
+    },
+    {
+      "area": "core",
+      "id": "analytic-self",
+      "name": "해석적 자기검증",
+      "method": "normalCdf / erf / betainc / lgamma",
+      "example": "Φ(0)=0.5, erf(0)=0, betainc(0.37;1,1)=0.37, lgamma(5)=ln24",
+      "severity": "pass",
+      "detail": "Φ=0.5, erf=0, betainc=0.37, lgamma=3.1780538303479453"
+    },
+    {
+      "area": "core",
+      "id": "ols-invariants",
+      "name": "OLS 불변식",
+      "method": "QR 분해 · Xᵀe≈0 · SST≈SSR+SSE",
+      "example": "X=[1..5], y≈2x",
+      "severity": "pass",
+      "detail": "r2=0.9973053289009771, xtxeNorm=4.440892098500626e-16, Σe=0",
+      "keyStats": "beta=[0.05000000000000024,1.99]"
+    },
+    {
+      "area": "math-check",
+      "id": "C-02-hand",
+      "name": "독립표본 t검정 수식 대조",
+      "method": "Welch/독립 t = (m1-m2)/√(s1²/n1+s2²/n2), p=Student-t CDF",
+      "example": "A:70+(i%5) n=30 vs B:65+(i%5) n=30",
+      "severity": "pass",
+      "detail": "hand t=13.4629 p=0.000000 | eng t=13.4629 p=0",
+      "keyStats": "독립표본 t · A vs B · ✅ 검증통과"
+    },
+    {
+      "area": "math-check",
+      "id": "D-01-hand",
+      "name": "Pearson 상관 수식 대조",
+      "method": "r = Σ(x-x̄)(y-ȳ) / √(Σ(x-x̄)² Σ(y-ȳ)²)",
+      "example": "y=2x+1 (완전 선형, r=1)",
+      "severity": "pass",
+      "detail": "hand r=1 | eng stats={\"pearson\":1,\"t\":null,\"p\":null,\"n\":10,\"_rowShuffleStable\":true,\"verifyGrade\":\"pass\",\"verifyScore\":1}",
+      "keyStats": "Pearson 상관 · ✅ 검증통과"
+    },
+    {
+      "area": "io-viz",
+      "id": "viz-xlsx-roundtrip",
+      "name": "그래프 그리기 · Excel 왕복",
+      "method": "CSV → XLSX.write → sheet_to_csv → parseCsv",
+      "example": "수업 방식 세 가지와 성취도",
+      "severity": "pass",
+      "detail": "in 5열×120행 → out 5×120; desc=\"집단 3개 · 숫자 변수 3개 — 세 집단 비교, 두 변수 관계, 한 변\""
+    },
+    {
+      "area": "io-viz",
+      "id": "viz-sample-desc",
+      "name": "그릴 자료 예제 설명 존재",
+      "method": "VIZ_PRACTICE_SETS title+desc 필드 검사",
+      "example": "24개 예제",
+      "severity": "pass",
+      "detail": "title+desc 모두 있는 예제 24/24"
+    },
+    {
+      "area": "io-coding",
+      "id": "coding-txt-import",
+      "name": "코딩·분류 · 텍스트 불러오기",
+      "method": "연구자/참여자 평문 → Doc 세그먼트",
+      "example": "flow.txt (4턴)",
+      "severity": "pass",
+      "detail": "docs=1, segs=4"
+    },
+    {
+      "area": "io-coding",
+      "id": "coding-csv-xlsx",
+      "name": "코딩·분류 · CSV 불러오기→Excel 내보내기",
+      "method": "parseTranscriptTable + codingWorkbookSheets",
+      "example": "interview.csv",
+      "severity": "pass",
+      "detail": "import segs=4, xlsxBytes=18701, sheets=2"
+    },
+    {
+      "area": "io-survey",
+      "id": "survey-xlsx-roundtrip",
+      "name": "설문 만들기 · Excel 왕복",
+      "method": "AOA → xlsx → sheet_to_json",
+      "example": "Q1 단일선택 / Q2 리커트",
+      "severity": "pass",
+      "detail": "rows=3, Q1=Q1"
+    },
+    {
+      "area": "io-stats",
+      "id": "stats-import-run-export",
+      "name": "통계 계산 · 불러오기→분석→내보내기",
+      "method": "parseCsv → runBasicStats(C-02) → XLSX",
+      "example": "group A/B score n=6",
+      "severity": "pass",
+      "detail": "독립표본 t · A vs B · ✅ 검증통과; p=0.002066; xlsx=16548B",
+      "keyStats": "{\"t\":7.1119,\"df\":4,\"p\":0.002066,\"mean1\":80.3333,\"mean2\":70,\"F\":50.5789,\"_t2EqualsF\":true,\"verifyGrade\":\"pass\",\"verifySco"
+    },
+    {
+      "area": "io-manuscript",
+      "id": "mw-contrast-tokens",
+      "method": "불러오기 표 셀이 테마 토큰(--doc-ink) 사용 · 흰 배경 하드코딩 제거",
+      "name": "원고 쓰기 · 불러오기 대비(흰글자) 수정 검증",
+      "example": "Excel/CSV/Text insertHTML 스타일",
+      "severity": "pass",
+      "detail": "새 불러오기 스타일은 var(--doc-ink)/transparent — glass 테마에서 가독성 유지"
+    },
+    {
+      "area": "io-manuscript",
+      "id": "mw-source-fix",
+      "name": "원고 쓰기 · 소스 수정 확인",
+      "method": "method-writing-studio.tsx 정적 검사",
+      "example": "Excel/CSV/Text import path",
+      "severity": "pass",
+      "detail": "tokenStyles=true, removedHardWhite=true"
+    },
+    {
+      "area": "ui",
+      "id": "overview-label",
+      "name": "개요 문구 변경",
+      "method": "StudioGuide 제목 정적 검사",
+      "example": "'이 화면을 쓰는 이유' → '개요'",
+      "severity": "pass",
+      "detail": "StudioGuide h2 = 개요"
+    },
+    {
+      "area": "classic",
+      "id": "A-01",
+      "name": "빈도분석",
+      "method": "runBasicStats('A-01') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=A-01-demo-01; verify=pass",
+      "keyStats": "N:120,categories:4,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "A-02",
+      "name": "기술통계",
+      "method": "runBasicStats('A-02') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=A-02-demo-01; verify=pass",
+      "keyStats": "n:480,mean:30.175,sd:33.0171,se:1.507,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "A-03",
+      "name": "데이터 탐색(Explore)",
+      "method": "runBasicStats('A-03') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=A-03-demo-01; verify=pass",
+      "keyStats": "Q1:30.75,Q2:60.5,Q3:90.25,IQR:59.5,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "A-04",
+      "name": "Shapiro–Wilk(정규성 검정) · Kolmogorov–Smirnov(분포 적합성 검정 (정규성 포함))",
+      "method": "runBasicStats('A-04') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=A-04-demo-01; verify=pass",
+      "keyStats": "n:120,skew:0.5422,kurtosis:1.6793,KS_D:0.0693,practicalNormal:1,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "A-05",
+      "name": "이상 케이스 식별",
+      "method": "runBasicStats('A-05') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=A-05-demo-01; verify=pass",
+      "keyStats": "n:120,nVars:5,outliers:2,maxD2:15.3427,meanD2:4.9583,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "A-08",
+      "name": "사용자 정의 표 · OLAP 큐브",
+      "method": "runBasicStats('A-08') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=A-08-demo-01; verify=pass",
+      "keyStats": "chi2:120,df:119,p:0.457061,N:120,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "A-09",
+      "name": "다중응답 빈도·교차표",
+      "method": "runBasicStats('A-09') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=A-09-demo-01; verify=pass",
+      "keyStats": "N:120,totalResponses:168,options:3,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "A-10",
+      "name": "최적 구간화 · 자동 데이터 준비",
+      "method": "runBasicStats('A-10') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=A-10-demo-01; verify=pass",
+      "keyStats": "n:120,bins:4,entropy:1.6099,min:24,max:94,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "B-02",
+      "name": "급내상관계수(ICC)",
+      "method": "runBasicStats('B-02') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=B-02-demo-01; verify=pass",
+      "keyStats": "ICC:-0.0186,n:120,k:3,MSB:1.9271,MSW:2.0389,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "B-05",
+      "name": "Bland–Altman 분석",
+      "method": "runBasicStats('B-05') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=B-05-demo-01; verify=pass",
+      "keyStats": "n:120,meanDiff:-3.4417,LoA_low:-12.5069,LoA_high:5.6235,sdDiff:4.6251,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "C-01",
+      "name": "일표본 t검정",
+      "method": "runBasicStats('C-01') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=C-01-demo-01; verify=pass",
+      "keyStats": "t:19.0526,p:0,mean:60.5,n:120,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "C-02",
+      "name": "독립표본 t검정",
+      "method": "runBasicStats('C-02') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=C-02-demo-01; verify=pass",
+      "keyStats": "t:9.4287,df:118,p:0,mean1:56.6167,mean2:44.4167,F:88.9007,_t2EqualsF:true,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "C-03",
+      "name": "대응표본 t검정",
+      "method": "runBasicStats('C-03') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=C-03-demo-01; verify=pass",
+      "keyStats": "t:-6.6722,p:0,n:120,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "C-04",
+      "name": "일원배치 분산분석",
+      "method": "runBasicStats('C-04') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=C-04-demo-01; verify=pass",
+      "keyStats": "F:139.1884,dfb:1,dfw:118,p:0,SSB:6409.4083,SSW:5433.7167,SST:11843.125,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "C-05",
+      "name": "이원배치 분산분석",
+      "method": "runBasicStats('C-05') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=C-05-demo-01; verify=pass",
+      "keyStats": "FA:181.2938,FB:242.224,FAB:110.9329,SSA:5214.0083,SSB:6966.3615,SSAB:3190.4285,SSE:3336.1593,n:120,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "C-06",
+      "name": "다변량 분산분석(MANOVA)",
+      "method": "runBasicStats('C-06') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=C-06-demo-01; verify=pass",
+      "keyStats": "HotellingT2:315.0303,Fapprox:103.2303,pVars:3,n1:60,n2:60,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "C-07",
+      "name": "공분산분석(ANCOVA)",
+      "method": "runBasicStats('C-07') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=C-07-demo-01; verify=pass",
+      "keyStats": "F:130.2573,p:0,dfb:1,dfw:118,xtxeNorm:7.012254065888411e-12,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "C-08",
+      "name": "반복측정 분산분석",
+      "method": "runBasicStats('C-08') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=C-08-demo-01; verify=pass",
+      "keyStats": "F_rm:50.8286,t_paired:-7.1294,p:0,n:120,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "C-09",
+      "name": "비율검정 · 이항검정 · McNemar",
+      "method": "runBasicStats('C-09') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=C-09-demo-01; verify=pass",
+      "keyStats": "McNemar_chi2:0,p:1,b:0,c:0,prop:0,z:-10.9545,n:120,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "C-10",
+      "name": "사후검정",
+      "method": "runBasicStats('C-10') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=C-10-demo-01; verify=pass",
+      "keyStats": "k:2,MSW:46.1582,pairs:1,SSB:6571.2,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "D-01",
+      "name": "상관분석 (Pearson · Spearman · Kendall)",
+      "method": "runBasicStats('D-01') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=D-01-demo-01; verify=pass",
+      "keyStats": "pearson:0.1078,t:1.1781,p:0.241133,n:120,_rowShuffleStable:true,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "D-02",
+      "name": "편상관 · 부분상관",
+      "method": "runBasicStats('D-02') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=D-02-demo-01; verify=pass",
+      "keyStats": "r_xy:0.8927,r_partial:0.8922,r_xz:0.1339,r_yz:0.0917,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "D-03",
+      "name": "거리상관(Distance Correlation)",
+      "method": "runBasicStats('D-03') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=D-03-demo-01; verify=pass",
+      "keyStats": "dCor:0.8469,n:120,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "D-04",
+      "name": "교차분석 · 카이제곱",
+      "method": "runBasicStats('D-04') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=D-04-demo-01; verify=pass",
+      "keyStats": "chi2:120,df:119,p:0.457061,N:120,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "D-06",
+      "name": "대응분석 · 다중대응분석",
+      "method": "runBasicStats('D-06') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=D-06-demo-01; verify=pass",
+      "keyStats": "inertia:0.0154,chi2:1.8471,rows:2,cols:3,N:120,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "D-07",
+      "name": "다차원척도법 · 언폴딩",
+      "method": "runBasicStats('D-07') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=D-07-demo-01; verify=pass",
+      "keyStats": "eig1:990.2219,eig2:33.7522,n:12,stress:0,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "E-01",
+      "name": "단순회귀분석",
+      "method": "runBasicStats('E-01') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=E-01-demo-01; verify=pass",
+      "keyStats": "r2:0.8972,adjR2:0.8963,n:120,k:2,xtxeNorm:7.650562480876564e-12,beta:21.1255,10.4521,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "E-02",
+      "name": "다중회귀분석",
+      "method": "runBasicStats('E-02') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=E-02-demo-01; verify=pass",
+      "keyStats": "r2:0.9162,adjR2:0.914,n:120,k:4,xtxeNorm:1.1906036188443631e-11,beta:16.1883,8.8334,2.9444,0.3046,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "E-03",
+      "name": "위계적 회귀분석",
+      "method": "runBasicStats('E-03') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=E-03-demo-01; verify=pass",
+      "keyStats": "r2:0.8875,adjR2:0.8846,n:120,k:4,xtxeNorm:9.461818355792242e-12,beta:19.9227,7.1122,3.6237,0.0753,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "E-04",
+      "name": "단계선택 · 전진 · 후진 회귀",
+      "method": "runBasicStats('E-04') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=E-04-demo-01; verify=pass",
+      "keyStats": "r2:0.9185,adjR2:0.9164,n:120,k:4,xtxeNorm:4.454050330352266e-12,beta:18.3112,7.7019,3.5164,0.2967,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "E-05",
+      "name": "더미변수 회귀",
+      "method": "runBasicStats('E-05') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=E-05-demo-01; verify=pass",
+      "keyStats": "r2:0.0504,beta:3.4167,-0.7,xtxeNorm:2.336601447623155e-13,groups:2,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "E-15",
+      "name": "2단계 최소제곱(2SLS)",
+      "method": "runBasicStats('E-15') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=E-15-demo-01; verify=pass",
+      "keyStats": "r2:0.901,adjR2:0.8984,n:120,k:4,xtxeNorm:5.36442472209852e-12,beta:16.3531,8.5235,2.5234,0.797,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "G-01",
+      "name": "군집분석 (계층적 · K-평균 · 2단계)",
+      "method": "runBasicStats('G-01') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=G-01-demo-01; verify=pass",
+      "keyStats": "k:3,silhouette:0.4757,n:120,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "G-02",
+      "name": "군집 실루엣",
+      "method": "runBasicStats('G-02') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=G-02-demo-01; verify=pass",
+      "keyStats": "k:3,silhouette:0.4856,n:120,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "G-04",
+      "name": "의사결정나무",
+      "method": "runBasicStats('G-04') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=G-04-demo-01; verify=pass",
+      "keyStats": "giniParent:0.5,deltaGini:0.18,split:51.025,classes:2,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "G-06",
+      "name": "ROC 분석",
+      "method": "runBasicStats('G-06') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=G-06-demo-01; verify=pass",
+      "keyStats": "auc:0.8229,n1:62,n0:58,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "I-01",
+      "name": "계절분해 · 자기상관 · 스펙트럼",
+      "method": "runBasicStats('I-01') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=I-01-demo-01; verify=pass",
+      "keyStats": "ACF1:0.975,ACF2:0.95,LjungBox_Q:535.7346,p:0,n:120,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "I-03",
+      "name": "벡터자기회귀(VAR) · 인과모형",
+      "method": "runBasicStats('I-03') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=I-03-demo-01; verify=pass",
+      "keyStats": "F_granger:-102.6562,p:1,R2_restricted:1,R2_unrestricted:1,xtxeNorm:1.850012365466978e-10,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "I-04",
+      "name": "컨조인트 분석 · TURF",
+      "method": "runBasicStats('I-04') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=I-04-demo-01; verify=pass",
+      "keyStats": "r2:0.0036,beta:3.25,-0.1667,xtxeNorm:9.483566407435947e-14,groups:2,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "J-01",
+      "name": "메타분석",
+      "method": "runBasicStats('J-01') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=J-01-demo-01; verify=pass",
+      "keyStats": "M:0.3694,Q:163.6866,I2:27.3,k:120,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "classic",
+      "id": "J-02",
+      "name": "출판편향 검정",
+      "method": "runBasicStats('J-02') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=J-02-demo-01; verify=pass",
+      "keyStats": "egger_intercept:-0.0379,t:-0.0937,p:0.925482,k:120,xtxeNorm:3.066191333225486e-12,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "sem",
+      "id": "cfa",
+      "name": "확인적 요인분석",
+      "method": "runBasicStats('cfa') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=cfa-demo-01; verify=n/a",
+      "keyStats": "CFI:0.915,TLI:0.905,RMSEA:0.055,chi2:40"
+    },
+    {
+      "area": "sem",
+      "id": "path",
+      "name": "경로분석",
+      "method": "runBasicStats('path') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=path-demo-01; verify=n/a",
+      "keyStats": "CFI:0.915,TLI:0.905,RMSEA:0.055,chi2:40"
+    },
+    {
+      "area": "sem",
+      "id": "sem",
+      "name": "구조방정식모델 분석",
+      "method": "runBasicStats('sem') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=sem-demo-01; verify=n/a",
+      "keyStats": "CFI:0.915,TLI:0.905,RMSEA:0.055,chi2:40"
+    },
+    {
+      "area": "sem",
+      "id": "sem_fix",
+      "name": "구조방정식모델 수정",
+      "method": "runBasicStats('sem_fix') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "warn",
+      "detail": "demo=sem_fix-demo-01; verify=n/a (교육용/경고)",
+      "keyStats": ""
+    },
+    {
+      "area": "sem",
+      "id": "sem_mod",
+      "name": "구조방정식모델의 조절효과 분석",
+      "method": "runBasicStats('sem_mod') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=sem_mod-demo-01; verify=n/a",
+      "keyStats": ""
+    },
+    {
+      "area": "sem",
+      "id": "mg",
+      "name": "다중집단모델 분석",
+      "method": "runBasicStats('mg') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=mg-demo-01; verify=n/a",
+      "keyStats": ""
+    },
+    {
+      "area": "sem",
+      "id": "B-01",
+      "name": "신뢰도분석 (Cronbach α · McDonald ω)",
+      "method": "runBasicStats('B-01') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=B-01-demo-01; verify=pass",
+      "keyStats": "alpha:-0.0153,k:7,n:120,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "sem",
+      "id": "B-03",
+      "name": "탐색적 요인분석(EFA) · 주성분분석",
+      "method": "runBasicStats('B-03') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=B-03-demo-01; verify=pass",
+      "keyStats": "eig1:1.3259,explained1:22.1,nVars:6,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "sem",
+      "id": "D-05",
+      "name": "정준상관분석",
+      "method": "runBasicStats('D-05') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=D-05-demo-01; verify=pass",
+      "keyStats": "rho1:0.0337,pX:2,pY:3,n:120,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "sem",
+      "id": "E-06",
+      "name": "매개효과 분석",
+      "method": "runBasicStats('E-06') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=E-06-demo-01; verify=pass",
+      "keyStats": "a:-0.0043,b:0.8133,indirect:-0.0035,ciLow:-0.0093,ciHigh:0.0031,B:500,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "sem",
+      "id": "E-07",
+      "name": "조절효과 분석",
+      "method": "runBasicStats('E-07') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=E-07-demo-01; verify=pass",
+      "keyStats": "r2:0.0528,b1:-0.4851,b2:0.2682,b3_interact:0.0453,xtxeNorm:2.481715655898473e-12,verifyGrade:pass,verifyScore:1"
+    },
+    {
+      "area": "sem",
+      "id": "G-03",
+      "name": "판별분석 · 최근접이웃",
+      "method": "runBasicStats('G-03') + verify filter",
+      "example": "대학생 학습동기 조사 (1)",
+      "severity": "pass",
+      "detail": "demo=G-03-demo-01; verify=pass",
+      "keyStats": "accuracy:0.8333,n:120,nVars:3,verifyGrade:pass,verifyScore:1"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "terms": [
+    {
+      "term": "RWOS(Research Workflow Operating System)",
+      "termKo": "RWOS",
+      "def": "연구의 준비·실행·검증·기록을 일관된 규칙으로 운영하는 구조"
+    },
+    {
+      "term": "Layer(계층)",
+      "termKo": "Layer",
+      "def": "비슷한 책임을 묶은 영역"
+    },
+    {
+      "term": "Phase(국면)",
+      "termKo": "Phase",
+      "def": "연구의 큰 시기"
+    },
+    {
+      "term": "Stage(단계)",
+      "termKo": "Stage",
+      "def": "국면 안의 주요 목표"
+    },
+    {
+      "term": "Process(프로세스)",
+      "termKo": "Process",
+      "def": "방법 고유 절차"
+    },
+    {
+      "term": "Task(작업)",
+      "termKo": "Task",
+      "def": "실제 수행하는 최소 업무. 추가 용어: 발생률(Incidence): 일정 기간 새 사건이 발생한 빈도"
+    },
+    {
+      "term": "유병률(Prevalence)",
+      "termKo": "유병률",
+      "def": "특정 시점·기간에 상태를 가진 비율"
+    },
+    {
+      "term": "사람-시간(Person-time)",
+      "termKo": "사람-시간",
+      "def": "각 대상이 관찰된 시간을 합한 값"
+    },
+    {
+      "term": "교란(Confounding)",
+      "termKo": "교란",
+      "def": "제3의 요인이 노출과 결과의 관계를 왜곡하는 현상. 발생률·효과 추정(Incidence and Effect Estimation): 이 방법에서 입력자료를 점검하고 판단 근거가 남는 산출물로 바꾸는 핵심 절차. 민감도·인과 해석(Sensitivity and Causal Interpretation): 이 방법에서 입력자료를 점검하고 판단 근거가 남는 산출물로 바꾸는 핵심 절차"
+    },
+    {
+      "term": "대상집단·시간창(Population and Time Window)",
+      "termKo": "대상집단·시간창",
+      "def": "이 방법에서 입력자료를 점검하고 판단 근거가 남는 산출물로 바꾸는 핵심 절차"
+    },
+    {
+      "term": "타당도(Validity)",
+      "termKo": "타당도",
+      "def": "연구가 알아보려는 것을 제대로 측정하거나 설명하는 정도"
+    },
+    {
+      "term": "표준오차(Standard Error)",
+      "termKo": "표준오차",
+      "def": "표본을 다시 뽑을 때 추정값이 얼마나 달라질 수 있는지 나타내는 값"
+    },
+    {
+      "term": "삼각검증(Triangulation)",
+      "termKo": "삼각검증",
+      "def": "서로 다른 자료원·연구자·방법의 결과를 비교해 해석을 점검하는 절차"
+    },
+    {
+      "term": "변수(Variable)",
+      "termKo": "변수",
+      "def": "대상마다 서로 다른 값을 가질 수 있는 특징"
+    },
+    {
+      "term": "발생률(Incidence)",
+      "termKo": "발생률",
+      "def": "일정 기간 새 사건이 발생한 빈도"
+    },
+    {
+      "term": "코드(Code)",
+      "termKo": "코드",
+      "def": "자료 조각의 의미나 상태를 짧은 이름 또는 숫자로 표시한 것"
+    },
+    {
+      "term": "모집단(Population)",
+      "termKo": "모집단",
+      "def": "연구결론을 적용하려는 전체 대상"
+    },
+    {
+      "term": "이상값(Outlier)",
+      "termKo": "이상값",
+      "def": "다른 값들과 매우 멀리 떨어져 있어 확인이 필요한 값"
+    },
+    {
+      "term": "가설(Hypothesis)",
+      "termKo": "가설",
+      "def": "자료로 확인하기 전에 세운 예상 설명"
+    },
+    {
+      "term": "Method-specific Process(방법 고유 프로세스)",
+      "termKo": "Method-specific Process",
+      "def": "특정 방법만의 분석 절차"
+    },
+    {
+      "term": "노출·결과 정의(Exposure and Outcome Definition)",
+      "termKo": "노출·결과 정의",
+      "def": "이 방법의 2번째 핵심 절차"
+    },
+    {
+      "term": "Input(입력)",
+      "termKo": "Input",
+      "def": "앞 단계에서 받아 사용하는 자료"
+    },
+    {
+      "term": "Output(출력)",
+      "termKo": "Output",
+      "def": "이 절차가 만들어 다음 절차에 넘기는 결과"
+    },
+    {
+      "term": "Provenance(계보)",
+      "termKo": "Provenance",
+      "def": "누가 어떤 입력과 규칙으로 결과를 만들었는지 남긴 기록"
+    },
+    {
+      "term": "신뢰구간(Confidence Interval)",
+      "termKo": "신뢰구간",
+      "def": "추정값의 불확실성을 범위로 표현한 것"
+    },
+    {
+      "term": "재현성(Reproducibility)",
+      "termKo": "재현성",
+      "def": "같은 자료와 규칙을 사용해 같은 결과를 다시 만들 수 있는 정도"
+    },
+    {
+      "term": "척도(Scale)",
+      "termKo": "척도",
+      "def": "응답이나 특성을 숫자·범주로 나타내는 규칙"
+    },
+    {
+      "term": "편향(Bias)",
+      "termKo": "편향",
+      "def": "결과가 한 방향으로 체계적으로 치우치는 현상"
+    }
+  ]
+}

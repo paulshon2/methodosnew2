@@ -1,0 +1,1674 @@
+{
+  "SV-001": [
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C074",
+      "methodNo": 1,
+      "caseName": "마케팅리서치",
+      "perfSlug": "marketing-research"
+    }
+  ],
+  "SV-002": [
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C091",
+      "methodNo": 2,
+      "caseName": "여론",
+      "perfSlug": "public-opinion-research"
+    }
+  ],
+  "QT-030": [
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C087",
+      "methodNo": 3,
+      "caseName": "설문지 작성",
+      "perfSlug": "survey-design"
+    },
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C085",
+      "methodNo": 97,
+      "caseName": "설문조사 설계2",
+      "perfSlug": "survey-design"
+    },
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C086",
+      "methodNo": 98,
+      "caseName": "설문지 문항 설계",
+      "perfSlug": "survey-design"
+    },
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C084",
+      "methodNo": 107,
+      "caseName": "설문문항 설계1",
+      "perfSlug": "survey-design"
+    }
+  ],
+  "statistical-analysis-spss": [
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C063",
+      "methodNo": 68,
+      "caseName": "통계 패키지 기반 분석 2",
+      "perfSlug": "statistical-analysis"
+    },
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C064",
+      "methodNo": 95,
+      "caseName": "통계 패키지 기반 분석 1",
+      "perfSlug": "statistical-analysis"
+    }
+  ],
+  "QT-003": [
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C066",
+      "methodNo": 70,
+      "caseName": "구조방정식모형원리와실제",
+      "perfSlug": "structural-equation-modeling"
+    }
+  ],
+  "QT-004": [
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C067",
+      "methodNo": 71,
+      "caseName": "군집분석",
+      "perfSlug": "cluster-analysis"
+    }
+  ],
+  "QT-005": [
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C068",
+      "methodNo": 72,
+      "caseName": "기초통계학",
+      "perfSlug": "basic-statistics"
+    }
+  ],
+  "QT-012": [
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C079",
+      "methodNo": 73,
+      "caseName": "사회과학 통계분석1",
+      "perfSlug": "social-science-statistical-methods"
+    },
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C078",
+      "methodNo": 79,
+      "caseName": "사회과학 통계방법",
+      "perfSlug": "social-science-statistical-methods"
+    },
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C080",
+      "methodNo": 80,
+      "caseName": "사회과학 통계분석2",
+      "perfSlug": "social-science-statistical-methods"
+    }
+  ],
+  "QT-007": [
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C070",
+      "methodNo": 74,
+      "caseName": "다차원척도",
+      "perfSlug": "multidimensional-scaling"
+    },
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C106",
+      "methodNo": 172,
+      "caseName": "현대 다차원척도법",
+      "perfSlug": "multidimensional-scaling"
+    }
+  ],
+  "QT-008": [
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C075",
+      "methodNo": 75,
+      "caseName": "매개·조절분석 입문",
+      "perfSlug": "mediation-and-moderation-analysis"
+    }
+  ],
+  "EV-006": [
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C081",
+      "methodNo": 76,
+      "caseName": "사회과학체계적고찰",
+      "perfSlug": "systematic-literature-review"
+    },
+    {
+      "archetypeId": 5,
+      "archetypeName": "문헌고찰·근거합성",
+      "caseId": "A05-C034",
+      "methodNo": 159,
+      "caseName": "체계적 문헌고찰",
+      "perfSlug": "systematic-literature-review"
+    },
+    {
+      "archetypeId": 5,
+      "archetypeName": "문헌고찰·근거합성",
+      "caseId": "A05-C029",
+      "methodNo": 164,
+      "caseName": "사회과학체계적고찰",
+      "perfSlug": "systematic-literature-review"
+    },
+    {
+      "archetypeId": 11,
+      "archetypeName": "내용분석·코딩",
+      "caseId": "A11-C018",
+      "methodNo": 112,
+      "caseName": "체계적문헌고찰입문",
+      "perfSlug": "systematic-literature-review"
+    }
+  ],
+  "QT-010": [
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C077",
+      "methodNo": 77,
+      "caseName": "베이지안자료분석",
+      "perfSlug": "bayesian-data-analysis"
+    }
+  ],
+  "QT-015": [
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C109",
+      "methodNo": 82,
+      "caseName": "회귀분석",
+      "perfSlug": "regression-analysis"
+    }
+  ],
+  "QT-016": [
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C093",
+      "methodNo": 83,
+      "caseName": "의학통계",
+      "perfSlug": "medical-statistics"
+    },
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C092",
+      "methodNo": 103,
+      "caseName": "의학연구 실용통계",
+      "perfSlug": "medical-statistics"
+    }
+  ],
+  "QT-018": [
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C095",
+      "methodNo": 85,
+      "caseName": "잠재계층및전이분석",
+      "perfSlug": "latent-class-and-transition-analysis"
+    }
+  ],
+  "QT-019": [
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C062",
+      "methodNo": 86,
+      "caseName": "스크립트 기반 잠재변수 모형",
+      "perfSlug": "latent-variable-modeling"
+    }
+  ],
+  "QT-020": [
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C073",
+      "methodNo": 87,
+      "caseName": "로지스틱 회귀분석",
+      "perfSlug": "logistic-regression-analysis"
+    }
+  ],
+  "QT-021": [
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C072",
+      "methodNo": 88,
+      "caseName": "데이터 기반 통계의사결정",
+      "perfSlug": "statistical-decision-making"
+    }
+  ],
+  "GN-010": [
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C082",
+      "methodNo": 89,
+      "caseName": "사회조사방법론",
+      "perfSlug": "social-survey-methodology"
+    },
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C096",
+      "methodNo": 90,
+      "caseName": "조사방법론",
+      "perfSlug": "social-survey-methodology"
+    },
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C097",
+      "methodNo": 105,
+      "caseName": "조사방법론",
+      "perfSlug": "social-survey-methodology"
+    },
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C098",
+      "methodNo": 106,
+      "caseName": "조사방법론",
+      "perfSlug": "social-survey-methodology"
+    }
+  ],
+  "QT-024": [
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C102",
+      "methodNo": 91,
+      "caseName": "통계적 학습",
+      "perfSlug": "statistical-learning"
+    }
+  ],
+  "QT-025": [
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C103",
+      "methodNo": 92,
+      "caseName": "판별분석",
+      "perfSlug": "discriminant-analysis"
+    },
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C104",
+      "methodNo": 110,
+      "caseName": "판별분석과 통계적 패턴인식",
+      "perfSlug": "discriminant-analysis"
+    }
+  ],
+  "QT-026": [
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C105",
+      "methodNo": 93,
+      "caseName": "패널 데이터 계량경제학",
+      "perfSlug": "panel-data-analysis"
+    },
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C088",
+      "methodNo": 178,
+      "caseName": "소득동학패널",
+      "perfSlug": "panel-data-analysis"
+    }
+  ],
+  "QT-027": [
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C108",
+      "methodNo": 94,
+      "caseName": "확인적요인분석",
+      "perfSlug": "confirmatory-factor-analysis"
+    }
+  ],
+  "QT-032": [
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C089",
+      "methodNo": 99,
+      "caseName": "실험·준실험 설계",
+      "perfSlug": "experimental-and-quasi-experimental-design"
+    }
+  ],
+  "QT-033": [
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C090",
+      "methodNo": 100,
+      "caseName": "실험설계와 분석",
+      "perfSlug": "experimental-design-and-analysis"
+    }
+  ],
+  "MM-001": [
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C107",
+      "methodNo": 101,
+      "caseName": "혼합조사방법",
+      "perfSlug": "mixed-methods-research"
+    },
+    {
+      "archetypeId": 28,
+      "archetypeName": "혼합연구설계",
+      "caseId": "A28-C200",
+      "methodNo": 166,
+      "caseName": "혼합연구설계와수행",
+      "perfSlug": "mixed-methods-research"
+    }
+  ],
+  "QT-035": [
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C069",
+      "methodNo": 102,
+      "caseName": "다변량 통계분석",
+      "perfSlug": "multivariate-statistical-analysis"
+    }
+  ],
+  "QT-037": [
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C065",
+      "methodNo": 104,
+      "caseName": "계량경제학",
+      "perfSlug": "econometrics"
+    }
+  ],
+  "QT-041": [
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C110",
+      "methodNo": 108,
+      "caseName": "횡단면·패널 계량분석",
+      "perfSlug": "cross-section-and-panel-econometrics"
+    }
+  ],
+  "QT-042": [
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C083",
+      "methodNo": 109,
+      "caseName": "선형통계모형",
+      "perfSlug": "linear-statistical-models"
+    }
+  ],
+  "statistical-nlp": [
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C101",
+      "methodNo": 123,
+      "caseName": "통계적자연언어처리기초",
+      "perfSlug": "statistical-natural-language-processing"
+    }
+  ],
+  "EV-005": [
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C076",
+      "methodNo": 158,
+      "caseName": "메타분석",
+      "perfSlug": "meta-analysis"
+    },
+    {
+      "archetypeId": 11,
+      "archetypeName": "내용분석·코딩",
+      "caseId": "A11-C015",
+      "methodNo": 111,
+      "caseName": "메타분석입문",
+      "perfSlug": "meta-analysis"
+    }
+  ],
+  "GN-016": [
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C099",
+      "methodNo": 176,
+      "caseName": "종단연구",
+      "perfSlug": "longitudinal-data-analysis"
+    },
+    {
+      "archetypeId": 9,
+      "archetypeName": "예측·시스템모형",
+      "caseId": "A09-C142",
+      "methodNo": 182,
+      "caseName": "응용 종단자료 분석",
+      "perfSlug": "longitudinal-data-analysis"
+    }
+  ],
+  "QT-023": [
+    {
+      "archetypeId": 1,
+      "archetypeName": "설문·양적통계",
+      "caseId": "A01-C100",
+      "methodNo": 197,
+      "caseName": "탐색적요인분석",
+      "perfSlug": "exploratory-factor-analysis"
+    }
+  ],
+  "HC-001": [
+    {
+      "archetypeId": 2,
+      "archetypeName": "역사·비교사료",
+      "caseId": "A02-C124",
+      "methodNo": 143,
+      "caseName": "구술사",
+      "perfSlug": "oral-history"
+    },
+    {
+      "archetypeId": 2,
+      "archetypeName": "역사·비교사료",
+      "caseId": "A02-C123",
+      "methodNo": 168,
+      "caseName": "구술사 실무",
+      "perfSlug": "oral-history"
+    }
+  ],
+  "GN-004": [
+    {
+      "archetypeId": 2,
+      "archetypeName": "역사·비교사료",
+      "caseId": "A02-C126",
+      "methodNo": 144,
+      "caseName": "문헌",
+      "perfSlug": "archival-research"
+    },
+    {
+      "archetypeId": 2,
+      "archetypeName": "역사·비교사료",
+      "caseId": "A02-C125",
+      "methodNo": 170,
+      "caseName": "기록물 연구",
+      "perfSlug": "archival-research"
+    }
+  ],
+  "HC-004": [
+    {
+      "archetypeId": 2,
+      "archetypeName": "역사·비교사료",
+      "caseId": "A02-C127",
+      "methodNo": 146,
+      "caseName": "비교방법",
+      "perfSlug": "comparative-method"
+    }
+  ],
+  "CI-001": [
+    {
+      "archetypeId": 2,
+      "archetypeName": "역사·비교사료",
+      "caseId": "A02-C128",
+      "methodNo": 147,
+      "caseName": "비교사사분석",
+      "perfSlug": "comparative-historical-analysis"
+    },
+    {
+      "archetypeId": 7,
+      "archetypeName": "인과·실험설계",
+      "caseId": "A07-C145",
+      "methodNo": 134,
+      "caseName": "비교역사분석 사회과학",
+      "perfSlug": "comparative-historical-analysis"
+    }
+  ],
+  "HC-006": [
+    {
+      "archetypeId": 2,
+      "archetypeName": "역사·비교사료",
+      "caseId": "A02-C129",
+      "methodNo": 148,
+      "caseName": "사회탐구 설계와 과학적 추론",
+      "perfSlug": "social-science-research-design"
+    }
+  ],
+  "HC-007": [
+    {
+      "archetypeId": 2,
+      "archetypeName": "역사·비교사료",
+      "caseId": "A02-C131",
+      "methodNo": 149,
+      "caseName": "역사사회학의비전과방법",
+      "perfSlug": "historical-sociology"
+    }
+  ],
+  "HC-008": [
+    {
+      "archetypeId": 2,
+      "archetypeName": "역사·비교사료",
+      "caseId": "A02-C130",
+      "methodNo": 150,
+      "caseName": "역사 해석학",
+      "perfSlug": "historical-hermeneutics"
+    }
+  ],
+  "HC-009": [
+    {
+      "archetypeId": 2,
+      "archetypeName": "역사·비교사료",
+      "caseId": "A02-C132",
+      "methodNo": 151,
+      "caseName": "역사연구방법",
+      "perfSlug": "historical-research-methods"
+    }
+  ],
+  "HC-010": [
+    {
+      "archetypeId": 2,
+      "archetypeName": "역사·비교사료",
+      "caseId": "A02-C136",
+      "methodNo": 152,
+      "caseName": "지적사",
+      "perfSlug": "intellectual-history"
+    },
+    {
+      "archetypeId": 2,
+      "archetypeName": "역사·비교사료",
+      "caseId": "A02-C135",
+      "methodNo": 187,
+      "caseName": "지성사 연구",
+      "perfSlug": "intellectual-history"
+    }
+  ],
+  "HC-011": [
+    {
+      "archetypeId": 2,
+      "archetypeName": "역사·비교사료",
+      "caseId": "A02-C122",
+      "methodNo": 153,
+      "caseName": "과정추적",
+      "perfSlug": "process-tracing"
+    }
+  ],
+  "GN-014": [
+    {
+      "archetypeId": 2,
+      "archetypeName": "역사·비교사료",
+      "caseId": "A02-C133",
+      "methodNo": 180,
+      "caseName": "역사철학",
+      "perfSlug": "philosophy-of-history"
+    }
+  ],
+  "GN-019": [
+    {
+      "archetypeId": 2,
+      "archetypeName": "역사·비교사료",
+      "caseId": "A02-C134",
+      "methodNo": 185,
+      "caseName": "과학 성장 계량분석",
+      "perfSlug": "scientometrics"
+    }
+  ],
+  "QL-010": [
+    {
+      "archetypeId": 3,
+      "archetypeName": "민족지·참여관찰",
+      "caseId": "A03-C037",
+      "methodNo": 14,
+      "caseName": "네트노그래피",
+      "perfSlug": "netnography"
+    }
+  ],
+  "QL-013": [
+    {
+      "archetypeId": 3,
+      "archetypeName": "민족지·참여관찰",
+      "caseId": "A03-C039",
+      "methodNo": 17,
+      "caseName": "문화와조직",
+      "perfSlug": "organizational-culture-research"
+    }
+  ],
+  "QL-015": [
+    {
+      "archetypeId": 3,
+      "archetypeName": "민족지·참여관찰",
+      "caseId": "A03-C042",
+      "methodNo": 19,
+      "caseName": "민족지 현장기록법",
+      "perfSlug": "ethnographic-fieldnotes"
+    }
+  ],
+  "QL-016": [
+    {
+      "archetypeId": 3,
+      "archetypeName": "민족지·참여관찰",
+      "caseId": "A03-C048",
+      "methodNo": 21,
+      "caseName": "자문화기술지",
+      "perfSlug": "autoethnography"
+    }
+  ],
+  "QL-017": [
+    {
+      "archetypeId": 3,
+      "archetypeName": "민족지·참여관찰",
+      "caseId": "A03-C044",
+      "methodNo": 35,
+      "caseName": "비판적 민족지",
+      "perfSlug": "critical-ethnography"
+    },
+    {
+      "archetypeId": 3,
+      "archetypeName": "민족지·참여관찰",
+      "caseId": "A03-C043",
+      "methodNo": 58,
+      "caseName": "비판민족지학",
+      "perfSlug": "critical-ethnography"
+    }
+  ],
+  "QL-042": [
+    {
+      "archetypeId": 3,
+      "archetypeName": "민족지·참여관찰",
+      "caseId": "A03-C049",
+      "methodNo": 46,
+      "caseName": "참여관찰",
+      "perfSlug": "participant-observation"
+    }
+  ],
+  "QL-031": [
+    {
+      "archetypeId": 3,
+      "archetypeName": "민족지·참여관찰",
+      "caseId": "A03-C046",
+      "methodNo": 59,
+      "caseName": "시각 민족지",
+      "perfSlug": "visual-ethnography"
+    },
+    {
+      "archetypeId": 3,
+      "archetypeName": "민족지·참여관찰",
+      "caseId": "A03-C047",
+      "methodNo": 177,
+      "caseName": "시각민족지학",
+      "perfSlug": "visual-ethnography"
+    }
+  ],
+  "EV-004": [
+    {
+      "archetypeId": 3,
+      "archetypeName": "민족지·참여관찰",
+      "caseId": "A03-C038",
+      "methodNo": 157,
+      "caseName": "메타민족지 연구",
+      "perfSlug": "meta-ethnography"
+    }
+  ],
+  "TX-003": [
+    {
+      "archetypeId": 4,
+      "archetypeName": "텍스트·계산언어",
+      "caseId": "A04-C177",
+      "methodNo": 113,
+      "caseName": "딥러닝 방법론",
+      "perfSlug": "deep-learning"
+    }
+  ],
+  "TX-004": [
+    {
+      "archetypeId": 4,
+      "archetypeName": "텍스트·계산언어",
+      "caseId": "A04-C178",
+      "methodNo": 114,
+      "caseName": "사회연결망분석방법과응용",
+      "perfSlug": "social-network-analysis"
+    }
+  ],
+  "TX-005": [
+    {
+      "archetypeId": 4,
+      "archetypeName": "텍스트·계산언어",
+      "caseId": "A04-C180",
+      "methodNo": 115,
+      "caseName": "자연어처리",
+      "perfSlug": "natural-language-processing"
+    }
+  ],
+  "TX-006": [
+    {
+      "archetypeId": 4,
+      "archetypeName": "텍스트·계산언어",
+      "caseId": "A04-C179",
+      "methodNo": 116,
+      "caseName": "인공지능 방법론",
+      "perfSlug": "artificial-intelligence"
+    }
+  ],
+  "TX-007": [
+    {
+      "archetypeId": 4,
+      "archetypeName": "텍스트·계산언어",
+      "caseId": "A04-C181",
+      "methodNo": 117,
+      "caseName": "정보검색",
+      "perfSlug": "information-retrieval"
+    }
+  ],
+  "TX-008": [
+    {
+      "archetypeId": 4,
+      "archetypeName": "텍스트·계산언어",
+      "caseId": "A04-C175",
+      "methodNo": 118,
+      "caseName": "감성분석",
+      "perfSlug": "sentiment-analysis"
+    }
+  ],
+  "TX-009": [
+    {
+      "archetypeId": 4,
+      "archetypeName": "텍스트·계산언어",
+      "caseId": "A04-C182",
+      "methodNo": 119,
+      "caseName": "코퍼스언어학",
+      "perfSlug": "corpus-linguistics"
+    }
+  ],
+  "TX-010": [
+    {
+      "archetypeId": 4,
+      "archetypeName": "텍스트·계산언어",
+      "caseId": "A04-C174",
+      "methodNo": 120,
+      "caseName": "스크립트 기반 텍스트 마이닝",
+      "perfSlug": "text-mining"
+    }
+  ],
+  "TX-011": [
+    {
+      "archetypeId": 4,
+      "archetypeName": "텍스트·계산언어",
+      "caseId": "A04-C185",
+      "methodNo": 121,
+      "caseName": "텍스트기계학습",
+      "perfSlug": "text-machine-learning"
+    }
+  ],
+  "TX-012": [
+    {
+      "archetypeId": 4,
+      "archetypeName": "텍스트·계산언어",
+      "caseId": "A04-C183",
+      "methodNo": 122,
+      "caseName": "키워드성 분석",
+      "perfSlug": "keyword-keyness-analysis"
+    },
+    {
+      "archetypeId": 29,
+      "archetypeName": "키워드핵심성",
+      "caseId": "A29-C173",
+      "methodNo": 188,
+      "caseName": "키워드 핵심성 분석",
+      "perfSlug": "keyword-keyness-analysis"
+    }
+  ],
+  "TX-014": [
+    {
+      "archetypeId": 4,
+      "archetypeName": "텍스트·계산언어",
+      "caseId": "A04-C176",
+      "methodNo": 124,
+      "caseName": "기계학습",
+      "perfSlug": "machine-learning"
+    }
+  ],
+  "TX-015": [
+    {
+      "archetypeId": 4,
+      "archetypeName": "텍스트·계산언어",
+      "caseId": "A04-C186",
+      "methodNo": 125,
+      "caseName": "확률적토픽모형",
+      "perfSlug": "topic-modeling"
+    }
+  ],
+  "GN-013": [
+    {
+      "archetypeId": 4,
+      "archetypeName": "텍스트·계산언어",
+      "caseId": "A04-C184",
+      "methodNo": 179,
+      "caseName": "텍스트 분석",
+      "perfSlug": "text-analysis"
+    }
+  ],
+  "EV-002": [
+    {
+      "archetypeId": 5,
+      "archetypeName": "문헌고찰·근거합성",
+      "caseId": "A05-C032",
+      "methodNo": 155,
+      "caseName": "신속 문헌고찰",
+      "perfSlug": "rapid-literature-review"
+    }
+  ],
+  "EV-012": [
+    {
+      "archetypeId": 5,
+      "archetypeName": "문헌고찰·근거합성",
+      "caseId": "A05-C031",
+      "methodNo": 165,
+      "caseName": "스코핑 리뷰",
+      "perfSlug": "scoping-review"
+    }
+  ],
+  "EM-003": [
+    {
+      "archetypeId": 5,
+      "archetypeName": "문헌고찰·근거합성",
+      "caseId": "A05-C035",
+      "methodNo": 198,
+      "caseName": "통합적 문헌고찰",
+      "perfSlug": "integrative-literature-review"
+    }
+  ],
+  "EP-001": [
+    {
+      "archetypeId": 6,
+      "archetypeName": "정책·프로그램평가",
+      "caseId": "A06-C161",
+      "methodNo": 126,
+      "caseName": "정책분석 통합적접근",
+      "perfSlug": "policy-analysis"
+    }
+  ],
+  "EP-002": [
+    {
+      "archetypeId": 6,
+      "archetypeName": "정책·프로그램평가",
+      "caseId": "A06-C155",
+      "methodNo": 127,
+      "caseName": "공공프로그램평가",
+      "perfSlug": "public-program-evaluation"
+    },
+    {
+      "archetypeId": 6,
+      "archetypeName": "정책·프로그램평가",
+      "caseId": "A06-C163",
+      "methodNo": 132,
+      "caseName": "프로그램 평가",
+      "perfSlug": "public-program-evaluation"
+    }
+  ],
+  "EP-003": [
+    {
+      "archetypeId": 6,
+      "archetypeName": "정책·프로그램평가",
+      "caseId": "A06-C156",
+      "methodNo": 128,
+      "caseName": "델파이방법",
+      "perfSlug": "delphi-method"
+    }
+  ],
+  "EP-004": [
+    {
+      "archetypeId": 6,
+      "archetypeName": "정책·프로그램평가",
+      "caseId": "A06-C157",
+      "methodNo": 129,
+      "caseName": "분석적 계층화 과정",
+      "perfSlug": "analytic-hierarchy-process"
+    },
+    {
+      "archetypeId": 6,
+      "archetypeName": "정책·프로그램평가",
+      "caseId": "A06-C158",
+      "methodNo": 175,
+      "caseName": "분석적 계층화 과정",
+      "perfSlug": "analytic-hierarchy-process"
+    }
+  ],
+  "EP-005": [
+    {
+      "archetypeId": 6,
+      "archetypeName": "정책·프로그램평가",
+      "caseId": "A06-C159",
+      "methodNo": 130,
+      "caseName": "비용편익분석",
+      "perfSlug": "cost-benefit-analysis"
+    }
+  ],
+  "EP-006": [
+    {
+      "archetypeId": 6,
+      "archetypeName": "정책·프로그램평가",
+      "caseId": "A06-C160",
+      "methodNo": 131,
+      "caseName": "영향평가실무",
+      "perfSlug": "impact-evaluation"
+    }
+  ],
+  "EP-008": [
+    {
+      "archetypeId": 6,
+      "archetypeName": "정책·프로그램평가",
+      "caseId": "A06-C164",
+      "methodNo": 133,
+      "caseName": "활용중심평가",
+      "perfSlug": "utilization-focused-evaluation"
+    }
+  ],
+  "EM-004": [
+    {
+      "archetypeId": 6,
+      "archetypeName": "정책·프로그램평가",
+      "caseId": "A06-C162",
+      "methodNo": 199,
+      "caseName": "체계적 평가",
+      "perfSlug": "systematic-evaluation"
+    }
+  ],
+  "CI-002": [
+    {
+      "archetypeId": 7,
+      "archetypeName": "인과·실험설계",
+      "caseId": "A07-C151",
+      "methodNo": 135,
+      "caseName": "준실험 인과추론",
+      "perfSlug": "quasi-experimental-causal-inference"
+    }
+  ],
+  "CI-004": [
+    {
+      "archetypeId": 7,
+      "archetypeName": "인과·실험설계",
+      "caseId": "A07-C149",
+      "methodNo": 137,
+      "caseName": "인과추론2",
+      "perfSlug": "causal-inference"
+    },
+    {
+      "archetypeId": 7,
+      "archetypeName": "인과·실험설계",
+      "caseId": "A07-C147",
+      "methodNo": 139,
+      "caseName": "응용 인과추론 실습",
+      "perfSlug": "causal-inference"
+    }
+  ],
+  "CI-005": [
+    {
+      "archetypeId": 7,
+      "archetypeName": "인과·실험설계",
+      "caseId": "A07-C146",
+      "methodNo": 138,
+      "caseName": "실험계획법",
+      "perfSlug": "experimental-design"
+    }
+  ],
+  "CI-007": [
+    {
+      "archetypeId": 7,
+      "archetypeName": "인과·실험설계",
+      "caseId": "A07-C150",
+      "methodNo": 140,
+      "caseName": "임상시험 연구",
+      "perfSlug": "clinical-trials"
+    }
+  ],
+  "CI-008": [
+    {
+      "archetypeId": 7,
+      "archetypeName": "인과·실험설계",
+      "caseId": "A07-C152",
+      "methodNo": 141,
+      "caseName": "준실험",
+      "perfSlug": "quasi-experiments"
+    }
+  ],
+  "CI-010": [
+    {
+      "archetypeId": 7,
+      "archetypeName": "인과·실험설계",
+      "caseId": "A07-C153",
+      "methodNo": 142,
+      "caseName": "현장실험",
+      "perfSlug": "field-experiments"
+    }
+  ],
+  "QL-001": [
+    {
+      "archetypeId": 8,
+      "archetypeName": "현상학·체험탐구",
+      "caseId": "A08-C197",
+      "methodNo": 5,
+      "caseName": "현상학적 연구방법",
+      "perfSlug": "phenomenological-research-methods"
+    },
+    {
+      "archetypeId": 8,
+      "archetypeName": "현상학·체험탐구",
+      "caseId": "A08-C198",
+      "methodNo": 53,
+      "caseName": "현상학적 연구방법",
+      "perfSlug": "phenomenological-research-methods"
+    }
+  ],
+  "QL-022": [
+    {
+      "archetypeId": 8,
+      "archetypeName": "현상학·체험탐구",
+      "caseId": "A08-C195",
+      "methodNo": 26,
+      "caseName": "해석학적 현상학",
+      "perfSlug": "hermeneutic-phenomenology"
+    }
+  ],
+  "QL-028": [
+    {
+      "archetypeId": 8,
+      "archetypeName": "현상학·체험탐구",
+      "caseId": "A08-C192",
+      "methodNo": 32,
+      "caseName": "기술적 현상학 방법",
+      "perfSlug": "descriptive-phenomenology"
+    }
+  ],
+  "QL-030": [
+    {
+      "archetypeId": 8,
+      "archetypeName": "현상학·체험탐구",
+      "caseId": "A08-C199",
+      "methodNo": 34,
+      "caseName": "초월적 현상학",
+      "perfSlug": "transcendental-phenomenology"
+    },
+    {
+      "archetypeId": 8,
+      "archetypeName": "현상학·체험탐구",
+      "caseId": "A08-C193",
+      "methodNo": 60,
+      "caseName": "현상학적 태도 훈련",
+      "perfSlug": "transcendental-phenomenology"
+    }
+  ],
+  "QL-063": [
+    {
+      "archetypeId": 8,
+      "archetypeName": "현상학·체험탐구",
+      "caseId": "A08-C196",
+      "methodNo": 67,
+      "caseName": "해석현상학적 분석",
+      "perfSlug": "interpretative-phenomenological-analysis"
+    }
+  ],
+  "QT-002": [
+    {
+      "archetypeId": 9,
+      "archetypeName": "예측·시스템모형",
+      "caseId": "A09-C138",
+      "methodNo": 69,
+      "caseName": "교육연구 역량분석적용",
+      "perfSlug": "educational-research-methodology"
+    }
+  ],
+  "QT-011": [
+    {
+      "archetypeId": 9,
+      "archetypeName": "예측·시스템모형",
+      "caseId": "A09-C139",
+      "methodNo": 78,
+      "caseName": "경영 시스템 시뮬레이션",
+      "perfSlug": "system-dynamics"
+    }
+  ],
+  "QT-014": [
+    {
+      "archetypeId": 9,
+      "archetypeName": "예측·시스템모형",
+      "caseId": "A09-C140",
+      "methodNo": 81,
+      "caseName": "예측 모델링",
+      "perfSlug": "forecasting-models"
+    },
+    {
+      "archetypeId": 9,
+      "archetypeName": "예측·시스템모형",
+      "caseId": "A09-C141",
+      "methodNo": 181,
+      "caseName": "응용 예측 모형",
+      "perfSlug": "forecasting-models"
+    }
+  ],
+  "QT-017": [
+    {
+      "archetypeId": 9,
+      "archetypeName": "예측·시스템모형",
+      "caseId": "A09-C143",
+      "methodNo": 84,
+      "caseName": "행위자 기반 사회 시뮬레이션",
+      "perfSlug": "agent-based-modeling"
+    },
+    {
+      "archetypeId": 9,
+      "archetypeName": "예측·시스템모형",
+      "caseId": "A09-C144",
+      "methodNo": 183,
+      "caseName": "행위자 기반 분리모형",
+      "perfSlug": "agent-based-modeling"
+    }
+  ],
+  "QL-006": [
+    {
+      "archetypeId": 10,
+      "archetypeName": "근거이론",
+      "caseId": "A10-C008",
+      "methodNo": 10,
+      "caseName": "개념구축형 근거이론",
+      "perfSlug": "constructivist-grounded-theory"
+    },
+    {
+      "archetypeId": 10,
+      "archetypeName": "근거이론",
+      "caseId": "A10-C007",
+      "methodNo": 55,
+      "caseName": "구성주의 근거이론",
+      "perfSlug": "constructivist-grounded-theory"
+    }
+  ],
+  "QL-007": [
+    {
+      "archetypeId": 10,
+      "archetypeName": "근거이론",
+      "caseId": "A10-C010",
+      "methodNo": 11,
+      "caseName": "근거이론 2세대",
+      "perfSlug": "grounded-theory"
+    },
+    {
+      "archetypeId": 10,
+      "archetypeName": "근거이론",
+      "caseId": "A10-C009",
+      "methodNo": 56,
+      "caseName": "근거이론 2세대 재검토",
+      "perfSlug": "grounded-theory"
+    }
+  ],
+  "QL-008": [
+    {
+      "archetypeId": 10,
+      "archetypeName": "근거이론",
+      "caseId": "A10-C011",
+      "methodNo": 12,
+      "caseName": "절차적 근거이론",
+      "perfSlug": "grounded-theory"
+    }
+  ],
+  "QL-060": [
+    {
+      "archetypeId": 11,
+      "archetypeName": "내용분석·코딩",
+      "caseId": "A11-C017",
+      "methodNo": 64,
+      "caseName": "질적연구 코딩 매뉴얼",
+      "perfSlug": "qualitative-coding"
+    }
+  ],
+  "GN-008": [
+    {
+      "archetypeId": 11,
+      "archetypeName": "내용분석·코딩",
+      "caseId": "A11-C016",
+      "methodNo": 174,
+      "caseName": "미디어 내용분석",
+      "perfSlug": "media-content-analysis"
+    }
+  ],
+  "QL-025": [
+    {
+      "archetypeId": 12,
+      "archetypeName": "서사·생애사",
+      "caseId": "A12-C058",
+      "methodNo": 29,
+      "caseName": "생애사 방법",
+      "perfSlug": "life-history-research"
+    }
+  ],
+  "GN-018": [
+    {
+      "archetypeId": 12,
+      "archetypeName": "서사·생애사",
+      "caseId": "A12-C059",
+      "methodNo": 30,
+      "caseName": "서사 분석",
+      "perfSlug": "narrative-methods"
+    },
+    {
+      "archetypeId": 12,
+      "archetypeName": "서사·생애사",
+      "caseId": "A12-C060",
+      "methodNo": 184,
+      "caseName": "인문과학을 위한 서사 방법",
+      "perfSlug": "narrative-methods"
+    }
+  ],
+  "QL-027": [
+    {
+      "archetypeId": 12,
+      "archetypeName": "서사·생애사",
+      "caseId": "A12-C057",
+      "methodNo": 31,
+      "caseName": "내러티브탐구",
+      "perfSlug": "narrative-inquiry"
+    }
+  ],
+  "GN-001": [
+    {
+      "archetypeId": 12,
+      "archetypeName": "서사·생애사",
+      "caseId": "A12-C056",
+      "methodNo": 167,
+      "caseName": "교사 생애사 연구",
+      "perfSlug": "teachers-life-history-research"
+    }
+  ],
+  "GN-020": [
+    {
+      "archetypeId": 12,
+      "archetypeName": "서사·생애사",
+      "caseId": "A12-C061",
+      "methodNo": 186,
+      "caseName": "전기·생애 연구",
+      "perfSlug": "biographical-research"
+    }
+  ],
+  "QL-047": [
+    {
+      "archetypeId": 13,
+      "archetypeName": "실행·행동연구",
+      "caseId": "A13-C111",
+      "methodNo": 23,
+      "caseName": "교육 실행연구",
+      "perfSlug": null
+    }
+  ],
+  "QL-019": [
+    {
+      "archetypeId": 13,
+      "archetypeName": "실행·행동연구",
+      "caseId": "A13-C112",
+      "methodNo": 50,
+      "caseName": "교육 실행연구",
+      "perfSlug": null
+    }
+  ],
+  "GN-026": [
+    {
+      "archetypeId": 13,
+      "archetypeName": "실행·행동연구",
+      "caseId": "A13-C115",
+      "methodNo": 190,
+      "caseName": "행동연구",
+      "perfSlug": null
+    },
+    {
+      "archetypeId": 13,
+      "archetypeName": "실행·행동연구",
+      "caseId": "A13-C114",
+      "methodNo": 192,
+      "caseName": "실행연구방법2",
+      "perfSlug": null
+    }
+  ],
+  "GN-025": [
+    {
+      "archetypeId": 13,
+      "archetypeName": "실행·행동연구",
+      "caseId": "A13-C113",
+      "methodNo": 191,
+      "caseName": "실행연구방법1",
+      "perfSlug": null
+    }
+  ],
+  "QL-011": [
+    {
+      "archetypeId": 14,
+      "archetypeName": "담화·비판담화",
+      "caseId": "A14-C019",
+      "methodNo": 15,
+      "caseName": "담화분석",
+      "perfSlug": "discourse-analysis"
+    }
+  ],
+  "QL-018": [
+    {
+      "archetypeId": 14,
+      "archetypeName": "담화·비판담화",
+      "caseId": "A14-C020",
+      "methodNo": 22,
+      "caseName": "비판적 담화분석 방법",
+      "perfSlug": "critical-discourse-analysis"
+    }
+  ],
+  "QL-057": [
+    {
+      "archetypeId": 14,
+      "archetypeName": "담화·비판담화",
+      "caseId": "A14-C023",
+      "methodNo": 61,
+      "caseName": "평가·감정·정서 담화분석",
+      "perfSlug": "appraisal-discourse-analysis"
+    }
+  ],
+  "QL-034": [
+    {
+      "archetypeId": 15,
+      "archetypeName": "심층면담",
+      "caseId": "A15-C120",
+      "methodNo": 38,
+      "caseName": "질적 심층면담",
+      "perfSlug": "qualitative-in-depth-interviewing"
+    },
+    {
+      "archetypeId": 15,
+      "archetypeName": "심층면담",
+      "caseId": "A15-C117",
+      "methodNo": 43,
+      "caseName": "심층면접법",
+      "perfSlug": "qualitative-in-depth-interviewing"
+    },
+    {
+      "archetypeId": 15,
+      "archetypeName": "심층면담",
+      "caseId": "A15-C118",
+      "methodNo": 45,
+      "caseName": "심층면접법",
+      "perfSlug": "qualitative-in-depth-interviewing"
+    }
+  ],
+  "QL-044": [
+    {
+      "archetypeId": 15,
+      "archetypeName": "심층면담",
+      "caseId": "A15-C121",
+      "methodNo": 48,
+      "caseName": "포커스그룹",
+      "perfSlug": "focus-group"
+    }
+  ],
+  "QL-059": [
+    {
+      "archetypeId": 15,
+      "archetypeName": "심층면담",
+      "caseId": "A15-C119",
+      "methodNo": 63,
+      "caseName": "질적 면접의 이해",
+      "perfSlug": "qualitative-interviewing"
+    }
+  ],
+  "QL-009": [
+    {
+      "archetypeId": 16,
+      "archetypeName": "질적설계·자연주의",
+      "caseId": "A16-C171",
+      "methodNo": 13,
+      "caseName": "질적 연구설계",
+      "perfSlug": "qualitative-research-design"
+    }
+  ],
+  "QL-035": [
+    {
+      "archetypeId": 16,
+      "archetypeName": "질적설계·자연주의",
+      "caseId": "A16-C170",
+      "methodNo": 39,
+      "caseName": "자연주의적탐구",
+      "perfSlug": "naturalistic-inquiry"
+    }
+  ],
+  "QL-040": [
+    {
+      "archetypeId": 16,
+      "archetypeName": "질적설계·자연주의",
+      "caseId": "A16-C168",
+      "methodNo": 44,
+      "caseName": "양적·질적·혼합 연구설계",
+      "perfSlug": "quantitative-qualitative-and-mixed-research-design"
+    }
+  ],
+  "QL-062": [
+    {
+      "archetypeId": 16,
+      "archetypeName": "질적설계·자연주의",
+      "caseId": "A16-C172",
+      "methodNo": 66,
+      "caseName": "질적탐구 용어사전",
+      "perfSlug": "qualitative-inquiry"
+    }
+  ],
+  "QL-003": [
+    {
+      "archetypeId": 17,
+      "archetypeName": "권력·비판담론",
+      "caseId": "A17-C188",
+      "methodNo": 7,
+      "caseName": "규율권력 분석",
+      "perfSlug": "disciplinary-power-analysis"
+    },
+    {
+      "archetypeId": 17,
+      "archetypeName": "권력·비판담론",
+      "caseId": "A17-C191",
+      "methodNo": 36,
+      "caseName": "정상화·지식권력 분석",
+      "perfSlug": "disciplinary-power-analysis"
+    },
+    {
+      "archetypeId": 17,
+      "archetypeName": "권력·비판담론",
+      "caseId": "A17-C189",
+      "methodNo": 169,
+      "caseName": "문제화 분석",
+      "perfSlug": "disciplinary-power-analysis"
+    },
+    {
+      "archetypeId": 17,
+      "archetypeName": "권력·비판담론",
+      "caseId": "A17-C190",
+      "methodNo": 189,
+      "caseName": "고고학·계보학 분석",
+      "perfSlug": "disciplinary-power-analysis"
+    }
+  ],
+  "QL-023": [
+    {
+      "archetypeId": 18,
+      "archetypeName": "상징적상호작용",
+      "caseId": "A18-C053",
+      "methodNo": 27,
+      "caseName": "상징적 상호작용론",
+      "perfSlug": "symbolic-interactionism"
+    }
+  ],
+  "QL-024": [
+    {
+      "archetypeId": 18,
+      "archetypeName": "상징적상호작용",
+      "caseId": "A18-C054",
+      "methodNo": 28,
+      "caseName": "상호작용 의례",
+      "perfSlug": "interaction-ritual-analysis"
+    }
+  ],
+  "QL-045": [
+    {
+      "archetypeId": 18,
+      "archetypeName": "상징적상호작용",
+      "caseId": "A18-C055",
+      "methodNo": 49,
+      "caseName": "해석적상호작용론",
+      "perfSlug": "interpretive-interactionism"
+    }
+  ],
+  "QL-020": [
+    {
+      "archetypeId": 19,
+      "archetypeName": "사례연구",
+      "caseId": "A19-C052",
+      "methodNo": 24,
+      "caseName": "사례연구방법2",
+      "perfSlug": null
+    }
+  ],
+  "QL-021": [
+    {
+      "archetypeId": 19,
+      "archetypeName": "사례연구",
+      "caseId": "A19-C051",
+      "methodNo": 25,
+      "caseName": "사례연구방법1",
+      "perfSlug": null
+    }
+  ],
+  "EV-009": [
+    {
+      "archetypeId": 20,
+      "archetypeName": "계량서지·인용분석",
+      "caseId": "A20-C005",
+      "methodNo": 162,
+      "caseName": "인용분석",
+      "perfSlug": "citation-analysis"
+    }
+  ],
+  "QL-061": [
+    {
+      "archetypeId": 21,
+      "archetypeName": "질적메타합성",
+      "caseId": "A21-C167",
+      "methodNo": 65,
+      "caseName": "질적연구 합성",
+      "perfSlug": "qualitative-research-synthesis"
+    },
+    {
+      "archetypeId": 21,
+      "archetypeName": "질적메타합성",
+      "caseId": "A21-C166",
+      "methodNo": 163,
+      "caseName": "질적 메타합성",
+      "perfSlug": "qualitative-research-synthesis"
+    }
+  ],
+  "QL-050": [
+    {
+      "archetypeId": 22,
+      "archetypeName": "대화·회화분석",
+      "caseId": "A22-C025",
+      "methodNo": 54,
+      "caseName": "회화분석",
+      "perfSlug": "conversation-analysis"
+    },
+    {
+      "archetypeId": 22,
+      "archetypeName": "대화·회화분석",
+      "caseId": "A22-C024",
+      "methodNo": 173,
+      "caseName": "대화분석 입문",
+      "perfSlug": "conversation-analysis"
+    }
+  ],
+  "QL-048": [
+    {
+      "archetypeId": 23,
+      "archetypeName": "Q방법론·연구프로그램",
+      "caseId": "A23-C001",
+      "methodNo": 195,
+      "caseName": "Q방법론",
+      "perfSlug": "q-methodology"
+    }
+  ],
+  "SV-004": [
+    {
+      "archetypeId": 24,
+      "archetypeName": "조사연구방법",
+      "caseId": "A24-C165",
+      "methodNo": 4,
+      "caseName": "조사연구방법",
+      "perfSlug": "survey-research"
+    }
+  ],
+  "QL-002": [
+    {
+      "archetypeId": 25,
+      "archetypeName": "간호이론구축",
+      "caseId": "A25-C003",
+      "methodNo": 6,
+      "caseName": "간호이론구축전략",
+      "perfSlug": "nursing-theory-construction"
+    }
+  ],
+  "QL-005": [
+    {
+      "archetypeId": 26,
+      "archetypeName": "관찰기법",
+      "caseId": "A26-C006",
+      "methodNo": 9,
+      "caseName": "관찰기법",
+      "perfSlug": "observation-methods"
+    }
+  ],
+  "HC-003": [
+    {
+      "archetypeId": 27,
+      "archetypeName": "비교정치·패턴분석",
+      "caseId": "A27-C050",
+      "methodNo": 145,
+      "caseName": "민주주의 제도유형 비교",
+      "perfSlug": "comparative-democracy-research"
+    }
+  ],
+  "GN-027": [
+    {
+      "archetypeId": 30,
+      "archetypeName": "역학연구",
+      "caseId": "A30-C137",
+      "methodNo": 193,
+      "caseName": "현대 역학",
+      "perfSlug": "epidemiological-research-methods"
+    }
+  ]
+}

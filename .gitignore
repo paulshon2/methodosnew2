@@ -1,0 +1,9 @@
+node_modules
+.next
+out
+dist
+.git
+*.bak
+tsconfig.tsbuildinfo
+.DS_Store
+*.zip

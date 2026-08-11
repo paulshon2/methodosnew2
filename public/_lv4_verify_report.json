@@ -1,0 +1,40 @@
+{
+  "allPass": true,
+  "checks": {
+    "UI_briefForm": true,
+    "UI_sheetAI": true,
+    "UI_draftBtn": true,
+    "UI_bridgeHint": true,
+    "summaryRebuilt": true,
+    "summaryBridgeHeaders": true,
+    "summaryTaskCount": 5394,
+    "catalogCount": 177,
+    "registryCount": 210,
+    "catalogNoBookTitlePollution": true,
+    "pollutedSample": [],
+    "causal01": "인과추론 — 준실험설계 편(Causal Inference: Quasi-Experimental)",
+    "gt02": "근거이론 — 2세대 편(Grounded Theory: Second Generation)",
+    "variantNamesOk": true,
+    "registryCI003": "인과추론 — 준실험설계 편(Causal Inference: Quasi-Experimental)",
+    "registryCI003ok": true
+  },
+  "metaSample": {
+    "task": "연구 선별 입력기준 확인(Input Criteria)",
+    "title": "산출물 「연구 선별 입력검증」 예시표(요약 골격) — 실제 작업표 연결 미리보기",
+    "headers": [
+      "미리보기",
+      "실제 작업표 열(연결)",
+      "쉬운 말",
+      "적는 예"
+    ],
+    "row0": [
+      "이 표의 역할",
+      "아래 2-1 실제 작업표 전체",
+      "「연구 선별 입력검증」을 만들기 전에, 같은 내용을 짧게 미리 보는 표입니다. 아래 큰 표(2-1)와 같은 산출물입니다.",
+      "돌봄 서비스 개입 효과 논문들을 기준으로 묶어 종합하기"
+    ],
+    "howTo": "이 요약표는 아래 실제 작업표(2-1)를 쉽게 미리 보여 주는 것입니다. ‘실제 작업표 열(연결)’ 칸의 이름과 2-1 표 머리글이 같습니다."
+  },
+  "badOld": 0,
+  "badBridge": 0
+}

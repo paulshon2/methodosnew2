@@ -1,0 +1,18 @@
+{
+  "name": "methodos — 연구방법 자동화",
+  "short_name": "methodos",
+  "description": "방법론 참고 자료 기반 연구방법 엔진 · 추천 · 3모드 자동화 · 데이터 시각화",
+  "start_url": "./",
+  "scope": "./",
+  "id": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "theme_color": "#534AB7",
+  "lang": "ko",
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" },
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

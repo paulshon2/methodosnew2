@@ -1,0 +1,710 @@
+{
+  "V61-Q-METHODOLOGY-01": {
+    "perfSlug": "q-methodology-01",
+    "legacyPerf": null
+  },
+  "V61-Q-METHODOLOGY-02": {
+    "perfSlug": "q-methodology-02",
+    "legacyPerf": null
+  },
+  "V61-Q-METHODOLOGY-03": {
+    "perfSlug": "q-methodology-03",
+    "legacyPerf": null
+  },
+  "V61-NURSING-THEORY-CONSTRUCTION": {
+    "perfSlug": "nursing-theory-construction",
+    "legacyPerf": null
+  },
+  "V61-SENTIMENT-ANALYSIS": {
+    "perfSlug": "sentiment-analysis",
+    "legacyPerf": null
+  },
+  "V61-ECONOMETRICS": {
+    "perfSlug": "econometrics",
+    "legacyPerf": null
+  },
+  "V61-PUBLIC-PROGRAM-EVALUATION": {
+    "perfSlug": "public-program-evaluation",
+    "legacyPerf": null
+  },
+  "V61-PROCESS-TRACING": {
+    "perfSlug": "process-tracing",
+    "legacyPerf": null
+  },
+  "V61-SCIENTOMETRICS": {
+    "perfSlug": "scientometrics",
+    "legacyPerf": null
+  },
+  "V61-OBSERVATION-METHODS": {
+    "perfSlug": "observation-methods",
+    "legacyPerf": null
+  },
+  "V61-TEACHERS-LIFE-HISTORY-RESEARCH": {
+    "perfSlug": "teachers-life-history-research",
+    "legacyPerf": null
+  },
+  "V61-EDUCATIONAL-ACTION-RESEARCH-01": {
+    "perfSlug": "educational-action-research-01",
+    "legacyPerf": null
+  },
+  "V61-EDUCATIONAL-ACTION-RESEARCH-02": {
+    "perfSlug": "educational-action-research-02",
+    "legacyPerf": null
+  },
+  "V61-EDUCATIONAL-RESEARCH-METHODOLOGY": {
+    "perfSlug": "educational-research-methodology",
+    "legacyPerf": null
+  },
+  "V61-CONSTRUCTIVIST-GROUNDED-THEORY": {
+    "perfSlug": "constructivist-grounded-theory",
+    "legacyPerf": null
+  },
+  "V61-ORAL-HISTORY": {
+    "perfSlug": "oral-history",
+    "legacyPerf": null
+  },
+  "V61-STRUCTURAL-EQUATION-MODELING": {
+    "perfSlug": "structural-equation-modeling",
+    "legacyPerf": null
+  },
+  "V61-CLUSTER-ANALYSIS": {
+    "perfSlug": "cluster-analysis",
+    "legacyPerf": null
+  },
+  "V61-DISCIPLINARY-POWER-ANALYSIS": {
+    "perfSlug": "disciplinary-power-analysis",
+    "legacyPerf": null
+  },
+  "V61-GROUNDED-THEORY-01": {
+    "perfSlug": "grounded-theory-01",
+    "legacyPerf": null
+  },
+  "V61-GROUNDED-THEORY-02": {
+    "perfSlug": "grounded-theory-02",
+    "legacyPerf": null
+  },
+  "V61-GROUNDED-THEORY-03": {
+    "perfSlug": "grounded-theory-03",
+    "legacyPerf": null
+  },
+  "V61-EVIDENCE-BASED-MEDICINE": {
+    "perfSlug": "evidence-based-medicine",
+    "legacyPerf": null
+  },
+  "V61-MACHINE-LEARNING": {
+    "perfSlug": "machine-learning",
+    "legacyPerf": null
+  },
+  "V61-ARCHIVAL-RESEARCH": {
+    "perfSlug": "archival-research",
+    "legacyPerf": null
+  },
+  "V61-DESCRIPTIVE-PHENOMENOLOGY": {
+    "perfSlug": "descriptive-phenomenology",
+    "legacyPerf": null
+  },
+  "V61-BASIC-STATISTICS": {
+    "perfSlug": "basic-statistics",
+    "legacyPerf": null
+  },
+  "V61-NARRATIVE-INQUIRY": {
+    "perfSlug": "narrative-inquiry",
+    "legacyPerf": null
+  },
+  "V61-CONTENT-ANALYSIS-01": {
+    "perfSlug": "content-analysis-01",
+    "legacyPerf": null
+  },
+  "V61-CONTENT-ANALYSIS-02": {
+    "perfSlug": "content-analysis-02",
+    "legacyPerf": null
+  },
+  "V61-CONTENT-ANALYSIS-03": {
+    "perfSlug": "content-analysis-03",
+    "legacyPerf": null
+  },
+  "V61-NETNOGRAPHY-01": {
+    "perfSlug": "netnography-01",
+    "legacyPerf": null
+  },
+  "V61-NETNOGRAPHY-02": {
+    "perfSlug": "netnography-02",
+    "legacyPerf": null
+  },
+  "V61-MULTIVARIATE-STATISTICAL-ANALYSIS-01": {
+    "perfSlug": "multivariate-statistical-analysis-01",
+    "legacyPerf": null
+  },
+  "V61-MULTIVARIATE-STATISTICAL-ANALYSIS-02": {
+    "perfSlug": "multivariate-statistical-analysis-02",
+    "legacyPerf": null
+  },
+  "V61-MULTIDIMENSIONAL-SCALING": {
+    "perfSlug": "multidimensional-scaling",
+    "legacyPerf": null
+  },
+  "V61-DISCOURSE-ANALYSIS": {
+    "perfSlug": "discourse-analysis",
+    "legacyPerf": null
+  },
+  "V61-CONVERSATION-ANALYSIS": {
+    "perfSlug": "conversation-analysis",
+    "legacyPerf": null
+  },
+  "V61-DELPHI-METHOD": {
+    "perfSlug": "delphi-method",
+    "legacyPerf": null
+  },
+  "V61-DEEP-LEARNING": {
+    "perfSlug": "deep-learning",
+    "legacyPerf": null
+  },
+  "V61-LOGISTIC-REGRESSION-ANALYSIS-01": {
+    "perfSlug": "logistic-regression-analysis-01",
+    "legacyPerf": null
+  },
+  "V61-LOGISTIC-REGRESSION-ANALYSIS-02": {
+    "perfSlug": "logistic-regression-analysis-02",
+    "legacyPerf": null
+  },
+  "V61-MARKETING-RESEARCH": {
+    "perfSlug": "marketing-research",
+    "legacyPerf": null
+  },
+  "V61-MEDIATION-AND-MODERATION-ANALYSIS": {
+    "perfSlug": "mediation-and-moderation-analysis",
+    "legacyPerf": null
+  },
+  "V61-META-ETHNOGRAPHY": {
+    "perfSlug": "meta-ethnography",
+    "legacyPerf": null
+  },
+  "V61-META-ANALYSIS-01": {
+    "perfSlug": "meta-analysis-01",
+    "legacyPerf": null
+  },
+  "V61-META-ANALYSIS-02": {
+    "perfSlug": "meta-analysis-02",
+    "legacyPerf": null
+  },
+  "V61-META-ANALYSIS-03": {
+    "perfSlug": "meta-analysis-03",
+    "legacyPerf": null
+  },
+  "V61-LITERATURE-REVIEW": {
+    "perfSlug": "literature-review",
+    "legacyPerf": null
+  },
+  "V61-MEDIA-CONTENT-ANALYSIS-01": {
+    "perfSlug": "media-content-analysis-01",
+    "legacyPerf": null
+  },
+  "V61-MEDIA-CONTENT-ANALYSIS-02": {
+    "perfSlug": "media-content-analysis-02",
+    "legacyPerf": null
+  },
+  "V61-MEDIA-CONTENT-ANALYSIS-03": {
+    "perfSlug": "media-content-analysis-03",
+    "legacyPerf": null
+  },
+  "V61-MEDIA-CONTENT-ANALYSIS-04": {
+    "perfSlug": "media-content-analysis-04",
+    "legacyPerf": null
+  },
+  "V61-ETHNOGRAPHIC-FIELDNOTES": {
+    "perfSlug": "ethnographic-fieldnotes",
+    "legacyPerf": null
+  },
+  "V61-ETHNOGRAPHY": {
+    "perfSlug": "ethnography",
+    "legacyPerf": null
+  },
+  "V61-ETHNOGRAPHIC-PARTICIPANT-OBSERVATION": {
+    "perfSlug": "ethnographic-participant-observation",
+    "legacyPerf": null
+  },
+  "V61-BAYESIAN-DATA-ANALYSIS": {
+    "perfSlug": "bayesian-data-analysis",
+    "legacyPerf": null
+  },
+  "V61-ANALYTIC-HIERARCHY-PROCESS": {
+    "perfSlug": "analytic-hierarchy-process",
+    "legacyPerf": null
+  },
+  "V61-COMPARATIVE-DEMOCRACY-RESEARCH": {
+    "perfSlug": "comparative-democracy-research",
+    "legacyPerf": null
+  },
+  "V61-COMPARATIVE-METHOD": {
+    "perfSlug": "comparative-method",
+    "legacyPerf": null
+  },
+  "V61-COMPARATIVE-HISTORICAL-ANALYSIS": {
+    "perfSlug": "comparative-historical-analysis",
+    "legacyPerf": null
+  },
+  "V61-COST-BENEFIT-ANALYSIS": {
+    "perfSlug": "cost-benefit-analysis",
+    "legacyPerf": null
+  },
+  "V61-CRITICAL-THEORY": {
+    "perfSlug": "critical-theory",
+    "legacyPerf": null
+  },
+  "V61-CRITICAL-DISCOURSE-ANALYSIS": {
+    "perfSlug": "critical-discourse-analysis",
+    "legacyPerf": null
+  },
+  "V61-CRITICAL-ETHNOGRAPHY": {
+    "perfSlug": "critical-ethnography",
+    "legacyPerf": null
+  },
+  "V61-CASE-STUDY-RESEARCH-01": {
+    "perfSlug": "case-study-research-01",
+    "legacyPerf": null
+  },
+  "V61-CASE-STUDY-RESEARCH-02": {
+    "perfSlug": "case-study-research-02",
+    "legacyPerf": null
+  },
+  "V61-SOCIAL-SCIENCE-RESEARCH-DESIGN": {
+    "perfSlug": "social-science-research-design",
+    "legacyPerf": null
+  },
+  "V61-SOCIAL-SCIENCE-STATISTICAL-METHODS": {
+    "perfSlug": "social-science-statistical-methods",
+    "legacyPerf": null
+  },
+  "V61-SOCIAL-NETWORK-ANALYSIS-01": {
+    "perfSlug": "social-network-analysis-01",
+    "legacyPerf": null
+  },
+  "V61-SOCIAL-NETWORK-ANALYSIS-02": {
+    "perfSlug": "social-network-analysis-02",
+    "legacyPerf": null
+  },
+  "V61-SOCIAL-NETWORK-ANALYSIS-03": {
+    "perfSlug": "social-network-analysis-03",
+    "legacyPerf": null
+  },
+  "V61-SOCIAL-SURVEY-METHODOLOGY": {
+    "perfSlug": "social-survey-methodology",
+    "legacyPerf": null
+  },
+  "V61-SYMBOLIC-INTERACTIONISM": {
+    "perfSlug": "symbolic-interactionism",
+    "legacyPerf": null
+  },
+  "V61-INTERACTION-RITUAL-ANALYSIS": {
+    "perfSlug": "interaction-ritual-analysis",
+    "legacyPerf": null
+  },
+  "V61-LIFE-HISTORY-RESEARCH": {
+    "perfSlug": "life-history-research",
+    "legacyPerf": null
+  },
+  "V61-NARRATIVE-METHODS-01": {
+    "perfSlug": "narrative-methods-01",
+    "legacyPerf": null
+  },
+  "V61-NARRATIVE-METHODS-02": {
+    "perfSlug": "narrative-methods-02",
+    "legacyPerf": null
+  },
+  "V61-LINEAR-STATISTICAL-MODELS": {
+    "perfSlug": "linear-statistical-models",
+    "legacyPerf": null
+  },
+  "V61-SURVEY-DESIGN": {
+    "perfSlug": "survey-design",
+    "legacyPerf": null
+  },
+  "V61-SCOPING-REVIEW": {
+    "perfSlug": "scoping-review",
+    "legacyPerf": null
+  },
+  "V61-VISUAL-ETHNOGRAPHY": {
+    "perfSlug": "visual-ethnography",
+    "legacyPerf": null
+  },
+  "V61-SYSTEM-DYNAMICS": {
+    "perfSlug": "system-dynamics",
+    "legacyPerf": null
+  },
+  "V61-RAPID-LITERATURE-REVIEW": {
+    "perfSlug": "rapid-literature-review",
+    "legacyPerf": null
+  },
+  "V61-ACTION-RESEARCH-01": {
+    "perfSlug": "action-research-01",
+    "legacyPerf": null
+  },
+  "V61-ACTION-RESEARCH-02": {
+    "perfSlug": "action-research-02",
+    "legacyPerf": null
+  },
+  "V61-087": {
+    "perfSlug": "experimental-and-quasi-experimental-design-01",
+    "legacyPerf": null
+  },
+  "V61-088": {
+    "perfSlug": "experimental-and-quasi-experimental-design-02",
+    "legacyPerf": null
+  },
+  "V61-EXPERIMENTAL-DESIGN": {
+    "perfSlug": "experimental-design",
+    "legacyPerf": null
+  },
+  "V61-EXPERIMENTAL-DESIGN-AND-ANALYSIS": {
+    "perfSlug": "experimental-design-and-analysis",
+    "legacyPerf": null
+  },
+  "V61-091": {
+    "perfSlug": "quantitative-qualitative-and-mixed-research-design-01",
+    "legacyPerf": null
+  },
+  "V61-092": {
+    "perfSlug": "quantitative-qualitative-and-mixed-research-design-02",
+    "legacyPerf": null
+  },
+  "V61-093": {
+    "perfSlug": "quantitative-qualitative-and-mixed-research-design-03",
+    "legacyPerf": null
+  },
+  "V61-PUBLIC-OPINION-RESEARCH": {
+    "perfSlug": "public-opinion-research",
+    "legacyPerf": null
+  },
+  "V61-HISTORICAL-HERMENEUTICS": {
+    "perfSlug": "historical-hermeneutics",
+    "legacyPerf": null
+  },
+  "V61-HISTORICAL-SOCIOLOGY": {
+    "perfSlug": "historical-sociology",
+    "legacyPerf": null
+  },
+  "V61-HISTORICAL-RESEARCH-METHODS": {
+    "perfSlug": "historical-research-methods",
+    "legacyPerf": null
+  },
+  "V61-PHILOSOPHY-OF-HISTORY": {
+    "perfSlug": "philosophy-of-history",
+    "legacyPerf": null
+  },
+  "V61-EPIDEMIOLOGICAL-RESEARCH-METHODS-01": {
+    "perfSlug": "epidemiological-research-methods-01",
+    "legacyPerf": null
+  },
+  "V61-EPIDEMIOLOGICAL-RESEARCH-METHODS-02": {
+    "perfSlug": "epidemiological-research-methods-02",
+    "legacyPerf": null
+  },
+  "V61-RESEARCH-METHODOLOGY-01": {
+    "perfSlug": "research-methodology-01",
+    "legacyPerf": null
+  },
+  "V61-RESEARCH-METHODOLOGY-02": {
+    "perfSlug": "research-methodology-02",
+    "legacyPerf": null
+  },
+  "V61-RESEARCH-METHODOLOGY-03": {
+    "perfSlug": "research-methodology-03",
+    "legacyPerf": null
+  },
+  "V61-RESEARCH-METHODOLOGY-04": {
+    "perfSlug": "research-methodology-04",
+    "legacyPerf": null
+  },
+  "V61-RESEARCH-METHODOLOGY-05": {
+    "perfSlug": "research-methodology-05",
+    "legacyPerf": null
+  },
+  "V61-RESEARCH-METHODOLOGY-06": {
+    "perfSlug": "research-methodology-06",
+    "legacyPerf": null
+  },
+  "V61-RESEARCH-METHODOLOGY-07": {
+    "perfSlug": "research-methodology-07",
+    "legacyPerf": null
+  },
+  "V61-RESEARCH-METHODOLOGY-08": {
+    "perfSlug": "research-methodology-08",
+    "legacyPerf": null
+  },
+  "V61-RESEARCH-METHODOLOGY-09": {
+    "perfSlug": "research-methodology-09",
+    "legacyPerf": null
+  },
+  "V61-RESEARCH-PROGRAMME-METHODOLOGY": {
+    "perfSlug": "research-programme-methodology",
+    "legacyPerf": null
+  },
+  "V61-IMPACT-EVALUATION": {
+    "perfSlug": "impact-evaluation",
+    "legacyPerf": null
+  },
+  "V61-FORECASTING-MODELS": {
+    "perfSlug": "forecasting-models",
+    "legacyPerf": null
+  },
+  "V61-MEDICAL-STATISTICS": {
+    "perfSlug": "medical-statistics",
+    "legacyPerf": null
+  },
+  "V61-ARTIFICIAL-INTELLIGENCE": {
+    "perfSlug": "artificial-intelligence",
+    "legacyPerf": null
+  },
+  "V61-CAUSAL-INFERENCE-01": {
+    "perfSlug": "causal-inference-01",
+    "legacyPerf": null
+  },
+  "V61-CAUSAL-INFERENCE-02": {
+    "perfSlug": "causal-inference-02",
+    "legacyPerf": null
+  },
+  "V61-CAUSAL-INFERENCE-03": {
+    "perfSlug": "causal-inference-03",
+    "legacyPerf": null
+  },
+  "V61-CITATION-ANALYSIS": {
+    "perfSlug": "citation-analysis",
+    "legacyPerf": null
+  },
+  "V61-CLINICAL-TRIALS": {
+    "perfSlug": "clinical-trials",
+    "legacyPerf": null
+  },
+  "V61-AUTOETHNOGRAPHY": {
+    "perfSlug": "autoethnography",
+    "legacyPerf": null
+  },
+  "V61-NATURAL-LANGUAGE-PROCESSING": {
+    "perfSlug": "natural-language-processing",
+    "legacyPerf": null
+  },
+  "V61-NATURALISTIC-INQUIRY": {
+    "perfSlug": "naturalistic-inquiry",
+    "legacyPerf": null
+  },
+  "V61-LATENT-CLASS-AND-TRANSITION-ANALYSIS": {
+    "perfSlug": "latent-class-and-transition-analysis",
+    "legacyPerf": null
+  },
+  "V61-LATENT-VARIABLE-MODELING": {
+    "perfSlug": "latent-variable-modeling",
+    "legacyPerf": null
+  },
+  "V61-BIOGRAPHICAL-RESEARCH": {
+    "perfSlug": "biographical-research",
+    "legacyPerf": null
+  },
+  "V61-INFORMATION-RETRIEVAL": {
+    "perfSlug": "information-retrieval",
+    "legacyPerf": null
+  },
+  "V61-POLICY-ANALYSIS": {
+    "perfSlug": "policy-analysis",
+    "legacyPerf": null
+  },
+  "V61-SURVEY-RESEARCH": {
+    "perfSlug": "survey-research",
+    "legacyPerf": null
+  },
+  "V61-ORGANIZATIONAL-CULTURE-RESEARCH": {
+    "perfSlug": "organizational-culture-research",
+    "legacyPerf": null
+  },
+  "V61-LONGITUDINAL-DATA-ANALYSIS": {
+    "perfSlug": "longitudinal-data-analysis",
+    "legacyPerf": null
+  },
+  "V61-QUASI-EXPERIMENTAL-CAUSAL-INFERENCE": {
+    "perfSlug": "quasi-experimental-causal-inference",
+    "legacyPerf": null
+  },
+  "V61-QUASI-EXPERIMENTS": {
+    "perfSlug": "quasi-experiments",
+    "legacyPerf": null
+  },
+  "V61-INTELLECTUAL-HISTORY": {
+    "perfSlug": "intellectual-history",
+    "legacyPerf": null
+  },
+  "V61-QUALITATIVE-INTERVIEWING": {
+    "perfSlug": "qualitative-interviewing",
+    "legacyPerf": null
+  },
+  "V61-QUALITATIVE-IN-DEPTH-INTERVIEWING": {
+    "perfSlug": "qualitative-in-depth-interviewing",
+    "legacyPerf": null
+  },
+  "V61-QUALITATIVE-RESEARCH-DESIGN": {
+    "perfSlug": "qualitative-research-design",
+    "legacyPerf": null
+  },
+  "V61-QUALITATIVE-CODING": {
+    "perfSlug": "qualitative-coding",
+    "legacyPerf": null
+  },
+  "V61-QUALITATIVE-RESEARCH-SYNTHESIS": {
+    "perfSlug": "qualitative-research-synthesis",
+    "legacyPerf": null
+  },
+  "V61-QUALITATIVE-INQUIRY-01": {
+    "perfSlug": "qualitative-inquiry-01",
+    "legacyPerf": null
+  },
+  "V61-QUALITATIVE-INQUIRY-02": {
+    "perfSlug": "qualitative-inquiry-02",
+    "legacyPerf": null
+  },
+  "V61-PARTICIPANT-OBSERVATION": {
+    "perfSlug": "participant-observation",
+    "legacyPerf": null
+  },
+  "V61-PHILOSOPHICAL-INQUIRY": {
+    "perfSlug": "philosophical-inquiry",
+    "legacyPerf": null
+  },
+  "V61-SYSTEMATIC-LITERATURE-REVIEW-01": {
+    "perfSlug": "systematic-literature-review-01",
+    "legacyPerf": null
+  },
+  "V61-SYSTEMATIC-LITERATURE-REVIEW-02": {
+    "perfSlug": "systematic-literature-review-02",
+    "legacyPerf": null
+  },
+  "V61-SYSTEMATIC-LITERATURE-REVIEW-03": {
+    "perfSlug": "systematic-literature-review-03",
+    "legacyPerf": null
+  },
+  "V61-SYSTEMATIC-EVALUATION": {
+    "perfSlug": "systematic-evaluation",
+    "legacyPerf": null
+  },
+  "V61-TRANSCENDENTAL-PHENOMENOLOGY": {
+    "perfSlug": "transcendental-phenomenology",
+    "legacyPerf": null
+  },
+  "V61-CORPUS-LINGUISTICS": {
+    "perfSlug": "corpus-linguistics",
+    "legacyPerf": null
+  },
+  "V61-KEYWORD-KEYNESS-ANALYSIS": {
+    "perfSlug": "keyword-keyness-analysis",
+    "legacyPerf": null
+  },
+  "V61-EXPLORATORY-FACTOR-ANALYSIS": {
+    "perfSlug": "exploratory-factor-analysis",
+    "legacyPerf": null
+  },
+  "V61-TEXT-MACHINE-LEARNING": {
+    "perfSlug": "text-machine-learning",
+    "legacyPerf": null
+  },
+  "V61-TEXT-MINING": {
+    "perfSlug": "text-mining",
+    "legacyPerf": null
+  },
+  "V61-TEXT-ANALYSIS": {
+    "perfSlug": "text-analysis",
+    "legacyPerf": null
+  },
+  "V61-TOPIC-MODELING": {
+    "perfSlug": "topic-modeling",
+    "legacyPerf": null
+  },
+  "V61-STATISTICAL-ANALYSIS-01": {
+    "perfSlug": "statistical-analysis-01",
+    "legacyPerf": null
+  },
+  "V61-STATISTICAL-ANALYSIS-02": {
+    "perfSlug": "statistical-analysis-02",
+    "legacyPerf": null
+  },
+  "V61-STATISTICAL-DECISION-MAKING": {
+    "perfSlug": "statistical-decision-making",
+    "legacyPerf": null
+  },
+  "V61-158": {
+    "perfSlug": "statistical-natural-language-processing",
+    "legacyPerf": null
+  },
+  "V61-STATISTICAL-LEARNING": {
+    "perfSlug": "statistical-learning",
+    "legacyPerf": null
+  },
+  "V61-INTEGRATIVE-LITERATURE-REVIEW": {
+    "perfSlug": "integrative-literature-review",
+    "legacyPerf": null
+  },
+  "V61-DISCRIMINANT-ANALYSIS": {
+    "perfSlug": "discriminant-analysis",
+    "legacyPerf": null
+  },
+  "V61-PANEL-DATA-ANALYSIS": {
+    "perfSlug": "panel-data-analysis",
+    "legacyPerf": null
+  },
+  "V61-APPRAISAL-DISCOURSE-ANALYSIS": {
+    "perfSlug": "appraisal-discourse-analysis",
+    "legacyPerf": null
+  },
+  "V61-FOCUS-GROUP": {
+    "perfSlug": "focus-group",
+    "legacyPerf": null
+  },
+  "V61-INTERPRETIVE-INTERACTIONISM": {
+    "perfSlug": "interpretive-interactionism",
+    "legacyPerf": null
+  },
+  "V61-HERMENEUTIC-PHENOMENOLOGY": {
+    "perfSlug": "hermeneutic-phenomenology",
+    "legacyPerf": null
+  },
+  "V61-167": {
+    "perfSlug": "interpretative-phenomenological-analysis",
+    "legacyPerf": null
+  },
+  "V61-AGENT-BASED-MODELING": {
+    "perfSlug": "agent-based-modeling",
+    "legacyPerf": null
+  },
+  "V61-PHENOMENOLOGY": {
+    "perfSlug": "phenomenology",
+    "legacyPerf": null
+  },
+  "V61-PHENOMENOLOGICAL-RESEARCH-METHODS": {
+    "perfSlug": "phenomenological-research-methods",
+    "legacyPerf": null
+  },
+  "V61-FIELD-EXPERIMENTS": {
+    "perfSlug": "field-experiments",
+    "legacyPerf": null
+  },
+  "V61-MIXED-METHODS-RESEARCH-01": {
+    "perfSlug": "mixed-methods-research-01",
+    "legacyPerf": null
+  },
+  "V61-MIXED-METHODS-RESEARCH-02": {
+    "perfSlug": "mixed-methods-research-02",
+    "legacyPerf": null
+  },
+  "V61-CONFIRMATORY-FACTOR-ANALYSIS": {
+    "perfSlug": "confirmatory-factor-analysis",
+    "legacyPerf": null
+  },
+  "V61-UTILIZATION-FOCUSED-EVALUATION": {
+    "perfSlug": "utilization-focused-evaluation",
+    "legacyPerf": null
+  },
+  "V61-REGRESSION-ANALYSIS": {
+    "perfSlug": "regression-analysis",
+    "legacyPerf": null
+  },
+  "V61-CROSS-SECTION-AND-PANEL-ECONOMETRICS": {
+    "perfSlug": "cross-section-and-panel-econometrics",
+    "legacyPerf": null
+  }
+}

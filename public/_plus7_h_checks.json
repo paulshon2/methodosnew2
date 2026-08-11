@@ -1,0 +1,145 @@
+{
+  "bindOk": 177,
+  "bindTotal": 177,
+  "checks": {
+    "H1": {
+      "pass": true,
+      "note": "workbench copy references Phase→Stage→Process→Task"
+    },
+    "H7": {
+      "pass": true,
+      "note": "generic AiTransformPanel removed from v61-workbench"
+    },
+    "H3_ui": {
+      "pass": true,
+      "note": "work sheet accordion defaults collapsed"
+    },
+    "H2": {
+      "pass": true,
+      "failCount": 0,
+      "sample": []
+    },
+    "H3": {
+      "pass": true,
+      "failCount": 0,
+      "sample": []
+    },
+    "H4": {
+      "pass": true,
+      "failCount": 0,
+      "sample": []
+    },
+    "H5": {
+      "pass": true,
+      "failCount": 0,
+      "sample": []
+    },
+    "H8": {
+      "pass": true,
+      "note": "parser copies DOCX text; no generative fill"
+    },
+    "H6": {
+      "pass": true,
+      "note": "Q/내용분석/근거이론 주제·금지도메인 데모 구분. Stage2 일부 행은 원본 DOCX 템플릿 공유 가능.",
+      "sourceTemplateReuseCount": 72,
+      "sourceTemplateReuseSamples": [
+        {
+          "slugs": [
+            "action-research-01",
+            "causal-inference-03",
+            "educational-action-research-01",
+            "symbolic-interactionism"
+          ],
+          "preview": "[[\"1\", \"2024-04-24\", \"AS01\", \"녹음\", \"직접식별\", \"가명\", \"secure/R183/raw/00\", \"work/R18"
+        },
+        {
+          "slugs": [
+            "action-research-01",
+            "educational-action-research-01",
+            "symbolic-interactionism"
+          ],
+          "preview": "[[\"1\", \"2024-05-08\", \"G01\", \"Stage1\", \"완전성\", \"완전성이 목표를 넘는가 · 방법 품질 기준\", \"체크리스트\","
+        },
+        {
+          "slugs": [
+            "appraisal-discourse-analysis",
+            "meta-analysis-02",
+            "participant-observation"
+          ],
+          "preview": "[[\"1\", \"2024-04-21\", \"AS01\", \"녹음\", \"직접식별\", \"가명\", \"secure/R180/raw/00\", \"work/R18"
+        }
+      ],
+      "spotTopicsDistinct": [
+        "도서관 야간개방에 대해 사람들이 가진 서로 다른 마음(찬성·걱정·조건부인정) 유형 찾기",
+        "신입 간호사 적응 현장에서 ‘내 방식’을 찾아가는 과정",
+        "학교폭력 뉴스 관련 글·기사에서 위기·갈등·해결·비용으로 어떻게 나누어 말하는지 세기"
+      ]
+    }
+  },
+  "spot": {
+    "q-methodology-01": {
+      "stage1FitAiFields": [
+        "연구 주제 한 줄(공통)",
+        "행",
+        "날짜",
+        "점검ID",
+        "적합질문",
+        "방법가정",
+        "자료가능성",
+        "대안방법",
+        "대안기각이유",
+        "위험",
+        "점수(1-5)",
+        "판단"
+      ],
+      "stage5ProcessCount": 6,
+      "sampleBindings": 6,
+      "topicPreview": "도서관 야간개방에 대해 사람들이 가진 서로 다른 마음(찬성·걱정·조건부인정) 유형 찾기",
+      "hasForbiddenDemo": false,
+      "name_ko": "Q 방법론(Q Methodology)"
+    },
+    "content-analysis-01": {
+      "stage1FitAiFields": [
+        "연구 주제 한 줄(공통)",
+        "행",
+        "날짜",
+        "점검ID",
+        "적합질문",
+        "방법가정",
+        "자료가능성",
+        "대안방법",
+        "대안기각이유",
+        "위험",
+        "점수(1-5)",
+        "판단"
+      ],
+      "stage5ProcessCount": 7,
+      "sampleBindings": 7,
+      "topicPreview": "학교폭력 뉴스 관련 글·기사에서 위기·갈등·해결·비용으로 어떻게 나누어 말하는지 세기",
+      "hasForbiddenDemo": false,
+      "name_ko": "내용분석(Content Analysis)"
+    },
+    "grounded-theory-01": {
+      "stage1FitAiFields": [
+        "연구 주제 한 줄(공통)",
+        "행",
+        "날짜",
+        "점검ID",
+        "적합질문",
+        "방법가정",
+        "자료가능성",
+        "대안방법",
+        "대안기각이유",
+        "위험",
+        "점수(1-5)",
+        "판단"
+      ],
+      "stage5ProcessCount": 6,
+      "sampleBindings": 6,
+      "topicPreview": "신입 간호사 적응 현장에서 ‘내 방식’을 찾아가는 과정",
+      "hasForbiddenDemo": false,
+      "name_ko": "근거이론(Grounded Theory)"
+    }
+  },
+  "allPass": true
+}

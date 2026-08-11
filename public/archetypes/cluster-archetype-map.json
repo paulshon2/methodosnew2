@@ -1,0 +1,324 @@
+{
+  "version": 1,
+  "source": "5_분류체계_정합",
+  "clusters": {
+    "1": {
+      "primaryArchetypeId": 2,
+      "secondaryArchetypeIds": [
+        7
+      ],
+      "primaryLabel": "역사·비교사료",
+      "judgment": "2개로 분산"
+    },
+    "2": {
+      "primaryArchetypeId": 1,
+      "secondaryArchetypeIds": [
+        7
+      ],
+      "primaryLabel": "설문·양적통계",
+      "judgment": "2개로 분산"
+    },
+    "3": {
+      "primaryArchetypeId": 3,
+      "secondaryArchetypeIds": [],
+      "primaryLabel": "민족지·참여관찰",
+      "judgment": "1:1 정합"
+    },
+    "4": {
+      "primaryArchetypeId": 4,
+      "secondaryArchetypeIds": [],
+      "primaryLabel": "텍스트·계산언어",
+      "judgment": "1:1 정합"
+    },
+    "5": {
+      "primaryArchetypeId": 1,
+      "secondaryArchetypeIds": [],
+      "primaryLabel": "설문·양적통계",
+      "judgment": "1:1 정합"
+    },
+    "6": {
+      "primaryArchetypeId": 8,
+      "secondaryArchetypeIds": [],
+      "primaryLabel": "현상학·체험탐구",
+      "judgment": "1:1 정합"
+    },
+    "7": {
+      "primaryArchetypeId": 1,
+      "secondaryArchetypeIds": [
+        24
+      ],
+      "primaryLabel": "설문·양적통계",
+      "judgment": "2개로 분산"
+    },
+    "8": {
+      "primaryArchetypeId": 12,
+      "secondaryArchetypeIds": [],
+      "primaryLabel": "서사·생애사",
+      "judgment": "1:1 정합"
+    },
+    "9": {
+      "primaryArchetypeId": 6,
+      "secondaryArchetypeIds": [],
+      "primaryLabel": "정책·프로그램평가",
+      "judgment": "1:1 정합"
+    },
+    "10": {
+      "primaryArchetypeId": 1,
+      "secondaryArchetypeIds": [],
+      "primaryLabel": "설문·양적통계",
+      "judgment": "1:1 정합"
+    },
+    "11": {
+      "primaryArchetypeId": 1,
+      "secondaryArchetypeIds": [],
+      "primaryLabel": "설문·양적통계",
+      "judgment": "1:1 정합"
+    },
+    "12": {
+      "primaryArchetypeId": 10,
+      "secondaryArchetypeIds": [
+        16
+      ],
+      "primaryLabel": "근거이론",
+      "judgment": "2개로 분산"
+    },
+    "13": {
+      "primaryArchetypeId": 13,
+      "secondaryArchetypeIds": [],
+      "primaryLabel": "실행·행동연구",
+      "judgment": "1:1 정합"
+    },
+    "14": {
+      "primaryArchetypeId": 9,
+      "secondaryArchetypeIds": [],
+      "primaryLabel": "예측·시스템모형",
+      "judgment": "1:1 정합"
+    },
+    "15": {
+      "primaryArchetypeId": 1,
+      "secondaryArchetypeIds": [],
+      "primaryLabel": "설문·양적통계",
+      "judgment": "1:1 정합"
+    },
+    "16": {
+      "primaryArchetypeId": 31,
+      "secondaryArchetypeIds": [
+        16
+      ],
+      "primaryLabel": "일반연구방법론",
+      "judgment": "2개로 분산"
+    },
+    "17": {
+      "primaryArchetypeId": 11,
+      "secondaryArchetypeIds": [
+        5,
+        1
+      ],
+      "primaryLabel": "내용분석·코딩",
+      "judgment": "3개로 분산"
+    },
+    "18": {
+      "primaryArchetypeId": 14,
+      "secondaryArchetypeIds": [],
+      "primaryLabel": "담화·비판담화",
+      "judgment": "1:1 정합"
+    },
+    "19": {
+      "primaryArchetypeId": 1,
+      "secondaryArchetypeIds": [
+        9
+      ],
+      "primaryLabel": "설문·양적통계",
+      "judgment": "2개로 분산"
+    },
+    "20": {
+      "primaryArchetypeId": 18,
+      "secondaryArchetypeIds": [],
+      "primaryLabel": "상징적상호작용",
+      "judgment": "1:1 정합"
+    },
+    "21": {
+      "primaryArchetypeId": 11,
+      "secondaryArchetypeIds": [],
+      "primaryLabel": "내용분석·코딩",
+      "judgment": "1:1 정합"
+    },
+    "22": {
+      "primaryArchetypeId": 15,
+      "secondaryArchetypeIds": [],
+      "primaryLabel": "심층면담",
+      "judgment": "1:1 정합"
+    },
+    "23": {
+      "primaryArchetypeId": 27,
+      "secondaryArchetypeIds": [
+        2
+      ],
+      "primaryLabel": "비교정치·패턴분석",
+      "judgment": "2개로 분산"
+    },
+    "24": {
+      "primaryArchetypeId": 19,
+      "secondaryArchetypeIds": [],
+      "primaryLabel": "사례연구",
+      "judgment": "1:1 정합"
+    },
+    "25": {
+      "primaryArchetypeId": 17,
+      "secondaryArchetypeIds": [],
+      "primaryLabel": "푸코·비판이론",
+      "judgment": "1:1 정합"
+    },
+    "26": {
+      "primaryArchetypeId": 1,
+      "secondaryArchetypeIds": [
+        16,
+        28
+      ],
+      "primaryLabel": "설문·양적통계",
+      "judgment": "3개로 분산"
+    },
+    "27": {
+      "primaryArchetypeId": 20,
+      "secondaryArchetypeIds": [],
+      "primaryLabel": "계량서지·인용분석",
+      "judgment": "1:1 정합"
+    },
+    "28": {
+      "primaryArchetypeId": 4,
+      "secondaryArchetypeIds": [],
+      "primaryLabel": "텍스트·계산언어",
+      "judgment": "1:1 정합"
+    },
+    "29": {
+      "primaryArchetypeId": 26,
+      "secondaryArchetypeIds": [],
+      "primaryLabel": "관찰기법",
+      "judgment": "1:1 정합"
+    },
+    "30": {
+      "primaryArchetypeId": 29,
+      "secondaryArchetypeIds": [
+        4
+      ],
+      "primaryLabel": "키워드핵심성",
+      "judgment": "2개로 분산"
+    },
+    "31": {
+      "primaryArchetypeId": 1,
+      "secondaryArchetypeIds": [],
+      "primaryLabel": "설문·양적통계",
+      "judgment": "1:1 정합"
+    },
+    "32": {
+      "primaryArchetypeId": 30,
+      "secondaryArchetypeIds": [],
+      "primaryLabel": "역학연구",
+      "judgment": "1:1 정합"
+    },
+    "33": {
+      "primaryArchetypeId": 6,
+      "secondaryArchetypeIds": [],
+      "primaryLabel": "정책·프로그램평가",
+      "judgment": "1:1 정합"
+    },
+    "34": {
+      "primaryArchetypeId": 6,
+      "secondaryArchetypeIds": [],
+      "primaryLabel": "정책·프로그램평가",
+      "judgment": "1:1 정합"
+    },
+    "35": {
+      "primaryArchetypeId": 4,
+      "secondaryArchetypeIds": [],
+      "primaryLabel": "텍스트·계산언어",
+      "judgment": "1:1 정합"
+    },
+    "36": {
+      "primaryArchetypeId": 5,
+      "secondaryArchetypeIds": [],
+      "primaryLabel": "문헌고찰·근거합성",
+      "judgment": "1:1 정합"
+    },
+    "37": {
+      "primaryArchetypeId": 1,
+      "secondaryArchetypeIds": [],
+      "primaryLabel": "설문·양적통계",
+      "judgment": "1:1 정합"
+    },
+    "38": {
+      "primaryArchetypeId": 22,
+      "secondaryArchetypeIds": [],
+      "primaryLabel": "대화·회화분석",
+      "judgment": "1:1 정합"
+    },
+    "39": {
+      "primaryArchetypeId": 11,
+      "secondaryArchetypeIds": [
+        1
+      ],
+      "primaryLabel": "내용분석·코딩",
+      "judgment": "2개로 분산"
+    },
+    "40": {
+      "primaryArchetypeId": 23,
+      "secondaryArchetypeIds": [],
+      "primaryLabel": "Q방법론·연구프로그램",
+      "judgment": "1:1 정합"
+    },
+    "41": {
+      "primaryArchetypeId": 5,
+      "secondaryArchetypeIds": [],
+      "primaryLabel": "문헌고찰·근거합성",
+      "judgment": "1:1 정합"
+    },
+    "42": {
+      "primaryArchetypeId": 23,
+      "secondaryArchetypeIds": [],
+      "primaryLabel": "Q방법론·연구프로그램",
+      "judgment": "1:1 정합"
+    },
+    "43": {
+      "primaryArchetypeId": 1,
+      "secondaryArchetypeIds": [],
+      "primaryLabel": "설문·양적통계",
+      "judgment": "1:1 정합"
+    },
+    "44": {
+      "primaryArchetypeId": 6,
+      "secondaryArchetypeIds": [],
+      "primaryLabel": "정책·프로그램평가",
+      "judgment": "1:1 정합"
+    },
+    "45": {
+      "primaryArchetypeId": 21,
+      "secondaryArchetypeIds": [],
+      "primaryLabel": "질적메타합성",
+      "judgment": "1:1 정합"
+    },
+    "46": {
+      "primaryArchetypeId": 4,
+      "secondaryArchetypeIds": [],
+      "primaryLabel": "텍스트·계산언어",
+      "judgment": "1:1 정합"
+    },
+    "47": {
+      "primaryArchetypeId": 4,
+      "secondaryArchetypeIds": [],
+      "primaryLabel": "텍스트·계산언어",
+      "judgment": "1:1 정합"
+    },
+    "48": {
+      "primaryArchetypeId": 1,
+      "secondaryArchetypeIds": [],
+      "primaryLabel": "설문·양적통계",
+      "judgment": "1:1 정합"
+    },
+    "49": {
+      "primaryArchetypeId": 25,
+      "secondaryArchetypeIds": [],
+      "primaryLabel": "간호이론구축",
+      "judgment": "1:1 정합"
+    }
+  }
+}

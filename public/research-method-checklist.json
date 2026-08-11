@@ -1,0 +1,554 @@
+{
+  "version": "s24-lv-10",
+  "source": "method-catalog L1 145 + archetypes 31",
+  "sections": [
+    {
+      "step": 1,
+      "id": "design",
+      "title": "연구 기본 기입 · 설계 초안 점검",
+      "whyNeeded": "논문 설계 초안(주제·질문·자료·일정)을 표준 연구방법 145개·아키타입 31개와 맞추기 위한 점검입니다.",
+      "items": [
+        {
+          "id": "s1-1",
+          "label": "연구 문제의 성격(탐색·설명·평가·예측)을 분명히 했다",
+          "implication": "문제 성격이 방법 계열(질적/양적/혼합)을 결정합니다.",
+          "easy": "질적 탐색 vs 양적 가설검증",
+          "source": "MethodOS L1·Archetype",
+          "recommendTags": [
+            "problem",
+            "purpose"
+          ]
+        },
+        {
+          "id": "s1-2",
+          "label": "표준 연구방법(L1) 후보를 2~3개로 좁혔다",
+          "implication": "145개 표준 방법 중 실제 후보만 남깁니다.",
+          "easy": "예: 설문조사, 회귀분석, 근거이론",
+          "source": "MethodOS L1·Archetype",
+          "recommendTags": [
+            "method",
+            "narrow"
+          ]
+        },
+        {
+          "id": "s1-3",
+          "label": "관심 아키타입(프로세스 유형)을 1개 이상 지정했다",
+          "implication": "31개 아키타입은 수집→산출 공통 뼈대입니다.",
+          "easy": "예: 설문·양적통계 아키타입",
+          "source": "MethodOS L1·Archetype",
+          "recommendTags": [
+            "archetype"
+          ]
+        },
+        {
+          "id": "s1-4",
+          "label": "자료 형태(수치·텍스트·관찰·문헌)를 명시했다",
+          "implication": "자료 형태가 분석·시각화 선택을 제약합니다.",
+          "easy": "설문 Likert, 면담 전사, 논문 DB",
+          "source": "MethodOS L1·Archetype",
+          "recommendTags": [
+            "data"
+          ]
+        },
+        {
+          "id": "s1-5",
+          "label": "분석 단위(개인·조직·사건·문서)를 정했다",
+          "implication": "단위가 표본설계·코딩 단위를 결정합니다.",
+          "easy": "응답자, 학교, 정책사례",
+          "source": "MethodOS L1·Archetype",
+          "recommendTags": [
+            "unit"
+          ]
+        },
+        {
+          "id": "s1-6",
+          "label": "윤리·동의·가명 처리 계획을 적었다",
+          "implication": "사람 대상이면 IRB/동의 절차가 선행됩니다.",
+          "easy": "면담 녹음 동의서",
+          "source": "MethodOS L1·Archetype",
+          "recommendTags": [
+            "ethics"
+          ]
+        },
+        {
+          "id": "s1-7",
+          "label": "산출물 형태(논문·보고서·대시보드)를 정했다",
+          "implication": "최종 산출이 단계·그래프 선택을 안내합니다.",
+          "easy": "학술논문 vs 정책브리프",
+          "source": "MethodOS L1·Archetype",
+          "recommendTags": [
+            "output"
+          ]
+        },
+        {
+          "id": "s1-8",
+          "label": "일정·자원(기간·도구·인력)을 현실적으로 잡았다",
+          "implication": "과설계를 막고 실행 가능한 방법을 고릅니다.",
+          "easy": "한 학기 / NVivo·R",
+          "source": "MethodOS L1·Archetype",
+          "recommendTags": [
+            "resource"
+          ]
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "id": "select32",
+      "title": "연구방법 선정 체크리스트 (32개)",
+      "whyNeeded": "31개 방법론적 아키타입별 방법 경로 + 학습 메뉴 표준 방법 정합을 한 번에 점검합니다.",
+      "items": [
+        {
+          "id": "a01",
+          "label": "설문·양적통계 아키타입의 연구방법 경로를 검토했다",
+          "implication": "이 아키타입에 속한 실습 방법(예: 마케팅리서치, 여론, 설문지 작성)과 학습 메뉴 표준 방법을 methodKey로 연결해 선정합니다.",
+          "easy": "아키타입 1: 설문·양적통계 — 같은 프로세스 유형의 방법들을 묶습니다.",
+          "source": "archetypes/catalog.json",
+          "recommendTags": [
+            "archetype-1",
+            "설문·양적통계"
+          ]
+        },
+        {
+          "id": "a02",
+          "label": "역사·비교사료 아키타입의 연구방법 경로를 검토했다",
+          "implication": "이 아키타입에 속한 실습 방법(예: 구술사, 문헌, 비교방법)과 학습 메뉴 표준 방법을 methodKey로 연결해 선정합니다.",
+          "easy": "아키타입 2: 역사·비교사료 — 같은 프로세스 유형의 방법들을 묶습니다.",
+          "source": "archetypes/catalog.json",
+          "recommendTags": [
+            "archetype-2",
+            "역사·비교사료"
+          ]
+        },
+        {
+          "id": "a03",
+          "label": "민족지·참여관찰 아키타입의 연구방법 경로를 검토했다",
+          "implication": "이 아키타입에 속한 실습 방법(예: 네트노그래피, 민족지 연구방법, 문화와조직)과 학습 메뉴 표준 방법을 methodKey로 연결해 선정합니다.",
+          "easy": "아키타입 3: 민족지·참여관찰 — 같은 프로세스 유형의 방법들을 묶습니다.",
+          "source": "archetypes/catalog.json",
+          "recommendTags": [
+            "archetype-3",
+            "민족지·참여관찰"
+          ]
+        },
+        {
+          "id": "a04",
+          "label": "텍스트·계산언어 아키타입의 연구방법 경로를 검토했다",
+          "implication": "이 아키타입에 속한 실습 방법(예: 딥러닝 방법론, 사회연결망분석방법과응용, 자연어처리)과 학습 메뉴 표준 방법을 methodKey로 연결해 선정합니다.",
+          "easy": "아키타입 4: 텍스트·계산언어 — 같은 프로세스 유형의 방법들을 묶습니다.",
+          "source": "archetypes/catalog.json",
+          "recommendTags": [
+            "archetype-4",
+            "텍스트·계산언어"
+          ]
+        },
+        {
+          "id": "a05",
+          "label": "문헌고찰·근거합성 아키타입의 연구방법 경로를 검토했다",
+          "implication": "이 아키타입에 속한 실습 방법(예: 비판적 문헌평가, 신속 문헌고찰, 체계적 문헌고찰)과 학습 메뉴 표준 방법을 methodKey로 연결해 선정합니다.",
+          "easy": "아키타입 5: 문헌고찰·근거합성 — 같은 프로세스 유형의 방법들을 묶습니다.",
+          "source": "archetypes/catalog.json",
+          "recommendTags": [
+            "archetype-5",
+            "문헌고찰·근거합성"
+          ]
+        },
+        {
+          "id": "a06",
+          "label": "정책·프로그램평가 아키타입의 연구방법 경로를 검토했다",
+          "implication": "이 아키타입에 속한 실습 방법(예: 정책분석 통합적접근, 공공프로그램평가, 델파이방법)과 학습 메뉴 표준 방법을 methodKey로 연결해 선정합니다.",
+          "easy": "아키타입 6: 정책·프로그램평가 — 같은 프로세스 유형의 방법들을 묶습니다.",
+          "source": "archetypes/catalog.json",
+          "recommendTags": [
+            "archetype-6",
+            "정책·프로그램평가"
+          ]
+        },
+        {
+          "id": "a07",
+          "label": "인과·실험설계 아키타입의 연구방법 경로를 검토했다",
+          "implication": "이 아키타입에 속한 실습 방법(예: 비교역사분석 사회과학, 준실험 인과추론, 인과추론1)과 학습 메뉴 표준 방법을 methodKey로 연결해 선정합니다.",
+          "easy": "아키타입 7: 인과·실험설계 — 같은 프로세스 유형의 방법들을 묶습니다.",
+          "source": "archetypes/catalog.json",
+          "recommendTags": [
+            "archetype-7",
+            "인과·실험설계"
+          ]
+        },
+        {
+          "id": "a08",
+          "label": "현상학·체험탐구 아키타입의 연구방법 경로를 검토했다",
+          "implication": "이 아키타입에 속한 실습 방법(예: 현상학적 연구방법, 해석학적 현상학, 기술적 현상학 방법)과 학습 메뉴 표준 방법을 methodKey로 연결해 선정합니다.",
+          "easy": "아키타입 8: 현상학·체험탐구 — 같은 프로세스 유형의 방법들을 묶습니다.",
+          "source": "archetypes/catalog.json",
+          "recommendTags": [
+            "archetype-8",
+            "현상학·체험탐구"
+          ]
+        },
+        {
+          "id": "a09",
+          "label": "예측·시스템모형 아키타입의 연구방법 경로를 검토했다",
+          "implication": "이 아키타입에 속한 실습 방법(예: 교육연구 역량분석적용, 경영 시스템 시뮬레이션, 예측 모델링)과 학습 메뉴 표준 방법을 methodKey로 연결해 선정합니다.",
+          "easy": "아키타입 9: 예측·시스템모형 — 같은 프로세스 유형의 방법들을 묶습니다.",
+          "source": "archetypes/catalog.json",
+          "recommendTags": [
+            "archetype-9",
+            "예측·시스템모형"
+          ]
+        },
+        {
+          "id": "a10",
+          "label": "근거이론 아키타입의 연구방법 경로를 검토했다",
+          "implication": "이 아키타입에 속한 실습 방법(예: 개념구축형 근거이론, 근거이론 2세대, 절차적 근거이론)과 학습 메뉴 표준 방법을 methodKey로 연결해 선정합니다.",
+          "easy": "아키타입 10: 근거이론 — 같은 프로세스 유형의 방법들을 묶습니다.",
+          "source": "archetypes/catalog.json",
+          "recommendTags": [
+            "archetype-10",
+            "근거이론"
+          ]
+        },
+        {
+          "id": "a11",
+          "label": "내용분석·코딩 아키타입의 연구방법 경로를 검토했다",
+          "implication": "이 아키타입에 속한 실습 방법(예: 내용분석 방법론입문, 내용분석 실무 가이드, 질적연구 코딩 매뉴얼)과 학습 메뉴 표준 방법을 methodKey로 연결해 선정합니다.",
+          "easy": "아키타입 11: 내용분석·코딩 — 같은 프로세스 유형의 방법들을 묶습니다.",
+          "source": "archetypes/catalog.json",
+          "recommendTags": [
+            "archetype-11",
+            "내용분석·코딩"
+          ]
+        },
+        {
+          "id": "a12",
+          "label": "서사·생애사 아키타입의 연구방법 경로를 검토했다",
+          "implication": "이 아키타입에 속한 실습 방법(예: 생애사 방법, 서사 분석, 내러티브탐구)과 학습 메뉴 표준 방법을 methodKey로 연결해 선정합니다.",
+          "easy": "아키타입 12: 서사·생애사 — 같은 프로세스 유형의 방법들을 묶습니다.",
+          "source": "archetypes/catalog.json",
+          "recommendTags": [
+            "archetype-12",
+            "서사·생애사"
+          ]
+        },
+        {
+          "id": "a13",
+          "label": "실행·행동연구 아키타입의 연구방법 경로를 검토했다",
+          "implication": "이 아키타입에 속한 실습 방법(예: 교육 실행연구, 교육 실행연구, 행동연구와 Q기법)과 학습 메뉴 표준 방법을 methodKey로 연결해 선정합니다.",
+          "easy": "아키타입 13: 실행·행동연구 — 같은 프로세스 유형의 방법들을 묶습니다.",
+          "source": "archetypes/catalog.json",
+          "recommendTags": [
+            "archetype-13",
+            "실행·행동연구"
+          ]
+        },
+        {
+          "id": "a14",
+          "label": "담화·비판담화 아키타입의 연구방법 경로를 검토했다",
+          "implication": "이 아키타입에 속한 실습 방법(예: 담화분석, 비판적 담화분석 방법, 철학적 탐구)과 학습 메뉴 표준 방법을 methodKey로 연결해 선정합니다.",
+          "easy": "아키타입 14: 담화·비판담화 — 같은 프로세스 유형의 방법들을 묶습니다.",
+          "source": "archetypes/catalog.json",
+          "recommendTags": [
+            "archetype-14",
+            "담화·비판담화"
+          ]
+        },
+        {
+          "id": "a15",
+          "label": "심층면담 아키타입의 연구방법 경로를 검토했다",
+          "implication": "이 아키타입에 속한 실습 방법(예: 질적 심층면담, 심층면접법, 심층면접법)과 학습 메뉴 표준 방법을 methodKey로 연결해 선정합니다.",
+          "easy": "아키타입 15: 심층면담 — 같은 프로세스 유형의 방법들을 묶습니다.",
+          "source": "archetypes/catalog.json",
+          "recommendTags": [
+            "archetype-15",
+            "심층면담"
+          ]
+        },
+        {
+          "id": "a16",
+          "label": "질적설계·자연주의 아키타입의 연구방법 경로를 검토했다",
+          "implication": "이 아키타입에 속한 실습 방법(예: 질적 연구설계, 이론적 민감성, 자연주의적탐구)과 학습 메뉴 표준 방법을 methodKey로 연결해 선정합니다.",
+          "easy": "아키타입 16: 질적설계·자연주의 — 같은 프로세스 유형의 방법들을 묶습니다.",
+          "source": "archetypes/catalog.json",
+          "recommendTags": [
+            "archetype-16",
+            "질적설계·자연주의"
+          ]
+        },
+        {
+          "id": "a17",
+          "label": "권력·비판담론 아키타입의 연구방법 경로를 검토했다",
+          "implication": "이 아키타입에 속한 실습 방법(예: 규율권력 분석, 도구이성 비판 분석, 정상화·지식권력 분석)과 학습 메뉴 표준 방법을 methodKey로 연결해 선정합니다.",
+          "easy": "아키타입 17: 권력·비판담론 — 같은 프로세스 유형의 방법들을 묶습니다.",
+          "source": "archetypes/catalog.json",
+          "recommendTags": [
+            "archetype-17",
+            "권력·비판담론"
+          ]
+        },
+        {
+          "id": "a18",
+          "label": "상징적상호작용 아키타입의 연구방법 경로를 검토했다",
+          "implication": "이 아키타입에 속한 실습 방법(예: 상징적 상호작용론, 상호작용 의례, 해석적상호작용론)과 학습 메뉴 표준 방법을 methodKey로 연결해 선정합니다.",
+          "easy": "아키타입 18: 상징적상호작용 — 같은 프로세스 유형의 방법들을 묶습니다.",
+          "source": "archetypes/catalog.json",
+          "recommendTags": [
+            "archetype-18",
+            "상징적상호작용"
+          ]
+        },
+        {
+          "id": "a19",
+          "label": "사례연구 아키타입의 연구방법 경로를 검토했다",
+          "implication": "이 아키타입에 속한 실습 방법(예: 사례연구방법2, 사례연구방법1)과 학습 메뉴 표준 방법을 methodKey로 연결해 선정합니다.",
+          "easy": "아키타입 19: 사례연구 — 같은 프로세스 유형의 방법들을 묶습니다.",
+          "source": "archetypes/catalog.json",
+          "recommendTags": [
+            "archetype-19",
+            "사례연구"
+          ]
+        },
+        {
+          "id": "a20",
+          "label": "계량서지·인용분석 아키타입의 연구방법 경로를 검토했다",
+          "implication": "이 아키타입에 속한 실습 방법(예: 계량서지분석, 인용분석)과 학습 메뉴 표준 방법을 methodKey로 연결해 선정합니다.",
+          "easy": "아키타입 20: 계량서지·인용분석 — 같은 프로세스 유형의 방법들을 묶습니다.",
+          "source": "archetypes/catalog.json",
+          "recommendTags": [
+            "archetype-20",
+            "계량서지·인용분석"
+          ]
+        },
+        {
+          "id": "a21",
+          "label": "질적메타합성 아키타입의 연구방법 경로를 검토했다",
+          "implication": "이 아키타입에 속한 실습 방법(예: 질적연구 합성, 질적 메타합성)과 학습 메뉴 표준 방법을 methodKey로 연결해 선정합니다.",
+          "easy": "아키타입 21: 질적메타합성 — 같은 프로세스 유형의 방법들을 묶습니다.",
+          "source": "archetypes/catalog.json",
+          "recommendTags": [
+            "archetype-21",
+            "질적메타합성"
+          ]
+        },
+        {
+          "id": "a22",
+          "label": "대화·회화분석 아키타입의 연구방법 경로를 검토했다",
+          "implication": "이 아키타입에 속한 실습 방법(예: 회화분석, 대화분석 입문)과 학습 메뉴 표준 방법을 methodKey로 연결해 선정합니다.",
+          "easy": "아키타입 22: 대화·회화분석 — 같은 프로세스 유형의 방법들을 묶습니다.",
+          "source": "archetypes/catalog.json",
+          "recommendTags": [
+            "archetype-22",
+            "대화·회화분석"
+          ]
+        },
+        {
+          "id": "a23",
+          "label": "Q방법론·연구프로그램 아키타입의 연구방법 경로를 검토했다",
+          "implication": "이 아키타입에 속한 실습 방법(예: 과학연구프로그램 방법론, Q방법론)과 학습 메뉴 표준 방법을 methodKey로 연결해 선정합니다.",
+          "easy": "아키타입 23: Q방법론·연구프로그램 — 같은 프로세스 유형의 방법들을 묶습니다.",
+          "source": "archetypes/catalog.json",
+          "recommendTags": [
+            "archetype-23",
+            "Q방법론·연구프로그램"
+          ]
+        },
+        {
+          "id": "a24",
+          "label": "조사연구방법 아키타입의 연구방법 경로를 검토했다",
+          "implication": "이 아키타입에 속한 실습 방법(예: 조사연구방법)과 학습 메뉴 표준 방법을 methodKey로 연결해 선정합니다.",
+          "easy": "아키타입 24: 조사연구방법 — 같은 프로세스 유형의 방법들을 묶습니다.",
+          "source": "archetypes/catalog.json",
+          "recommendTags": [
+            "archetype-24",
+            "조사연구방법"
+          ]
+        },
+        {
+          "id": "a25",
+          "label": "간호이론구축 아키타입의 연구방법 경로를 검토했다",
+          "implication": "이 아키타입에 속한 실습 방법(예: 간호이론구축전략)과 학습 메뉴 표준 방법을 methodKey로 연결해 선정합니다.",
+          "easy": "아키타입 25: 간호이론구축 — 같은 프로세스 유형의 방법들을 묶습니다.",
+          "source": "archetypes/catalog.json",
+          "recommendTags": [
+            "archetype-25",
+            "간호이론구축"
+          ]
+        },
+        {
+          "id": "a26",
+          "label": "관찰기법 아키타입의 연구방법 경로를 검토했다",
+          "implication": "이 아키타입에 속한 실습 방법(예: 관찰기법)과 학습 메뉴 표준 방법을 methodKey로 연결해 선정합니다.",
+          "easy": "아키타입 26: 관찰기법 — 같은 프로세스 유형의 방법들을 묶습니다.",
+          "source": "archetypes/catalog.json",
+          "recommendTags": [
+            "archetype-26",
+            "관찰기법"
+          ]
+        },
+        {
+          "id": "a27",
+          "label": "비교정치·패턴분석 아키타입의 연구방법 경로를 검토했다",
+          "implication": "이 아키타입에 속한 실습 방법(예: 민주주의 제도유형 비교)과 학습 메뉴 표준 방법을 methodKey로 연결해 선정합니다.",
+          "easy": "아키타입 27: 비교정치·패턴분석 — 같은 프로세스 유형의 방법들을 묶습니다.",
+          "source": "archetypes/catalog.json",
+          "recommendTags": [
+            "archetype-27",
+            "비교정치·패턴분석"
+          ]
+        },
+        {
+          "id": "a28",
+          "label": "혼합연구설계 아키타입의 연구방법 경로를 검토했다",
+          "implication": "이 아키타입에 속한 실습 방법(예: 혼합연구설계와수행)과 학습 메뉴 표준 방법을 methodKey로 연결해 선정합니다.",
+          "easy": "아키타입 28: 혼합연구설계 — 같은 프로세스 유형의 방법들을 묶습니다.",
+          "source": "archetypes/catalog.json",
+          "recommendTags": [
+            "archetype-28",
+            "혼합연구설계"
+          ]
+        },
+        {
+          "id": "a29",
+          "label": "키워드핵심성 아키타입의 연구방법 경로를 검토했다",
+          "implication": "이 아키타입에 속한 실습 방법(예: 키워드 핵심성 분석)과 학습 메뉴 표준 방법을 methodKey로 연결해 선정합니다.",
+          "easy": "아키타입 29: 키워드핵심성 — 같은 프로세스 유형의 방법들을 묶습니다.",
+          "source": "archetypes/catalog.json",
+          "recommendTags": [
+            "archetype-29",
+            "키워드핵심성"
+          ]
+        },
+        {
+          "id": "a30",
+          "label": "역학연구 아키타입의 연구방법 경로를 검토했다",
+          "implication": "이 아키타입에 속한 실습 방법(예: 현대 역학)과 학습 메뉴 표준 방법을 methodKey로 연결해 선정합니다.",
+          "easy": "아키타입 30: 역학연구 — 같은 프로세스 유형의 방법들을 묶습니다.",
+          "source": "archetypes/catalog.json",
+          "recommendTags": [
+            "archetype-30",
+            "역학연구"
+          ]
+        },
+        {
+          "id": "a31",
+          "label": "일반연구방법론 아키타입의 연구방법 경로를 검토했다",
+          "implication": "이 아키타입에 속한 실습 방법(예: 연구방법론)과 학습 메뉴 표준 방법을 methodKey로 연결해 선정합니다.",
+          "easy": "아키타입 31: 일반연구방법론 — 같은 프로세스 유형의 방법들을 묶습니다.",
+          "source": "archetypes/catalog.json",
+          "recommendTags": [
+            "archetype-31",
+            "일반연구방법론"
+          ]
+        },
+        {
+          "id": "a00",
+          "label": "최종 후보 방법을 학습 메뉴 표준명(L1)과 아키타입 케이스로 이중 확인했다",
+          "implication": "학습 145개와 아키타입 실습이 같은 methodKey로 이어지는지 확인하면 추천·실습·시각화가 일관됩니다.",
+          "easy": "예: 절차적 근거이론(학습) ↔ 근거이론 아키타입 실습 케이스",
+          "source": "method-catalog + archetypes",
+          "recommendTags": [
+            "crosswalk",
+            "methodKey"
+          ]
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "id": "macro",
+      "title": "매크로 영역 정합 (학습 메뉴 분류)",
+      "whyNeeded": "조사·설문 / 질적·해석 / 양적·통계·모형 등 학습 메뉴 매크로와 설계가 맞는지 봅니다.",
+      "items": [
+        {
+          "id": "m01",
+          "label": "매크로 「혼합·설계」 계열 적합성을 확인했다 (표준 9개)",
+          "implication": "이 매크로에 속하는 표준 방법 예: Q 방법론, 교육연구방법론, 사회연결망 분석, 시스템 다이내믹스",
+          "easy": "혼합·설계 — 학습 목록 필터와 동일합니다.",
+          "source": "method-catalog macro",
+          "recommendTags": [
+            "혼합·설계"
+          ]
+        },
+        {
+          "id": "m02",
+          "label": "매크로 「질적·해석」 계열 적합성을 확인했다 (표준 50개)",
+          "implication": "이 매크로에 속하는 표준 방법 예: 간호이론 구축, 관찰법, 교사 생애사 연구, 교육 실행연구",
+          "easy": "질적·해석 — 학습 목록 필터와 동일합니다.",
+          "source": "method-catalog macro",
+          "recommendTags": [
+            "질적·해석"
+          ]
+        },
+        {
+          "id": "m03",
+          "label": "매크로 「텍스트·계산언어」 계열 적합성을 확인했다 (표준 16개)",
+          "implication": "이 매크로에 속하는 표준 방법 예: 감성분석, 기계학습, 내용분석, 딥러닝",
+          "easy": "텍스트·계산언어 — 학습 목록 필터와 동일합니다.",
+          "source": "method-catalog macro",
+          "recommendTags": [
+            "텍스트·계산언어"
+          ]
+        },
+        {
+          "id": "m04",
+          "label": "매크로 「양적·통계·모형」 계열 적합성을 확인했다 (표준 25개)",
+          "implication": "이 매크로에 속하는 표준 방법 예: 계량경제학, 구조방정식 모형, 군집분석, 기초통계학",
+          "easy": "양적·통계·모형 — 학습 목록 필터와 동일합니다.",
+          "source": "method-catalog macro",
+          "recommendTags": [
+            "양적·통계·모형"
+          ]
+        },
+        {
+          "id": "m05",
+          "label": "매크로 「평가·정책」 계열 적합성을 확인했다 (표준 7개)",
+          "implication": "이 매크로에 속하는 표준 방법 예: 공공프로그램 평가, 분석적 계층화 과정, 비용편익분석, 영향평가",
+          "easy": "평가·정책 — 학습 목록 필터와 동일합니다.",
+          "source": "method-catalog macro",
+          "recommendTags": [
+            "평가·정책"
+          ]
+        },
+        {
+          "id": "m06",
+          "label": "매크로 「역사·비교」 계열 적합성을 확인했다 (표준 13개)",
+          "implication": "이 매크로에 속하는 표준 방법 예: 과정추적, 과학계량학, 구술사, 기록물 연구",
+          "easy": "역사·비교 — 학습 목록 필터와 동일합니다.",
+          "source": "method-catalog macro",
+          "recommendTags": [
+            "역사·비교"
+          ]
+        },
+        {
+          "id": "m07",
+          "label": "매크로 「문헌·근거합성」 계열 적합성을 확인했다 (표준 8개)",
+          "implication": "이 매크로에 속하는 표준 방법 예: 근거중심의학, 메타분석, 문헌고찰, 스코핑 리뷰",
+          "easy": "문헌·근거합성 — 학습 목록 필터와 동일합니다.",
+          "source": "method-catalog macro",
+          "recommendTags": [
+            "문헌·근거합성"
+          ]
+        },
+        {
+          "id": "m08",
+          "label": "매크로 「조사·설문」 계열 적합성을 확인했다 (표준 6개)",
+          "implication": "이 매크로에 속하는 표준 방법 예: 델파이 방법, 마케팅 조사, 사회조사방법론, 설문조사 설계",
+          "easy": "조사·설문 — 학습 목록 필터와 동일합니다.",
+          "source": "method-catalog macro",
+          "recommendTags": [
+            "조사·설문"
+          ]
+        },
+        {
+          "id": "m09",
+          "label": "매크로 「양적·인과·실험」 계열 적합성을 확인했다 (표준 11개)",
+          "implication": "이 매크로에 속하는 표준 방법 예: 실험·준실험 설계, 실험계획법, 실험설계와 분석, 역학 연구방법",
+          "easy": "양적·인과·실험 — 학습 목록 필터와 동일합니다.",
+          "source": "method-catalog macro",
+          "recommendTags": [
+            "양적·인과·실험"
+          ]
+        }
+      ]
+    }
+  ]
+}

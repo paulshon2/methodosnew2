@@ -1,0 +1,2155 @@
+[
+  {
+    "stageNo": 1,
+    "title": "연구 초점 설정(Research Focus)",
+    "fullName": "1단계 · 연구 초점 설정(Research Focus)",
+    "stageLabel": "연구 초점 설정(Research Focus)",
+    "easyIntro": "자문화기술지(Autoethnography)에서 연구 초점 설정 기능을 수행한다.",
+    "whyStage": "연구 초점 설정를 먼저 확정해야 뒤의 작업이 서로 다른 기준으로 진행되지 않는다.",
+    "inEasy": "연구 아이디어",
+    "outEasy": "연구 초점 정의서",
+    "tasks": [
+      {
+        "taskNo": "STAGE-1-T1",
+        "name": "연구질문 작성(Research Question)",
+        "nameKo": "연구질문 작성(Research Question)",
+        "whyTask": "연구질문 작성(Research Question)을(를) 수행한다.",
+        "example": "",
+        "items": [
+          {
+            "perfNo": "STAGE-1-1",
+            "label": "연구질문 작성(Research Question)",
+            "entries": [
+              {
+                "id": "STAGE-1.t1.do",
+                "kind": "수행내용",
+                "seg": "1",
+                "content": "연구질문 작성(Research Question)을(를) 수행한다.",
+                "auto": "수동화",
+                "reason": "수동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "입력: 연구문제",
+                  "연구질문 작성(Research Question)을(를) 수행한다.",
+                  "출력: 질문·목적"
+                ],
+                "behavior": "form",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "연구질문 작성(Research Question)을(를) 수행한다.",
+                "easyContent": "연구질문 작성(Research Question)을(를) 수행한다.",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "입력: 연구문제",
+                  "연구질문 작성(Research Question)을(를) 수행한다.",
+                  "출력: 질문·목적"
+                ]
+              },
+              {
+                "id": "STAGE-1.t1.out",
+                "kind": "산출물",
+                "seg": "1",
+                "content": "질문·목적",
+                "auto": "수동화",
+                "reason": "수동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "산출물 저장·다음 단계 전달"
+                ],
+                "behavior": "validation",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "질문·목적",
+                "easyContent": "질문·목적",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "산출물 저장·다음 단계 전달"
+                ]
+              }
+            ]
+          }
+        ],
+        "isProcess": false,
+        "input": "연구문제",
+        "output": "질문·목적",
+        "automation": "수동화(Manual)"
+      },
+      {
+        "taskNo": "STAGE-1-T2",
+        "name": "방법 적합성 검토(Method Fit)",
+        "nameKo": "방법 적합성 검토(Method Fit)",
+        "whyTask": "방법 적합성 검토(Method Fit)을(를) 수행한다.",
+        "example": "",
+        "items": [
+          {
+            "perfNo": "STAGE-1-2",
+            "label": "방법 적합성 검토(Method Fit)",
+            "entries": [
+              {
+                "id": "STAGE-1.t2.do",
+                "kind": "수행내용",
+                "seg": "1",
+                "content": "방법 적합성 검토(Method Fit)을(를) 수행한다.",
+                "auto": "반자동화",
+                "reason": "반자동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "입력: 질문·자료유형",
+                  "방법 적합성 검토(Method Fit)을(를) 수행한다.",
+                  "출력: 적합성 근거"
+                ],
+                "behavior": "decision",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "방법 적합성 검토(Method Fit)을(를) 수행한다.",
+                "easyContent": "방법 적합성 검토(Method Fit)을(를) 수행한다.",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "입력: 질문·자료유형",
+                  "방법 적합성 검토(Method Fit)을(를) 수행한다.",
+                  "출력: 적합성 근거"
+                ]
+              },
+              {
+                "id": "STAGE-1.t2.out",
+                "kind": "산출물",
+                "seg": "1",
+                "content": "적합성 근거",
+                "auto": "반자동화",
+                "reason": "반자동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "산출물 저장·다음 단계 전달"
+                ],
+                "behavior": "validation",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "적합성 근거",
+                "easyContent": "적합성 근거",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "산출물 저장·다음 단계 전달"
+                ]
+              }
+            ]
+          }
+        ],
+        "isProcess": false,
+        "input": "질문·자료유형",
+        "output": "적합성 근거",
+        "automation": "반자동화(Semi-automatic)"
+      },
+      {
+        "taskNo": "STAGE-1-T3",
+        "name": "분석단위 정의(Unit Definition)",
+        "nameKo": "분석단위 정의(Unit Definition)",
+        "whyTask": "분석단위 정의(Unit Definition)을(를) 수행한다.",
+        "example": "",
+        "items": [
+          {
+            "perfNo": "STAGE-1-3",
+            "label": "분석단위 정의(Unit Definition)",
+            "entries": [
+              {
+                "id": "STAGE-1.t3.do",
+                "kind": "수행내용",
+                "seg": "1",
+                "content": "분석단위 정의(Unit Definition)을(를) 수행한다.",
+                "auto": "수동화",
+                "reason": "수동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "입력: 방법 적합성",
+                  "분석단위 정의(Unit Definition)을(를) 수행한다.",
+                  "출력: 현장사건·문화코드(Field Event and Cultural Code)"
+                ],
+                "behavior": "schema",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "분석단위 정의(Unit Definition)을(를) 수행한다.",
+                "easyContent": "분석단위 정의(Unit Definition)을(를) 수행한다.",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "입력: 방법 적합성",
+                  "분석단위 정의(Unit Definition)을(를) 수행한다.",
+                  "출력: 현장사건·문화코드(Field Event and Cultural Code)"
+                ]
+              },
+              {
+                "id": "STAGE-1.t3.out",
+                "kind": "산출물",
+                "seg": "1",
+                "content": "현장사건·문화코드(Field Event and Cultural Code)",
+                "auto": "수동화",
+                "reason": "수동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "산출물 저장·다음 단계 전달"
+                ],
+                "behavior": "validation",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "현장사건·문화코드(Field Event and Cultural Code)",
+                "easyContent": "현장사건·문화코드(Field Event and Cultural Code)",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "산출물 저장·다음 단계 전달"
+                ]
+              }
+            ]
+          }
+        ],
+        "isProcess": false,
+        "input": "방법 적합성",
+        "output": "현장사건·문화코드(Field Event and Cultural Code)",
+        "automation": "수동화(Manual)"
+      }
+    ]
+  },
+  {
+    "stageNo": 2,
+    "title": "연구 윤리 협의(Research Ethics)",
+    "fullName": "2단계 · 연구 윤리 협의(Research Ethics)",
+    "stageLabel": "연구 윤리 협의(Research Ethics)",
+    "easyIntro": "자문화기술지(Autoethnography)에서 연구 윤리 협의 기능을 수행한다.",
+    "whyStage": "연구 윤리 협의를 먼저 확정해야 뒤의 작업이 서로 다른 기준으로 진행되지 않는다.",
+    "inEasy": "연구 초점·대상",
+    "outEasy": "윤리·보안 계획",
+    "tasks": [
+      {
+        "taskNo": "STAGE-2-T1",
+        "name": "위험·동의 점검(Risk and Consent)",
+        "nameKo": "위험·동의 점검(Risk and Consent)",
+        "whyTask": "위험·동의 점검(Risk and Consent)을(를) 수행한다.",
+        "example": "",
+        "items": [
+          {
+            "perfNo": "STAGE-2-1",
+            "label": "위험·동의 점검(Risk and Consent)",
+            "entries": [
+              {
+                "id": "STAGE-2.t1.do",
+                "kind": "수행내용",
+                "seg": "1",
+                "content": "위험·동의 점검(Risk and Consent)을(를) 수행한다.",
+                "auto": "수동화",
+                "reason": "수동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "입력: 연구 초점",
+                  "위험·동의 점검(Risk and Consent)을(를) 수행한다.",
+                  "출력: 윤리 점검표"
+                ],
+                "behavior": "checklist",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "위험·동의 점검(Risk and Consent)을(를) 수행한다.",
+                "easyContent": "위험·동의 점검(Risk and Consent)을(를) 수행한다.",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "입력: 연구 초점",
+                  "위험·동의 점검(Risk and Consent)을(를) 수행한다.",
+                  "출력: 윤리 점검표"
+                ]
+              },
+              {
+                "id": "STAGE-2.t1.out",
+                "kind": "산출물",
+                "seg": "1",
+                "content": "윤리 점검표",
+                "auto": "수동화",
+                "reason": "수동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "산출물 저장·다음 단계 전달"
+                ],
+                "behavior": "validation",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "윤리 점검표",
+                "easyContent": "윤리 점검표",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "산출물 저장·다음 단계 전달"
+                ]
+              }
+            ]
+          }
+        ],
+        "isProcess": false,
+        "input": "연구 초점",
+        "output": "윤리 점검표",
+        "automation": "수동화(Manual)"
+      },
+      {
+        "taskNo": "STAGE-2-T2",
+        "name": "비식별·보안계획(De-identification and Security)",
+        "nameKo": "비식별·보안계획(De-identification and Security)",
+        "whyTask": "비식별·보안계획(De-identification and Security)을(를) 수행한다.",
+        "example": "",
+        "items": [
+          {
+            "perfNo": "STAGE-2-2",
+            "label": "비식별·보안계획(De-identification and Security)",
+            "entries": [
+              {
+                "id": "STAGE-2.t2.do",
+                "kind": "수행내용",
+                "seg": "1",
+                "content": "비식별·보안계획(De-identification and Security)을(를) 수행한다.",
+                "auto": "반자동화",
+                "reason": "반자동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "입력: 자료유형",
+                  "비식별·보안계획(De-identification and Security)을(를) 수행한다.",
+                  "출력: 보안계획"
+                ],
+                "behavior": "policy",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "비식별·보안계획(De-identification and Security)",
+                "easyContent": "비식별·보안계획(De-identification and Security)을(를) 수행한다.",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "입력: 자료유형",
+                  "비식별·보안계획(De-identification and Security)을(를) 수행한다.",
+                  "출력: 보안계획"
+                ]
+              },
+              {
+                "id": "STAGE-2.t2.out",
+                "kind": "산출물",
+                "seg": "1",
+                "content": "보안계획",
+                "auto": "반자동화",
+                "reason": "반자동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "산출물 저장·다음 단계 전달"
+                ],
+                "behavior": "validation",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "보안계획",
+                "easyContent": "보안계획",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "산출물 저장·다음 단계 전달"
+                ]
+              }
+            ]
+          }
+        ],
+        "isProcess": false,
+        "input": "자료유형",
+        "output": "보안계획",
+        "automation": "반자동화(Semi-automatic)"
+      }
+    ]
+  },
+  {
+    "stageNo": 3,
+    "title": "문헌 검토(Literature Review)",
+    "fullName": "3단계 · 문헌 검토(Literature Review)",
+    "stageLabel": "문헌 검토(Literature Review)",
+    "easyIntro": "자문화기술지(Autoethnography)에서 문헌 검토 기능을 수행한다.",
+    "whyStage": "문헌 검토를 먼저 확정해야 뒤의 작업이 서로 다른 기준으로 진행되지 않는다.",
+    "inEasy": "연구질문·표준프로토콜",
+    "outEasy": "문헌·기능 매핑",
+    "tasks": [
+      {
+        "taskNo": "STAGE-3-T1",
+        "name": "방법 근거 검색(Method Evidence Search)",
+        "nameKo": "방법 근거 검색(Method Evidence Search)",
+        "whyTask": "방법 근거 검색(Method Evidence Search)을(를) 수행한다.",
+        "example": "",
+        "items": [
+          {
+            "perfNo": "STAGE-3-1",
+            "label": "방법 근거 검색(Method Evidence Search)",
+            "entries": [
+              {
+                "id": "STAGE-3.t1.do",
+                "kind": "수행내용",
+                "seg": "1",
+                "content": "방법 근거 검색(Method Evidence Search)을(를) 수행한다.",
+                "auto": "반자동화",
+                "reason": "반자동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "입력: 질문·키워드",
+                  "방법 근거 검색(Method Evidence Search)을(를) 수행한다.",
+                  "출력: 근거목록"
+                ],
+                "behavior": "search",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "방법 근거 검색(Method Evidence Search)을(를) 수행한",
+                "easyContent": "방법 근거 검색(Method Evidence Search)을(를) 수행한다.",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "입력: 질문·키워드",
+                  "방법 근거 검색(Method Evidence Search)을(를) 수행한다.",
+                  "출력: 근거목록"
+                ]
+              },
+              {
+                "id": "STAGE-3.t1.out",
+                "kind": "산출물",
+                "seg": "1",
+                "content": "근거목록",
+                "auto": "반자동화",
+                "reason": "반자동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "산출물 저장·다음 단계 전달"
+                ],
+                "behavior": "validation",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "근거목록",
+                "easyContent": "근거목록",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "산출물 저장·다음 단계 전달"
+                ]
+              }
+            ]
+          }
+        ],
+        "isProcess": false,
+        "input": "질문·키워드",
+        "output": "근거목록",
+        "automation": "반자동화(Semi-automatic)"
+      },
+      {
+        "taskNo": "STAGE-3-T2",
+        "name": "표준프로토콜 기능 매핑(Standard Protocol Mapping)",
+        "nameKo": "표준프로토콜 기능 매핑(Standard Protocol Mapping)",
+        "whyTask": "표준프로토콜 기능 매핑(Standard Protocol Mapping)을(를) 수행한다.",
+        "example": "",
+        "items": [
+          {
+            "perfNo": "STAGE-3-2",
+            "label": "표준프로토콜 기능 매핑(Standard Protocol Mapping)",
+            "entries": [
+              {
+                "id": "STAGE-3.t2.do",
+                "kind": "수행내용",
+                "seg": "1",
+                "content": "표준프로토콜 기능 매핑(Standard Protocol Mapping)을(를) 수행한다.",
+                "auto": "반자동화",
+                "reason": "반자동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "입력: 연구방법별 표준프로토콜",
+                  "표준프로토콜 기능 매핑(Standard Protocol Mapping)을(를) 수행한다.",
+                  "출력: 기능 매핑표"
+                ],
+                "behavior": "mapping",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "표준프로토콜 기능 매핑(Standard Protocol Mapping)을",
+                "easyContent": "표준프로토콜 기능 매핑(Standard Protocol Mapping)을(를) 수행한다.",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "입력: 연구방법별 표준프로토콜",
+                  "표준프로토콜 기능 매핑(Standard Protocol Mapping)을(를) 수행한다.",
+                  "출력: 기능 매핑표"
+                ]
+              },
+              {
+                "id": "STAGE-3.t2.out",
+                "kind": "산출물",
+                "seg": "1",
+                "content": "기능 매핑표",
+                "auto": "반자동화",
+                "reason": "반자동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "산출물 저장·다음 단계 전달"
+                ],
+                "behavior": "validation",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "기능 매핑표",
+                "easyContent": "기능 매핑표",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "산출물 저장·다음 단계 전달"
+                ]
+              }
+            ]
+          }
+        ],
+        "isProcess": false,
+        "input": "연구방법별 표준프로토콜",
+        "output": "기능 매핑표",
+        "automation": "반자동화(Semi-automatic)"
+      }
+    ]
+  },
+  {
+    "stageNo": 4,
+    "title": "연구 설계 확정(Research Design)",
+    "fullName": "4단계 · 연구 설계 확정(Research Design)",
+    "stageLabel": "연구 설계 확정(Research Design)",
+    "easyIntro": "자문화기술지(Autoethnography)에서 연구 설계 확정 기능을 수행한다.",
+    "whyStage": "공통 준비절차와 방법 고유 분석을 분리해야 다른 방법의 Process가 잘못 섞이는 것을 막을 수 있다.",
+    "inEasy": "문헌·기능 매핑",
+    "outEasy": "연구 설계서",
+    "tasks": [
+      {
+        "taskNo": "STAGE-4-T1",
+        "name": "표집·단위 규모 확정(Sample and Unit Scale)",
+        "nameKo": "표집·단위 규모 확정(Sample and Unit Scale)",
+        "whyTask": "표집·단위 규모 확정(Sample and Unit Scale)을(를) 수행한다.",
+        "example": "",
+        "items": [
+          {
+            "perfNo": "STAGE-4-1",
+            "label": "표집·단위 규모 확정(Sample and Unit Scale)",
+            "entries": [
+              {
+                "id": "STAGE-4.t1.do",
+                "kind": "수행내용",
+                "seg": "1",
+                "content": "표집·단위 규모 확정(Sample and Unit Scale)을(를) 수행한다.",
+                "auto": "수동화",
+                "reason": "수동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "입력: 현장 1–3곳 · 관찰사건 120개+ · 심층참여자 15–30명",
+                  "표집·단위 규모 확정(Sample and Unit Scale)을(를) 수행한다.",
+                  "출력: 표집계획"
+                ],
+                "behavior": "form",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "표집·단위 규모 확정(Sample and Unit Scale)을(를) 수",
+                "easyContent": "표집·단위 규모 확정(Sample and Unit Scale)을(를) 수행한다.",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "입력: 현장 1–3곳 · 관찰사건 120개+ · 심층참여자 15–30명",
+                  "표집·단위 규모 확정(Sample and Unit Scale)을(를) 수행한다.",
+                  "출력: 표집계획"
+                ]
+              },
+              {
+                "id": "STAGE-4.t1.out",
+                "kind": "산출물",
+                "seg": "1",
+                "content": "표집계획",
+                "auto": "수동화",
+                "reason": "수동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "산출물 저장·다음 단계 전달"
+                ],
+                "behavior": "validation",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "표집계획",
+                "easyContent": "표집계획",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "산출물 저장·다음 단계 전달"
+                ]
+              }
+            ]
+          }
+        ],
+        "isProcess": false,
+        "input": "현장 1–3곳 · 관찰사건 120개+ · 심층참여자 15–30명",
+        "output": "표집계획",
+        "automation": "수동화(Manual)"
+      },
+      {
+        "taskNo": "STAGE-4-T2",
+        "name": "Process·Task 확정(Process and Task Lock)",
+        "nameKo": "Process·Task 확정(Process and Task Lock)",
+        "whyTask": "Process·Task 확정(Process and Task Lock)을(를) 수행한다.",
+        "example": "",
+        "items": [
+          {
+            "perfNo": "STAGE-4-2",
+            "label": "Process·Task 확정(Process and Task Lock)",
+            "entries": [
+              {
+                "id": "STAGE-4.t2.do",
+                "kind": "수행내용",
+                "seg": "1",
+                "content": "Process·Task 확정(Process and Task Lock)을(를) 수행한다.",
+                "auto": "반자동화",
+                "reason": "반자동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "입력: 기능 매핑",
+                  "Process·Task 확정(Process and Task Lock)을(를) 수행한다.",
+                  "출력: 실행순서"
+                ],
+                "behavior": "workflow",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "Process·Task 확정(Process and Task Lock)을(",
+                "easyContent": "Process·Task 확정(Process and Task Lock)을(를) 수행한다.",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "입력: 기능 매핑",
+                  "Process·Task 확정(Process and Task Lock)을(를) 수행한다.",
+                  "출력: 실행순서"
+                ]
+              },
+              {
+                "id": "STAGE-4.t2.out",
+                "kind": "산출물",
+                "seg": "1",
+                "content": "실행순서",
+                "auto": "반자동화",
+                "reason": "반자동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "산출물 저장·다음 단계 전달"
+                ],
+                "behavior": "validation",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "실행순서",
+                "easyContent": "실행순서",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "산출물 저장·다음 단계 전달"
+                ]
+              }
+            ]
+          }
+        ],
+        "isProcess": false,
+        "input": "기능 매핑",
+        "output": "실행순서",
+        "automation": "반자동화(Semi-automatic)"
+      },
+      {
+        "taskNo": "STAGE-4-T3",
+        "name": "분석·품질 기준(Analysis and Quality Criteria)",
+        "nameKo": "분석·품질 기준(Analysis and Quality Criteria)",
+        "whyTask": "분석·품질 기준(Analysis and Quality Criteria)을(를) 수행한다.",
+        "example": "",
+        "items": [
+          {
+            "perfNo": "STAGE-4-3",
+            "label": "분석·품질 기준(Analysis and Quality Criteria)",
+            "entries": [
+              {
+                "id": "STAGE-4.t3.do",
+                "kind": "수행내용",
+                "seg": "1",
+                "content": "분석·품질 기준(Analysis and Quality Criteria)을(를) 수행한다.",
+                "auto": "수동화",
+                "reason": "수동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "입력: 실행순서",
+                  "분석·품질 기준(Analysis and Quality Criteria)을(를) 수행한다.",
+                  "출력: Gate 기준"
+                ],
+                "behavior": "decision",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "분석·품질 기준(Analysis and Quality Criteria)을",
+                "easyContent": "분석·품질 기준(Analysis and Quality Criteria)을(를) 수행한다.",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "입력: 실행순서",
+                  "분석·품질 기준(Analysis and Quality Criteria)을(를) 수행한다.",
+                  "출력: Gate 기준"
+                ]
+              },
+              {
+                "id": "STAGE-4.t3.out",
+                "kind": "산출물",
+                "seg": "1",
+                "content": "Gate 기준",
+                "auto": "수동화",
+                "reason": "수동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "산출물 저장·다음 단계 전달"
+                ],
+                "behavior": "validation",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "Gate 기준",
+                "easyContent": "Gate 기준",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "산출물 저장·다음 단계 전달"
+                ]
+              }
+            ]
+          }
+        ],
+        "isProcess": false,
+        "input": "실행순서",
+        "output": "Gate 기준",
+        "automation": "수동화(Manual)"
+      }
+    ]
+  },
+  {
+    "stageNo": 5,
+    "title": "자문화기술지 실행(Autoethnography Execution)",
+    "fullName": "5단계 · 자문화기술지 실행(Autoethnography Execution)",
+    "stageLabel": "자문화기술지 실행(Autoethnography Execution)",
+    "easyIntro": "현장진입·라포→참여관찰→현장노트·면담→색인·패턴코딩→문화주제→두꺼운 기술",
+    "whyStage": "참여관찰가 누락되면 메커니즘의 2번째 연결이 끊겨 뒤의 결과를 정당화할 수 없다.",
+    "inEasy": "승인된 연구 설계·자료",
+    "outEasy": "자문화기술지 분석결과 + SampleDeliverable",
+    "tasks": [
+      {
+        "taskNo": "PROC-01",
+        "name": "현장진입·라포(Field Entry and Rapport)",
+        "nameKo": "현장진입·라포",
+        "whyTask": "현장진입·라포가 누락되면 메커니즘의 1번째 연결이 끊겨 뒤의 결과를 정당화할 수 없다.",
+        "example": "Process는 Stage 5 안에서 방법 고유 기능 하나를 처음부터 끝까지 수행하는 절차이다. 현재 Process는 현장진입·라포(Field Entry and Rapport)이다.",
+        "items": [
+          {
+            "perfNo": "PROC-01-1",
+            "label": "현장진입·라포 입력기준 확인(Input Criteria)",
+            "entries": [
+              {
+                "id": "PROC-01.t1.do",
+                "kind": "수행내용",
+                "seg": "1",
+                "content": "현장진입·라포에 필요한 입력·결측·형식을 확인한다.",
+                "auto": "반자동화",
+                "reason": "반자동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "입력 확인: 승인된 연구 설계·자료",
+                  "현장진입·라포에 필요한 입력·결측·형식을 확인한다.",
+                  "산출 기록: 현장진입·라포 입력검증"
+                ],
+                "behavior": "checklist",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "현장진입·라포에 필요한 입력·결측·형식을 확인한다.",
+                "easyContent": "현장진입·라포에 필요한 입력·결측·형식을 확인한다.",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "입력 확인: 승인된 연구 설계·자료",
+                  "현장진입·라포에 필요한 입력·결측·형식을 확인한다.",
+                  "산출 기록: 현장진입·라포 입력검증"
+                ]
+              },
+              {
+                "id": "PROC-01.t1.out",
+                "kind": "산출물",
+                "seg": "1",
+                "content": "현장진입·라포 입력검증",
+                "auto": "반자동화",
+                "reason": "반자동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "산출물 형식·완전성 점검",
+                  "다음 작업으로 전달"
+                ],
+                "behavior": "validation",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "현장진입·라포 입력검증",
+                "easyContent": "현장진입·라포 입력검증",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "산출물 형식·완전성 점검",
+                  "다음 작업으로 전달"
+                ]
+              }
+            ]
+          },
+          {
+            "perfNo": "PROC-01-2",
+            "label": "현장진입·라포 실행(Field Entry and Rapport)",
+            "entries": [
+              {
+                "id": "PROC-01.t2.do",
+                "kind": "수행내용",
+                "seg": "1",
+                "content": "자문화기술지의 표준 절차에 따라 현장진입·라포를 수행한다.",
+                "auto": "반자동화",
+                "reason": "반자동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "입력 확인: 현장진입·라포 입력검증",
+                  "자문화기술지의 표준 절차에 따라 현장진입·라포를 수행한다.",
+                  "산출 기록: 현장진입·라포 산출물(Field Entry and Rapport Output)"
+                ],
+                "behavior": "analysis",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "자문화기술지의 표준 절차에 따라 현장진입·라포를 수행한다.",
+                "easyContent": "자문화기술지의 표준 절차에 따라 현장진입·라포를 수행한다.",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "입력 확인: 현장진입·라포 입력검증",
+                  "자문화기술지의 표준 절차에 따라 현장진입·라포를 수행한다.",
+                  "산출 기록: 현장진입·라포 산출물(Field Entry and Rapport Output)"
+                ]
+              },
+              {
+                "id": "PROC-01.t2.out",
+                "kind": "산출물",
+                "seg": "1",
+                "content": "현장진입·라포 산출물(Field Entry and Rapport Output)",
+                "auto": "반자동화",
+                "reason": "반자동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "산출물 형식·완전성 점검",
+                  "다음 작업으로 전달"
+                ],
+                "behavior": "validation",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "현장진입·라포 산출물(Field Entry and Rapport Outp",
+                "easyContent": "현장진입·라포 산출물(Field Entry and Rapport Output)",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "산출물 형식·완전성 점검",
+                  "다음 작업으로 전달"
+                ]
+              }
+            ]
+          },
+          {
+            "perfNo": "PROC-01-3",
+            "label": "현장진입·라포 결과검증(Result Validation)",
+            "entries": [
+              {
+                "id": "PROC-01.t3.do",
+                "kind": "수행내용",
+                "seg": "1",
+                "content": "방법 가정·품질·계보를 검토하고 실패 시 해당 Process로 회귀한다.",
+                "auto": "수동화",
+                "reason": "수동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "입력 확인: 현장진입·라포 산출물(Field Entry and Rapport Output)",
+                  "방법 가정·품질·계보를 검토하고 실패 시 해당 Process로 회귀한다.",
+                  "산출 기록: 현장진입·라포 산출물(Field Entry and Rapport Output) 승인"
+                ],
+                "behavior": "validation",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "방법 가정·품질·계보를 검토하고 실패 시 해당 Process로 회귀한다.",
+                "easyContent": "방법 가정·품질·계보를 검토하고 실패 시 해당 Process로 회귀한다.",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "입력 확인: 현장진입·라포 산출물(Field Entry and Rapport Output)",
+                  "방법 가정·품질·계보를 검토하고 실패 시 해당 Process로 회귀한다.",
+                  "산출 기록: 현장진입·라포 산출물(Field Entry and Rapport Output) 승인"
+                ]
+              },
+              {
+                "id": "PROC-01.t3.out",
+                "kind": "산출물",
+                "seg": "1",
+                "content": "현장진입·라포 산출물(Field Entry and Rapport Output) 승인",
+                "auto": "수동화",
+                "reason": "수동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "산출물 형식·완전성 점검",
+                  "다음 작업으로 전달"
+                ],
+                "behavior": "validation",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "현장진입·라포 산출물(Field Entry and Rapport Outp",
+                "easyContent": "현장진입·라포 산출물(Field Entry and Rapport Output) 승인",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "산출물 형식·완전성 점검",
+                  "다음 작업으로 전달"
+                ]
+              }
+            ]
+          }
+        ],
+        "isProcess": true,
+        "input": "승인된 연구 설계·자료",
+        "output": "현장진입·라포 산출물(Field Entry and Rapport Output)",
+        "automation": "1"
+      },
+      {
+        "taskNo": "PROC-02",
+        "name": "참여관찰(Participant Observation)",
+        "nameKo": "참여관찰",
+        "whyTask": "참여관찰가 누락되면 메커니즘의 2번째 연결이 끊겨 뒤의 결과를 정당화할 수 없다.",
+        "example": "Process는 Stage 5 안에서 방법 고유 기능 하나를 처음부터 끝까지 수행하는 절차이다. 현재 Process는 참여관찰(Participant Observation)이다.",
+        "items": [
+          {
+            "perfNo": "PROC-02-1",
+            "label": "참여관찰 입력기준 확인(Input Criteria)",
+            "entries": [
+              {
+                "id": "PROC-02.t1.do",
+                "kind": "수행내용",
+                "seg": "1",
+                "content": "참여관찰에 필요한 입력·결측·형식을 확인한다.",
+                "auto": "반자동화",
+                "reason": "반자동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "입력 확인: 현장진입·라포 산출물(Field Entry and Rapport Output)",
+                  "참여관찰에 필요한 입력·결측·형식을 확인한다.",
+                  "산출 기록: 참여관찰 입력검증"
+                ],
+                "behavior": "checklist",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "참여관찰에 필요한 입력·결측·형식을 확인한다.",
+                "easyContent": "참여관찰에 필요한 입력·결측·형식을 확인한다.",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "입력 확인: 현장진입·라포 산출물(Field Entry and Rapport Output)",
+                  "참여관찰에 필요한 입력·결측·형식을 확인한다.",
+                  "산출 기록: 참여관찰 입력검증"
+                ]
+              },
+              {
+                "id": "PROC-02.t1.out",
+                "kind": "산출물",
+                "seg": "1",
+                "content": "참여관찰 입력검증",
+                "auto": "반자동화",
+                "reason": "반자동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "산출물 형식·완전성 점검",
+                  "다음 작업으로 전달"
+                ],
+                "behavior": "validation",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "참여관찰 입력검증",
+                "easyContent": "참여관찰 입력검증",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "산출물 형식·완전성 점검",
+                  "다음 작업으로 전달"
+                ]
+              }
+            ]
+          },
+          {
+            "perfNo": "PROC-02-2",
+            "label": "참여관찰 실행(Participant Observation)",
+            "entries": [
+              {
+                "id": "PROC-02.t2.do",
+                "kind": "수행내용",
+                "seg": "1",
+                "content": "자문화기술지의 표준 절차에 따라 참여관찰를 수행한다.",
+                "auto": "반자동화",
+                "reason": "반자동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "입력 확인: 참여관찰 입력검증",
+                  "자문화기술지의 표준 절차에 따라 참여관찰를 수행한다.",
+                  "산출 기록: 참여관찰 산출물(Participant Observation Output)"
+                ],
+                "behavior": "analysis",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "자문화기술지의 표준 절차에 따라 참여관찰를 수행한다.",
+                "easyContent": "자문화기술지의 표준 절차에 따라 참여관찰를 수행한다.",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "입력 확인: 참여관찰 입력검증",
+                  "자문화기술지의 표준 절차에 따라 참여관찰를 수행한다.",
+                  "산출 기록: 참여관찰 산출물(Participant Observation Output)"
+                ]
+              },
+              {
+                "id": "PROC-02.t2.out",
+                "kind": "산출물",
+                "seg": "1",
+                "content": "참여관찰 산출물(Participant Observation Output)",
+                "auto": "반자동화",
+                "reason": "반자동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "산출물 형식·완전성 점검",
+                  "다음 작업으로 전달"
+                ],
+                "behavior": "validation",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "참여관찰 산출물(Participant Observation Output)",
+                "easyContent": "참여관찰 산출물(Participant Observation Output)",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "산출물 형식·완전성 점검",
+                  "다음 작업으로 전달"
+                ]
+              }
+            ]
+          },
+          {
+            "perfNo": "PROC-02-3",
+            "label": "참여관찰 결과검증(Result Validation)",
+            "entries": [
+              {
+                "id": "PROC-02.t3.do",
+                "kind": "수행내용",
+                "seg": "1",
+                "content": "방법 가정·품질·계보를 검토하고 실패 시 해당 Process로 회귀한다.",
+                "auto": "수동화",
+                "reason": "수동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "입력 확인: 참여관찰 산출물(Participant Observation Output)",
+                  "방법 가정·품질·계보를 검토하고 실패 시 해당 Process로 회귀한다.",
+                  "산출 기록: 참여관찰 산출물(Participant Observation Output) 승인"
+                ],
+                "behavior": "validation",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "방법 가정·품질·계보를 검토하고 실패 시 해당 Process로 회귀한다.",
+                "easyContent": "방법 가정·품질·계보를 검토하고 실패 시 해당 Process로 회귀한다.",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "입력 확인: 참여관찰 산출물(Participant Observation Output)",
+                  "방법 가정·품질·계보를 검토하고 실패 시 해당 Process로 회귀한다.",
+                  "산출 기록: 참여관찰 산출물(Participant Observation Output) 승인"
+                ]
+              },
+              {
+                "id": "PROC-02.t3.out",
+                "kind": "산출물",
+                "seg": "1",
+                "content": "참여관찰 산출물(Participant Observation Output) 승인",
+                "auto": "수동화",
+                "reason": "수동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "산출물 형식·완전성 점검",
+                  "다음 작업으로 전달"
+                ],
+                "behavior": "validation",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "참여관찰 산출물(Participant Observation Output)",
+                "easyContent": "참여관찰 산출물(Participant Observation Output) 승인",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "산출물 형식·완전성 점검",
+                  "다음 작업으로 전달"
+                ]
+              }
+            ]
+          }
+        ],
+        "isProcess": true,
+        "input": "현장진입·라포 산출물(Field Entry and Rapport Output)",
+        "output": "참여관찰 산출물(Participant Observation Output)",
+        "automation": "1"
+      },
+      {
+        "taskNo": "PROC-03",
+        "name": "현장노트·면담(Fieldnotes and Interviews)",
+        "nameKo": "현장노트·면담",
+        "whyTask": "현장노트·면담가 누락되면 메커니즘의 3번째 연결이 끊겨 뒤의 결과를 정당화할 수 없다.",
+        "example": "Process는 Stage 5 안에서 방법 고유 기능 하나를 처음부터 끝까지 수행하는 절차이다. 현재 Process는 현장노트·면담(Fieldnotes and Interviews)이다.",
+        "items": [
+          {
+            "perfNo": "PROC-03-1",
+            "label": "현장노트·면담 입력기준 확인(Input Criteria)",
+            "entries": [
+              {
+                "id": "PROC-03.t1.do",
+                "kind": "수행내용",
+                "seg": "1",
+                "content": "현장노트·면담에 필요한 입력·결측·형식을 확인한다.",
+                "auto": "반자동화",
+                "reason": "반자동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "입력 확인: 참여관찰 산출물(Participant Observation Output)",
+                  "현장노트·면담에 필요한 입력·결측·형식을 확인한다.",
+                  "산출 기록: 현장노트·면담 입력검증"
+                ],
+                "behavior": "checklist",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "현장노트·면담에 필요한 입력·결측·형식을 확인한다.",
+                "easyContent": "현장노트·면담에 필요한 입력·결측·형식을 확인한다.",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "입력 확인: 참여관찰 산출물(Participant Observation Output)",
+                  "현장노트·면담에 필요한 입력·결측·형식을 확인한다.",
+                  "산출 기록: 현장노트·면담 입력검증"
+                ]
+              },
+              {
+                "id": "PROC-03.t1.out",
+                "kind": "산출물",
+                "seg": "1",
+                "content": "현장노트·면담 입력검증",
+                "auto": "반자동화",
+                "reason": "반자동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "산출물 형식·완전성 점검",
+                  "다음 작업으로 전달"
+                ],
+                "behavior": "validation",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "현장노트·면담 입력검증",
+                "easyContent": "현장노트·면담 입력검증",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "산출물 형식·완전성 점검",
+                  "다음 작업으로 전달"
+                ]
+              }
+            ]
+          },
+          {
+            "perfNo": "PROC-03-2",
+            "label": "현장노트·면담 실행(Fieldnotes and Interviews)",
+            "entries": [
+              {
+                "id": "PROC-03.t2.do",
+                "kind": "수행내용",
+                "seg": "1",
+                "content": "자문화기술지의 표준 절차에 따라 현장노트·면담를 수행한다.",
+                "auto": "반자동화",
+                "reason": "반자동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "입력 확인: 현장노트·면담 입력검증",
+                  "자문화기술지의 표준 절차에 따라 현장노트·면담를 수행한다.",
+                  "산출 기록: 현장노트·면담 산출물(Fieldnotes and Interviews Output)"
+                ],
+                "behavior": "analysis",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "자문화기술지의 표준 절차에 따라 현장노트·면담를 수행한다.",
+                "easyContent": "자문화기술지의 표준 절차에 따라 현장노트·면담를 수행한다.",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "입력 확인: 현장노트·면담 입력검증",
+                  "자문화기술지의 표준 절차에 따라 현장노트·면담를 수행한다.",
+                  "산출 기록: 현장노트·면담 산출물(Fieldnotes and Interviews Output)"
+                ]
+              },
+              {
+                "id": "PROC-03.t2.out",
+                "kind": "산출물",
+                "seg": "1",
+                "content": "현장노트·면담 산출물(Fieldnotes and Interviews Output)",
+                "auto": "반자동화",
+                "reason": "반자동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "산출물 형식·완전성 점검",
+                  "다음 작업으로 전달"
+                ],
+                "behavior": "validation",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "현장노트·면담 산출물(Fieldnotes and Interviews Ou",
+                "easyContent": "현장노트·면담 산출물(Fieldnotes and Interviews Output)",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "산출물 형식·완전성 점검",
+                  "다음 작업으로 전달"
+                ]
+              }
+            ]
+          },
+          {
+            "perfNo": "PROC-03-3",
+            "label": "현장노트·면담 결과검증(Result Validation)",
+            "entries": [
+              {
+                "id": "PROC-03.t3.do",
+                "kind": "수행내용",
+                "seg": "1",
+                "content": "방법 가정·품질·계보를 검토하고 실패 시 해당 Process로 회귀한다.",
+                "auto": "수동화",
+                "reason": "수동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "입력 확인: 현장노트·면담 산출물(Fieldnotes and Interviews Output)",
+                  "방법 가정·품질·계보를 검토하고 실패 시 해당 Process로 회귀한다.",
+                  "산출 기록: 현장노트·면담 산출물(Fieldnotes and Interviews Output) 승인"
+                ],
+                "behavior": "validation",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "방법 가정·품질·계보를 검토하고 실패 시 해당 Process로 회귀한다.",
+                "easyContent": "방법 가정·품질·계보를 검토하고 실패 시 해당 Process로 회귀한다.",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "입력 확인: 현장노트·면담 산출물(Fieldnotes and Interviews Output)",
+                  "방법 가정·품질·계보를 검토하고 실패 시 해당 Process로 회귀한다.",
+                  "산출 기록: 현장노트·면담 산출물(Fieldnotes and Interviews Output) 승인"
+                ]
+              },
+              {
+                "id": "PROC-03.t3.out",
+                "kind": "산출물",
+                "seg": "1",
+                "content": "현장노트·면담 산출물(Fieldnotes and Interviews Output) 승인",
+                "auto": "수동화",
+                "reason": "수동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "산출물 형식·완전성 점검",
+                  "다음 작업으로 전달"
+                ],
+                "behavior": "validation",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "현장노트·면담 산출물(Fieldnotes and Interviews Ou",
+                "easyContent": "현장노트·면담 산출물(Fieldnotes and Interviews Output) 승인",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "산출물 형식·완전성 점검",
+                  "다음 작업으로 전달"
+                ]
+              }
+            ]
+          }
+        ],
+        "isProcess": true,
+        "input": "참여관찰 산출물(Participant Observation Output)",
+        "output": "현장노트·면담 산출물(Fieldnotes and Interviews Output)",
+        "automation": "1"
+      },
+      {
+        "taskNo": "PROC-04",
+        "name": "색인·패턴코딩(Indexing and Pattern Coding)",
+        "nameKo": "색인·패턴코딩",
+        "whyTask": "색인·패턴코딩가 누락되면 메커니즘의 4번째 연결이 끊겨 뒤의 결과를 정당화할 수 없다.",
+        "example": "Process는 Stage 5 안에서 방법 고유 기능 하나를 처음부터 끝까지 수행하는 절차이다. 현재 Process는 색인·패턴코딩(Indexing and Pattern Coding)이다.",
+        "items": [
+          {
+            "perfNo": "PROC-04-1",
+            "label": "색인·패턴코딩 입력기준 확인(Input Criteria)",
+            "entries": [
+              {
+                "id": "PROC-04.t1.do",
+                "kind": "수행내용",
+                "seg": "1",
+                "content": "색인·패턴코딩에 필요한 입력·결측·형식을 확인한다.",
+                "auto": "반자동화",
+                "reason": "반자동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "입력 확인: 현장노트·면담 산출물(Fieldnotes and Interviews Output)",
+                  "색인·패턴코딩에 필요한 입력·결측·형식을 확인한다.",
+                  "산출 기록: 색인·패턴코딩 입력검증"
+                ],
+                "behavior": "checklist",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "색인·패턴코딩에 필요한 입력·결측·형식을 확인한다.",
+                "easyContent": "색인·패턴코딩에 필요한 입력·결측·형식을 확인한다.",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "입력 확인: 현장노트·면담 산출물(Fieldnotes and Interviews Output)",
+                  "색인·패턴코딩에 필요한 입력·결측·형식을 확인한다.",
+                  "산출 기록: 색인·패턴코딩 입력검증"
+                ]
+              },
+              {
+                "id": "PROC-04.t1.out",
+                "kind": "산출물",
+                "seg": "1",
+                "content": "색인·패턴코딩 입력검증",
+                "auto": "반자동화",
+                "reason": "반자동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "산출물 형식·완전성 점검",
+                  "다음 작업으로 전달"
+                ],
+                "behavior": "validation",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "색인·패턴코딩 입력검증",
+                "easyContent": "색인·패턴코딩 입력검증",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "산출물 형식·완전성 점검",
+                  "다음 작업으로 전달"
+                ]
+              }
+            ]
+          },
+          {
+            "perfNo": "PROC-04-2",
+            "label": "색인·패턴코딩 실행(Indexing and Pattern Coding)",
+            "entries": [
+              {
+                "id": "PROC-04.t2.do",
+                "kind": "수행내용",
+                "seg": "1",
+                "content": "자문화기술지의 표준 절차에 따라 색인·패턴코딩를 수행한다.",
+                "auto": "반자동화",
+                "reason": "반자동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "입력 확인: 색인·패턴코딩 입력검증",
+                  "자문화기술지의 표준 절차에 따라 색인·패턴코딩를 수행한다.",
+                  "산출 기록: 색인·패턴코딩 산출물(Indexing and Pattern Coding Output)"
+                ],
+                "behavior": "analysis",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "자문화기술지의 표준 절차에 따라 색인·패턴코딩를 수행한다.",
+                "easyContent": "자문화기술지의 표준 절차에 따라 색인·패턴코딩를 수행한다.",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "입력 확인: 색인·패턴코딩 입력검증",
+                  "자문화기술지의 표준 절차에 따라 색인·패턴코딩를 수행한다.",
+                  "산출 기록: 색인·패턴코딩 산출물(Indexing and Pattern Coding Output)"
+                ]
+              },
+              {
+                "id": "PROC-04.t2.out",
+                "kind": "산출물",
+                "seg": "1",
+                "content": "색인·패턴코딩 산출물(Indexing and Pattern Coding Output)",
+                "auto": "반자동화",
+                "reason": "반자동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "산출물 형식·완전성 점검",
+                  "다음 작업으로 전달"
+                ],
+                "behavior": "validation",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "색인·패턴코딩 산출물(Indexing and Pattern Coding ",
+                "easyContent": "색인·패턴코딩 산출물(Indexing and Pattern Coding Output)",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "산출물 형식·완전성 점검",
+                  "다음 작업으로 전달"
+                ]
+              }
+            ]
+          },
+          {
+            "perfNo": "PROC-04-3",
+            "label": "색인·패턴코딩 결과검증(Result Validation)",
+            "entries": [
+              {
+                "id": "PROC-04.t3.do",
+                "kind": "수행내용",
+                "seg": "1",
+                "content": "방법 가정·품질·계보를 검토하고 실패 시 해당 Process로 회귀한다.",
+                "auto": "수동화",
+                "reason": "수동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "입력 확인: 색인·패턴코딩 산출물(Indexing and Pattern Coding Output)",
+                  "방법 가정·품질·계보를 검토하고 실패 시 해당 Process로 회귀한다.",
+                  "산출 기록: 색인·패턴코딩 산출물(Indexing and Pattern Coding Output) 승인"
+                ],
+                "behavior": "validation",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "방법 가정·품질·계보를 검토하고 실패 시 해당 Process로 회귀한다.",
+                "easyContent": "방법 가정·품질·계보를 검토하고 실패 시 해당 Process로 회귀한다.",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "입력 확인: 색인·패턴코딩 산출물(Indexing and Pattern Coding Output)",
+                  "방법 가정·품질·계보를 검토하고 실패 시 해당 Process로 회귀한다.",
+                  "산출 기록: 색인·패턴코딩 산출물(Indexing and Pattern Coding Output) 승인"
+                ]
+              },
+              {
+                "id": "PROC-04.t3.out",
+                "kind": "산출물",
+                "seg": "1",
+                "content": "색인·패턴코딩 산출물(Indexing and Pattern Coding Output) 승인",
+                "auto": "수동화",
+                "reason": "수동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "산출물 형식·완전성 점검",
+                  "다음 작업으로 전달"
+                ],
+                "behavior": "validation",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "색인·패턴코딩 산출물(Indexing and Pattern Coding ",
+                "easyContent": "색인·패턴코딩 산출물(Indexing and Pattern Coding Output) 승인",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "산출물 형식·완전성 점검",
+                  "다음 작업으로 전달"
+                ]
+              }
+            ]
+          }
+        ],
+        "isProcess": true,
+        "input": "현장노트·면담 산출물(Fieldnotes and Interviews Output)",
+        "output": "색인·패턴코딩 산출물(Indexing and Pattern Coding Output)",
+        "automation": "1"
+      },
+      {
+        "taskNo": "PROC-05",
+        "name": "문화주제·두꺼운 기술(Cultural Themes and Thick Description)",
+        "nameKo": "문화주제·두꺼운 기술",
+        "whyTask": "문화주제·두꺼운 기술가 누락되면 메커니즘의 5번째 연결이 끊겨 뒤의 결과를 정당화할 수 없다.",
+        "example": "Process는 Stage 5 안에서 방법 고유 기능 하나를 처음부터 끝까지 수행하는 절차이다. 현재 Process는 문화주제·두꺼운 기술(Cultural Themes and Thick Description)이다.",
+        "items": [
+          {
+            "perfNo": "PROC-05-1",
+            "label": "문화주제·두꺼운 기술 입력기준 확인(Input Criteria)",
+            "entries": [
+              {
+                "id": "PROC-05.t1.do",
+                "kind": "수행내용",
+                "seg": "1",
+                "content": "문화주제·두꺼운 기술에 필요한 입력·결측·형식을 확인한다.",
+                "auto": "반자동화",
+                "reason": "반자동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "입력 확인: 색인·패턴코딩 산출물(Indexing and Pattern Coding Output)",
+                  "문화주제·두꺼운 기술에 필요한 입력·결측·형식을 확인한다.",
+                  "산출 기록: 문화주제·두꺼운 기술 입력검증"
+                ],
+                "behavior": "checklist",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "문화주제·두꺼운 기술에 필요한 입력·결측·형식을 확인한다.",
+                "easyContent": "문화주제·두꺼운 기술에 필요한 입력·결측·형식을 확인한다.",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "입력 확인: 색인·패턴코딩 산출물(Indexing and Pattern Coding Output)",
+                  "문화주제·두꺼운 기술에 필요한 입력·결측·형식을 확인한다.",
+                  "산출 기록: 문화주제·두꺼운 기술 입력검증"
+                ]
+              },
+              {
+                "id": "PROC-05.t1.out",
+                "kind": "산출물",
+                "seg": "1",
+                "content": "문화주제·두꺼운 기술 입력검증",
+                "auto": "반자동화",
+                "reason": "반자동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "산출물 형식·완전성 점검",
+                  "다음 작업으로 전달"
+                ],
+                "behavior": "validation",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "문화주제·두꺼운 기술 입력검증",
+                "easyContent": "문화주제·두꺼운 기술 입력검증",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "산출물 형식·완전성 점검",
+                  "다음 작업으로 전달"
+                ]
+              }
+            ]
+          },
+          {
+            "perfNo": "PROC-05-2",
+            "label": "문화주제·두꺼운 기술 실행(Cultural Themes and Thick Description)",
+            "entries": [
+              {
+                "id": "PROC-05.t2.do",
+                "kind": "수행내용",
+                "seg": "1",
+                "content": "자문화기술지의 표준 절차에 따라 문화주제·두꺼운 기술를 수행한다.",
+                "auto": "반자동화",
+                "reason": "반자동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "입력 확인: 문화주제·두꺼운 기술 입력검증",
+                  "자문화기술지의 표준 절차에 따라 문화주제·두꺼운 기술를 수행한다.",
+                  "산출 기록: 문화주제·두꺼운 기술 산출물(Cultural Themes and Thick Description Output)"
+                ],
+                "behavior": "analysis",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "자문화기술지의 표준 절차에 따라 문화주제·두꺼운 기술를 수행한다.",
+                "easyContent": "자문화기술지의 표준 절차에 따라 문화주제·두꺼운 기술를 수행한다.",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "입력 확인: 문화주제·두꺼운 기술 입력검증",
+                  "자문화기술지의 표준 절차에 따라 문화주제·두꺼운 기술를 수행한다.",
+                  "산출 기록: 문화주제·두꺼운 기술 산출물(Cultural Themes and Thick Description Output)"
+                ]
+              },
+              {
+                "id": "PROC-05.t2.out",
+                "kind": "산출물",
+                "seg": "1",
+                "content": "문화주제·두꺼운 기술 산출물(Cultural Themes and Thick Description Output)",
+                "auto": "반자동화",
+                "reason": "반자동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "산출물 형식·완전성 점검",
+                  "다음 작업으로 전달"
+                ],
+                "behavior": "validation",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "문화주제·두꺼운 기술 산출물(Cultural Themes and Thic",
+                "easyContent": "문화주제·두꺼운 기술 산출물(Cultural Themes and Thick Description Output)",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "산출물 형식·완전성 점검",
+                  "다음 작업으로 전달"
+                ]
+              }
+            ]
+          },
+          {
+            "perfNo": "PROC-05-3",
+            "label": "문화주제·두꺼운 기술 결과검증(Result Validation)",
+            "entries": [
+              {
+                "id": "PROC-05.t3.do",
+                "kind": "수행내용",
+                "seg": "1",
+                "content": "방법 가정·품질·계보를 검토하고 실패 시 해당 Process로 회귀한다.",
+                "auto": "수동화",
+                "reason": "수동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "입력 확인: 문화주제·두꺼운 기술 산출물(Cultural Themes and Thick Description Output)",
+                  "방법 가정·품질·계보를 검토하고 실패 시 해당 Process로 회귀한다.",
+                  "산출 기록: 문화주제·두꺼운 기술 산출물(Cultural Themes and Thick Description Output) 승인"
+                ],
+                "behavior": "validation",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "방법 가정·품질·계보를 검토하고 실패 시 해당 Process로 회귀한다.",
+                "easyContent": "방법 가정·품질·계보를 검토하고 실패 시 해당 Process로 회귀한다.",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "입력 확인: 문화주제·두꺼운 기술 산출물(Cultural Themes and Thick Description Output)",
+                  "방법 가정·품질·계보를 검토하고 실패 시 해당 Process로 회귀한다.",
+                  "산출 기록: 문화주제·두꺼운 기술 산출물(Cultural Themes and Thick Description Output) 승인"
+                ]
+              },
+              {
+                "id": "PROC-05.t3.out",
+                "kind": "산출물",
+                "seg": "1",
+                "content": "문화주제·두꺼운 기술 산출물(Cultural Themes and Thick Description Output) 승인",
+                "auto": "수동화",
+                "reason": "수동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "산출물 형식·완전성 점검",
+                  "다음 작업으로 전달"
+                ],
+                "behavior": "validation",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "문화주제·두꺼운 기술 산출물(Cultural Themes and Thic",
+                "easyContent": "문화주제·두꺼운 기술 산출물(Cultural Themes and Thick Description Output) 승인",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "산출물 형식·완전성 점검",
+                  "다음 작업으로 전달"
+                ]
+              }
+            ]
+          }
+        ],
+        "isProcess": true,
+        "input": "색인·패턴코딩 산출물(Indexing and Pattern Coding Output)",
+        "output": "문화주제·두꺼운 기술 산출물(Cultural Themes and Thick Description Output)",
+        "automation": "1"
+      },
+      {
+        "taskNo": "PROC-06",
+        "name": "참여자 검토(Member Checking)",
+        "nameKo": "참여자 검토",
+        "whyTask": "연구는 한 번에 완벽하게 끝나지 않으므로 재실행 기준이 없으면 임의로 반복하거나 불충분한 결과를 승인할 수 있다.",
+        "example": "순환 규칙은 품질이나 포화·수렴 기준이 부족할 때 어느 지점으로 돌아갈지를 정한다.",
+        "items": [
+          {
+            "perfNo": "PROC-06-1",
+            "label": "참여자 검토 입력기준 확인(Input Criteria)",
+            "entries": [
+              {
+                "id": "PROC-06.t1.do",
+                "kind": "수행내용",
+                "seg": "1",
+                "content": "참여자 검토에 필요한 입력·결측·형식을 확인한다.",
+                "auto": "반자동화",
+                "reason": "반자동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "입력 확인: 문화주제·두꺼운 기술 산출물(Cultural Themes and Thick Description Output)",
+                  "참여자 검토에 필요한 입력·결측·형식을 확인한다.",
+                  "산출 기록: 참여자 검토 입력검증"
+                ],
+                "behavior": "checklist",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "참여자 검토에 필요한 입력·결측·형식을 확인한다.",
+                "easyContent": "참여자 검토에 필요한 입력·결측·형식을 확인한다.",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "입력 확인: 문화주제·두꺼운 기술 산출물(Cultural Themes and Thick Description Output)",
+                  "참여자 검토에 필요한 입력·결측·형식을 확인한다.",
+                  "산출 기록: 참여자 검토 입력검증"
+                ]
+              },
+              {
+                "id": "PROC-06.t1.out",
+                "kind": "산출물",
+                "seg": "1",
+                "content": "참여자 검토 입력검증",
+                "auto": "반자동화",
+                "reason": "반자동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "산출물 형식·완전성 점검",
+                  "다음 작업으로 전달"
+                ],
+                "behavior": "validation",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "참여자 검토 입력검증",
+                "easyContent": "참여자 검토 입력검증",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "산출물 형식·완전성 점검",
+                  "다음 작업으로 전달"
+                ]
+              }
+            ]
+          },
+          {
+            "perfNo": "PROC-06-2",
+            "label": "참여자 검토 실행(Member Checking)",
+            "entries": [
+              {
+                "id": "PROC-06.t2.do",
+                "kind": "수행내용",
+                "seg": "1",
+                "content": "자문화기술지의 표준 절차에 따라 참여자 검토를 수행한다.",
+                "auto": "반자동화",
+                "reason": "반자동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "입력 확인: 참여자 검토 입력검증",
+                  "자문화기술지의 표준 절차에 따라 참여자 검토를 수행한다.",
+                  "산출 기록: 참여자 검토 산출물(Member Checking Output)"
+                ],
+                "behavior": "analysis",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "자문화기술지의 표준 절차에 따라 참여자 검토를 수행한다.",
+                "easyContent": "자문화기술지의 표준 절차에 따라 참여자 검토를 수행한다.",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "입력 확인: 참여자 검토 입력검증",
+                  "자문화기술지의 표준 절차에 따라 참여자 검토를 수행한다.",
+                  "산출 기록: 참여자 검토 산출물(Member Checking Output)"
+                ]
+              },
+              {
+                "id": "PROC-06.t2.out",
+                "kind": "산출물",
+                "seg": "1",
+                "content": "참여자 검토 산출물(Member Checking Output)",
+                "auto": "반자동화",
+                "reason": "반자동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "산출물 형식·완전성 점검",
+                  "다음 작업으로 전달"
+                ],
+                "behavior": "validation",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "참여자 검토 산출물(Member Checking Output)",
+                "easyContent": "참여자 검토 산출물(Member Checking Output)",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "산출물 형식·완전성 점검",
+                  "다음 작업으로 전달"
+                ]
+              }
+            ]
+          },
+          {
+            "perfNo": "PROC-06-3",
+            "label": "참여자 검토 결과검증(Result Validation)",
+            "entries": [
+              {
+                "id": "PROC-06.t3.do",
+                "kind": "수행내용",
+                "seg": "1",
+                "content": "방법 가정·품질·계보를 검토하고 실패 시 해당 Process로 회귀한다.",
+                "auto": "수동화",
+                "reason": "수동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "입력 확인: 참여자 검토 산출물(Member Checking Output)",
+                  "방법 가정·품질·계보를 검토하고 실패 시 해당 Process로 회귀한다.",
+                  "산출 기록: 참여자 검토 산출물(Member Checking Output) 승인"
+                ],
+                "behavior": "validation",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "방법 가정·품질·계보를 검토하고 실패 시 해당 Process로 회귀한다.",
+                "easyContent": "방법 가정·품질·계보를 검토하고 실패 시 해당 Process로 회귀한다.",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "입력 확인: 참여자 검토 산출물(Member Checking Output)",
+                  "방법 가정·품질·계보를 검토하고 실패 시 해당 Process로 회귀한다.",
+                  "산출 기록: 참여자 검토 산출물(Member Checking Output) 승인"
+                ]
+              },
+              {
+                "id": "PROC-06.t3.out",
+                "kind": "산출물",
+                "seg": "1",
+                "content": "참여자 검토 산출물(Member Checking Output) 승인",
+                "auto": "수동화",
+                "reason": "수동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "산출물 형식·완전성 점검",
+                  "다음 작업으로 전달"
+                ],
+                "behavior": "validation",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "참여자 검토 산출물(Member Checking Output) 승인",
+                "easyContent": "참여자 검토 산출물(Member Checking Output) 승인",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "산출물 형식·완전성 점검",
+                  "다음 작업으로 전달"
+                ]
+              }
+            ]
+          }
+        ],
+        "isProcess": true,
+        "input": "문화주제·두꺼운 기술 산출물(Cultural Themes and Thick Description Output)",
+        "output": "참여자 검토 산출물(Member Checking Output)",
+        "automation": "1"
+      }
+    ]
+  },
+  {
+    "stageNo": 6,
+    "title": "보고 및 성찰(Reporting and Reflection)",
+    "fullName": "6단계 · 보고 및 성찰(Reporting and Reflection)",
+    "stageLabel": "보고 및 성찰(Reporting and Reflection)",
+    "easyIntro": "자문화기술지(Autoethnography)에서 보고 및 성찰 기능을 수행한다.",
+    "whyStage": "보고 및 성찰를 먼저 확정해야 뒤의 작업이 서로 다른 기준으로 진행되지 않는다.",
+    "inEasy": "승인된 방법 분석결과",
+    "outEasy": "최종 보고서·재현 패키지",
+    "tasks": [
+      {
+        "taskNo": "STAGE-6-T1",
+        "name": "결과표·그림 생성(Tables and Figures)",
+        "nameKo": "결과표·그림 생성(Tables and Figures)",
+        "whyTask": "결과표·그림 생성(Tables and Figures)을(를) 수행한다.",
+        "example": "",
+        "items": [
+          {
+            "perfNo": "STAGE-6-1",
+            "label": "결과표·그림 생성(Tables and Figures)",
+            "entries": [
+              {
+                "id": "STAGE-6.t1.do",
+                "kind": "수행내용",
+                "seg": "1",
+                "content": "결과표·그림 생성(Tables and Figures)을(를) 수행한다.",
+                "auto": "반자동화",
+                "reason": "반자동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "입력: 분석결과",
+                  "결과표·그림 생성(Tables and Figures)을(를) 수행한다.",
+                  "출력: 표·FigureSpec·ChartSpec"
+                ],
+                "behavior": "visualization",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "결과표·그림 생성(Tables and Figures)을(를) 수행한다.",
+                "easyContent": "결과표·그림 생성(Tables and Figures)을(를) 수행한다.",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "입력: 분석결과",
+                  "결과표·그림 생성(Tables and Figures)을(를) 수행한다.",
+                  "출력: 표·FigureSpec·ChartSpec"
+                ]
+              },
+              {
+                "id": "STAGE-6.t1.out",
+                "kind": "산출물",
+                "seg": "1",
+                "content": "표·FigureSpec·ChartSpec",
+                "auto": "반자동화",
+                "reason": "반자동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "산출물 저장·다음 단계 전달"
+                ],
+                "behavior": "validation",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "표·FigureSpec·ChartSpec",
+                "easyContent": "표·FigureSpec·ChartSpec",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "산출물 저장·다음 단계 전달"
+                ]
+              }
+            ]
+          }
+        ],
+        "isProcess": false,
+        "input": "분석결과",
+        "output": "표·FigureSpec·ChartSpec",
+        "automation": "반자동화(Semi-automatic)"
+      },
+      {
+        "taskNo": "STAGE-6-T2",
+        "name": "주장-근거 서술(Claim-evidence Narrative)",
+        "nameKo": "주장-근거 서술(Claim-evidence Narrative)",
+        "whyTask": "주장-근거 서술(Claim-evidence Narrative)을(를) 수행한다.",
+        "example": "",
+        "items": [
+          {
+            "perfNo": "STAGE-6-2",
+            "label": "주장-근거 서술(Claim-evidence Narrative)",
+            "entries": [
+              {
+                "id": "STAGE-6.t2.do",
+                "kind": "수행내용",
+                "seg": "1",
+                "content": "주장-근거 서술(Claim-evidence Narrative)을(를) 수행한다.",
+                "auto": "수동화",
+                "reason": "수동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "입력: 표·그림·계보",
+                  "주장-근거 서술(Claim-evidence Narrative)을(를) 수행한다.",
+                  "출력: 결과 서술"
+                ],
+                "behavior": "editor",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "주장-근거 서술(Claim-evidence Narrative)을(를) 수",
+                "easyContent": "주장-근거 서술(Claim-evidence Narrative)을(를) 수행한다.",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "입력: 표·그림·계보",
+                  "주장-근거 서술(Claim-evidence Narrative)을(를) 수행한다.",
+                  "출력: 결과 서술"
+                ]
+              },
+              {
+                "id": "STAGE-6.t2.out",
+                "kind": "산출물",
+                "seg": "1",
+                "content": "결과 서술",
+                "auto": "수동화",
+                "reason": "수동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "산출물 저장·다음 단계 전달"
+                ],
+                "behavior": "validation",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "결과 서술",
+                "easyContent": "결과 서술",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "산출물 저장·다음 단계 전달"
+                ]
+              }
+            ]
+          }
+        ],
+        "isProcess": false,
+        "input": "표·그림·계보",
+        "output": "결과 서술",
+        "automation": "수동화(Manual)"
+      },
+      {
+        "taskNo": "STAGE-6-T3",
+        "name": "한계·재현 패키지(Limits and Reproducibility)",
+        "nameKo": "한계·재현 패키지(Limits and Reproducibility)",
+        "whyTask": "한계·재현 패키지(Limits and Reproducibility)을(를) 수행한다.",
+        "example": "",
+        "items": [
+          {
+            "perfNo": "STAGE-6-3",
+            "label": "한계·재현 패키지(Limits and Reproducibility)",
+            "entries": [
+              {
+                "id": "STAGE-6.t3.do",
+                "kind": "수행내용",
+                "seg": "1",
+                "content": "한계·재현 패키지(Limits and Reproducibility)을(를) 수행한다.",
+                "auto": "반자동화",
+                "reason": "반자동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "입력: 전체 로그",
+                  "한계·재현 패키지(Limits and Reproducibility)을(를) 수행한다.",
+                  "출력: 최종 보고·재현팩"
+                ],
+                "behavior": "package",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "한계·재현 패키지(Limits and Reproducibility)을(를",
+                "easyContent": "한계·재현 패키지(Limits and Reproducibility)을(를) 수행한다.",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "입력: 전체 로그",
+                  "한계·재현 패키지(Limits and Reproducibility)을(를) 수행한다.",
+                  "출력: 최종 보고·재현팩"
+                ]
+              },
+              {
+                "id": "STAGE-6.t3.out",
+                "kind": "산출물",
+                "seg": "1",
+                "content": "최종 보고·재현팩",
+                "auto": "반자동화",
+                "reason": "반자동화 수준으로 수행·검증합니다.",
+                "procedure": [
+                  "산출물 저장·다음 단계 전달"
+                ],
+                "behavior": "validation",
+                "modes": [
+                  "ai",
+                  "rule",
+                  "user"
+                ],
+                "io": "chain",
+                "easyTitle": "최종 보고·재현팩",
+                "easyContent": "최종 보고·재현팩",
+                "easyWhyNeed": "다음 단계가 검증 가능한 입력을 받도록 이 산출물이 필요합니다.",
+                "procedureEasy": [
+                  "산출물 저장·다음 단계 전달"
+                ]
+              }
+            ]
+          }
+        ],
+        "isProcess": false,
+        "input": "전체 로그",
+        "output": "최종 보고·재현팩",
+        "automation": "반자동화(Semi-automatic)"
+      }
+    ]
+  }
+]

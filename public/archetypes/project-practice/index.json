@@ -1,0 +1,2642 @@
+{
+  "title": "프로젝트 실습(Project Practice)",
+  "intro": "연구방법별 정교화 샘플(주제 5개·절차적 단계·태스크)의 예제와 그림을 그대로 보고, 태스크별 AI 변환기로 내 프로젝트를 만듭니다.",
+  "archetypes": [
+    {
+      "id": 1,
+      "name": "설문·양적통계 아키타입",
+      "name_ko": "설문·양적통계 아키타입",
+      "name_en": "Survey–Quantitative Statistics Archetype",
+      "methods": [
+        {
+          "no": 1,
+          "name": "마케팅리서치",
+          "en": "Marketing Research",
+          "label": "마케팅리서치(조사·설문)",
+          "topicCount": 5,
+          "path": "bundle-01/method-1.json",
+          "methodKey": "SV-001",
+          "caseId": "A01-C074",
+          "perfSlug": "marketing-research",
+          "status": "linked"
+        },
+        {
+          "no": 2,
+          "name": "여론",
+          "en": "Public Opinion Polling",
+          "label": "여론(조사·설문)",
+          "topicCount": 5,
+          "path": "bundle-01/method-2.json",
+          "methodKey": "SV-002",
+          "caseId": "A01-C091",
+          "perfSlug": "public-opinion-research",
+          "status": "linked"
+        },
+        {
+          "no": 3,
+          "name": "설문지 작성",
+          "en": "Questionnaire Design",
+          "label": "설문지 작성(조사·설문)",
+          "topicCount": 5,
+          "path": "bundle-01/method-3.json",
+          "methodKey": "QT-030",
+          "caseId": "A01-C087",
+          "perfSlug": "survey-design",
+          "status": "linked"
+        },
+        {
+          "no": 68,
+          "name": "통계 패키지 기반 분석 2",
+          "en": "SPSS-Based Statistical Analysis",
+          "label": "통계 패키지 기반 분석 2(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-68.json",
+          "methodKey": "statistical-analysis-spss",
+          "caseId": "A01-C063",
+          "perfSlug": "statistical-analysis",
+          "status": "linked"
+        },
+        {
+          "no": 70,
+          "name": "구조방정식모형원리와실제",
+          "en": "Structural Equation Modeling",
+          "label": "구조방정식모형원리와실제(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-70.json",
+          "methodKey": "QT-003",
+          "caseId": "A01-C066",
+          "perfSlug": "structural-equation-modeling",
+          "status": "linked"
+        },
+        {
+          "no": 71,
+          "name": "군집분석",
+          "en": "Cluster Analysis",
+          "label": "군집분석(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-71.json",
+          "methodKey": "QT-004",
+          "caseId": "A01-C067",
+          "perfSlug": "cluster-analysis",
+          "status": "linked"
+        },
+        {
+          "no": 72,
+          "name": "기초통계학",
+          "en": "Basic Statistics",
+          "label": "기초통계학(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-72.json",
+          "methodKey": "QT-005",
+          "caseId": "A01-C068",
+          "perfSlug": "basic-statistics",
+          "status": "linked"
+        },
+        {
+          "no": 73,
+          "name": "사회과학 통계분석1",
+          "en": "Social Science Statistics 1",
+          "label": "사회과학 통계분석1(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-73.json",
+          "methodKey": "QT-012",
+          "caseId": "A01-C079",
+          "perfSlug": "social-science-statistical-methods",
+          "status": "linked"
+        },
+        {
+          "no": 74,
+          "name": "다차원척도",
+          "en": "Multidimensional Scaling",
+          "label": "다차원척도(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-74.json",
+          "methodKey": "QT-007",
+          "caseId": "A01-C070",
+          "perfSlug": "multidimensional-scaling",
+          "status": "linked"
+        },
+        {
+          "no": 75,
+          "name": "매개·조절분석 입문",
+          "en": "Mediation and Moderation Analysis",
+          "label": "매개·조절분석 입문(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-75.json",
+          "methodKey": "QT-008",
+          "caseId": "A01-C075",
+          "perfSlug": "mediation-and-moderation-analysis",
+          "status": "linked"
+        },
+        {
+          "no": 76,
+          "name": "사회과학체계적고찰",
+          "en": "Systematic Review in Social Science",
+          "label": "사회과학체계적고찰(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-76.json",
+          "methodKey": "EV-006",
+          "caseId": "A01-C081",
+          "perfSlug": "systematic-literature-review",
+          "status": "linked"
+        },
+        {
+          "no": 77,
+          "name": "베이지안자료분석",
+          "en": "Bayesian Data Analysis",
+          "label": "베이지안자료분석(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-77.json",
+          "methodKey": "QT-010",
+          "caseId": "A01-C077",
+          "perfSlug": "bayesian-data-analysis",
+          "status": "linked"
+        },
+        {
+          "no": 79,
+          "name": "사회과학 통계방법",
+          "en": "Social Science Statistical Methods",
+          "label": "사회과학 통계방법(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-79.json",
+          "methodKey": "QT-012",
+          "caseId": "A01-C078",
+          "perfSlug": "social-science-statistical-methods",
+          "status": "linked"
+        },
+        {
+          "no": 80,
+          "name": "사회과학 통계분석2",
+          "en": "Social Science Statistics 2",
+          "label": "사회과학 통계분석2(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-80.json",
+          "methodKey": "QT-012",
+          "caseId": "A01-C080",
+          "perfSlug": "social-science-statistical-methods",
+          "status": "linked"
+        },
+        {
+          "no": 82,
+          "name": "회귀분석",
+          "en": "Regression Analysis",
+          "label": "회귀분석(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-82.json",
+          "methodKey": "QT-015",
+          "caseId": "A01-C109",
+          "status": "linked",
+          "perfSlug": "regression-analysis"
+        },
+        {
+          "no": 83,
+          "name": "의학통계",
+          "en": "Medical Statistics",
+          "label": "의학통계(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-83.json",
+          "methodKey": "QT-016",
+          "caseId": "A01-C093",
+          "perfSlug": "medical-statistics",
+          "status": "linked"
+        },
+        {
+          "no": 85,
+          "name": "잠재계층및전이분석",
+          "en": "Latent Class and Transition Analysis",
+          "label": "잠재계층및전이분석(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-85.json",
+          "methodKey": "QT-018",
+          "caseId": "A01-C095",
+          "perfSlug": "latent-class-and-transition-analysis",
+          "status": "linked"
+        },
+        {
+          "no": 86,
+          "name": "스크립트 기반 잠재변수 모형",
+          "en": "R-Based Latent Variable Models",
+          "label": "스크립트 기반 잠재변수 모형(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-86.json",
+          "methodKey": "QT-019",
+          "caseId": "A01-C062",
+          "perfSlug": "latent-variable-modeling",
+          "status": "linked"
+        },
+        {
+          "no": 87,
+          "name": "로지스틱 회귀분석",
+          "en": "Logistic Regression Analysis",
+          "label": "로지스틱 회귀분석(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-87.json",
+          "methodKey": "QT-020",
+          "caseId": "A01-C073",
+          "perfSlug": "logistic-regression-analysis",
+          "status": "linked"
+        },
+        {
+          "no": 88,
+          "name": "데이터 기반 통계의사결정",
+          "en": "Data-Driven Statistical Decision Making",
+          "label": "데이터 기반 통계의사결정(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-88.json",
+          "methodKey": "QT-021",
+          "caseId": "A01-C072",
+          "perfSlug": "statistical-decision-making",
+          "status": "linked"
+        },
+        {
+          "no": 89,
+          "name": "사회조사방법론",
+          "en": "Longitudinal Research",
+          "label": "사회조사방법론(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-89.json",
+          "methodKey": "GN-010",
+          "caseId": "A01-C082",
+          "status": "linked",
+          "perfSlug": "social-survey-methodology"
+        },
+        {
+          "no": 90,
+          "name": "조사방법론",
+          "en": "Exploratory Factor Analysis",
+          "label": "조사방법론(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-90.json",
+          "methodKey": "GN-010",
+          "caseId": "A01-C096",
+          "status": "linked",
+          "perfSlug": "social-survey-methodology"
+        },
+        {
+          "no": 91,
+          "name": "통계적 학습",
+          "en": "Elements of Statistical Learning",
+          "label": "통계적 학습(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-91.json",
+          "methodKey": "QT-024",
+          "caseId": "A01-C102",
+          "perfSlug": "statistical-learning",
+          "status": "linked"
+        },
+        {
+          "no": 92,
+          "name": "판별분석",
+          "en": "Discriminant Analysis",
+          "label": "판별분석(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-92.json",
+          "methodKey": "QT-025",
+          "caseId": "A01-C103",
+          "perfSlug": "discriminant-analysis",
+          "status": "linked"
+        },
+        {
+          "no": 93,
+          "name": "패널 데이터 계량경제학",
+          "en": "Panel Data Econometrics",
+          "label": "패널 데이터 계량경제학(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-93.json",
+          "methodKey": "QT-026",
+          "caseId": "A01-C105",
+          "perfSlug": "panel-data-analysis",
+          "status": "linked"
+        },
+        {
+          "no": 94,
+          "name": "확인적요인분석",
+          "en": "Confirmatory Factor Analysis",
+          "label": "확인적요인분석(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-94.json",
+          "methodKey": "QT-027",
+          "caseId": "A01-C108",
+          "perfSlug": "confirmatory-factor-analysis",
+          "status": "linked"
+        },
+        {
+          "no": 95,
+          "name": "통계 패키지 기반 분석 1",
+          "en": "SPSS Statistical Analysis",
+          "label": "통계 패키지 기반 분석 1(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-95.json",
+          "methodKey": "statistical-analysis-spss",
+          "caseId": "A01-C064",
+          "perfSlug": "statistical-analysis",
+          "status": "linked"
+        },
+        {
+          "no": 96,
+          "name": "인과추론",
+          "en": "Causal Inference",
+          "label": "인과추론(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-96.json",
+          "methodKey": null,
+          "caseId": "A01-C094",
+          "perfSlug": "causal-inference",
+          "status": "pending-registration"
+        },
+        {
+          "no": 97,
+          "name": "설문조사 설계2",
+          "en": "Survey Design 2",
+          "label": "설문조사 설계2(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-97.json",
+          "methodKey": "QT-030",
+          "caseId": "A01-C085",
+          "perfSlug": "survey-design",
+          "status": "linked"
+        },
+        {
+          "no": 98,
+          "name": "설문지 문항 설계",
+          "en": "Survey Item Design",
+          "label": "설문지 문항 설계(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-98.json",
+          "methodKey": "QT-030",
+          "caseId": "A01-C086",
+          "perfSlug": "survey-design",
+          "status": "linked"
+        },
+        {
+          "no": 99,
+          "name": "실험·준실험 설계",
+          "en": "Experimental and Quasi-Experimental Design",
+          "label": "실험·준실험 설계(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-99.json",
+          "methodKey": "QT-032",
+          "caseId": "A01-C089",
+          "perfSlug": "experimental-and-quasi-experimental-design",
+          "status": "linked"
+        },
+        {
+          "no": 100,
+          "name": "실험설계와 분석",
+          "en": "Experimental Design and Analysis",
+          "label": "실험설계와 분석(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-100.json",
+          "methodKey": "QT-033",
+          "caseId": "A01-C090",
+          "perfSlug": "experimental-design-and-analysis",
+          "status": "linked"
+        },
+        {
+          "no": 101,
+          "name": "혼합조사방법",
+          "en": "Mixed Survey Methods",
+          "label": "혼합조사방법(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-101.json",
+          "methodKey": "MM-001",
+          "caseId": "A01-C107",
+          "perfSlug": "mixed-methods-research",
+          "status": "linked"
+        },
+        {
+          "no": 102,
+          "name": "다변량 통계분석",
+          "en": "Multivariate Statistical Analysis",
+          "label": "다변량 통계분석(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-102.json",
+          "methodKey": "QT-035",
+          "caseId": "A01-C069",
+          "perfSlug": "multivariate-statistical-analysis",
+          "status": "linked"
+        },
+        {
+          "no": 103,
+          "name": "의학연구 실용통계",
+          "en": "Practical Statistics for Medical Research",
+          "label": "의학연구 실용통계(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-103.json",
+          "methodKey": "QT-016",
+          "caseId": "A01-C092",
+          "perfSlug": "medical-statistics",
+          "status": "linked"
+        },
+        {
+          "no": 104,
+          "name": "계량경제학",
+          "en": "Econometrics",
+          "label": "계량경제학(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-104.json",
+          "methodKey": "QT-037",
+          "caseId": "A01-C065",
+          "perfSlug": "econometrics",
+          "status": "linked"
+        },
+        {
+          "no": 105,
+          "name": "조사방법론",
+          "en": "Survey Methodology (Quantitative Models)",
+          "label": "조사방법론(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-105.json",
+          "methodKey": "GN-010",
+          "caseId": "A01-C097",
+          "status": "linked",
+          "perfSlug": "social-survey-methodology"
+        },
+        {
+          "no": 106,
+          "name": "조사방법론",
+          "en": "Survey Methodology (Advanced Sampling)",
+          "label": "조사방법론(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-106.json",
+          "methodKey": "GN-010",
+          "caseId": "A01-C098",
+          "status": "linked",
+          "perfSlug": "social-survey-methodology"
+        },
+        {
+          "no": 107,
+          "name": "설문문항 설계1",
+          "en": "Survey Item Design 1",
+          "label": "설문문항 설계1(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-107.json",
+          "methodKey": "QT-030",
+          "caseId": "A01-C084",
+          "perfSlug": "survey-design",
+          "status": "linked"
+        },
+        {
+          "no": 108,
+          "name": "횡단면·패널 계량분석",
+          "en": "Cross-Section and Panel Econometrics",
+          "label": "횡단면·패널 계량분석(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-108.json",
+          "methodKey": "QT-041",
+          "caseId": "A01-C110",
+          "perfSlug": "cross-section-and-panel-econometrics",
+          "status": "linked"
+        },
+        {
+          "no": 109,
+          "name": "선형통계모형",
+          "en": "Linear Statistical Models",
+          "label": "선형통계모형(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-109.json",
+          "methodKey": "QT-042",
+          "caseId": "A01-C083",
+          "perfSlug": "linear-statistical-models",
+          "status": "linked"
+        },
+        {
+          "no": 110,
+          "name": "판별분석과 통계적 패턴인식",
+          "en": "Discriminant Analysis and Pattern Recognition",
+          "label": "판별분석과 통계적 패턴인식(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-01/method-110.json",
+          "methodKey": "QT-025",
+          "caseId": "A01-C104",
+          "perfSlug": "discriminant-analysis",
+          "status": "linked"
+        },
+        {
+          "no": 123,
+          "name": "통계적자연언어처리기초",
+          "en": "Statistical NLP Basics",
+          "label": "통계적자연언어처리기초(텍스트·계산언어)",
+          "topicCount": 5,
+          "path": "bundle-01/method-123.json",
+          "methodKey": "statistical-nlp",
+          "caseId": "A01-C101",
+          "perfSlug": "statistical-natural-language-processing",
+          "status": "linked"
+        },
+        {
+          "no": 158,
+          "name": "메타분석",
+          "en": "Meta-Analysis",
+          "label": "메타분석(문헌·근거합성)",
+          "topicCount": 5,
+          "path": "bundle-01/method-158.json",
+          "methodKey": "EV-005",
+          "caseId": "A01-C076",
+          "perfSlug": "meta-analysis",
+          "status": "linked"
+        },
+        {
+          "no": 172,
+          "name": "현대 다차원척도법",
+          "en": "Modern Multidimensional Scaling",
+          "label": "현대 다차원척도법(기타)",
+          "topicCount": 5,
+          "path": "bundle-01/method-172.json",
+          "methodKey": "QT-007",
+          "caseId": "A01-C106",
+          "status": "linked",
+          "perfSlug": "multidimensional-scaling"
+        },
+        {
+          "no": 176,
+          "name": "종단연구",
+          "en": "Social Survey Methodology",
+          "label": "종단연구(기타)",
+          "topicCount": 5,
+          "path": "bundle-01/method-176.json",
+          "methodKey": "GN-016",
+          "caseId": "A01-C099",
+          "status": "linked",
+          "perfSlug": "longitudinal-data-analysis"
+        },
+        {
+          "no": 178,
+          "name": "소득동학패널",
+          "en": "Income Dynamics Panel",
+          "label": "소득동학패널(기타)",
+          "topicCount": 5,
+          "path": "bundle-01/method-178.json",
+          "methodKey": "QT-026",
+          "caseId": "A01-C088",
+          "perfSlug": "panel-data-analysis",
+          "status": "linked"
+        },
+        {
+          "no": 197,
+          "name": "탐색적요인분석",
+          "en": "Survey Methodology (Evaluation and Mixed)",
+          "label": "탐색적요인분석(평가·종합·혼합)",
+          "topicCount": 5,
+          "path": "bundle-01/method-197.json",
+          "methodKey": "QT-023",
+          "caseId": "A01-C100",
+          "status": "linked",
+          "perfSlug": "exploratory-factor-analysis"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "역사·비교사료 아키타입",
+      "name_ko": "역사·비교사료 아키타입",
+      "name_en": "Historical–Comparative Sources Archetype",
+      "methods": [
+        {
+          "no": 143,
+          "name": "구술사",
+          "en": "Oral History",
+          "label": "구술사(역사·비교)",
+          "topicCount": 5,
+          "path": "bundle-02/method-143.json",
+          "methodKey": "HC-001",
+          "caseId": "A02-C124",
+          "perfSlug": "oral-history",
+          "status": "linked"
+        },
+        {
+          "no": 144,
+          "name": "문헌",
+          "en": "Documentary and Literature History",
+          "label": "문헌(역사·비교)",
+          "topicCount": 5,
+          "path": "bundle-02/method-144.json",
+          "methodKey": "GN-004",
+          "caseId": "A02-C126",
+          "perfSlug": "archival-research",
+          "status": "linked"
+        },
+        {
+          "no": 146,
+          "name": "비교방법",
+          "en": "Comparative Method",
+          "label": "비교방법(역사·비교)",
+          "topicCount": 5,
+          "path": "bundle-02/method-146.json",
+          "methodKey": "HC-004",
+          "caseId": "A02-C127",
+          "perfSlug": "comparative-method",
+          "status": "linked"
+        },
+        {
+          "no": 147,
+          "name": "비교사사분석",
+          "en": "Comparative Historical Analysis",
+          "label": "비교사사분석(역사·비교)",
+          "topicCount": 5,
+          "path": "bundle-02/method-147.json",
+          "methodKey": "CI-001",
+          "caseId": "A02-C128",
+          "status": "linked",
+          "perfSlug": "comparative-historical-analysis"
+        },
+        {
+          "no": 148,
+          "name": "사회탐구 설계와 과학적 추론",
+          "en": "Designing Social Inquiry (King–Keohane–Verba 1994)",
+          "label": "사회탐구 설계와 과학적 추론(역사·비교)",
+          "topicCount": 5,
+          "path": "bundle-02/method-148.json",
+          "methodKey": "HC-006",
+          "caseId": "A02-C129",
+          "perfSlug": "social-science-research-design",
+          "status": "linked"
+        },
+        {
+          "no": 149,
+          "name": "역사사회학의비전과방법",
+          "en": "Historical Sociology: Vision and Method",
+          "label": "역사사회학의비전과방법(역사·비교)",
+          "topicCount": 5,
+          "path": "bundle-02/method-149.json",
+          "methodKey": "HC-007",
+          "caseId": "A02-C131",
+          "status": "linked",
+          "perfSlug": "historical-sociology"
+        },
+        {
+          "no": 150,
+          "name": "역사 해석학",
+          "en": "Historical Hermeneutics",
+          "label": "역사 해석학(역사·비교)",
+          "topicCount": 5,
+          "path": "bundle-02/method-150.json",
+          "methodKey": "HC-008",
+          "caseId": "A02-C130",
+          "perfSlug": "historical-hermeneutics",
+          "status": "linked"
+        },
+        {
+          "no": 151,
+          "name": "역사연구방법",
+          "en": "Historical Research Methods",
+          "label": "역사연구방법(역사·비교)",
+          "topicCount": 5,
+          "path": "bundle-02/method-151.json",
+          "methodKey": "HC-009",
+          "caseId": "A02-C132",
+          "perfSlug": "historical-research-methods",
+          "status": "linked"
+        },
+        {
+          "no": 152,
+          "name": "지적사",
+          "en": "Intellectual History",
+          "label": "지적사(역사·비교)",
+          "topicCount": 5,
+          "path": "bundle-02/method-152.json",
+          "methodKey": "HC-010",
+          "caseId": "A02-C136",
+          "perfSlug": "intellectual-history",
+          "status": "linked"
+        },
+        {
+          "no": 153,
+          "name": "과정추적",
+          "en": "Process Tracing",
+          "label": "과정추적(역사·비교)",
+          "topicCount": 5,
+          "path": "bundle-02/method-153.json",
+          "methodKey": "HC-011",
+          "caseId": "A02-C122",
+          "perfSlug": "process-tracing",
+          "status": "linked"
+        },
+        {
+          "no": 168,
+          "name": "구술사 실무",
+          "en": "Oral History Practice",
+          "label": "구술사 실무(기타)",
+          "topicCount": 5,
+          "path": "bundle-02/method-168.json",
+          "methodKey": "HC-001",
+          "caseId": "A02-C123",
+          "perfSlug": "oral-history",
+          "status": "linked"
+        },
+        {
+          "no": 170,
+          "name": "기록물 연구",
+          "en": "Archival Research",
+          "label": "기록물 연구(기타)",
+          "topicCount": 5,
+          "path": "bundle-02/method-170.json",
+          "methodKey": "GN-004",
+          "caseId": "A02-C125",
+          "perfSlug": "archival-research",
+          "status": "linked"
+        },
+        {
+          "no": 180,
+          "name": "역사철학",
+          "en": "Philosophy of History",
+          "label": "역사철학(기타)",
+          "topicCount": 5,
+          "path": "bundle-02/method-180.json",
+          "methodKey": "GN-014",
+          "caseId": "A02-C133",
+          "perfSlug": "philosophy-of-history",
+          "status": "linked"
+        },
+        {
+          "no": 185,
+          "name": "과학 성장 계량분석",
+          "en": "Little Science, Big Science (Price)",
+          "label": "과학 성장 계량분석(기타)",
+          "topicCount": 5,
+          "path": "bundle-02/method-185.json",
+          "methodKey": "GN-019",
+          "caseId": "A02-C134",
+          "status": "linked",
+          "perfSlug": "scientometrics"
+        },
+        {
+          "no": 187,
+          "name": "지성사 연구",
+          "en": "History of Ideas and Intellectual History Research",
+          "label": "지성사 연구(기타)",
+          "topicCount": 5,
+          "path": "bundle-02/method-187.json",
+          "methodKey": "HC-010",
+          "caseId": "A02-C135",
+          "perfSlug": "intellectual-history",
+          "status": "linked"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "민족지·참여관찰 아키타입",
+      "name_ko": "민족지·참여관찰 아키타입",
+      "name_en": "Ethnography–Participant Observation Archetype",
+      "methods": [
+        {
+          "no": 14,
+          "name": "네트노그래피",
+          "en": "Netnography",
+          "label": "네트노그래피(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-03/method-14.json",
+          "methodKey": "QL-010",
+          "caseId": "A03-C037",
+          "perfSlug": "netnography",
+          "status": "linked"
+        },
+        {
+          "no": 16,
+          "name": "민족지 연구방법",
+          "en": "Ethnographic Research Methods",
+          "label": "민족지 연구방법(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-03/method-16.json",
+          "methodKey": null,
+          "caseId": "A03-C041",
+          "perfSlug": "ethnography",
+          "status": "pending-registration"
+        },
+        {
+          "no": 17,
+          "name": "문화와조직",
+          "en": "Culture and Organizations",
+          "label": "문화와조직(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-03/method-17.json",
+          "methodKey": "QL-013",
+          "caseId": "A03-C039",
+          "perfSlug": "organizational-culture-research",
+          "status": "linked"
+        },
+        {
+          "no": 18,
+          "name": "민족지 실천원리",
+          "en": "Principles of Ethnographic Practice",
+          "label": "민족지 실천원리(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-03/method-18.json",
+          "methodKey": null,
+          "caseId": "A03-C040",
+          "perfSlug": "ethnography",
+          "status": "pending-registration"
+        },
+        {
+          "no": 19,
+          "name": "민족지 현장기록법",
+          "en": "Ethnographic Field Recording",
+          "label": "민족지 현장기록법(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-03/method-19.json",
+          "methodKey": "QL-015",
+          "caseId": "A03-C042",
+          "perfSlug": "ethnographic-fieldnotes",
+          "status": "linked"
+        },
+        {
+          "no": 20,
+          "name": "문헌기반 민족지 재구성",
+          "en": "Autoethnography",
+          "label": "문헌기반 민족지 재구성(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-03/method-20.json",
+          "methodKey": null,
+          "caseId": "A03-C045",
+          "perfSlug": "ethnography",
+          "status": "pending-registration"
+        },
+        {
+          "no": 21,
+          "name": "자문화기술지",
+          "en": "Critical Ethnography",
+          "label": "자문화기술지(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-03/method-21.json",
+          "methodKey": "QL-016",
+          "caseId": "A03-C048",
+          "status": "linked",
+          "perfSlug": "autoethnography"
+        },
+        {
+          "no": 33,
+          "name": "고전 민족지",
+          "en": "Classical Ethnography",
+          "label": "고전 민족지(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-03/method-33.json",
+          "methodKey": null,
+          "caseId": "A03-C036",
+          "perfSlug": "ethnography",
+          "status": "pending-registration"
+        },
+        {
+          "no": 35,
+          "name": "비판적 민족지",
+          "en": "Visual Ethnography",
+          "label": "비판적 민족지(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-03/method-35.json",
+          "methodKey": "QL-017",
+          "caseId": "A03-C044",
+          "status": "linked",
+          "perfSlug": "critical-ethnography"
+        },
+        {
+          "no": 46,
+          "name": "참여관찰",
+          "en": "Participant Observation",
+          "label": "참여관찰(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-03/method-46.json",
+          "methodKey": "QL-042",
+          "caseId": "A03-C049",
+          "perfSlug": "participant-observation",
+          "status": "linked"
+        },
+        {
+          "no": 58,
+          "name": "비판민족지학",
+          "en": "Critical Ethnography (Practice)",
+          "label": "비판민족지학(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-03/method-58.json",
+          "methodKey": "QL-017",
+          "caseId": "A03-C043",
+          "status": "linked",
+          "perfSlug": "critical-ethnography"
+        },
+        {
+          "no": 59,
+          "name": "시각 민족지",
+          "en": "Visual Ethnography (Field)",
+          "label": "시각 민족지(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-03/method-59.json",
+          "methodKey": "QL-031",
+          "caseId": "A03-C046",
+          "status": "linked",
+          "perfSlug": "visual-ethnography"
+        },
+        {
+          "no": 157,
+          "name": "메타민족지 연구",
+          "en": "Meta-Ethnography",
+          "label": "메타민족지 연구(문헌·근거합성)",
+          "topicCount": 5,
+          "path": "bundle-03/method-157.json",
+          "methodKey": "EV-004",
+          "caseId": "A03-C038",
+          "perfSlug": "meta-ethnography",
+          "status": "linked"
+        },
+        {
+          "no": 177,
+          "name": "시각민족지학",
+          "en": "Argonauts of the Western Pacific (Malinowski)",
+          "label": "시각민족지학(기타)",
+          "topicCount": 5,
+          "path": "bundle-03/method-177.json",
+          "methodKey": "QL-031",
+          "caseId": "A03-C047",
+          "status": "linked",
+          "perfSlug": "visual-ethnography"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "텍스트·계산언어 아키타입",
+      "name_ko": "텍스트·계산언어 아키타입",
+      "name_en": "Text–Computational Language Archetype",
+      "methods": [
+        {
+          "no": 113,
+          "name": "딥러닝 방법론",
+          "en": "Deep Learning Methodology",
+          "label": "딥러닝 방법론(텍스트·계산언어)",
+          "topicCount": 5,
+          "path": "bundle-04/method-113.json",
+          "methodKey": "TX-003",
+          "caseId": "A04-C177",
+          "status": "linked",
+          "perfSlug": "deep-learning"
+        },
+        {
+          "no": 114,
+          "name": "사회연결망분석방법과응용",
+          "en": "Social Network Analysis Methods and Applications",
+          "label": "사회연결망분석방법과응용(텍스트·계산언어)",
+          "topicCount": 5,
+          "path": "bundle-04/method-114.json",
+          "methodKey": "TX-004",
+          "caseId": "A04-C178",
+          "perfSlug": "social-network-analysis",
+          "status": "linked"
+        },
+        {
+          "no": 115,
+          "name": "자연어처리",
+          "en": "Natural Language Processing",
+          "label": "자연어처리(텍스트·계산언어)",
+          "topicCount": 5,
+          "path": "bundle-04/method-115.json",
+          "methodKey": "TX-005",
+          "caseId": "A04-C180",
+          "perfSlug": "natural-language-processing",
+          "status": "linked"
+        },
+        {
+          "no": 116,
+          "name": "인공지능 방법론",
+          "en": "Artificial Intelligence Methodology",
+          "label": "인공지능 방법론(텍스트·계산언어)",
+          "topicCount": 5,
+          "path": "bundle-04/method-116.json",
+          "methodKey": "TX-006",
+          "caseId": "A04-C179",
+          "perfSlug": "artificial-intelligence",
+          "status": "linked"
+        },
+        {
+          "no": 117,
+          "name": "정보검색",
+          "en": "Information Retrieval",
+          "label": "정보검색(텍스트·계산언어)",
+          "topicCount": 5,
+          "path": "bundle-04/method-117.json",
+          "methodKey": "TX-007",
+          "caseId": "A04-C181",
+          "status": "linked",
+          "perfSlug": "information-retrieval"
+        },
+        {
+          "no": 118,
+          "name": "감성분석",
+          "en": "Sentiment Analysis",
+          "label": "감성분석(텍스트·계산언어)",
+          "topicCount": 5,
+          "path": "bundle-04/method-118.json",
+          "methodKey": "TX-008",
+          "caseId": "A04-C175",
+          "perfSlug": "sentiment-analysis",
+          "status": "linked"
+        },
+        {
+          "no": 119,
+          "name": "코퍼스언어학",
+          "en": "Corpus Linguistics",
+          "label": "코퍼스언어학(텍스트·계산언어)",
+          "topicCount": 5,
+          "path": "bundle-04/method-119.json",
+          "methodKey": "TX-009",
+          "caseId": "A04-C182",
+          "perfSlug": "corpus-linguistics",
+          "status": "linked"
+        },
+        {
+          "no": 120,
+          "name": "스크립트 기반 텍스트 마이닝",
+          "en": "R Text Mining",
+          "label": "스크립트 기반 텍스트 마이닝(텍스트·계산언어)",
+          "topicCount": 5,
+          "path": "bundle-04/method-120.json",
+          "methodKey": "TX-010",
+          "caseId": "A04-C174",
+          "perfSlug": "text-mining",
+          "status": "linked"
+        },
+        {
+          "no": 121,
+          "name": "텍스트기계학습",
+          "en": "Text Machine Learning",
+          "label": "텍스트기계학습(텍스트·계산언어)",
+          "topicCount": 5,
+          "path": "bundle-04/method-121.json",
+          "methodKey": "TX-011",
+          "caseId": "A04-C185",
+          "perfSlug": "text-machine-learning",
+          "status": "linked"
+        },
+        {
+          "no": 122,
+          "name": "키워드성 분석",
+          "en": "Keyword Analysis",
+          "label": "키워드성 분석(텍스트·계산언어)",
+          "topicCount": 5,
+          "path": "bundle-04/method-122.json",
+          "methodKey": "TX-012",
+          "caseId": "A04-C183",
+          "perfSlug": "keyword-keyness-analysis",
+          "status": "linked"
+        },
+        {
+          "no": 124,
+          "name": "기계학습",
+          "en": "Machine Learning",
+          "label": "기계학습(텍스트·계산언어)",
+          "topicCount": 5,
+          "path": "bundle-04/method-124.json",
+          "methodKey": "TX-014",
+          "caseId": "A04-C176",
+          "perfSlug": "machine-learning",
+          "status": "linked"
+        },
+        {
+          "no": 125,
+          "name": "확률적토픽모형",
+          "en": "Probabilistic Topic Models",
+          "label": "확률적토픽모형(텍스트·계산언어)",
+          "topicCount": 5,
+          "path": "bundle-04/method-125.json",
+          "methodKey": "TX-015",
+          "caseId": "A04-C186",
+          "perfSlug": "topic-modeling",
+          "status": "linked"
+        },
+        {
+          "no": 179,
+          "name": "텍스트 분석",
+          "en": "Text Analysis",
+          "label": "텍스트 분석(기타)",
+          "topicCount": 5,
+          "path": "bundle-04/method-179.json",
+          "methodKey": "GN-013",
+          "caseId": "A04-C184",
+          "perfSlug": "text-analysis",
+          "status": "linked"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "문헌고찰·근거합성 아키타입",
+      "name_ko": "문헌고찰·근거합성 아키타입",
+      "name_en": "Literature Review–Evidence Synthesis Archetype",
+      "methods": [
+        {
+          "no": 154,
+          "name": "비판적 문헌평가",
+          "en": "Critical Appraisal of Literature",
+          "label": "비판적 문헌평가(문헌·근거합성)",
+          "topicCount": 5,
+          "path": "bundle-05/method-154.json",
+          "methodKey": null,
+          "caseId": "A05-C028",
+          "status": "pending-registration",
+          "perfSlug": null
+        },
+        {
+          "no": 155,
+          "name": "신속 문헌고찰",
+          "en": "Rapid Literature Review",
+          "label": "신속 문헌고찰(문헌·근거합성)",
+          "topicCount": 5,
+          "path": "bundle-05/method-155.json",
+          "methodKey": "EV-002",
+          "caseId": "A05-C032",
+          "perfSlug": "rapid-literature-review",
+          "status": "linked"
+        },
+        {
+          "no": 159,
+          "name": "체계적 문헌고찰",
+          "en": "Systematic Literature Review",
+          "label": "체계적 문헌고찰(문헌·근거합성)",
+          "topicCount": 5,
+          "path": "bundle-05/method-159.json",
+          "methodKey": "EV-006",
+          "caseId": "A05-C034",
+          "perfSlug": "systematic-literature-review",
+          "status": "linked"
+        },
+        {
+          "no": 160,
+          "name": "서사적 문헌고찰",
+          "en": "Narrative Literature Review",
+          "label": "서사적 문헌고찰(문헌·근거합성)",
+          "topicCount": 5,
+          "path": "bundle-05/method-160.json",
+          "methodKey": null,
+          "caseId": "A05-C030",
+          "perfSlug": "literature-review",
+          "status": "pending-registration"
+        },
+        {
+          "no": 161,
+          "name": "우산문헌고찰",
+          "en": "Umbrella Review",
+          "label": "우산문헌고찰(문헌·근거합성)",
+          "topicCount": 5,
+          "path": "bundle-05/method-161.json",
+          "methodKey": null,
+          "caseId": "A05-C033",
+          "status": "pending-registration",
+          "perfSlug": null
+        },
+        {
+          "no": 164,
+          "name": "사회과학체계적고찰",
+          "en": "Systematic Review in Social Science",
+          "label": "사회과학체계적고찰(문헌·근거합성)",
+          "topicCount": 5,
+          "path": "bundle-05/method-164.json",
+          "methodKey": "EV-006",
+          "caseId": "A05-C029",
+          "perfSlug": "systematic-literature-review",
+          "status": "linked"
+        },
+        {
+          "no": 165,
+          "name": "스코핑 리뷰",
+          "en": "Scoping Review",
+          "label": "스코핑 리뷰(문헌·근거합성)",
+          "topicCount": 5,
+          "path": "bundle-05/method-165.json",
+          "methodKey": "EV-012",
+          "caseId": "A05-C031",
+          "perfSlug": "scoping-review",
+          "status": "linked"
+        },
+        {
+          "no": 171,
+          "name": "근거중심의학 논문 읽기",
+          "en": "Reading Evidence-Based Medicine Papers",
+          "label": "근거중심의학 논문 읽기(기타)",
+          "topicCount": 5,
+          "path": "bundle-05/method-171.json",
+          "methodKey": null,
+          "caseId": "A05-C026",
+          "perfSlug": "evidence-based-medicine",
+          "status": "pending-registration"
+        },
+        {
+          "no": 196,
+          "name": "문헌고찰 방법론",
+          "en": "Literature Review Methodology",
+          "label": "문헌고찰 방법론(평가·종합·혼합)",
+          "topicCount": 5,
+          "path": "bundle-05/method-196.json",
+          "methodKey": null,
+          "caseId": "A05-C027",
+          "perfSlug": "literature-review",
+          "status": "pending-registration"
+        },
+        {
+          "no": 198,
+          "name": "통합적 문헌고찰",
+          "en": "Integrative Literature Review",
+          "label": "통합적 문헌고찰(평가·종합·혼합)",
+          "topicCount": 5,
+          "path": "bundle-05/method-198.json",
+          "methodKey": "EM-003",
+          "caseId": "A05-C035",
+          "perfSlug": "integrative-literature-review",
+          "status": "linked"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "정책·프로그램평가 아키타입",
+      "name_ko": "정책·프로그램평가 아키타입",
+      "name_en": "Policy–Program Evaluation Archetype",
+      "methods": [
+        {
+          "no": 126,
+          "name": "정책분석 통합적접근",
+          "en": "Integrated Approaches to Policy Analysis",
+          "label": "정책분석 통합적접근(평가·정책)",
+          "topicCount": 5,
+          "path": "bundle-06/method-126.json",
+          "methodKey": "EP-001",
+          "caseId": "A06-C161",
+          "perfSlug": "policy-analysis",
+          "status": "linked"
+        },
+        {
+          "no": 127,
+          "name": "공공프로그램평가",
+          "en": "Public Program Evaluation",
+          "label": "공공프로그램평가(평가·정책)",
+          "topicCount": 5,
+          "path": "bundle-06/method-127.json",
+          "methodKey": "EP-002",
+          "caseId": "A06-C155",
+          "perfSlug": "public-program-evaluation",
+          "status": "linked"
+        },
+        {
+          "no": 128,
+          "name": "델파이방법",
+          "en": "Delphi Method",
+          "label": "델파이방법(평가·정책)",
+          "topicCount": 5,
+          "path": "bundle-06/method-128.json",
+          "methodKey": "EP-003",
+          "caseId": "A06-C156",
+          "perfSlug": "delphi-method",
+          "status": "linked"
+        },
+        {
+          "no": 129,
+          "name": "분석적 계층화 과정",
+          "en": "Analytic Hierarchy Process",
+          "label": "분석적 계층화 과정(평가·정책)",
+          "topicCount": 5,
+          "path": "bundle-06/method-129.json",
+          "methodKey": "EP-004",
+          "caseId": "A06-C157",
+          "status": "linked",
+          "perfSlug": "analytic-hierarchy-process"
+        },
+        {
+          "no": 130,
+          "name": "비용편익분석",
+          "en": "Cost-Benefit Analysis",
+          "label": "비용편익분석(평가·정책)",
+          "topicCount": 5,
+          "path": "bundle-06/method-130.json",
+          "methodKey": "EP-005",
+          "caseId": "A06-C159",
+          "perfSlug": "cost-benefit-analysis",
+          "status": "linked"
+        },
+        {
+          "no": 131,
+          "name": "영향평가실무",
+          "en": "Impact Evaluation Practice",
+          "label": "영향평가실무(평가·정책)",
+          "topicCount": 5,
+          "path": "bundle-06/method-131.json",
+          "methodKey": "EP-006",
+          "caseId": "A06-C160",
+          "perfSlug": "impact-evaluation",
+          "status": "linked"
+        },
+        {
+          "no": 132,
+          "name": "프로그램 평가",
+          "en": "Program Evaluation",
+          "label": "프로그램 평가(평가·정책)",
+          "topicCount": 5,
+          "path": "bundle-06/method-132.json",
+          "methodKey": "EP-002",
+          "caseId": "A06-C163",
+          "perfSlug": "public-program-evaluation",
+          "status": "linked"
+        },
+        {
+          "no": 133,
+          "name": "활용중심평가",
+          "en": "Utilization-Focused Evaluation",
+          "label": "활용중심평가(평가·정책)",
+          "topicCount": 5,
+          "path": "bundle-06/method-133.json",
+          "methodKey": "EP-008",
+          "caseId": "A06-C164",
+          "perfSlug": "utilization-focused-evaluation",
+          "status": "linked"
+        },
+        {
+          "no": 175,
+          "name": "분석적 계층화 과정",
+          "en": "Analytic Hierarchy Process (General)",
+          "label": "분석적 계층화 과정(기타)",
+          "topicCount": 5,
+          "path": "bundle-06/method-175.json",
+          "methodKey": "EP-004",
+          "caseId": "A06-C158",
+          "status": "linked",
+          "perfSlug": "analytic-hierarchy-process"
+        },
+        {
+          "no": 199,
+          "name": "체계적 평가",
+          "en": "Systematic Evaluation",
+          "label": "체계적 평가(평가·종합·혼합)",
+          "topicCount": 5,
+          "path": "bundle-06/method-199.json",
+          "methodKey": "EM-004",
+          "caseId": "A06-C162",
+          "perfSlug": "systematic-evaluation",
+          "status": "linked"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "인과·실험설계 아키타입",
+      "name_ko": "인과·실험설계 아키타입",
+      "name_en": "Causal–Experimental Design Archetype",
+      "methods": [
+        {
+          "no": 134,
+          "name": "비교역사분석 사회과학",
+          "en": "Comparative Historical Analysis in Social Science",
+          "label": "비교역사분석 사회과학(양적·인과·실험)",
+          "topicCount": 5,
+          "path": "bundle-07/method-134.json",
+          "methodKey": "CI-001",
+          "caseId": "A07-C145",
+          "perfSlug": "comparative-historical-analysis",
+          "status": "linked"
+        },
+        {
+          "no": 135,
+          "name": "준실험 인과추론",
+          "en": "Quasi-Experimental Causal Inference",
+          "label": "준실험 인과추론(양적·인과·실험)",
+          "topicCount": 5,
+          "path": "bundle-07/method-135.json",
+          "methodKey": "CI-002",
+          "caseId": "A07-C151",
+          "perfSlug": "quasi-experimental-causal-inference",
+          "status": "linked"
+        },
+        {
+          "no": 136,
+          "name": "인과추론1",
+          "en": "Causal Inference 1",
+          "label": "인과추론1(양적·인과·실험)",
+          "topicCount": 5,
+          "path": "bundle-07/method-136.json",
+          "methodKey": null,
+          "caseId": "A07-C148",
+          "perfSlug": "causal-inference",
+          "status": "pending-registration"
+        },
+        {
+          "no": 137,
+          "name": "인과추론2",
+          "en": "Causal Inference 2",
+          "label": "인과추론2(양적·인과·실험)",
+          "topicCount": 5,
+          "path": "bundle-07/method-137.json",
+          "methodKey": "CI-004",
+          "caseId": "A07-C149",
+          "perfSlug": "causal-inference",
+          "status": "linked"
+        },
+        {
+          "no": 138,
+          "name": "실험계획법",
+          "en": "Experimental Design (DOE)",
+          "label": "실험계획법(양적·인과·실험)",
+          "topicCount": 5,
+          "path": "bundle-07/method-138.json",
+          "methodKey": "CI-005",
+          "caseId": "A07-C146",
+          "status": "linked",
+          "perfSlug": "experimental-design"
+        },
+        {
+          "no": 139,
+          "name": "응용 인과추론 실습",
+          "en": "Causal Inference: The Mixtape",
+          "label": "응용 인과추론 실습(양적·인과·실험)",
+          "topicCount": 5,
+          "path": "bundle-07/method-139.json",
+          "methodKey": "CI-004",
+          "caseId": "A07-C147",
+          "perfSlug": "causal-inference",
+          "status": "linked"
+        },
+        {
+          "no": 140,
+          "name": "임상시험 연구",
+          "en": "Clinical Trial Research",
+          "label": "임상시험 연구(양적·인과·실험)",
+          "topicCount": 5,
+          "path": "bundle-07/method-140.json",
+          "methodKey": "CI-007",
+          "caseId": "A07-C150",
+          "perfSlug": "clinical-trials",
+          "status": "linked"
+        },
+        {
+          "no": 141,
+          "name": "준실험",
+          "en": "Quasi-Experiments",
+          "label": "준실험(양적·인과·실험)",
+          "topicCount": 5,
+          "path": "bundle-07/method-141.json",
+          "methodKey": "CI-008",
+          "caseId": "A07-C152",
+          "perfSlug": "quasi-experiments",
+          "status": "linked"
+        },
+        {
+          "no": 142,
+          "name": "현장실험",
+          "en": "Field Experiments",
+          "label": "현장실험(양적·인과·실험)",
+          "topicCount": 5,
+          "path": "bundle-07/method-142.json",
+          "methodKey": "CI-010",
+          "caseId": "A07-C153",
+          "status": "linked",
+          "perfSlug": "field-experiments"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "현상학·체험탐구 아키타입",
+      "name_ko": "현상학·체험탐구 아키타입",
+      "name_en": "Phenomenology–Lived Experience Archetype",
+      "methods": [
+        {
+          "no": 5,
+          "name": "현상학적 연구방법",
+          "en": "Phenomenological Research Method",
+          "label": "현상학적 연구방법(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-08/method-5.json",
+          "methodKey": "QL-001",
+          "caseId": "A08-C197",
+          "perfSlug": "phenomenological-research-methods",
+          "status": "linked"
+        },
+        {
+          "no": 26,
+          "name": "해석학적 현상학",
+          "en": "Hermeneutic Phenomenology",
+          "label": "해석학적 현상학(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-08/method-26.json",
+          "methodKey": "QL-022",
+          "caseId": "A08-C195",
+          "perfSlug": "hermeneutic-phenomenology",
+          "status": "linked"
+        },
+        {
+          "no": 32,
+          "name": "기술적 현상학 방법",
+          "en": "Descriptive Phenomenological Method",
+          "label": "기술적 현상학 방법(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-08/method-32.json",
+          "methodKey": "QL-028",
+          "caseId": "A08-C192",
+          "perfSlug": "descriptive-phenomenology",
+          "status": "linked"
+        },
+        {
+          "no": 34,
+          "name": "초월적 현상학",
+          "en": "Husserlian Pure Phenomenology",
+          "label": "초월적 현상학(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-08/method-34.json",
+          "methodKey": "QL-030",
+          "caseId": "A08-C199",
+          "perfSlug": "transcendental-phenomenology",
+          "status": "linked"
+        },
+        {
+          "no": 40,
+          "name": "몸·지각 현상학",
+          "en": "Phenomenology of Perception",
+          "label": "몸·지각 현상학(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-08/method-40.json",
+          "methodKey": null,
+          "caseId": "A08-C194",
+          "perfSlug": "phenomenology",
+          "status": "pending-registration"
+        },
+        {
+          "no": 53,
+          "name": "현상학적 연구방법",
+          "en": "Phenomenological Research Methods",
+          "label": "현상학적 연구방법(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-08/method-53.json",
+          "methodKey": "QL-001",
+          "caseId": "A08-C198",
+          "perfSlug": "phenomenological-research-methods",
+          "status": "linked"
+        },
+        {
+          "no": 60,
+          "name": "현상학적 태도 훈련",
+          "en": "Ideas Pertaining to a Pure Phenomenology",
+          "label": "현상학적 태도 훈련(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-08/method-60.json",
+          "methodKey": "QL-030",
+          "caseId": "A08-C193",
+          "perfSlug": "transcendental-phenomenology",
+          "status": "linked"
+        },
+        {
+          "no": 67,
+          "name": "해석현상학적 분석",
+          "en": "Interpretative Phenomenological Analysis (IPA)",
+          "label": "해석현상학적 분석(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-08/method-67.json",
+          "methodKey": "QL-063",
+          "caseId": "A08-C196",
+          "status": "linked",
+          "perfSlug": "interpretative-phenomenological-analysis"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "예측·시스템모형 아키타입",
+      "name_ko": "예측·시스템모형 아키타입",
+      "name_en": "Forecasting–System Models Archetype",
+      "methods": [
+        {
+          "no": 69,
+          "name": "교육연구 역량분석적용",
+          "en": "Educational Research Competency Analysis Application",
+          "label": "교육연구 역량분석적용(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-09/method-69.json",
+          "methodKey": "QT-002",
+          "caseId": "A09-C138",
+          "perfSlug": "educational-research-methodology",
+          "status": "linked"
+        },
+        {
+          "no": 78,
+          "name": "경영 시스템 시뮬레이션",
+          "en": "Business Dynamics",
+          "label": "경영 시스템 시뮬레이션(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-09/method-78.json",
+          "methodKey": "QT-011",
+          "caseId": "A09-C139",
+          "status": "linked",
+          "perfSlug": "system-dynamics"
+        },
+        {
+          "no": 81,
+          "name": "예측 모델링",
+          "en": "Predictive Modeling",
+          "label": "예측 모델링(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-09/method-81.json",
+          "methodKey": "QT-014",
+          "caseId": "A09-C140",
+          "perfSlug": "forecasting-models",
+          "status": "linked"
+        },
+        {
+          "no": 84,
+          "name": "행위자 기반 사회 시뮬레이션",
+          "en": "Artificial Societies",
+          "label": "행위자 기반 사회 시뮬레이션(양적·통계·모형)",
+          "topicCount": 5,
+          "path": "bundle-09/method-84.json",
+          "methodKey": "QT-017",
+          "caseId": "A09-C143",
+          "perfSlug": "agent-based-modeling",
+          "status": "linked"
+        },
+        {
+          "no": 181,
+          "name": "응용 예측 모형",
+          "en": "Applied Forecasting Models",
+          "label": "응용 예측 모형(기타)",
+          "topicCount": 5,
+          "path": "bundle-09/method-181.json",
+          "methodKey": "QT-014",
+          "caseId": "A09-C141",
+          "perfSlug": "forecasting-models",
+          "status": "linked"
+        },
+        {
+          "no": 182,
+          "name": "응용 종단자료 분석",
+          "en": "Applied Longitudinal Data Analysis",
+          "label": "응용 종단자료 분석(기타)",
+          "topicCount": 5,
+          "path": "bundle-09/method-182.json",
+          "methodKey": "GN-016",
+          "caseId": "A09-C142",
+          "perfSlug": "longitudinal-data-analysis",
+          "status": "linked"
+        },
+        {
+          "no": 183,
+          "name": "행위자 기반 분리모형",
+          "en": "Agent-Based Artificial Society Models",
+          "label": "행위자 기반 분리모형(기타)",
+          "topicCount": 5,
+          "path": "bundle-09/method-183.json",
+          "methodKey": "QT-017",
+          "caseId": "A09-C144",
+          "perfSlug": "agent-based-modeling",
+          "status": "linked"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "근거이론 아키타입",
+      "name_ko": "근거이론 아키타입",
+      "name_en": "Grounded Theory Archetype",
+      "methods": [
+        {
+          "no": 10,
+          "name": "개념구축형 근거이론",
+          "en": "Constructivist Grounded Theory (Building)",
+          "label": "개념구축형 근거이론(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-10/method-10.json",
+          "methodKey": "QL-006",
+          "caseId": "A10-C008",
+          "perfSlug": "constructivist-grounded-theory",
+          "status": "linked"
+        },
+        {
+          "no": 11,
+          "name": "근거이론 2세대",
+          "en": "Grounded Theory: Second Generation",
+          "label": "근거이론 2세대(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-10/method-11.json",
+          "methodKey": "QL-007",
+          "caseId": "A10-C010",
+          "perfSlug": "grounded-theory",
+          "status": "linked"
+        },
+        {
+          "no": 12,
+          "name": "절차적 근거이론",
+          "en": "Straussian Grounded Theory",
+          "label": "절차적 근거이론(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-10/method-12.json",
+          "methodKey": "QL-008",
+          "caseId": "A10-C011",
+          "perfSlug": "grounded-theory",
+          "status": "linked"
+        },
+        {
+          "no": 55,
+          "name": "구성주의 근거이론",
+          "en": "Constructivist Grounded Theory (Charmaz)",
+          "label": "구성주의 근거이론(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-10/method-55.json",
+          "methodKey": "QL-006",
+          "caseId": "A10-C007",
+          "perfSlug": "constructivist-grounded-theory",
+          "status": "linked"
+        },
+        {
+          "no": 56,
+          "name": "근거이론 2세대 재검토",
+          "en": "Second Generation Grounded Theory Revisited",
+          "label": "근거이론 2세대 재검토(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-10/method-56.json",
+          "methodKey": "QL-007",
+          "caseId": "A10-C009",
+          "perfSlug": "grounded-theory",
+          "status": "linked"
+        },
+        {
+          "no": 62,
+          "name": "근거이론 기초 실습",
+          "en": "Qualitative Foundations and Grounded Theory",
+          "label": "근거이론 기초 실습(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-10/method-62.json",
+          "methodKey": null,
+          "caseId": "A10-C012",
+          "perfSlug": "grounded-theory",
+          "status": "pending-registration"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "내용분석·코딩 아키타입",
+      "name_ko": "내용분석·코딩 아키타입",
+      "name_en": "Content Analysis–Coding Archetype",
+      "methods": [
+        {
+          "no": 42,
+          "name": "내용분석 방법론입문",
+          "en": "Introduction to Content Analysis Methodology",
+          "label": "내용분석 방법론입문(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-11/method-42.json",
+          "methodKey": null,
+          "caseId": "A11-C013",
+          "perfSlug": "content-analysis",
+          "status": "pending-registration"
+        },
+        {
+          "no": 57,
+          "name": "내용분석 실무 가이드",
+          "en": "Practical Guide to Content Analysis",
+          "label": "내용분석 실무 가이드(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-11/method-57.json",
+          "methodKey": null,
+          "caseId": "A11-C014",
+          "perfSlug": "content-analysis",
+          "status": "pending-registration"
+        },
+        {
+          "no": 64,
+          "name": "질적연구 코딩 매뉴얼",
+          "en": "Qualitative Research Coding Manual",
+          "label": "질적연구 코딩 매뉴얼(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-11/method-64.json",
+          "methodKey": "QL-060",
+          "caseId": "A11-C017",
+          "perfSlug": "qualitative-coding",
+          "status": "linked"
+        },
+        {
+          "no": 111,
+          "name": "메타분석입문",
+          "en": "Introduction to Meta-Analysis",
+          "label": "메타분석입문(텍스트·계산언어)",
+          "topicCount": 5,
+          "path": "bundle-11/method-111.json",
+          "methodKey": "EV-005",
+          "caseId": "A11-C015",
+          "perfSlug": "meta-analysis",
+          "status": "linked"
+        },
+        {
+          "no": 112,
+          "name": "체계적문헌고찰입문",
+          "en": "Introduction to Systematic Literature Review",
+          "label": "체계적문헌고찰입문(텍스트·계산언어)",
+          "topicCount": 5,
+          "path": "bundle-11/method-112.json",
+          "methodKey": "EV-006",
+          "caseId": "A11-C018",
+          "perfSlug": "systematic-literature-review",
+          "status": "linked"
+        },
+        {
+          "no": 174,
+          "name": "미디어 내용분석",
+          "en": "Media Content Analysis",
+          "label": "미디어 내용분석(기타)",
+          "topicCount": 5,
+          "path": "bundle-11/method-174.json",
+          "methodKey": "GN-008",
+          "caseId": "A11-C016",
+          "perfSlug": "media-content-analysis",
+          "status": "linked"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "서사·생애사 아키타입",
+      "name_ko": "서사·생애사 아키타입",
+      "name_en": "Narrative–Life History Archetype",
+      "methods": [
+        {
+          "no": 29,
+          "name": "생애사 방법",
+          "en": "Life History Method",
+          "label": "생애사 방법(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-12/method-29.json",
+          "methodKey": "QL-025",
+          "caseId": "A12-C058",
+          "perfSlug": "life-history-research",
+          "status": "linked"
+        },
+        {
+          "no": 30,
+          "name": "서사 분석",
+          "en": "Narrative Analysis",
+          "label": "서사 분석(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-12/method-30.json",
+          "methodKey": "GN-018",
+          "caseId": "A12-C059",
+          "perfSlug": "narrative-methods",
+          "status": "linked"
+        },
+        {
+          "no": 31,
+          "name": "내러티브탐구",
+          "en": "Narrative Inquiry",
+          "label": "내러티브탐구(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-12/method-31.json",
+          "methodKey": "QL-027",
+          "caseId": "A12-C057",
+          "perfSlug": "narrative-inquiry",
+          "status": "linked"
+        },
+        {
+          "no": 167,
+          "name": "교사 생애사 연구",
+          "en": "Teachers’ Life History Research",
+          "label": "교사 생애사 연구(기타)",
+          "topicCount": 5,
+          "path": "bundle-12/method-167.json",
+          "methodKey": "GN-001",
+          "caseId": "A12-C056",
+          "perfSlug": "teachers-life-history-research",
+          "status": "linked"
+        },
+        {
+          "no": 184,
+          "name": "인문과학을 위한 서사 방법",
+          "en": "Narrative Methods for the Humanities",
+          "label": "인문과학을 위한 서사 방법(기타)",
+          "topicCount": 5,
+          "path": "bundle-12/method-184.json",
+          "methodKey": "GN-018",
+          "caseId": "A12-C060",
+          "perfSlug": "narrative-methods",
+          "status": "linked"
+        },
+        {
+          "no": 186,
+          "name": "전기·생애 연구",
+          "en": "Biographical and Life Research",
+          "label": "전기·생애 연구(기타)",
+          "topicCount": 5,
+          "path": "bundle-12/method-186.json",
+          "methodKey": "GN-020",
+          "caseId": "A12-C061",
+          "perfSlug": "biographical-research",
+          "status": "linked"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "실행·행동연구 아키타입",
+      "name_ko": "실행·행동연구 아키타입",
+      "name_en": "Action Research Archetype",
+      "methods": [
+        {
+          "no": 23,
+          "name": "교육 실행연구",
+          "en": "Educational Action Research",
+          "label": "교육 실행연구(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-13/method-23.json",
+          "methodKey": "QL-047",
+          "caseId": "A13-C111",
+          "status": "linked",
+          "perfSlug": null
+        },
+        {
+          "no": 50,
+          "name": "교육 실행연구",
+          "en": "Action Research",
+          "label": "교육 실행연구(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-13/method-50.json",
+          "methodKey": "QL-019",
+          "caseId": "A13-C112",
+          "status": "linked",
+          "perfSlug": null
+        },
+        {
+          "no": 51,
+          "name": "행동연구와 Q기법",
+          "en": "Educational Action Research (II)",
+          "label": "행동연구와 Q기법(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-13/method-51.json",
+          "methodKey": null,
+          "caseId": "A13-C116",
+          "status": "pending-registration",
+          "perfSlug": null
+        },
+        {
+          "no": 190,
+          "name": "행동연구",
+          "en": "Action Research and Q Methodology",
+          "label": "행동연구(기타)",
+          "topicCount": 5,
+          "path": "bundle-13/method-190.json",
+          "methodKey": "GN-026",
+          "caseId": "A13-C115",
+          "status": "linked",
+          "perfSlug": null
+        },
+        {
+          "no": 191,
+          "name": "실행연구방법1",
+          "en": "Action Research Methods 1",
+          "label": "실행연구방법1(기타)",
+          "topicCount": 5,
+          "path": "bundle-13/method-191.json",
+          "methodKey": "GN-025",
+          "caseId": "A13-C113",
+          "status": "linked",
+          "perfSlug": null
+        },
+        {
+          "no": 192,
+          "name": "실행연구방법2",
+          "en": "Action Research Methods 2",
+          "label": "실행연구방법2(기타)",
+          "topicCount": 5,
+          "path": "bundle-13/method-192.json",
+          "methodKey": "GN-026",
+          "caseId": "A13-C114",
+          "status": "linked",
+          "perfSlug": null
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "담화·비판담화 아키타입",
+      "name_ko": "담화·비판담화 아키타입",
+      "name_en": "Discourse–Critical Discourse Archetype",
+      "methods": [
+        {
+          "no": 15,
+          "name": "담화분석",
+          "en": "Discourse Analysis",
+          "label": "담화분석(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-14/method-15.json",
+          "methodKey": "QL-011",
+          "caseId": "A14-C019",
+          "perfSlug": "discourse-analysis",
+          "status": "linked"
+        },
+        {
+          "no": 22,
+          "name": "비판적 담화분석 방법",
+          "en": "Critical Discourse Analysis Methods",
+          "label": "비판적 담화분석 방법(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-14/method-22.json",
+          "methodKey": "QL-018",
+          "caseId": "A14-C020",
+          "perfSlug": "critical-discourse-analysis",
+          "status": "linked"
+        },
+        {
+          "no": 41,
+          "name": "철학적 탐구",
+          "en": "Philosophical Inquiry",
+          "label": "철학적 탐구(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-14/method-41.json",
+          "methodKey": null,
+          "caseId": "A14-C022",
+          "perfSlug": "philosophical-inquiry",
+          "status": "pending-registration"
+        },
+        {
+          "no": 47,
+          "name": "일상언어 분석",
+          "en": "Ordinary Language Analysis",
+          "label": "일상언어 분석(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-14/method-47.json",
+          "methodKey": null,
+          "caseId": "A14-C021",
+          "status": "pending-registration",
+          "perfSlug": null
+        },
+        {
+          "no": 61,
+          "name": "평가·감정·정서 담화분석",
+          "en": "Appraisal, Affect and Emotion Discourse Analysis",
+          "label": "평가·감정·정서 담화분석(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-14/method-61.json",
+          "methodKey": "QL-057",
+          "caseId": "A14-C023",
+          "perfSlug": "appraisal-discourse-analysis",
+          "status": "linked"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "심층면담 아키타입",
+      "name_ko": "심층면담 아키타입",
+      "name_en": "In-Depth Interview Archetype",
+      "methods": [
+        {
+          "no": 38,
+          "name": "질적 심층면담",
+          "en": "Qualitative In-depth Interviewing",
+          "label": "질적 심층면담(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-15/method-38.json",
+          "methodKey": "QL-034",
+          "caseId": "A15-C120",
+          "perfSlug": "qualitative-in-depth-interviewing",
+          "status": "linked"
+        },
+        {
+          "no": 43,
+          "name": "심층면접법",
+          "en": "In-depth Interview Method",
+          "label": "심층면접법(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-15/method-43.json",
+          "methodKey": "QL-034",
+          "caseId": "A15-C117",
+          "status": "linked",
+          "perfSlug": "qualitative-in-depth-interviewing"
+        },
+        {
+          "no": 45,
+          "name": "심층면접법",
+          "en": "In-depth Interview Method (II)",
+          "label": "심층면접법(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-15/method-45.json",
+          "methodKey": "QL-034",
+          "caseId": "A15-C118",
+          "status": "linked",
+          "perfSlug": "qualitative-in-depth-interviewing"
+        },
+        {
+          "no": 48,
+          "name": "포커스그룹",
+          "en": "Focus Group",
+          "label": "포커스그룹(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-15/method-48.json",
+          "methodKey": "QL-044",
+          "caseId": "A15-C121",
+          "perfSlug": "focus-group",
+          "status": "linked"
+        },
+        {
+          "no": 63,
+          "name": "질적 면접의 이해",
+          "en": "Understanding Qualitative Interviewing",
+          "label": "질적 면접의 이해(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-15/method-63.json",
+          "methodKey": "QL-059",
+          "caseId": "A15-C119",
+          "perfSlug": "qualitative-interviewing",
+          "status": "linked"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "질적설계·자연주의 아키타입",
+      "name_ko": "질적설계·자연주의 아키타입",
+      "name_en": "Qualitative Design–Naturalistic Archetype",
+      "methods": [
+        {
+          "no": 13,
+          "name": "질적 연구설계",
+          "en": "Qualitative Research Design",
+          "label": "질적 연구설계(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-16/method-13.json",
+          "methodKey": "QL-009",
+          "caseId": "A16-C171",
+          "perfSlug": "qualitative-research-design",
+          "status": "linked"
+        },
+        {
+          "no": 37,
+          "name": "이론적 민감성",
+          "en": "Theoretical Sensitivity",
+          "label": "이론적 민감성(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-16/method-37.json",
+          "methodKey": null,
+          "caseId": "A16-C169",
+          "perfSlug": "grounded-theory",
+          "status": "pending-registration"
+        },
+        {
+          "no": 39,
+          "name": "자연주의적탐구",
+          "en": "Naturalistic Inquiry",
+          "label": "자연주의적탐구(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-16/method-39.json",
+          "methodKey": "QL-035",
+          "caseId": "A16-C170",
+          "perfSlug": "naturalistic-inquiry",
+          "status": "linked"
+        },
+        {
+          "no": 44,
+          "name": "양적·질적·혼합 연구설계",
+          "en": "Quantitative–Qualitative–Mixed Research Design",
+          "label": "양적·질적·혼합 연구설계(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-16/method-44.json",
+          "methodKey": "QL-040",
+          "caseId": "A16-C168",
+          "perfSlug": "quantitative-qualitative-and-mixed-research-design",
+          "status": "linked"
+        },
+        {
+          "no": 66,
+          "name": "질적탐구 용어사전",
+          "en": "Qualitative Inquiry Glossary",
+          "label": "질적탐구 용어사전(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-16/method-66.json",
+          "methodKey": "QL-062",
+          "caseId": "A16-C172",
+          "perfSlug": "qualitative-inquiry",
+          "status": "linked"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "권력·비판담론 아키타입",
+      "name_ko": "권력·비판담론 아키타입",
+      "name_en": "Power and Critical Discourse Archetype",
+      "methods": [
+        {
+          "no": 7,
+          "name": "규율권력 분석",
+          "en": "Disciplinary Power Analysis",
+          "label": "규율권력 분석(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-17/method-7.json",
+          "methodKey": "QL-003",
+          "caseId": "A17-C188",
+          "perfSlug": "disciplinary-power-analysis",
+          "status": "linked"
+        },
+        {
+          "no": 8,
+          "name": "도구이성 비판 분석",
+          "en": "Dialectic of Enlightenment",
+          "label": "도구이성 비판 분석(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-17/method-8.json",
+          "methodKey": null,
+          "caseId": "A17-C187",
+          "status": "pending-registration",
+          "perfSlug": "critical-theory"
+        },
+        {
+          "no": 36,
+          "name": "정상화·지식권력 분석",
+          "en": "Foucauldian Analysis",
+          "label": "정상화·지식권력 분석(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-17/method-36.json",
+          "methodKey": "QL-003",
+          "caseId": "A17-C191",
+          "perfSlug": "disciplinary-power-analysis",
+          "status": "linked"
+        },
+        {
+          "no": 169,
+          "name": "문제화 분석",
+          "en": "Foucauldian Power Analysis",
+          "label": "문제화 분석(기타)",
+          "topicCount": 5,
+          "path": "bundle-17/method-169.json",
+          "methodKey": "QL-003",
+          "caseId": "A17-C189",
+          "perfSlug": "disciplinary-power-analysis",
+          "status": "linked"
+        },
+        {
+          "no": 189,
+          "name": "고고학·계보학 분석",
+          "en": "Foucauldian Analytic Method",
+          "label": "고고학·계보학 분석(기타)",
+          "topicCount": 5,
+          "path": "bundle-17/method-189.json",
+          "methodKey": "QL-003",
+          "caseId": "A17-C190",
+          "perfSlug": "disciplinary-power-analysis",
+          "status": "linked"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "상징적상호작용 아키타입",
+      "name_ko": "상징적상호작용 아키타입",
+      "name_en": "Symbolic Interactionism Archetype",
+      "methods": [
+        {
+          "no": 27,
+          "name": "상징적 상호작용론",
+          "en": "Symbolic Interactionism",
+          "label": "상징적 상호작용론(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-18/method-27.json",
+          "methodKey": "QL-023",
+          "caseId": "A18-C053",
+          "perfSlug": "symbolic-interactionism",
+          "status": "linked"
+        },
+        {
+          "no": 28,
+          "name": "상호작용 의례",
+          "en": "Interaction Ritual",
+          "label": "상호작용 의례(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-18/method-28.json",
+          "methodKey": "QL-024",
+          "caseId": "A18-C054",
+          "perfSlug": "interaction-ritual-analysis",
+          "status": "linked"
+        },
+        {
+          "no": 49,
+          "name": "해석적상호작용론",
+          "en": "Interpretive Interactionism",
+          "label": "해석적상호작용론(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-18/method-49.json",
+          "methodKey": "QL-045",
+          "caseId": "A18-C055",
+          "perfSlug": "interpretive-interactionism",
+          "status": "linked"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "사례연구 아키타입",
+      "name_ko": "사례연구 아키타입",
+      "name_en": "Case Study Archetype",
+      "methods": [
+        {
+          "no": 24,
+          "name": "사례연구방법2",
+          "en": "Case Study Method 2",
+          "label": "사례연구방법2(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-19/method-24.json",
+          "methodKey": "QL-020",
+          "caseId": "A19-C052",
+          "status": "linked",
+          "perfSlug": null
+        },
+        {
+          "no": 25,
+          "name": "사례연구방법1",
+          "en": "Case Study Method 1",
+          "label": "사례연구방법1(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-19/method-25.json",
+          "methodKey": "QL-021",
+          "caseId": "A19-C051",
+          "status": "linked",
+          "perfSlug": null
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "계량서지·인용분석 아키타입",
+      "name_ko": "계량서지·인용분석 아키타입",
+      "name_en": "Bibliometrics–Citation Analysis Archetype",
+      "methods": [
+        {
+          "no": 156,
+          "name": "계량서지분석",
+          "en": "Bibliometric Analysis",
+          "label": "계량서지분석(문헌·근거합성)",
+          "topicCount": 5,
+          "path": "bundle-20/method-156.json",
+          "methodKey": null,
+          "caseId": "A20-C004",
+          "status": "pending-registration",
+          "perfSlug": null
+        },
+        {
+          "no": 162,
+          "name": "인용분석",
+          "en": "Citation Analysis",
+          "label": "인용분석(문헌·근거합성)",
+          "topicCount": 5,
+          "path": "bundle-20/method-162.json",
+          "methodKey": "EV-009",
+          "caseId": "A20-C005",
+          "perfSlug": "citation-analysis",
+          "status": "linked"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "질적메타합성 아키타입",
+      "name_ko": "질적메타합성 아키타입",
+      "name_en": "Qualitative Meta-Synthesis Archetype",
+      "methods": [
+        {
+          "no": 65,
+          "name": "질적연구 합성",
+          "en": "Qualitative Research Synthesis",
+          "label": "질적연구 합성(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-21/method-65.json",
+          "methodKey": "QL-061",
+          "caseId": "A21-C167",
+          "perfSlug": "qualitative-research-synthesis",
+          "status": "linked"
+        },
+        {
+          "no": 163,
+          "name": "질적 메타합성",
+          "en": "Qualitative Meta-Synthesis",
+          "label": "질적 메타합성(문헌·근거합성)",
+          "topicCount": 5,
+          "path": "bundle-21/method-163.json",
+          "methodKey": "QL-061",
+          "caseId": "A21-C166",
+          "perfSlug": "qualitative-research-synthesis",
+          "status": "linked"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "대화·회화분석 아키타입",
+      "name_ko": "대화·회화분석 아키타입",
+      "name_en": "Conversation Analysis Archetype",
+      "methods": [
+        {
+          "no": 54,
+          "name": "회화분석",
+          "en": "Conversation Analysis",
+          "label": "회화분석(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-22/method-54.json",
+          "methodKey": "QL-050",
+          "caseId": "A22-C025",
+          "status": "linked",
+          "perfSlug": "conversation-analysis"
+        },
+        {
+          "no": 173,
+          "name": "대화분석 입문",
+          "en": "Introduction to Conversation Analysis",
+          "label": "대화분석 입문(기타)",
+          "topicCount": 5,
+          "path": "bundle-22/method-173.json",
+          "methodKey": "QL-050",
+          "caseId": "A22-C024",
+          "perfSlug": "conversation-analysis",
+          "status": "linked"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Q방법론·연구프로그램 아키타입",
+      "name_ko": "Q방법론·연구프로그램 아키타입",
+      "name_en": "Q Methodology–Research Programme Archetype",
+      "methods": [
+        {
+          "no": 52,
+          "name": "과학연구프로그램 방법론",
+          "en": "Scientific Research Programme Methodology",
+          "label": "과학연구프로그램 방법론(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-23/method-52.json",
+          "methodKey": null,
+          "caseId": "A23-C002",
+          "perfSlug": "research-programme-methodology",
+          "status": "pending-registration"
+        },
+        {
+          "no": 195,
+          "name": "Q방법론",
+          "en": "Q Methodology",
+          "label": "Q방법론(기타)",
+          "topicCount": 5,
+          "path": "bundle-23/method-195.json",
+          "methodKey": "QL-048",
+          "caseId": "A23-C001",
+          "perfSlug": "q-methodology",
+          "status": "linked"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "조사연구방법 아키타입",
+      "name_ko": "조사연구방법 아키타입",
+      "name_en": "Survey Research Methods Archetype",
+      "methods": [
+        {
+          "no": 4,
+          "name": "조사연구방법",
+          "en": "Survey Research Method",
+          "label": "조사연구방법(조사·설문)",
+          "topicCount": 5,
+          "path": "bundle-24/method-4.json",
+          "methodKey": "SV-004",
+          "caseId": "A24-C165",
+          "perfSlug": "survey-research",
+          "status": "linked"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "간호이론구축 아키타입",
+      "name_ko": "간호이론구축 아키타입",
+      "name_en": "Nursing Theory Construction Archetype",
+      "methods": [
+        {
+          "no": 6,
+          "name": "간호이론구축전략",
+          "en": "Nursing Theory Construction Strategies",
+          "label": "간호이론구축전략(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-25/method-6.json",
+          "methodKey": "QL-002",
+          "caseId": "A25-C003",
+          "perfSlug": "nursing-theory-construction",
+          "status": "linked"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "관찰기법 아키타입",
+      "name_ko": "관찰기법 아키타입",
+      "name_en": "Observation Technique Archetype",
+      "methods": [
+        {
+          "no": 9,
+          "name": "관찰기법",
+          "en": "Observation Technique",
+          "label": "관찰기법(질적·해석)",
+          "topicCount": 5,
+          "path": "bundle-26/method-9.json",
+          "methodKey": "QL-005",
+          "caseId": "A26-C006",
+          "perfSlug": "observation-methods",
+          "status": "linked"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "비교정치·패턴분석 아키타입",
+      "name_ko": "비교정치·패턴분석 아키타입",
+      "name_en": "Comparative Politics–Pattern Analysis Archetype",
+      "methods": [
+        {
+          "no": 145,
+          "name": "민주주의 제도유형 비교",
+          "en": "Patterns of Democracy",
+          "label": "민주주의 제도유형 비교(역사·비교)",
+          "topicCount": 5,
+          "path": "bundle-27/method-145.json",
+          "methodKey": "HC-003",
+          "caseId": "A27-C050",
+          "perfSlug": "comparative-democracy-research",
+          "status": "linked"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "혼합연구설계 아키타입",
+      "name_ko": "혼합연구설계 아키타입",
+      "name_en": "Mixed Methods Design Archetype",
+      "methods": [
+        {
+          "no": 166,
+          "name": "혼합연구설계와수행",
+          "en": "Designing and Conducting Mixed Methods Research",
+          "label": "혼합연구설계와수행(혼합·설계)",
+          "topicCount": 5,
+          "path": "bundle-28/method-166.json",
+          "methodKey": "MM-001",
+          "caseId": "A28-C200",
+          "status": "linked",
+          "perfSlug": "mixed-methods-research"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "키워드핵심성 아키타입",
+      "name_ko": "키워드핵심성 아키타입",
+      "name_en": "Keyword Keyness Archetype",
+      "methods": [
+        {
+          "no": 188,
+          "name": "키워드 핵심성 분석",
+          "en": "Keyword Keyness / Salience Analysis",
+          "label": "키워드 핵심성 분석(기타)",
+          "topicCount": 5,
+          "path": "bundle-29/method-188.json",
+          "methodKey": "TX-012",
+          "caseId": "A29-C173",
+          "perfSlug": "keyword-keyness-analysis",
+          "status": "linked"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "역학연구 아키타입",
+      "name_ko": "역학연구 아키타입",
+      "name_en": "Epidemiological Research Archetype",
+      "methods": [
+        {
+          "no": 193,
+          "name": "현대 역학",
+          "en": "Modern Epidemiology",
+          "label": "현대 역학(기타)",
+          "topicCount": 5,
+          "path": "bundle-30/method-193.json",
+          "methodKey": "GN-027",
+          "caseId": "A30-C137",
+          "perfSlug": "epidemiological-research-methods",
+          "status": "linked"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "일반연구방법론 아키타입",
+      "name_ko": "일반연구방법론 아키타입",
+      "name_en": "General Research Methodology Archetype",
+      "methods": [
+        {
+          "no": 194,
+          "name": "연구방법론",
+          "en": "Research Methodology",
+          "label": "연구방법론(기타)",
+          "topicCount": 5,
+          "path": "bundle-31/method-194.json",
+          "methodKey": null,
+          "caseId": "A31-C154",
+          "perfSlug": "research-methodology",
+          "status": "pending-registration"
+        }
+      ]
+    }
+  ]
+}

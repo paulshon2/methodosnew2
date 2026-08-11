@@ -1,0 +1,2696 @@
+{
+  "id": 11,
+  "name": "내용분석·코딩 아키타입(Content Analysis–Coding Archetype)",
+  "name_ko": "내용분석·코딩 아키타입",
+  "name_en": "Content Analysis–Coding Archetype",
+  "methodCount": 6,
+  "methods": [
+    {
+      "no": 42,
+      "name": "내용분석 방법론입문",
+      "family": "질적·해석",
+      "label": "내용분석 방법론입문(질적·해석)",
+      "methodKey": null,
+      "status": "pending-registration",
+      "caseId": "A11-C013",
+      "perfSlug": "content-analysis"
+    },
+    {
+      "no": 57,
+      "name": "내용분석 실무 가이드",
+      "family": "질적·해석",
+      "label": "내용분석 실무 가이드(질적·해석)",
+      "methodKey": null,
+      "status": "pending-registration",
+      "caseId": "A11-C014",
+      "perfSlug": "content-analysis"
+    },
+    {
+      "no": 64,
+      "name": "질적연구 코딩 매뉴얼",
+      "family": "질적·해석",
+      "label": "질적연구 코딩 매뉴얼(질적·해석)",
+      "methodKey": "QL-060",
+      "caseId": "A11-C017",
+      "perfSlug": "qualitative-coding",
+      "status": "linked"
+    },
+    {
+      "no": 111,
+      "name": "메타분석입문",
+      "family": "텍스트·계산언어",
+      "label": "메타분석입문(텍스트·계산언어)",
+      "methodKey": "EV-005",
+      "caseId": "A11-C015",
+      "perfSlug": "meta-analysis",
+      "status": "linked"
+    },
+    {
+      "no": 112,
+      "name": "체계적문헌고찰입문",
+      "family": "텍스트·계산언어",
+      "label": "체계적문헌고찰입문(텍스트·계산언어)",
+      "methodKey": "EV-006",
+      "caseId": "A11-C018",
+      "perfSlug": "systematic-literature-review",
+      "status": "linked"
+    },
+    {
+      "no": 174,
+      "name": "미디어 내용분석",
+      "family": "기타",
+      "label": "미디어 내용분석(기타)",
+      "methodKey": "GN-008",
+      "caseId": "A11-C016",
+      "perfSlug": "media-content-analysis",
+      "status": "linked"
+    }
+  ],
+  "overview": "TX-002·코딩 아키타입(Content Analysis–Coding Archetype)은(는) 연구 과정(수집→전처리→코딩→통계→결과→산출)이 같은 연구방법 6개를 하나의 방법론적 아키타입(Methodological Archetype)으로 묶은 유형입니다. 같은 프로세스 유형을 선택하면 공통 절차적 단계(Procedural Stage)와 절차적 태스크(Procedural Task)를 AI 기반 실습으로 따라갈 수 있습니다.",
+  "processes": [
+    {
+      "id": "collect",
+      "label": "자료수집(Data Collection)",
+      "label_ko": "① 자료수집",
+      "label_en": "Data Collection",
+      "order": 1,
+      "procedure": "①분석대상 문헌/미디어/텍스트 모집단 정의 →②표본추출(전수 또는 확률표집)로 분석자료 수집",
+      "easy": "▸모집단(population): 조사하고 싶은 대상 전체 무리.(예: '우리 학교 학생 키'를 알고 싶으면 전교생 전부가 모집단.)\n▸전수(complete enumeration): 일부가 아니라 전부를 다 조사.(예: 전교생 한 명도 빠짐없이.)\n▸확률표집(probability sampling):우연(제비뽑기)에 맡겨 공평하게 뽑는 방법.(예: 이름을 통에 넣고 눈 감고 30명 뽑기.)",
+      "steps": [
+        "분석대상 문헌/미디어/텍스트 모집단 정의",
+        "표본추출(전수 또는 확률표집)로 분석자료 수집"
+      ],
+      "terms": [
+        {
+          "term": "모집단(population)",
+          "term_ko": "모집단",
+          "term_en": "population",
+          "definition": "조사하고 싶은 대상 전체 무리. (예: '우리 학교 학생 키'를 알고 싶으면 전교생 전부가 모집단.)"
+        },
+        {
+          "term": "전수(complete enumeration)",
+          "term_ko": "전수",
+          "term_en": "complete enumeration",
+          "definition": "일부가 아니라 전부를 다 조사. (예: 전교생 한 명도 빠짐없이.)"
+        },
+        {
+          "term": "확률표집(probability sampling)",
+          "term_ko": "확률표집",
+          "term_en": "probability sampling",
+          "definition": "우연(제비뽑기)에 맡겨 공평하게 뽑는 방법. (예: 이름을 통에 넣고 눈 감고 30명 뽑기.)"
+        }
+      ]
+    },
+    {
+      "id": "preprocess",
+      "label": "전처리(Preprocessing)",
+      "label_ko": "② 전처리",
+      "label_en": "Preprocessing",
+      "order": 2,
+      "procedure": "①분석단위(단어, 문장, 기사 등) 설정 →②코드북(codebook) 및 코딩지침서 개발 →③코더 훈련 및 예비코딩(pilot coding) 실시",
+      "easy": "▸분석단위(unit of analysis): 분석의 기본 낱개.(예: 단어 하나, 기사 한 건.)\n▸코드북(codebook): 어떤 내용에 어떤 표시를 붙일지 정한 규칙집.(예: '칭찬=C, 비난=B' 규칙표.)\n▸코딩지침서(coding manual):코딩(분류) 방법을 설명한 안내서.(예: 분류 규칙을 적어둔 설명서.)\n▸코더 훈련(coder training): 분류할 사람을 미리 연습시키는 것.(예: 같은 기준으로 나누도록 교육.)\n▸예비코딩(pilot coding): 본격 분류 전 연습 삼아 해보는 코딩.(예: 몇 개만 미리 분류해보기.)",
+      "steps": [
+        "분석단위(단어, 문장, 기사 등) 설정",
+        "코드북(codebook) 및 코딩지침서 개발",
+        "코더 훈련 및 예비코딩(pilot coding) 실시"
+      ],
+      "terms": [
+        {
+          "term": "분석단위(unit of analysis)",
+          "term_ko": "분석단위",
+          "term_en": "unit of analysis",
+          "definition": "분석의 기본 낱개. (예: 단어 하나, 기사 한 건.)"
+        },
+        {
+          "term": "코드북(codebook)",
+          "term_ko": "코드북",
+          "term_en": "codebook",
+          "definition": "어떤 내용에 어떤 표시를 붙일지 정한 규칙집. (예: '칭찬=C, 비난=B' 규칙표.)"
+        },
+        {
+          "term": "코딩지침서(coding manual)",
+          "term_ko": "코딩지침서",
+          "term_en": "coding manual",
+          "definition": "코딩(분류) 방법을 설명한 안내서. (예: 분류 규칙을 적어둔 설명서.)"
+        },
+        {
+          "term": "코더 훈련(coder training)",
+          "term_ko": "코더 훈련",
+          "term_en": "coder training",
+          "definition": "분류할 사람을 미리 연습시키는 것. (예: 같은 기준으로 나누도록 교육.)"
+        },
+        {
+          "term": "예비코딩(pilot coding)",
+          "term_ko": "예비코딩",
+          "term_en": "pilot coding",
+          "definition": "본격 분류 전 연습 삼아 해보는 코딩. (예: 몇 개만 미리 분류해보기.)"
+        }
+      ]
+    },
+    {
+      "id": "coding",
+      "label": "코딩(Coding)",
+      "label_ko": "③ 코딩",
+      "label_en": "Coding",
+      "order": 3,
+      "procedure": "①코드북 기반 범주코딩 수행(2인 이상 독립 코딩 권장) →②코더 간 불일치 사례 논의·조정 →③코더간 신뢰도(inter-coder reliability) 산출",
+      "easy": "▸코드북(codebook): 어떤 내용에 어떤 표시를 붙일지 정한 규칙집.(예: '칭찬=C, 비난=B' 규칙표.)\n▸범주코딩(categorical coding):답을 몇 개의 묶음(범주)으로 나누어 표시.(예: 취미를 '운동/게임/독서'로 분류.)\n▸코더 간 불일치(coder disagreement): 채점자들이 다르게 분류한 경우.(예: 한 명은 '칭찬', 한 명은 '비난'.)\n▸코더간 신뢰도(inter-coder reliability): 여러 채점자가 얼마나 똑같이 분류했는지.(예: 두 사람 분류가 얼마나 일치하나.)",
+      "steps": [
+        "코드북 기반 범주코딩 수행(2인 이상 독립 코딩 권장)",
+        "코더 간 불일치 사례 논의·조정",
+        "코더간 신뢰도(inter-coder reliability) 산출"
+      ],
+      "terms": [
+        {
+          "term": "코드북(codebook)",
+          "term_ko": "코드북",
+          "term_en": "codebook",
+          "definition": "어떤 내용에 어떤 표시를 붙일지 정한 규칙집. (예: '칭찬=C, 비난=B' 규칙표.)"
+        },
+        {
+          "term": "범주코딩(categorical coding)",
+          "term_ko": "범주코딩",
+          "term_en": "categorical coding",
+          "definition": "답을 몇 개의 묶음(범주)으로 나누어 표시. (예: 취미를 '운동/게임/독서'로 분류.)"
+        },
+        {
+          "term": "코더 간 불일치(coder disagreement)",
+          "term_ko": "코더 간 불일치",
+          "term_en": "coder disagreement",
+          "definition": "채점자들이 다르게 분류한 경우. (예: 한 명은 '칭찬', 한 명은 '비난'.)"
+        },
+        {
+          "term": "코더간 신뢰도(inter-coder reliability)",
+          "term_ko": "코더간 신뢰도",
+          "term_en": "inter-coder reliability",
+          "definition": "여러 채점자가 얼마나 똑같이 분류했는지. (예: 두 사람 분류가 얼마나 일치하나.)"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "label": "통계기법(Statistical Technique)",
+      "label_ko": "④ 통계기법",
+      "label_en": "Statistical Technique",
+      "order": 4,
+      "procedure": "①코드 빈도·백분율 산출(기술통계) →②Cohen's Kappa 또는 Krippendorff's alpha로 코더간 신뢰도 검정 →③필요시 카이제곱검정으로 범주 간 연관성 검정",
+      "easy": "▸빈도(frequency): 몇 번 나왔는지 횟수.(예: '사과'를 12명이 골랐다.)\n▸기술통계(descriptive statistics): 자료를 요약해 보여주는 통계.(예: 평균·최댓값·빈도 정리.)\n▸ Cohen's Kappa(코헨 카파): 두 채점자의 일치도를 우연을 빼고 잰 값.(예: 두 사람 분류가 진짜로 얼마나 맞나.)\n▸ Krippendorff's alpha(크리펜도르프 알파): 여러 채점자의 일치도를 재는 값.(예: 여럿이 얼마나 똑같이 분류했나.)\n▸코더간 신뢰도(inter-coder reliability): 여러 채점자가 얼마나 똑같이 분류했는지.(예: 두 사람 분류가 얼마나 일치하나.)\n▸카이제곱검정(chi-square test):범주(종류)들 사이 관계가 있는지 검사.(예: 성별과 좋아하는 과목 관계.)",
+      "steps": [
+        "코드 빈도·백분율 산출(기술통계)",
+        "Cohen's Kappa 또는 Krippendorff's alpha로 코더간 신뢰도 검정",
+        "필요시 카이제곱검정으로 범주 간 연관성 검정"
+      ],
+      "terms": [
+        {
+          "term": "빈도(frequency)",
+          "term_ko": "빈도",
+          "term_en": "frequency",
+          "definition": "몇 번 나왔는지 횟수. (예: '사과'를 12명이 골랐다.)"
+        },
+        {
+          "term": "기술통계(descriptive statistics)",
+          "term_ko": "기술통계",
+          "term_en": "descriptive statistics",
+          "definition": "자료를 요약해 보여주는 통계. (예: 평균·최댓값·빈도 정리.)"
+        },
+        {
+          "term": "Cohen's Kappa(코헨 카파)",
+          "term_ko": "Cohen's Kappa",
+          "term_en": "코헨 카파",
+          "definition": "두 채점자의 일치도를 우연을 빼고 잰 값. (예: 두 사람 분류가 진짜로 얼마나 맞나.)"
+        },
+        {
+          "term": "Krippendorff's alpha(크리펜도르프 알파)",
+          "term_ko": "Krippendorff's alpha",
+          "term_en": "크리펜도르프 알파",
+          "definition": "여러 채점자의 일치도를 재는 값. (예: 여럿이 얼마나 똑같이 분류했나.)"
+        },
+        {
+          "term": "코더간 신뢰도(inter-coder reliability)",
+          "term_ko": "코더간 신뢰도",
+          "term_en": "inter-coder reliability",
+          "definition": "여러 채점자가 얼마나 똑같이 분류했는지. (예: 두 사람 분류가 얼마나 일치하나.)"
+        },
+        {
+          "term": "카이제곱검정(chi-square test)",
+          "term_ko": "카이제곱검정",
+          "term_en": "chi-square test",
+          "definition": "범주(종류)들 사이 관계가 있는지 검사. (예: 성별과 좋아하는 과목 관계.)"
+        }
+      ]
+    },
+    {
+      "id": "result",
+      "label": "결과도출(Result Derivation)",
+      "label_ko": "⑤ 결과도출",
+      "label_en": "Result Derivation",
+      "order": 5,
+      "procedure": "①빈도·신뢰도 결과를 바탕으로 범주별 패턴 요약 →②범주 간 관계를 통계적으로 해석",
+      "easy": "▸빈도(frequency): 몇 번 나왔는지 횟수.(예: '사과'를 12명이 골랐다.)",
+      "steps": [
+        "빈도·신뢰도 결과를 바탕으로 범주별 패턴 요약",
+        "범주 간 관계를 통계적으로 해석"
+      ],
+      "terms": [
+        {
+          "term": "빈도(frequency)",
+          "term_ko": "빈도",
+          "term_en": "frequency",
+          "definition": "몇 번 나왔는지 횟수. (예: '사과'를 12명이 골랐다.)"
+        }
+      ]
+    },
+    {
+      "id": "deliverable",
+      "label": "최종 산출물(Final Deliverable)",
+      "label_ko": "⑥ 최종 산출물",
+      "label_en": "Final Deliverable",
+      "order": 6,
+      "procedure": "범주·주제별 빈도표 및 해석",
+      "easy": "▸빈도(frequency): 몇 번 나왔는지 횟수.(예: '사과'를 12명이 골랐다.)",
+      "steps": [
+        "범주·주제별 빈도표 및 해석"
+      ],
+      "terms": [
+        {
+          "term": "빈도(frequency)",
+          "term_ko": "빈도",
+          "term_en": "frequency",
+          "definition": "몇 번 나왔는지 횟수. (예: '사과'를 12명이 골랐다.)"
+        }
+      ]
+    }
+  ],
+  "deliverable": "범주·주제별 빈도표 및 해석",
+  "stages": [
+    {
+      "id": "collect-19443",
+      "processKey": "collect",
+      "processLabel": "자료수집(Data Collection)",
+      "name": "①분석대상 문헌/미디어/텍스트 모집단 정의 →②표본추출(전수 또는 확률표집)로 분석자료 수집",
+      "name_ko": "①분석대상 문헌/미디어/텍스트 모집단 정의 →②표본추출(전수 또는 확률표집)로 분석자료 수집",
+      "procedure": "①분석대상 문헌/미디어/텍스트 모집단 정의 →②표본추출(전수 또는 확률표집)로 분석자료 수집",
+      "easy": "▸모집단(population): 조사하고 싶은 대상 전체 무리.(예: '우리 학교 학생 키'를 알고 싶으면 전교생 전부가 모집단.)\n▸전수(complete enumeration): 일부가 아니라 전부를 다 조사.(예: 전교생 한 명도 빠짐없이.)\n▸확률표집(probability sampling):우연(제비뽑기)에 맡겨 공평하게 뽑는 방법.(예: 이름을 통에 넣고 눈 감고 30명 뽑기.)",
+      "terms": [
+        {
+          "term": "모집단(population)",
+          "term_ko": "모집단",
+          "term_en": "population",
+          "definition": "조사하고 싶은 대상 전체 무리. (예: '우리 학교 학생 키'를 알고 싶으면 전교생 전부가 모집단.)"
+        },
+        {
+          "term": "전수(complete enumeration)",
+          "term_ko": "전수",
+          "term_en": "complete enumeration",
+          "definition": "일부가 아니라 전부를 다 조사. (예: 전교생 한 명도 빠짐없이.)"
+        },
+        {
+          "term": "확률표집(probability sampling)",
+          "term_ko": "확률표집",
+          "term_en": "probability sampling",
+          "definition": "우연(제비뽑기)에 맡겨 공평하게 뽑는 방법. (예: 이름을 통에 넣고 눈 감고 30명 뽑기.)"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "b11-t1",
+          "task": "1) 분석대상 문헌/미디어/텍스트 모집단 정의하기(Procedural Task)",
+          "taskRaw": "1) 분석대상 문헌/미디어/텍스트 모집단 정의하기",
+          "processKey": "collect",
+          "processLabel": "자료수집(Data Collection)",
+          "stageLabel": "①분석대상 문헌/미디어/텍스트 모집단 정의 →②표본추출(전수 또는 확률표집)로 분석자료 수집",
+          "why": "이 절차적 태스크(Procedural Task) '1) 분석대상 문헌/미디어/텍스트 모집단 정의하기'는 TX-002·코딩 아키타입(Content Analysis–Coding Archetype)의 '자료수집' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "표준 흐름: 1) 분석대상 문헌/미디어/텍스트 모집단 정의 → 2) 표본추출(전수 또는 확률표집)로 분석자료 수집. 각 하위 절차를 문서에 남기며 순서대로 실행하고, 완료 여부를 체크합니다.",
+          "protocol": "연구질문(Research Question)과 모집단(Population)을 먼저 문서화하고, 수집 도구·동의·기록 양식을 준비합니다. 수집 로그(날짜·출처·담당)를 남깁니다. 태스크 초점: 1) 분석대상 문헌/미디어/텍스트 모집단 정의하기.",
+          "sampleExplain": "TX-002·코딩 맥락에서 '1) 분석대상 문헌/미디어/텍스트 모집단 정의하기' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'1) 분석대상 문헌/미디어/텍스트 모집단 정의하기'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'1) 분석대상 문헌/미디어/텍스트 모집단 정의하기'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 학교 급식 만족도 조사. 올바른 다음 행동은?",
+              "options": [
+                "모집단을 '우리 학교 전교생'으로 정의하고 표본 40명을 층화표집한다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 모집단을 '우리 학교 전교생'으로 정의하고 표본 40명을 층화표집한다.",
+              "usable": "실습: '학교 급식 만족도 조사'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'1) 분석대상 문헌/미디어/텍스트 모집단 정의하기'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "population_sampling",
+          "formFields": [
+            {
+              "key": "rq",
+              "label": "연구질문(Research Question)",
+              "placeholder": "RQ: …"
+            },
+            {
+              "key": "population",
+              "label": "모집단(Population)",
+              "placeholder": "조작적 정의"
+            },
+            {
+              "key": "frame",
+              "label": "표집틀(Sampling Frame)"
+            },
+            {
+              "key": "method",
+              "label": "표집방법(Sampling Method)"
+            },
+            {
+              "key": "n",
+              "label": "표본크기(Sample Size & Power)",
+              "placeholder": "n=…, 95% CI, power"
+            },
+            {
+              "key": "error",
+              "label": "신뢰·오차(Confidence & Margin)"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "Cohen κ=.81",
+              "body": "【연구】선거보도 프레이밍\n【모집단】2025년 서울 거주 만 19–29세 (조작적 정의: 주민등록상 주소지)\n【표집틀】행정안전부 주민등록 인구통계 + 청년 DB(자치구 제공)\n【설계】자치구 인구 비례 층화 → 구 내 성별 층화 → 무작위 추출\n【표본크기】95% 신뢰, ±5% 오차, p=.5 → n=385 (무응답 30% 가정 → 발송 550)\n【배분】강남구 6.2% → 24명, … (표 1)\n【윤리】IRB-2025-041, 온라인 동의·탈락권 고지",
+              "relevance": "이 예시는 「Cohen κ=.81」 상황에서 「분석대상 문헌/미디어/텍스트 모집단 정의하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 모집단·표본·표본크기를 숫자와 표로 같이 적어야 설문·통계 단계에서 '누구에게 일반화하는지'가 분명해집니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "카이제곱 프레임×후보 p=.003",
+              "body": "【연구】선거보도 프레이밍\n【모집단】수도권 300병상 이상 종합병원 간호사\n【표집】병동 군집표집 8병원 → 병동 내 명단에서 무작위 40명/병원\n【n】목표 320 (클러스터 8×40), 설계효과 DEFF≈1.4 반영\n【대체】무작위 선정 5명 거부 → 같은 병동 명단에서 순번 대체",
+              "relevance": "이 예시는 「카이제곱 프레임×후보 p=.003」 상황에서 「분석대상 문헌/미디어/텍스트 모집단 정의하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 군집표집은 '병동'처럼 표집틀과 대체 규칙을 써야 현장에서 그대로 실행할 수 있습니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "정치·경제 지면 비교",
+              "body": "【연구】선거보도 프레이밍\n【모집단】경기 공립고 2학년 재학생\n【표집틀】교육청 학교명부, 학교규모(대/중/소) 층화 12교\n【표본】교당 38명 무작위 → 총 n=456 (±4.5%)\n【비확률 보조】1교 무응답 과다 → 층 내 인접 학교로 1교 교체(기록)",
+              "relevance": "이 예시는 「정치·경제 지면 비교」 상황에서 「분석대상 문헌/미디어/텍스트 모집단 정의하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 층화표집 예시는 층 정의와 교체 사유를 남겨야 편향 논의가 가능합니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "TV 선거보도 2주 180기사",
+              "body": "【연구】선거보도 프레이밍\n【모집단】특정 앱 MAU 상위 20% (최근 30일 로그인)\n【표집】앱 내 배너 + 성·연령 할당(남20–29 50% 등)\n【n】500 (비확률), 외삽 한계 명시\n【로그】user_id 해시, 노출·클릭·완료 시각",
+              "relevance": "이 예시는 「TV 선거보도 2주 180기사」 상황에서 「분석대상 문헌/미디어/텍스트 모집단 정의하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 비확률 표본도 모집단·할당·한계를 밝히면 온라인 조사 태스크와 맞습니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "프레이밍 코드 12개",
+              "body": "【연구】선거보도 프레이밍\n【모집단】종업원 50–200명 제조 SME 재직자\n【표집틀】협회 회원사 140社 명단, 업종(금속/전자) 층화\n【체계적】k=3, 시작번호 무작위 2 → n=280\n【검증】표본 vs 협회 전체 규모·지역 χ² p=.41 (대표성 메모)",
+              "relevance": "이 예시는 「프레이밍 코드 12개」 상황에서 「분석대상 문헌/미디어/텍스트 모집단 정의하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 체계적표집은 k와 시작점을 적어야 재현 가능합니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · 분석대상 문헌/미디어/텍스트 모집단 정의하기",
+            "kind": "population_sampling",
+            "hint": "이 태스크(분석대상 문헌/미디어/텍스트 모집단 정의하기)의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": null,
+          "nextTaskId": "b11-t2"
+        },
+        {
+          "id": "b11-t2",
+          "task": "2)표본추출(전수 또는 확률표집)로 분석자료 수집하기",
+          "taskRaw": "2)표본추출(전수 또는 확률표집)로 분석자료 수집하기",
+          "processKey": "collect",
+          "processLabel": "자료수집(Data Collection)",
+          "stageLabel": "①분석대상 문헌/미디어/텍스트 모집단 정의 →②표본추출(전수 또는 확률표집)로 분석자료 수집",
+          "why": "이 절차적 태스크(Procedural Task) '2)표본추출(전수 또는 확률표집)로 분석자료 수집하기'는 TX-002·코딩 아키타입(Content Analysis–Coding Archetype)의 '자료수집' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "표준 흐름: 1) 분석대상 문헌/미디어/텍스트 모집단 정의 → 2) 표본추출(전수 또는 확률표집)로 분석자료 수집. 각 하위 절차를 문서에 남기며 순서대로 실행하고, 완료 여부를 체크합니다.",
+          "protocol": "연구질문(Research Question)과 모집단(Population)을 먼저 문서화하고, 수집 도구·동의·기록 양식을 준비합니다. 수집 로그(날짜·출처·담당)를 남깁니다. 태스크 초점: 2)표본추출(전수 또는 확률표집)로 분석자료 수집하기.",
+          "sampleExplain": "TX-002·코딩 맥락에서 '2)표본추출(전수 또는 확률표집)로 분석자료 수집하기' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'2)표본추출(전수 또는 확률표집)로 분석자료 수집하기'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'2)표본추출(전수 또는 확률표집)로 분석자료 수집하기'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 학교 급식 만족도 조사. 올바른 다음 행동은?",
+              "options": [
+                "모집단을 '우리 학교 전교생'으로 정의하고 표본 40명을 층화표집한다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 모집단을 '우리 학교 전교생'으로 정의하고 표본 40명을 층화표집한다.",
+              "usable": "실습: '학교 급식 만족도 조사'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'2)표본추출(전수 또는 확률표집)로 분석자료 수집하기'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "population_sampling",
+          "formFields": [
+            {
+              "key": "rq",
+              "label": "연구질문(Research Question)",
+              "placeholder": "RQ: …"
+            },
+            {
+              "key": "population",
+              "label": "모집단(Population)",
+              "placeholder": "조작적 정의"
+            },
+            {
+              "key": "frame",
+              "label": "표집틀(Sampling Frame)"
+            },
+            {
+              "key": "method",
+              "label": "표집방법(Sampling Method)"
+            },
+            {
+              "key": "n",
+              "label": "표본크기(Sample Size & Power)",
+              "placeholder": "n=…, 95% CI, power"
+            },
+            {
+              "key": "error",
+              "label": "신뢰·오차(Confidence & Margin)"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "TV 선거보도 2주 180기사",
+              "body": "【연구】선거보도 프레이밍\n【모집단】2025년 서울 거주 만 19–29세 (조작적 정의: 주민등록상 주소지)\n【표집틀】행정안전부 주민등록 인구통계 + 청년 DB(자치구 제공)\n【설계】자치구 인구 비례 층화 → 구 내 성별 층화 → 무작위 추출\n【표본크기】95% 신뢰, ±5% 오차, p=.5 → n=385 (무응답 30% 가정 → 발송 550)\n【배분】강남구 6.2% → 24명, … (표 1)\n【윤리】IRB-2025-041, 온라인 동의·탈락권 고지",
+              "relevance": "이 예시는 「TV 선거보도 2주 180기사」 상황에서 「표본추출(전수 또는 확률표집)로 분석자료 수집하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 모집단·표본·표본크기를 숫자와 표로 같이 적어야 설문·통계 단계에서 '누구에게 일반화하는지'가 분명해집니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "프레이밍 코드 12개",
+              "body": "【연구】선거보도 프레이밍\n【모집단】수도권 300병상 이상 종합병원 간호사\n【표집】병동 군집표집 8병원 → 병동 내 명단에서 무작위 40명/병원\n【n】목표 320 (클러스터 8×40), 설계효과 DEFF≈1.4 반영\n【대체】무작위 선정 5명 거부 → 같은 병동 명단에서 순번 대체",
+              "relevance": "이 예시는 「프레이밍 코드 12개」 상황에서 「표본추출(전수 또는 확률표집)로 분석자료 수집하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 군집표집은 '병동'처럼 표집틀과 대체 규칙을 써야 현장에서 그대로 실행할 수 있습니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "Cohen κ=.81",
+              "body": "【연구】선거보도 프레이밍\n【모집단】경기 공립고 2학년 재학생\n【표집틀】교육청 학교명부, 학교규모(대/중/소) 층화 12교\n【표본】교당 38명 무작위 → 총 n=456 (±4.5%)\n【비확률 보조】1교 무응답 과다 → 층 내 인접 학교로 1교 교체(기록)",
+              "relevance": "이 예시는 「Cohen κ=.81」 상황에서 「표본추출(전수 또는 확률표집)로 분석자료 수집하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 층화표집 예시는 층 정의와 교체 사유를 남겨야 편향 논의가 가능합니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "카이제곱 프레임×후보 p=.003",
+              "body": "【연구】선거보도 프레이밍\n【모집단】특정 앱 MAU 상위 20% (최근 30일 로그인)\n【표집】앱 내 배너 + 성·연령 할당(남20–29 50% 등)\n【n】500 (비확률), 외삽 한계 명시\n【로그】user_id 해시, 노출·클릭·완료 시각",
+              "relevance": "이 예시는 「카이제곱 프레임×후보 p=.003」 상황에서 「표본추출(전수 또는 확률표집)로 분석자료 수집하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 비확률 표본도 모집단·할당·한계를 밝히면 온라인 조사 태스크와 맞습니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "정치·경제 지면 비교",
+              "body": "【연구】선거보도 프레이밍\n【모집단】종업원 50–200명 제조 SME 재직자\n【표집틀】협회 회원사 140社 명단, 업종(금속/전자) 층화\n【체계적】k=3, 시작번호 무작위 2 → n=280\n【검증】표본 vs 협회 전체 규모·지역 χ² p=.41 (대표성 메모)",
+              "relevance": "이 예시는 「정치·경제 지면 비교」 상황에서 「표본추출(전수 또는 확률표집)로 분석자료 수집하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 체계적표집은 k와 시작점을 적어야 재현 가능합니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · 표본추출(전수 또는 확률표집)로 분석자료 수집하기",
+            "kind": "population_sampling",
+            "hint": "이 태스크(표본추출(전수 또는 확률표집)로 분석자료 수집하기)의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": "b11-t1",
+          "nextTaskId": null
+        }
+      ],
+      "prevStageId": null,
+      "nextStageId": "preprocess-84667"
+    },
+    {
+      "id": "preprocess-84667",
+      "processKey": "preprocess",
+      "processLabel": "전처리(Preprocessing)",
+      "name": "①분석단위(단어, 문장, 기사 등) 설정 →②코드북(codebook) 및 코딩지침서 개발 →③코더 훈련 및 예비코딩(pilot coding) 실시",
+      "name_ko": "①분석단위(단어, 문장, 기사 등) 설정 →②코드북(codebook) 및 코딩지침서 개발 →③코더 훈련 및 예비코딩(pilot coding) 실시",
+      "procedure": "①분석단위(단어, 문장, 기사 등) 설정 →②코드북(codebook) 및 코딩지침서 개발 →③코더 훈련 및 예비코딩(pilot coding) 실시",
+      "easy": "▸분석단위(unit of analysis): 분석의 기본 낱개.(예: 단어 하나, 기사 한 건.)\n▸코드북(codebook): 어떤 내용에 어떤 표시를 붙일지 정한 규칙집.(예: '칭찬=C, 비난=B' 규칙표.)\n▸코딩지침서(coding manual):코딩(분류) 방법을 설명한 안내서.(예: 분류 규칙을 적어둔 설명서.)\n▸코더 훈련(coder training): 분류할 사람을 미리 연습시키는 것.(예: 같은 기준으로 나누도록 교육.)\n▸예비코딩(pilot coding): 본격 분류 전 연습 삼아 해보는 코딩.(예: 몇 개만 미리 분류해보기.)",
+      "terms": [
+        {
+          "term": "분석단위(unit of analysis)",
+          "term_ko": "분석단위",
+          "term_en": "unit of analysis",
+          "definition": "분석의 기본 낱개. (예: 단어 하나, 기사 한 건.)"
+        },
+        {
+          "term": "코드북(codebook)",
+          "term_ko": "코드북",
+          "term_en": "codebook",
+          "definition": "어떤 내용에 어떤 표시를 붙일지 정한 규칙집. (예: '칭찬=C, 비난=B' 규칙표.)"
+        },
+        {
+          "term": "코딩지침서(coding manual)",
+          "term_ko": "코딩지침서",
+          "term_en": "coding manual",
+          "definition": "코딩(분류) 방법을 설명한 안내서. (예: 분류 규칙을 적어둔 설명서.)"
+        },
+        {
+          "term": "코더 훈련(coder training)",
+          "term_ko": "코더 훈련",
+          "term_en": "coder training",
+          "definition": "분류할 사람을 미리 연습시키는 것. (예: 같은 기준으로 나누도록 교육.)"
+        },
+        {
+          "term": "예비코딩(pilot coding)",
+          "term_ko": "예비코딩",
+          "term_en": "pilot coding",
+          "definition": "본격 분류 전 연습 삼아 해보는 코딩. (예: 몇 개만 미리 분류해보기.)"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "b11-t3",
+          "task": "1)분석단위(단어, 문장, 기사 등) 설정",
+          "taskRaw": "1)분석단위(단어, 문장, 기사 등) 설정",
+          "processKey": "preprocess",
+          "processLabel": "전처리(Preprocessing)",
+          "stageLabel": "①분석단위(단어, 문장, 기사 등) 설정 →②코드북(codebook) 및 코딩지침서 개발 →③코더 훈련 및 예비코딩(pilot coding) 실시",
+          "why": "이 절차적 태스크(Procedural Task) '1)분석단위(단어, 문장, 기사 등) 설정'는 TX-002·코딩 아키타입(Content Analysis–Coding Archetype)의 '전처리' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "표준 흐름: 1) 분석단위(단어, 문장, 기사 등) 설정 → 2) 코드북(codebook) 및 코딩지침서 개발 → 3) 코더 훈련 및 예비코딩(pilot coding) 실시. 각 하위 절차를 문서에 남기며 순서대로 실행하고, 완료 여부를 체크합니다.",
+          "protocol": "원본은 보존하고 작업본에서만 수정합니다. 결측·이상치·코딩 규칙을 코드북(Codebook)에 기록합니다. 태스크 초점: 1)분석단위(단어, 문장, 기사 등) 설정.",
+          "sampleExplain": "TX-002·코딩 맥락에서 '1)분석단위(단어, 문장, 기사 등) 설정' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'1)분석단위(단어, 문장, 기사 등) 설정'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'1)분석단위(단어, 문장, 기사 등) 설정'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 응답 표에 빈칸·극단값 있음. 올바른 다음 행동은?",
+              "options": [
+                "결측치(Missing Value)와 이상치(Outlier)를 표시한 뒤 처리 규칙을 적용한다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 결측치(Missing Value)와 이상치(Outlier)를 표시한 뒤 처리 규칙을 적용한다.",
+              "usable": "실습: '응답 표에 빈칸·극단값 있음'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'1)분석단위(단어, 문장, 기사 등) 설정'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "generic",
+          "formFields": [
+            {
+              "key": "context",
+              "label": "연구·현장 맥락(Context)",
+              "placeholder": "누구·어디·언제"
+            },
+            {
+              "key": "input",
+              "label": "입력자료(Input Materials)",
+              "type": "textarea",
+              "placeholder": "파일명·건수·출처"
+            },
+            {
+              "key": "procedure",
+              "label": "실행 절차(Procedure Steps)",
+              "type": "textarea",
+              "placeholder": "순서·도구·소요"
+            },
+            {
+              "key": "output",
+              "label": "산출물(Output)",
+              "type": "textarea",
+              "placeholder": "표·코드북·로그·파일"
+            },
+            {
+              "key": "quality",
+              "label": "품질·윤리 점검(Quality & Ethics)",
+              "placeholder": "동의·익명·검증"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "프레이밍 코드 12개",
+              "body": "【사례】프레이밍 코드 12개\n【원본】raw/20250312_T07.wav (SHA256 기록)\n【전사】Jefferson: (0.8) … (.) 침묵, [ ] 겹침\n【익명】학교명→S중, 지명→G구\n【QC】10% 재청취 오류율 1.2%\n【산출】transcripts/T07_v2.docx → NVivo import\n【로그】결측 발화 2건 [inaudible] 표기",
+              "relevance": "이 예시는 「프레이밍 코드 12개」 상황에서 「분석단위(단어, 문장, 기사 등) 설정」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 전처리는 원본 보존·전사 규칙·품질검사·파일명을 로그처럼 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "Cohen κ=.81",
+              "body": "【사례】Cohen κ=.81\n【원본】raw/20250312_T07.wav (SHA256 기록)\n【전사】Jefferson: (0.8) … (.) 침묵, [ ] 겹침\n【익명】학교명→S중, 지명→G구\n【QC】10% 재청취 오류율 1.2%\n【산출】transcripts/T07_v2.docx → NVivo import\n【로그】결측 발화 2건 [inaudible] 표기",
+              "relevance": "이 예시는 「Cohen κ=.81」 상황에서 「분석단위(단어, 문장, 기사 등) 설정」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 전처리는 원본 보존·전사 규칙·품질검사·파일명을 로그처럼 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "카이제곱 프레임×후보 p=.003",
+              "body": "【사례】카이제곱 프레임×후보 p=.003\n【원본】raw/20250312_T07.wav (SHA256 기록)\n【전사】Jefferson: (0.8) … (.) 침묵, [ ] 겹침\n【익명】학교명→S중, 지명→G구\n【QC】10% 재청취 오류율 1.2%\n【산출】transcripts/T07_v2.docx → NVivo import\n【로그】결측 발화 2건 [inaudible] 표기",
+              "relevance": "이 예시는 「카이제곱 프레임×후보 p=.003」 상황에서 「분석단위(단어, 문장, 기사 등) 설정」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 전처리는 원본 보존·전사 규칙·품질검사·파일명을 로그처럼 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "정치·경제 지면 비교",
+              "body": "【사례】정치·경제 지면 비교\n【원본】raw/20250312_T07.wav (SHA256 기록)\n【전사】Jefferson: (0.8) … (.) 침묵, [ ] 겹침\n【익명】학교명→S중, 지명→G구\n【QC】10% 재청취 오류율 1.2%\n【산출】transcripts/T07_v2.docx → NVivo import\n【로그】결측 발화 2건 [inaudible] 표기",
+              "relevance": "이 예시는 「정치·경제 지면 비교」 상황에서 「분석단위(단어, 문장, 기사 등) 설정」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 전처리는 원본 보존·전사 규칙·품질검사·파일명을 로그처럼 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "TV 선거보도 2주 180기사",
+              "body": "【사례】TV 선거보도 2주 180기사\n【원본】raw/20250312_T07.wav (SHA256 기록)\n【전사】Jefferson: (0.8) … (.) 침묵, [ ] 겹침\n【익명】학교명→S중, 지명→G구\n【QC】10% 재청취 오류율 1.2%\n【산출】transcripts/T07_v2.docx → NVivo import\n【로그】결측 발화 2건 [inaudible] 표기",
+              "relevance": "이 예시는 「TV 선거보도 2주 180기사」 상황에서 「분석단위(단어, 문장, 기사 등) 설정」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 전처리는 원본 보존·전사 규칙·품질검사·파일명을 로그처럼 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · 분석단위(단어, 문장, 기사 등) 설정",
+            "kind": "generic",
+            "hint": "이 태스크(분석단위(단어, 문장, 기사 등) 설정)의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": null,
+          "nextTaskId": "b11-t4",
+          "linkPrevStageTaskId": "b11-t2"
+        },
+        {
+          "id": "b11-t4",
+          "task": "2)코드북(codebook) 및 코딩지침서 개발하기",
+          "taskRaw": "2)코드북(codebook) 및 코딩지침서 개발하기",
+          "processKey": "preprocess",
+          "processLabel": "전처리(Preprocessing)",
+          "stageLabel": "①분석단위(단어, 문장, 기사 등) 설정 →②코드북(codebook) 및 코딩지침서 개발 →③코더 훈련 및 예비코딩(pilot coding) 실시",
+          "why": "이 절차적 태스크(Procedural Task) '2)코드북(codebook) 및 코딩지침서 개발하기'는 TX-002·코딩 아키타입(Content Analysis–Coding Archetype)의 '전처리' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "표준 흐름: 1) 분석단위(단어, 문장, 기사 등) 설정 → 2) 코드북(codebook) 및 코딩지침서 개발 → 3) 코더 훈련 및 예비코딩(pilot coding) 실시. 각 하위 절차를 문서에 남기며 순서대로 실행하고, 완료 여부를 체크합니다.",
+          "protocol": "원본은 보존하고 작업본에서만 수정합니다. 결측·이상치·코딩 규칙을 코드북(Codebook)에 기록합니다. 태스크 초점: 2)코드북(codebook) 및 코딩지침서 개발하기.",
+          "sampleExplain": "TX-002·코딩 맥락에서 '2)코드북(codebook) 및 코딩지침서 개발하기' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'2)코드북(codebook) 및 코딩지침서 개발하기'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'2)코드북(codebook) 및 코딩지침서 개발하기'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 응답 표에 빈칸·극단값 있음. 올바른 다음 행동은?",
+              "options": [
+                "결측치(Missing Value)와 이상치(Outlier)를 표시한 뒤 처리 규칙을 적용한다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 결측치(Missing Value)와 이상치(Outlier)를 표시한 뒤 처리 규칙을 적용한다.",
+              "usable": "실습: '응답 표에 빈칸·극단값 있음'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'2)코드북(codebook) 및 코딩지침서 개발하기'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "coding_generic",
+          "formFields": [
+            {
+              "key": "codebook",
+              "label": "코드북 조항(Codebook Entry)",
+              "type": "textarea",
+              "placeholder": "코드명·정의·포함/제외 기준"
+            },
+            {
+              "key": "excerpt",
+              "label": "자료발췌(Excerpt)",
+              "type": "textarea"
+            },
+            {
+              "key": "code",
+              "label": "코드(Code)",
+              "placeholder": "in-vivo / 개념코드"
+            },
+            {
+              "key": "category",
+              "label": "범주(Category)"
+            },
+            {
+              "key": "memo",
+              "label": "분석메모(Analytic Memo)",
+              "type": "textarea"
+            },
+            {
+              "key": "audit",
+              "label": "감사기록(Audit Trail)",
+              "placeholder": "일시·코더·합의"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "TV 선거보도 2주 180기사",
+              "body": "【출처】TV 선거보도 2주 180기사 · 면담 T07 (2025-03-12, 52분)\n【원문·줄번호】L34–L38\n  \"화면 공유 버튼이 안 보여서 … 아이들이랑 … 그냥 PPT만 돌렸어요.\"\n【in-vivo 코드】화면공유_실패\n【1차 범주】기술적 장벽(Technical Barrier)\n【메모】'그냥'은 차선책 → Axial: 조건(원격)·행위(대체수업)·결과(상호작용 감소)\n【코더】A,B 독립 → 불일치 1건 합의 → κ=.84",
+              "relevance": "이 예시는 「TV 선거보도 2주 180기사」 상황에서 「코드북(codebook) 및 코딩지침서 개발하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 개방코딩은 실제 발화 한 덩어리·줄번호·코드·왜 그 코드인지 메모까지 한 세트로 보여 줍니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "프레이밍 코드 12개",
+              "body": "【출처】프레이밍 코드 12개 · T03 L12–L15\n  \"연수는 많은데 … 우리 학교 상황이랑 … 맞는 예시가 없었어요.\"\n【코드】연수-현장_불일치\n【범주】제도-현장 간극(Policy-Practice Gap)\n【비교】T11 유사 발화 2건 → constant comparison\n【다음】Axial: 중재조건 '학년부장 지원' 연결 검토",
+              "relevance": "이 예시는 「프레이밍 코드 12개」 상황에서 「코드북(codebook) 및 코딩지침서 개발하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. QL-008·질적 코딩 태스크는 비슷한 발화끼리 묶는 과정을 적어야 합니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "Cohen κ=.81",
+              "body": "【출처】Cohen κ=.81 · 현장노트 FN-2025-03-08\n  \"키보드 소리만 길게 … 침묵 4.2초 … '네, 알겠습니다'\"\n【코드】침묵_수용\n【범주】적응적 순응\n【화용】Jefferson (4.2) 표기 유지\n【감사】코드 정의를 코드북 v0.4에 반영",
+              "relevance": "이 예시는 「Cohen κ=.81」 상황에서 「코드북(codebook) 및 코딩지침서 개발하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 현장·면담 혼합 시 노트와 전사를 같은 코드북으로 연결하는 예시입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "카이제곱 프레임×후보 p=.003",
+              "body": "【출처】카이제곱 프레임×후보 p=.003 · T15 L67–L71\n  \"아이들이 먼저 … '선생님, 링크요' … 그때부터는 … 제가 따라가기만 …\"\n【코드】역할_역전\n【범주】교사-학생 역할 재협상\n【선택코딩 후보】'따라가기' 반복 7/22명 → 핵심범주 검토",
+              "relevance": "이 예시는 「카이제곱 프레임×후보 p=.003」 상황에서 「코드북(codebook) 및 코딩지침서 개발하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 반복되는 표현(in-vivo)을 세어 핵심범주로 올리는 과정을 보여 줍니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "정치·경제 지면 비교",
+              "body": "【출처】정치·경제 지면 비교 · T02 L21–L24\n  \"학부모 문자가 … 부담 … 그래서 … 녹화본만 올렸어요.\"\n【코드】학부모_압력\n【범주】외부 이해관계자\n【삼각】공문 2건·동료 T05와 교차 확인",
+              "relevance": "이 예시는 「정치·경제 지면 비교」 상황에서 「코드북(codebook) 및 코딩지침서 개발하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 코딩만이 아니라 문서로 교차 확인한 흔적을 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · 코드북(codebook) 및 코딩지침서 개발하기",
+            "kind": "coding_generic",
+            "hint": "이 태스크(코드북(codebook) 및 코딩지침서 개발하기)의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": "b11-t3",
+          "nextTaskId": "b11-t5"
+        },
+        {
+          "id": "b11-t5",
+          "task": "3)코더 훈련 및 예비코딩(pilot coding) 실시하기",
+          "taskRaw": "3)코더 훈련 및 예비코딩(pilot coding) 실시하기",
+          "processKey": "preprocess",
+          "processLabel": "전처리(Preprocessing)",
+          "stageLabel": "①분석단위(단어, 문장, 기사 등) 설정 →②코드북(codebook) 및 코딩지침서 개발 →③코더 훈련 및 예비코딩(pilot coding) 실시",
+          "why": "이 절차적 태스크(Procedural Task) '3)코더 훈련 및 예비코딩(pilot coding) 실시하기'는 TX-002·코딩 아키타입(Content Analysis–Coding Archetype)의 '전처리' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "표준 흐름: 1) 분석단위(단어, 문장, 기사 등) 설정 → 2) 코드북(codebook) 및 코딩지침서 개발 → 3) 코더 훈련 및 예비코딩(pilot coding) 실시. 각 하위 절차를 문서에 남기며 순서대로 실행하고, 완료 여부를 체크합니다.",
+          "protocol": "원본은 보존하고 작업본에서만 수정합니다. 결측·이상치·코딩 규칙을 코드북(Codebook)에 기록합니다. 태스크 초점: 3)코더 훈련 및 예비코딩(pilot coding) 실시하기.",
+          "sampleExplain": "TX-002·코딩 맥락에서 '3)코더 훈련 및 예비코딩(pilot coding) 실시하기' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'3)코더 훈련 및 예비코딩(pilot coding) 실시하기'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'3)코더 훈련 및 예비코딩(pilot coding) 실시하기'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 응답 표에 빈칸·극단값 있음. 올바른 다음 행동은?",
+              "options": [
+                "결측치(Missing Value)와 이상치(Outlier)를 표시한 뒤 처리 규칙을 적용한다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 결측치(Missing Value)와 이상치(Outlier)를 표시한 뒤 처리 규칙을 적용한다.",
+              "usable": "실습: '응답 표에 빈칸·극단값 있음'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'3)코더 훈련 및 예비코딩(pilot coding) 실시하기'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "instrument_pilot",
+          "formFields": [
+            {
+              "key": "concept",
+              "label": "측정개념(Construct)",
+              "placeholder": "예: 직무만족"
+            },
+            {
+              "key": "items",
+              "label": "문항초안(Items)",
+              "type": "textarea",
+              "placeholder": "문항을 한 줄에 하나씩"
+            },
+            {
+              "key": "scale",
+              "label": "척도형식(Scale Format)",
+              "placeholder": "예: 5점 평정척도(등간형)(1전혀아니다~5매우그렇다)"
+            },
+            {
+              "key": "pilot_n",
+              "label": "예비조사 인원(Pilot n)",
+              "placeholder": "예: 40"
+            },
+            {
+              "key": "note",
+              "label": "수정메모(Revision Note)",
+              "placeholder": "예: 3번 문항 문구 수정"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "프레이밍 코드 12개",
+              "body": "【사례】프레이밍 코드 12개\n【원본】raw/20250312_T07.wav (SHA256 기록)\n【전사】Jefferson: (0.8) … (.) 침묵, [ ] 겹침\n【익명】학교명→S중, 지명→G구\n【QC】10% 재청취 오류율 1.2%\n【산출】transcripts/T07_v2.docx → NVivo import\n【로그】결측 발화 2건 [inaudible] 표기",
+              "relevance": "이 예시는 「프레이밍 코드 12개」 상황에서 「코더 훈련 및 예비코딩(pilot coding) 실시하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 전처리는 원본 보존·전사 규칙·품질검사·파일명을 로그처럼 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "Cohen κ=.81",
+              "body": "【사례】Cohen κ=.81\n【원본】raw/20250312_T07.wav (SHA256 기록)\n【전사】Jefferson: (0.8) … (.) 침묵, [ ] 겹침\n【익명】학교명→S중, 지명→G구\n【QC】10% 재청취 오류율 1.2%\n【산출】transcripts/T07_v2.docx → NVivo import\n【로그】결측 발화 2건 [inaudible] 표기",
+              "relevance": "이 예시는 「Cohen κ=.81」 상황에서 「코더 훈련 및 예비코딩(pilot coding) 실시하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 전처리는 원본 보존·전사 규칙·품질검사·파일명을 로그처럼 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "카이제곱 프레임×후보 p=.003",
+              "body": "【사례】카이제곱 프레임×후보 p=.003\n【원본】raw/20250312_T07.wav (SHA256 기록)\n【전사】Jefferson: (0.8) … (.) 침묵, [ ] 겹침\n【익명】학교명→S중, 지명→G구\n【QC】10% 재청취 오류율 1.2%\n【산출】transcripts/T07_v2.docx → NVivo import\n【로그】결측 발화 2건 [inaudible] 표기",
+              "relevance": "이 예시는 「카이제곱 프레임×후보 p=.003」 상황에서 「코더 훈련 및 예비코딩(pilot coding) 실시하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 전처리는 원본 보존·전사 규칙·품질검사·파일명을 로그처럼 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "정치·경제 지면 비교",
+              "body": "【사례】정치·경제 지면 비교\n【원본】raw/20250312_T07.wav (SHA256 기록)\n【전사】Jefferson: (0.8) … (.) 침묵, [ ] 겹침\n【익명】학교명→S중, 지명→G구\n【QC】10% 재청취 오류율 1.2%\n【산출】transcripts/T07_v2.docx → NVivo import\n【로그】결측 발화 2건 [inaudible] 표기",
+              "relevance": "이 예시는 「정치·경제 지면 비교」 상황에서 「코더 훈련 및 예비코딩(pilot coding) 실시하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 전처리는 원본 보존·전사 규칙·품질검사·파일명을 로그처럼 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "TV 선거보도 2주 180기사",
+              "body": "【사례】TV 선거보도 2주 180기사\n【원본】raw/20250312_T07.wav (SHA256 기록)\n【전사】Jefferson: (0.8) … (.) 침묵, [ ] 겹침\n【익명】학교명→S중, 지명→G구\n【QC】10% 재청취 오류율 1.2%\n【산출】transcripts/T07_v2.docx → NVivo import\n【로그】결측 발화 2건 [inaudible] 표기",
+              "relevance": "이 예시는 「TV 선거보도 2주 180기사」 상황에서 「코더 훈련 및 예비코딩(pilot coding) 실시하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 전처리는 원본 보존·전사 규칙·품질검사·파일명을 로그처럼 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · 코더 훈련 및 예비코딩(pilot coding) 실시하기",
+            "kind": "instrument_pilot",
+            "hint": "이 태스크(코더 훈련 및 예비코딩(pilot coding) 실시하기)의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": "b11-t4",
+          "nextTaskId": null
+        }
+      ],
+      "prevStageId": "collect-19443",
+      "nextStageId": "coding-88373"
+    },
+    {
+      "id": "coding-88373",
+      "processKey": "coding",
+      "processLabel": "코딩(Coding)",
+      "name": "①코드북 기반 범주코딩 수행(2인 이상 독립 코딩 권장) →②코더 간 불일치 사례 논의·조정 →③코더간 신뢰도(inter-coder reliability) 산출",
+      "name_ko": "①코드북 기반 범주코딩 수행(2인 이상 독립 코딩 권장) →②코더 간 불일치 사례 논의·조정 →③코더간 신뢰도(inter-coder reliability) 산출",
+      "procedure": "①코드북 기반 범주코딩 수행(2인 이상 독립 코딩 권장) →②코더 간 불일치 사례 논의·조정 →③코더간 신뢰도(inter-coder reliability) 산출",
+      "easy": "▸코드북(codebook): 어떤 내용에 어떤 표시를 붙일지 정한 규칙집.(예: '칭찬=C, 비난=B' 규칙표.)\n▸범주코딩(categorical coding):답을 몇 개의 묶음(범주)으로 나누어 표시.(예: 취미를 '운동/게임/독서'로 분류.)\n▸코더 간 불일치(coder disagreement): 채점자들이 다르게 분류한 경우.(예: 한 명은 '칭찬', 한 명은 '비난'.)\n▸코더간 신뢰도(inter-coder reliability): 여러 채점자가 얼마나 똑같이 분류했는지.(예: 두 사람 분류가 얼마나 일치하나.)",
+      "terms": [
+        {
+          "term": "코드북(codebook)",
+          "term_ko": "코드북",
+          "term_en": "codebook",
+          "definition": "어떤 내용에 어떤 표시를 붙일지 정한 규칙집. (예: '칭찬=C, 비난=B' 규칙표.)"
+        },
+        {
+          "term": "범주코딩(categorical coding)",
+          "term_ko": "범주코딩",
+          "term_en": "categorical coding",
+          "definition": "답을 몇 개의 묶음(범주)으로 나누어 표시. (예: 취미를 '운동/게임/독서'로 분류.)"
+        },
+        {
+          "term": "코더 간 불일치(coder disagreement)",
+          "term_ko": "코더 간 불일치",
+          "term_en": "coder disagreement",
+          "definition": "채점자들이 다르게 분류한 경우. (예: 한 명은 '칭찬', 한 명은 '비난'.)"
+        },
+        {
+          "term": "코더간 신뢰도(inter-coder reliability)",
+          "term_ko": "코더간 신뢰도",
+          "term_en": "inter-coder reliability",
+          "definition": "여러 채점자가 얼마나 똑같이 분류했는지. (예: 두 사람 분류가 얼마나 일치하나.)"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "b11-t6",
+          "task": "1)코드북 기반 범주코딩 수행(2인 이상 독립 코딩 권장)",
+          "taskRaw": "1)코드북 기반 범주코딩 수행(2인 이상 독립 코딩 권장)",
+          "processKey": "coding",
+          "processLabel": "코딩(Coding)",
+          "stageLabel": "①코드북 기반 범주코딩 수행(2인 이상 독립 코딩 권장) →②코더 간 불일치 사례 논의·조정 →③코더간 신뢰도(inter-coder reliability) 산출",
+          "why": "이 절차적 태스크(Procedural Task) '1)코드북 기반 범주코딩 수행(2인 이상 독립 코딩 권장)'는 TX-002·코딩 아키타입(Content Analysis–Coding Archetype)의 '코딩' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "표준 흐름: 1) 코드북 기반 범주코딩 수행(2인 이상 독립 코딩 권장) → 2) 코더 간 불일치 사례 논의·조정 → 3) 코더간 신뢰도(inter-coder reliability) 산출. 각 하위 절차를 문서에 남기며 순서대로 실행하고, 완료 여부를 체크합니다.",
+          "protocol": "코드북(Codebook)을 사전 정의하고, 이중코딩(Double Coding) 또는 동료검토로 일관성을 점검합니다. 태스크 초점: 1)코드북 기반 범주코딩 수행(2인 이상 독립 코딩 권장).",
+          "sampleExplain": "TX-002·코딩 맥락에서 '1)코드북 기반 범주코딩 수행(2인 이상 독립 코딩 권장)' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'1)코드북 기반 범주코딩 수행(2인 이상 독립 코딩 권장)'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'1)코드북 기반 범주코딩 수행(2인 이상 독립 코딩 권장)'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 인터뷰 문장 20개. 올바른 다음 행동은?",
+              "options": [
+                "비슷한 뜻끼리 코드(Code)를 붙이고 상위 범주(Category)로 묶는다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 비슷한 뜻끼리 코드(Code)를 붙이고 상위 범주(Category)로 묶는다.",
+              "usable": "실습: '인터뷰 문장 20개'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'1)코드북 기반 범주코딩 수행(2인 이상 독립 코딩 권장)'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "category_coding",
+          "formFields": [
+            {
+              "key": "codebook",
+              "label": "코드북 조항(Codebook Entry)",
+              "type": "textarea",
+              "placeholder": "코드명·정의·포함/제외 기준"
+            },
+            {
+              "key": "excerpt",
+              "label": "자료발췌(Excerpt)",
+              "type": "textarea"
+            },
+            {
+              "key": "code",
+              "label": "코드(Code)",
+              "placeholder": "in-vivo / 개념코드"
+            },
+            {
+              "key": "category",
+              "label": "범주(Category)"
+            },
+            {
+              "key": "memo",
+              "label": "분석메모(Analytic Memo)",
+              "type": "textarea"
+            },
+            {
+              "key": "audit",
+              "label": "감사기록(Audit Trail)",
+              "placeholder": "일시·코더·합의"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "카이제곱 프레임×후보 p=.003",
+              "body": "【코드북】카이제곱 프레임×후보 p=.003 · v0.6\n코드: C14_디지털_피로\n정의: 디지털 도구 사용과 감정적 소진을 동시에 언급\n포함: '지친다'+'화면/플랫폼' 공존\n제외: 단순 '바쁘다'만 있는 경우\n예: T07 L34–L38\nκ(A,B)=.86 (n=120 segment)",
+              "relevance": "이 예시는 「카이제곱 프레임×후보 p=.003」 상황에서 「코드북 기반 범주코딩 수행(2인 이상 독립 코딩 권장)」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 코드북 태스크는 정의·포함/제외·예시 인용·신뢰도를 한 카드에 모읍니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "정치·경제 지면 비교",
+              "body": "【코드북】정치·경제 지면 비교 · v0.6\n코드: C14_디지털_피로\n정의: 디지털 도구 사용과 감정적 소진을 동시에 언급\n포함: '지친다'+'화면/플랫폼' 공존\n제외: 단순 '바쁘다'만 있는 경우\n예: T07 L34–L38\nκ(A,B)=.86 (n=120 segment)",
+              "relevance": "이 예시는 「정치·경제 지면 비교」 상황에서 「코드북 기반 범주코딩 수행(2인 이상 독립 코딩 권장)」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 코드북 태스크는 정의·포함/제외·예시 인용·신뢰도를 한 카드에 모읍니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "TV 선거보도 2주 180기사",
+              "body": "【코드북】TV 선거보도 2주 180기사 · v0.6\n코드: C14_디지털_피로\n정의: 디지털 도구 사용과 감정적 소진을 동시에 언급\n포함: '지친다'+'화면/플랫폼' 공존\n제외: 단순 '바쁘다'만 있는 경우\n예: T07 L34–L38\nκ(A,B)=.86 (n=120 segment)",
+              "relevance": "이 예시는 「TV 선거보도 2주 180기사」 상황에서 「코드북 기반 범주코딩 수행(2인 이상 독립 코딩 권장)」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 코드북 태스크는 정의·포함/제외·예시 인용·신뢰도를 한 카드에 모읍니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "프레이밍 코드 12개",
+              "body": "【코드북】프레이밍 코드 12개 · v0.6\n코드: C14_디지털_피로\n정의: 디지털 도구 사용과 감정적 소진을 동시에 언급\n포함: '지친다'+'화면/플랫폼' 공존\n제외: 단순 '바쁘다'만 있는 경우\n예: T07 L34–L38\nκ(A,B)=.86 (n=120 segment)",
+              "relevance": "이 예시는 「프레이밍 코드 12개」 상황에서 「코드북 기반 범주코딩 수행(2인 이상 독립 코딩 권장)」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 코드북 태스크는 정의·포함/제외·예시 인용·신뢰도를 한 카드에 모읍니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "Cohen κ=.81",
+              "body": "【코드북】Cohen κ=.81 · v0.6\n코드: C14_디지털_피로\n정의: 디지털 도구 사용과 감정적 소진을 동시에 언급\n포함: '지친다'+'화면/플랫폼' 공존\n제외: 단순 '바쁘다'만 있는 경우\n예: T07 L34–L38\nκ(A,B)=.86 (n=120 segment)",
+              "relevance": "이 예시는 「Cohen κ=.81」 상황에서 「코드북 기반 범주코딩 수행(2인 이상 독립 코딩 권장)」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 코드북 태스크는 정의·포함/제외·예시 인용·신뢰도를 한 카드에 모읍니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · 코드북 기반 범주코딩 수행(2인 이상 독립 코딩 권장)",
+            "kind": "category_coding",
+            "hint": "이 태스크(코드북 기반 범주코딩 수행(2인 이상 독립 코딩 권장))의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": null,
+          "nextTaskId": "b11-t7",
+          "linkPrevStageTaskId": "b11-t5"
+        },
+        {
+          "id": "b11-t7",
+          "task": "2) 코더 간 불일치 사례 논의·조정하기(Procedural Task)",
+          "taskRaw": "2) 코더 간 불일치 사례 논의·조정하기",
+          "processKey": "coding",
+          "processLabel": "코딩(Coding)",
+          "stageLabel": "①코드북 기반 범주코딩 수행(2인 이상 독립 코딩 권장) →②코더 간 불일치 사례 논의·조정 →③코더간 신뢰도(inter-coder reliability) 산출",
+          "why": "이 절차적 태스크(Procedural Task) '2) 코더 간 불일치 사례 논의·조정하기'는 TX-002·코딩 아키타입(Content Analysis–Coding Archetype)의 '코딩' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "표준 흐름: 1) 코드북 기반 범주코딩 수행(2인 이상 독립 코딩 권장) → 2) 코더 간 불일치 사례 논의·조정 → 3) 코더간 신뢰도(inter-coder reliability) 산출. 각 하위 절차를 문서에 남기며 순서대로 실행하고, 완료 여부를 체크합니다.",
+          "protocol": "코드북(Codebook)을 사전 정의하고, 이중코딩(Double Coding) 또는 동료검토로 일관성을 점검합니다. 태스크 초점: 2) 코더 간 불일치 사례 논의·조정하기.",
+          "sampleExplain": "TX-002·코딩 맥락에서 '2) 코더 간 불일치 사례 논의·조정하기' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'2) 코더 간 불일치 사례 논의·조정하기'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'2) 코더 간 불일치 사례 논의·조정하기'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 인터뷰 문장 20개. 올바른 다음 행동은?",
+              "options": [
+                "비슷한 뜻끼리 코드(Code)를 붙이고 상위 범주(Category)로 묶는다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 비슷한 뜻끼리 코드(Code)를 붙이고 상위 범주(Category)로 묶는다.",
+              "usable": "실습: '인터뷰 문장 20개'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'2) 코더 간 불일치 사례 논의·조정하기'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "generic",
+          "formFields": [
+            {
+              "key": "context",
+              "label": "연구·현장 맥락(Context)",
+              "placeholder": "누구·어디·언제"
+            },
+            {
+              "key": "input",
+              "label": "입력자료(Input Materials)",
+              "type": "textarea",
+              "placeholder": "파일명·건수·출처"
+            },
+            {
+              "key": "procedure",
+              "label": "실행 절차(Procedure Steps)",
+              "type": "textarea",
+              "placeholder": "순서·도구·소요"
+            },
+            {
+              "key": "output",
+              "label": "산출물(Output)",
+              "type": "textarea",
+              "placeholder": "표·코드북·로그·파일"
+            },
+            {
+              "key": "quality",
+              "label": "품질·윤리 점검(Quality & Ethics)",
+              "placeholder": "동의·익명·검증"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "프레이밍 코드 12개",
+              "body": "【코드북】프레이밍 코드 12개 · v0.6\n코드: C14_디지털_피로\n정의: 디지털 도구 사용과 감정적 소진을 동시에 언급\n포함: '지친다'+'화면/플랫폼' 공존\n제외: 단순 '바쁘다'만 있는 경우\n예: T07 L34–L38\nκ(A,B)=.86 (n=120 segment)",
+              "relevance": "이 예시는 「프레이밍 코드 12개」 상황에서 「코더 간 불일치 사례 논의·조정하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 코드북 태스크는 정의·포함/제외·예시 인용·신뢰도를 한 카드에 모읍니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "Cohen κ=.81",
+              "body": "【코드북】Cohen κ=.81 · v0.6\n코드: C14_디지털_피로\n정의: 디지털 도구 사용과 감정적 소진을 동시에 언급\n포함: '지친다'+'화면/플랫폼' 공존\n제외: 단순 '바쁘다'만 있는 경우\n예: T07 L34–L38\nκ(A,B)=.86 (n=120 segment)",
+              "relevance": "이 예시는 「Cohen κ=.81」 상황에서 「코더 간 불일치 사례 논의·조정하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 코드북 태스크는 정의·포함/제외·예시 인용·신뢰도를 한 카드에 모읍니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "카이제곱 프레임×후보 p=.003",
+              "body": "【코드북】카이제곱 프레임×후보 p=.003 · v0.6\n코드: C14_디지털_피로\n정의: 디지털 도구 사용과 감정적 소진을 동시에 언급\n포함: '지친다'+'화면/플랫폼' 공존\n제외: 단순 '바쁘다'만 있는 경우\n예: T07 L34–L38\nκ(A,B)=.86 (n=120 segment)",
+              "relevance": "이 예시는 「카이제곱 프레임×후보 p=.003」 상황에서 「코더 간 불일치 사례 논의·조정하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 코드북 태스크는 정의·포함/제외·예시 인용·신뢰도를 한 카드에 모읍니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "정치·경제 지면 비교",
+              "body": "【코드북】정치·경제 지면 비교 · v0.6\n코드: C14_디지털_피로\n정의: 디지털 도구 사용과 감정적 소진을 동시에 언급\n포함: '지친다'+'화면/플랫폼' 공존\n제외: 단순 '바쁘다'만 있는 경우\n예: T07 L34–L38\nκ(A,B)=.86 (n=120 segment)",
+              "relevance": "이 예시는 「정치·경제 지면 비교」 상황에서 「코더 간 불일치 사례 논의·조정하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 코드북 태스크는 정의·포함/제외·예시 인용·신뢰도를 한 카드에 모읍니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "TV 선거보도 2주 180기사",
+              "body": "【코드북】TV 선거보도 2주 180기사 · v0.6\n코드: C14_디지털_피로\n정의: 디지털 도구 사용과 감정적 소진을 동시에 언급\n포함: '지친다'+'화면/플랫폼' 공존\n제외: 단순 '바쁘다'만 있는 경우\n예: T07 L34–L38\nκ(A,B)=.86 (n=120 segment)",
+              "relevance": "이 예시는 「TV 선거보도 2주 180기사」 상황에서 「코더 간 불일치 사례 논의·조정하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 코드북 태스크는 정의·포함/제외·예시 인용·신뢰도를 한 카드에 모읍니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · 코더 간 불일치 사례 논의·조정하기",
+            "kind": "generic",
+            "hint": "이 태스크(코더 간 불일치 사례 논의·조정하기)의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": "b11-t6",
+          "nextTaskId": "b11-t8"
+        },
+        {
+          "id": "b11-t8",
+          "task": "3)코더간 신뢰도(inter-coder reliability) 산출하기",
+          "taskRaw": "3)코더간 신뢰도(inter-coder reliability) 산출하기",
+          "processKey": "coding",
+          "processLabel": "코딩(Coding)",
+          "stageLabel": "①코드북 기반 범주코딩 수행(2인 이상 독립 코딩 권장) →②코더 간 불일치 사례 논의·조정 →③코더간 신뢰도(inter-coder reliability) 산출",
+          "why": "이 절차적 태스크(Procedural Task) '3)코더간 신뢰도(inter-coder reliability) 산출하기'는 TX-002·코딩 아키타입(Content Analysis–Coding Archetype)의 '코딩' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "표준 흐름: 1) 코드북 기반 범주코딩 수행(2인 이상 독립 코딩 권장) → 2) 코더 간 불일치 사례 논의·조정 → 3) 코더간 신뢰도(inter-coder reliability) 산출. 각 하위 절차를 문서에 남기며 순서대로 실행하고, 완료 여부를 체크합니다.",
+          "protocol": "코드북(Codebook)을 사전 정의하고, 이중코딩(Double Coding) 또는 동료검토로 일관성을 점검합니다. 태스크 초점: 3)코더간 신뢰도(inter-coder reliability) 산출하기.",
+          "sampleExplain": "TX-002·코딩 맥락에서 '3)코더간 신뢰도(inter-coder reliability) 산출하기' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'3)코더간 신뢰도(inter-coder reliability) 산출하기'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'3)코더간 신뢰도(inter-coder reliability) 산출하기'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 인터뷰 문장 20개. 올바른 다음 행동은?",
+              "options": [
+                "비슷한 뜻끼리 코드(Code)를 붙이고 상위 범주(Category)로 묶는다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 비슷한 뜻끼리 코드(Code)를 붙이고 상위 범주(Category)로 묶는다.",
+              "usable": "실습: '인터뷰 문장 20개'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'3)코더간 신뢰도(inter-coder reliability) 산출하기'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "reliability_validity",
+          "formFields": [
+            {
+              "key": "scale_name",
+              "label": "척도명(Scale Name)",
+              "placeholder": "예: 직무만족"
+            },
+            {
+              "key": "alpha",
+              "label": "Cronbach α",
+              "placeholder": "예: .86"
+            },
+            {
+              "key": "validity",
+              "label": "타당도 결과(Validity)",
+              "type": "textarea",
+              "placeholder": "예: 1요인, 적재량 .62~.81"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "프레이밍 코드 12개",
+              "body": "【코드북】프레이밍 코드 12개 · v0.6\n코드: C14_디지털_피로\n정의: 디지털 도구 사용과 감정적 소진을 동시에 언급\n포함: '지친다'+'화면/플랫폼' 공존\n제외: 단순 '바쁘다'만 있는 경우\n예: T07 L34–L38\nκ(A,B)=.86 (n=120 segment)",
+              "relevance": "이 예시는 「프레이밍 코드 12개」 상황에서 「코더간 신뢰도(inter-coder reliability) 산출하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 코드북 태스크는 정의·포함/제외·예시 인용·신뢰도를 한 카드에 모읍니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "Cohen κ=.81",
+              "body": "【코드북】Cohen κ=.81 · v0.6\n코드: C14_디지털_피로\n정의: 디지털 도구 사용과 감정적 소진을 동시에 언급\n포함: '지친다'+'화면/플랫폼' 공존\n제외: 단순 '바쁘다'만 있는 경우\n예: T07 L34–L38\nκ(A,B)=.86 (n=120 segment)",
+              "relevance": "이 예시는 「Cohen κ=.81」 상황에서 「코더간 신뢰도(inter-coder reliability) 산출하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 코드북 태스크는 정의·포함/제외·예시 인용·신뢰도를 한 카드에 모읍니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "카이제곱 프레임×후보 p=.003",
+              "body": "【코드북】카이제곱 프레임×후보 p=.003 · v0.6\n코드: C14_디지털_피로\n정의: 디지털 도구 사용과 감정적 소진을 동시에 언급\n포함: '지친다'+'화면/플랫폼' 공존\n제외: 단순 '바쁘다'만 있는 경우\n예: T07 L34–L38\nκ(A,B)=.86 (n=120 segment)",
+              "relevance": "이 예시는 「카이제곱 프레임×후보 p=.003」 상황에서 「코더간 신뢰도(inter-coder reliability) 산출하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 코드북 태스크는 정의·포함/제외·예시 인용·신뢰도를 한 카드에 모읍니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "정치·경제 지면 비교",
+              "body": "【코드북】정치·경제 지면 비교 · v0.6\n코드: C14_디지털_피로\n정의: 디지털 도구 사용과 감정적 소진을 동시에 언급\n포함: '지친다'+'화면/플랫폼' 공존\n제외: 단순 '바쁘다'만 있는 경우\n예: T07 L34–L38\nκ(A,B)=.86 (n=120 segment)",
+              "relevance": "이 예시는 「정치·경제 지면 비교」 상황에서 「코더간 신뢰도(inter-coder reliability) 산출하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 코드북 태스크는 정의·포함/제외·예시 인용·신뢰도를 한 카드에 모읍니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "TV 선거보도 2주 180기사",
+              "body": "【코드북】TV 선거보도 2주 180기사 · v0.6\n코드: C14_디지털_피로\n정의: 디지털 도구 사용과 감정적 소진을 동시에 언급\n포함: '지친다'+'화면/플랫폼' 공존\n제외: 단순 '바쁘다'만 있는 경우\n예: T07 L34–L38\nκ(A,B)=.86 (n=120 segment)",
+              "relevance": "이 예시는 「TV 선거보도 2주 180기사」 상황에서 「코더간 신뢰도(inter-coder reliability) 산출하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 코드북 태스크는 정의·포함/제외·예시 인용·신뢰도를 한 카드에 모읍니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · 코더간 신뢰도(inter-coder reliability) 산출하기",
+            "kind": "reliability_validity",
+            "hint": "이 태스크(코더간 신뢰도(inter-coder reliability) 산출하기)의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": "b11-t7",
+          "nextTaskId": null
+        }
+      ],
+      "prevStageId": "preprocess-84667",
+      "nextStageId": "stats-29374"
+    },
+    {
+      "id": "stats-29374",
+      "processKey": "stats",
+      "processLabel": "통계기법(Statistical Technique)",
+      "name": "①코드 빈도·백분율 산출(기술통계) →②Cohen's Kappa 또는 Krippendorff's alpha로 코더간 신뢰도 검정 →③필요시 카이제곱검정으로 범주 간 연관성 검정",
+      "name_ko": "①코드 빈도·백분율 산출(기술통계) →②Cohen's Kappa 또는 Krippendorff's alpha로 코더간 신뢰도 검정 →③필요시 카이제곱검정으로 범주 간 연관성 검정",
+      "procedure": "①코드 빈도·백분율 산출(기술통계) →②Cohen's Kappa 또는 Krippendorff's alpha로 코더간 신뢰도 검정 →③필요시 카이제곱검정으로 범주 간 연관성 검정",
+      "easy": "▸빈도(frequency): 몇 번 나왔는지 횟수.(예: '사과'를 12명이 골랐다.)\n▸기술통계(descriptive statistics): 자료를 요약해 보여주는 통계.(예: 평균·최댓값·빈도 정리.)\n▸ Cohen's Kappa(코헨 카파): 두 채점자의 일치도를 우연을 빼고 잰 값.(예: 두 사람 분류가 진짜로 얼마나 맞나.)\n▸ Krippendorff's alpha(크리펜도르프 알파): 여러 채점자의 일치도를 재는 값.(예: 여럿이 얼마나 똑같이 분류했나.)\n▸코더간 신뢰도(inter-coder reliability): 여러 채점자가 얼마나 똑같이 분류했는지.(예: 두 사람 분류가 얼마나 일치하나.)\n▸카이제곱검정(chi-square test):범주(종류)들 사이 관계가 있는지 검사.(예: 성별과 좋아하는 과목 관계.)",
+      "terms": [
+        {
+          "term": "빈도(frequency)",
+          "term_ko": "빈도",
+          "term_en": "frequency",
+          "definition": "몇 번 나왔는지 횟수. (예: '사과'를 12명이 골랐다.)"
+        },
+        {
+          "term": "기술통계(descriptive statistics)",
+          "term_ko": "기술통계",
+          "term_en": "descriptive statistics",
+          "definition": "자료를 요약해 보여주는 통계. (예: 평균·최댓값·빈도 정리.)"
+        },
+        {
+          "term": "Cohen's Kappa(코헨 카파)",
+          "term_ko": "Cohen's Kappa",
+          "term_en": "코헨 카파",
+          "definition": "두 채점자의 일치도를 우연을 빼고 잰 값. (예: 두 사람 분류가 진짜로 얼마나 맞나.)"
+        },
+        {
+          "term": "Krippendorff's alpha(크리펜도르프 알파)",
+          "term_ko": "Krippendorff's alpha",
+          "term_en": "크리펜도르프 알파",
+          "definition": "여러 채점자의 일치도를 재는 값. (예: 여럿이 얼마나 똑같이 분류했나.)"
+        },
+        {
+          "term": "코더간 신뢰도(inter-coder reliability)",
+          "term_ko": "코더간 신뢰도",
+          "term_en": "inter-coder reliability",
+          "definition": "여러 채점자가 얼마나 똑같이 분류했는지. (예: 두 사람 분류가 얼마나 일치하나.)"
+        },
+        {
+          "term": "카이제곱검정(chi-square test)",
+          "term_ko": "카이제곱검정",
+          "term_en": "chi-square test",
+          "definition": "범주(종류)들 사이 관계가 있는지 검사. (예: 성별과 좋아하는 과목 관계.)"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "b11-t9",
+          "task": "1)코드 빈도·백분율 산출(기술통계)",
+          "taskRaw": "1)코드 빈도·백분율 산출(기술통계)",
+          "processKey": "stats",
+          "processLabel": "통계기법(Statistical Technique)",
+          "stageLabel": "①코드 빈도·백분율 산출(기술통계) →②Cohen's Kappa 또는 Krippendorff's alpha로 코더간 신뢰도 검정 →③필요시 카이제곱검정으로 범주 간 연관성 검정",
+          "why": "이 절차적 태스크(Procedural Task) '1)코드 빈도·백분율 산출(기술통계)'는 TX-002·코딩 아키타입(Content Analysis–Coding Archetype)의 '통계기법' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "표준 흐름: 1) 코드 빈도·백분율 산출(기술통계) → 2) Cohen's Kappa 또는 Krippendorff's alpha로 코더간 신뢰도 검정 → 3) 필요시 카이제곱검정으로 범주 간 연관성 검정. 각 하위 절차를 문서에 남기며 순서대로 실행하고, 완료 여부를 체크합니다.",
+          "protocol": "분석 전 가정 검토(Assumption Checking)를 수행하고, 사용한 모형·소프트웨어·옵션을 재현 가능하게 기록합니다. 태스크 초점: 1)코드 빈도·백분율 산출(기술통계).",
+          "sampleExplain": "TX-002·코딩 맥락에서 '1)코드 빈도·백분율 산출(기술통계)' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'1)코드 빈도·백분율 산출(기술통계)'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'1)코드 빈도·백분율 산출(기술통계)'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 두 반 평균 점수 비교. 올바른 다음 행동은?",
+              "options": [
+                "기술통계(Descriptive Statistics) 후 t검정(t-test) 가정을 점검한다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 기술통계(Descriptive Statistics) 후 t검정(t-test) 가정을 점검한다.",
+              "usable": "실습: '두 반 평균 점수 비교'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'1)코드 빈도·백분율 산출(기술통계)'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "descriptive",
+          "formFields": [
+            {
+              "key": "var",
+              "label": "변수(Variable)",
+              "placeholder": "예: 직무만족"
+            },
+            {
+              "key": "stats",
+              "label": "기술통계(Descriptives)",
+              "type": "textarea",
+              "placeholder": "평균, SD, 범위, 빈도"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "Cohen κ=.81",
+              "body": "【분석】Cohen κ=.81 · 기술통계\nN=389, 직무만족 M=3.62, SD=0.71, 왜도=−0.18, 첨도=0.04\n성별: 남 203(52.2%), 여 186(47.8%)\nCronbach α=.89 (8문항)\n【표】Table 1. Sample characteristics (APA)",
+              "relevance": "이 예시는 「Cohen κ=.81」 상황에서 「코드 빈도·백분율 산출(기술통계)」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 기술통계 태스크는 N·평균·SD·빈도를 실제 숫자로 채운 표 형식이어야 합니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "카이제곱 프레임×후보 p=.003",
+              "body": "【가설】H1: 실험>대조 (직무만족)\nLevene p=.31 → t(387)=2.91, p=.004, Cohen d=0.37\n실험 M=3.78 (SD=.68), 대조 M=3.51 (SD=.74)\n【보고】95% CI diff [0.09, 0.45]",
+              "relevance": "이 예시는 「카이제곱 프레임×후보 p=.003」 상황에서 「코드 빈도·백분율 산출(기술통계)」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. t검정·ANOVA 태스크는 가정검정→검정통계량→효과크기 순으로 적습니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "정치·경제 지면 비교",
+              "body": "【모형】OLS: 만족 ~ 스트레스 + 지원 + 성별\nF(3,385)=42.1, p<.001, R²adj=.234\nβ(스트레스)=−.31, SE=.06, p<.001; VIFmax=1.8\n【잔차】Durbin-Watson=1.97",
+              "relevance": "이 예시는 「정치·경제 지면 비교」 상황에서 「코드 빈도·백분율 산출(기술통계)」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 회귀 예시는 계수표·모형적합·다중공선성을 함께 제시합니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "TV 선거보도 2주 180기사",
+              "body": "【SEM】CFA 3요인, n=389\nχ²/df=1.82, CFI=.962, TLI=.951, RMSEA=.046 [.038–.054], SRMR=.038\n적재량 .62–.84\n【경로】조직지지 → 몰입 β=.42*** → 이직의도 β=−.28***",
+              "relevance": "이 예시는 「TV 선거보도 2주 180기사」 상황에서 「코드 빈도·백분율 산출(기술통계)」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. SEM/요인 태스크는 적합도 지수와 경로를 구분해 적습니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "프레이밍 코드 12개",
+              "body": "【메타】k=18 RCT, random effects\nPooled SMD=0.41, 95% CI [0.28, 0.54], I²=42%, τ²=.04\nEgger p=.18, funnel 대칭\n【민감】고위험 편향 3편 제외 후 SMD=0.38",
+              "relevance": "이 예시는 「프레이밍 코드 12개」 상황에서 「코드 빈도·백분율 산출(기술통계)」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 메타분석은 효과크기·이질성·편향 점검을 한 블록으로 씁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · 코드 빈도·백분율 산출(기술통계)",
+            "kind": "descriptive",
+            "hint": "이 태스크(코드 빈도·백분율 산출(기술통계))의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": null,
+          "nextTaskId": "b11-t10",
+          "linkPrevStageTaskId": "b11-t8"
+        },
+        {
+          "id": "b11-t10",
+          "task": "2) Cohen's Kappa 또는 Krippendorff's alpha로 코더간 신뢰도 검정(Procedural Task)",
+          "taskRaw": "2) Cohen's Kappa 또는 Krippendorff's alpha로 코더간 신뢰도 검정",
+          "processKey": "stats",
+          "processLabel": "통계기법(Statistical Technique)",
+          "stageLabel": "①코드 빈도·백분율 산출(기술통계) →②Cohen's Kappa 또는 Krippendorff's alpha로 코더간 신뢰도 검정 →③필요시 카이제곱검정으로 범주 간 연관성 검정",
+          "why": "이 절차적 태스크(Procedural Task) '2) Cohen's Kappa 또는 Krippendorff's alpha로 코더간 신뢰도 검정'는 TX-002·코딩 아키타입(Content Analysis–Coding Archetype)의 '통계기법' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "표준 흐름: 1) 코드 빈도·백분율 산출(기술통계) → 2) Cohen's Kappa 또는 Krippendorff's alpha로 코더간 신뢰도 검정 → 3) 필요시 카이제곱검정으로 범주 간 연관성 검정. 각 하위 절차를 문서에 남기며 순서대로 실행하고, 완료 여부를 체크합니다.",
+          "protocol": "분석 전 가정 검토(Assumption Checking)를 수행하고, 사용한 모형·소프트웨어·옵션을 재현 가능하게 기록합니다. 태스크 초점: 2) Cohen's Kappa 또는 Krippendorff's alpha로 코더간 신뢰도 검정.",
+          "sampleExplain": "TX-002·코딩 맥락에서 '2) Cohen's Kappa 또는 Krippendorff's alpha로 코더간 신뢰도 검정' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'2) Cohen's Kappa 또는 Krippendorff's alpha로 코더간 신뢰도 검정'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'2) Cohen's Kappa 또는 Krippendorff's alpha로 코더간 신뢰도 검정'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 두 반 평균 점수 비교. 올바른 다음 행동은?",
+              "options": [
+                "기술통계(Descriptive Statistics) 후 t검정(t-test) 가정을 점검한다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 기술통계(Descriptive Statistics) 후 t검정(t-test) 가정을 점검한다.",
+              "usable": "실습: '두 반 평균 점수 비교'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'2) Cohen's Kappa 또는 Krippendorff's alpha로 코더간 신뢰도 검정'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "reliability_validity",
+          "formFields": [
+            {
+              "key": "scale_name",
+              "label": "척도명(Scale Name)",
+              "placeholder": "예: 직무만족"
+            },
+            {
+              "key": "alpha",
+              "label": "Cronbach α",
+              "placeholder": "예: .86"
+            },
+            {
+              "key": "validity",
+              "label": "타당도 결과(Validity)",
+              "type": "textarea",
+              "placeholder": "예: 1요인, 적재량 .62~.81"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "Cohen κ=.81",
+              "body": "【분석】Cohen κ=.81 · 기술통계\nN=389, 직무만족 M=3.62, SD=0.71, 왜도=−0.18, 첨도=0.04\n성별: 남 203(52.2%), 여 186(47.8%)\nCronbach α=.89 (8문항)\n【표】Table 1. Sample characteristics (APA)",
+              "relevance": "이 예시는 「Cohen κ=.81」 상황에서 「Cohen's Kappa 또는 Krippendorff's alpha로 코더간 신뢰도 검정」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 기술통계 태스크는 N·평균·SD·빈도를 실제 숫자로 채운 표 형식이어야 합니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "카이제곱 프레임×후보 p=.003",
+              "body": "【가설】H1: 실험>대조 (직무만족)\nLevene p=.31 → t(387)=2.91, p=.004, Cohen d=0.37\n실험 M=3.78 (SD=.68), 대조 M=3.51 (SD=.74)\n【보고】95% CI diff [0.09, 0.45]",
+              "relevance": "이 예시는 「카이제곱 프레임×후보 p=.003」 상황에서 「Cohen's Kappa 또는 Krippendorff's alpha로 코더간 신뢰도 검정」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. t검정·ANOVA 태스크는 가정검정→검정통계량→효과크기 순으로 적습니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "정치·경제 지면 비교",
+              "body": "【모형】OLS: 만족 ~ 스트레스 + 지원 + 성별\nF(3,385)=42.1, p<.001, R²adj=.234\nβ(스트레스)=−.31, SE=.06, p<.001; VIFmax=1.8\n【잔차】Durbin-Watson=1.97",
+              "relevance": "이 예시는 「정치·경제 지면 비교」 상황에서 「Cohen's Kappa 또는 Krippendorff's alpha로 코더간 신뢰도 검정」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 회귀 예시는 계수표·모형적합·다중공선성을 함께 제시합니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "TV 선거보도 2주 180기사",
+              "body": "【SEM】CFA 3요인, n=389\nχ²/df=1.82, CFI=.962, TLI=.951, RMSEA=.046 [.038–.054], SRMR=.038\n적재량 .62–.84\n【경로】조직지지 → 몰입 β=.42*** → 이직의도 β=−.28***",
+              "relevance": "이 예시는 「TV 선거보도 2주 180기사」 상황에서 「Cohen's Kappa 또는 Krippendorff's alpha로 코더간 신뢰도 검정」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. SEM/요인 태스크는 적합도 지수와 경로를 구분해 적습니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "프레이밍 코드 12개",
+              "body": "【메타】k=18 RCT, random effects\nPooled SMD=0.41, 95% CI [0.28, 0.54], I²=42%, τ²=.04\nEgger p=.18, funnel 대칭\n【민감】고위험 편향 3편 제외 후 SMD=0.38",
+              "relevance": "이 예시는 「프레이밍 코드 12개」 상황에서 「Cohen's Kappa 또는 Krippendorff's alpha로 코더간 신뢰도 검정」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 메타분석은 효과크기·이질성·편향 점검을 한 블록으로 씁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · Cohen's Kappa 또는 Krippendorff's alpha로 코더간 신뢰도 검정",
+            "kind": "reliability_validity",
+            "hint": "이 태스크(Cohen's Kappa 또는 Krippendorff's alpha로 코더간 신뢰도 검정)의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": "b11-t9",
+          "nextTaskId": "b11-t11"
+        },
+        {
+          "id": "b11-t11",
+          "task": "3) 필요시 카이제곱검정으로 범주 간 연관성 검정(Procedural Task)",
+          "taskRaw": "3) 필요시 카이제곱검정으로 범주 간 연관성 검정",
+          "processKey": "stats",
+          "processLabel": "통계기법(Statistical Technique)",
+          "stageLabel": "①코드 빈도·백분율 산출(기술통계) →②Cohen's Kappa 또는 Krippendorff's alpha로 코더간 신뢰도 검정 →③필요시 카이제곱검정으로 범주 간 연관성 검정",
+          "why": "이 절차적 태스크(Procedural Task) '3) 필요시 카이제곱검정으로 범주 간 연관성 검정'는 TX-002·코딩 아키타입(Content Analysis–Coding Archetype)의 '통계기법' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "표준 흐름: 1) 코드 빈도·백분율 산출(기술통계) → 2) Cohen's Kappa 또는 Krippendorff's alpha로 코더간 신뢰도 검정 → 3) 필요시 카이제곱검정으로 범주 간 연관성 검정. 각 하위 절차를 문서에 남기며 순서대로 실행하고, 완료 여부를 체크합니다.",
+          "protocol": "분석 전 가정 검토(Assumption Checking)를 수행하고, 사용한 모형·소프트웨어·옵션을 재현 가능하게 기록합니다. 태스크 초점: 3) 필요시 카이제곱검정으로 범주 간 연관성 검정.",
+          "sampleExplain": "TX-002·코딩 맥락에서 '3) 필요시 카이제곱검정으로 범주 간 연관성 검정' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'3) 필요시 카이제곱검정으로 범주 간 연관성 검정'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'3) 필요시 카이제곱검정으로 범주 간 연관성 검정'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 두 반 평균 점수 비교. 올바른 다음 행동은?",
+              "options": [
+                "기술통계(Descriptive Statistics) 후 t검정(t-test) 가정을 점검한다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 기술통계(Descriptive Statistics) 후 t검정(t-test) 가정을 점검한다.",
+              "usable": "실습: '두 반 평균 점수 비교'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'3) 필요시 카이제곱검정으로 범주 간 연관성 검정'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "generic",
+          "formFields": [
+            {
+              "key": "context",
+              "label": "연구·현장 맥락(Context)",
+              "placeholder": "누구·어디·언제"
+            },
+            {
+              "key": "input",
+              "label": "입력자료(Input Materials)",
+              "type": "textarea",
+              "placeholder": "파일명·건수·출처"
+            },
+            {
+              "key": "procedure",
+              "label": "실행 절차(Procedure Steps)",
+              "type": "textarea",
+              "placeholder": "순서·도구·소요"
+            },
+            {
+              "key": "output",
+              "label": "산출물(Output)",
+              "type": "textarea",
+              "placeholder": "표·코드북·로그·파일"
+            },
+            {
+              "key": "quality",
+              "label": "품질·윤리 점검(Quality & Ethics)",
+              "placeholder": "동의·익명·검증"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "프레이밍 코드 12개",
+              "body": "【분석】프레이밍 코드 12개 · 기술통계\nN=389, 직무만족 M=3.62, SD=0.71, 왜도=−0.18, 첨도=0.04\n성별: 남 203(52.2%), 여 186(47.8%)\nCronbach α=.89 (8문항)\n【표】Table 1. Sample characteristics (APA)",
+              "relevance": "이 예시는 「프레이밍 코드 12개」 상황에서 「필요시 카이제곱검정으로 범주 간 연관성 검정」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 기술통계 태스크는 N·평균·SD·빈도를 실제 숫자로 채운 표 형식이어야 합니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "Cohen κ=.81",
+              "body": "【가설】H1: 실험>대조 (직무만족)\nLevene p=.31 → t(387)=2.91, p=.004, Cohen d=0.37\n실험 M=3.78 (SD=.68), 대조 M=3.51 (SD=.74)\n【보고】95% CI diff [0.09, 0.45]",
+              "relevance": "이 예시는 「Cohen κ=.81」 상황에서 「필요시 카이제곱검정으로 범주 간 연관성 검정」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. t검정·ANOVA 태스크는 가정검정→검정통계량→효과크기 순으로 적습니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "카이제곱 프레임×후보 p=.003",
+              "body": "【모형】OLS: 만족 ~ 스트레스 + 지원 + 성별\nF(3,385)=42.1, p<.001, R²adj=.234\nβ(스트레스)=−.31, SE=.06, p<.001; VIFmax=1.8\n【잔차】Durbin-Watson=1.97",
+              "relevance": "이 예시는 「카이제곱 프레임×후보 p=.003」 상황에서 「필요시 카이제곱검정으로 범주 간 연관성 검정」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 회귀 예시는 계수표·모형적합·다중공선성을 함께 제시합니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "정치·경제 지면 비교",
+              "body": "【SEM】CFA 3요인, n=389\nχ²/df=1.82, CFI=.962, TLI=.951, RMSEA=.046 [.038–.054], SRMR=.038\n적재량 .62–.84\n【경로】조직지지 → 몰입 β=.42*** → 이직의도 β=−.28***",
+              "relevance": "이 예시는 「정치·경제 지면 비교」 상황에서 「필요시 카이제곱검정으로 범주 간 연관성 검정」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. SEM/요인 태스크는 적합도 지수와 경로를 구분해 적습니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "TV 선거보도 2주 180기사",
+              "body": "【메타】k=18 RCT, random effects\nPooled SMD=0.41, 95% CI [0.28, 0.54], I²=42%, τ²=.04\nEgger p=.18, funnel 대칭\n【민감】고위험 편향 3편 제외 후 SMD=0.38",
+              "relevance": "이 예시는 「TV 선거보도 2주 180기사」 상황에서 「필요시 카이제곱검정으로 범주 간 연관성 검정」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 메타분석은 효과크기·이질성·편향 점검을 한 블록으로 씁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · 필요시 카이제곱검정으로 범주 간 연관성 검정",
+            "kind": "generic",
+            "hint": "이 태스크(필요시 카이제곱검정으로 범주 간 연관성 검정)의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": "b11-t10",
+          "nextTaskId": null
+        }
+      ],
+      "prevStageId": "coding-88373",
+      "nextStageId": "result-72642"
+    },
+    {
+      "id": "result-72642",
+      "processKey": "result",
+      "processLabel": "결과도출(Result Derivation)",
+      "name": "①빈도·신뢰도 결과를 바탕으로 범주별 패턴 요약 →②범주 간 관계를 통계적으로 해석",
+      "name_ko": "①빈도·신뢰도 결과를 바탕으로 범주별 패턴 요약 →②범주 간 관계를 통계적으로 해석",
+      "procedure": "①빈도·신뢰도 결과를 바탕으로 범주별 패턴 요약 →②범주 간 관계를 통계적으로 해석",
+      "easy": "▸빈도(frequency): 몇 번 나왔는지 횟수.(예: '사과'를 12명이 골랐다.)",
+      "terms": [
+        {
+          "term": "빈도(frequency)",
+          "term_ko": "빈도",
+          "term_en": "frequency",
+          "definition": "몇 번 나왔는지 횟수. (예: '사과'를 12명이 골랐다.)"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "b11-t12",
+          "task": "1) 빈도·신뢰도 결과를 바탕으로 범주별 패턴 요약(Procedural Task)",
+          "taskRaw": "1) 빈도·신뢰도 결과를 바탕으로 범주별 패턴 요약",
+          "processKey": "result",
+          "processLabel": "결과도출(Result Derivation)",
+          "stageLabel": "①빈도·신뢰도 결과를 바탕으로 범주별 패턴 요약 →②범주 간 관계를 통계적으로 해석",
+          "why": "이 절차적 태스크(Procedural Task) '1) 빈도·신뢰도 결과를 바탕으로 범주별 패턴 요약'는 TX-002·코딩 아키타입(Content Analysis–Coding Archetype)의 '결과도출' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "표준 흐름: 1) 빈도·신뢰도 결과를 바탕으로 범주별 패턴 요약 → 2) 범주 간 관계를 통계적으로 해석. 각 하위 절차를 문서에 남기며 순서대로 실행하고, 완료 여부를 체크합니다.",
+          "protocol": "결과표·그림·해석을 연구질문별로 대응시키고, 한계(Limitation)와 함의(Implication)를 함께 적습니다. 태스크 초점: 1) 빈도·신뢰도 결과를 바탕으로 범주별 패턴 요약.",
+          "sampleExplain": "TX-002·코딩 맥락에서 '1) 빈도·신뢰도 결과를 바탕으로 범주별 패턴 요약' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'1) 빈도·신뢰도 결과를 바탕으로 범주별 패턴 요약'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'1) 빈도·신뢰도 결과를 바탕으로 범주별 패턴 요약'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 유의한 차이가 나옴. 올바른 다음 행동은?",
+              "options": [
+                "효과크기(Effect Size)와 함께 표·그림으로 해석한다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 효과크기(Effect Size)와 함께 표·그림으로 해석한다.",
+              "usable": "실습: '유의한 차이가 나옴'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'1) 빈도·신뢰도 결과를 바탕으로 범주별 패턴 요약'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "reliability_validity",
+          "formFields": [
+            {
+              "key": "scale_name",
+              "label": "척도명(Scale Name)",
+              "placeholder": "예: 직무만족"
+            },
+            {
+              "key": "alpha",
+              "label": "Cronbach α",
+              "placeholder": "예: .86"
+            },
+            {
+              "key": "validity",
+              "label": "타당도 결과(Validity)",
+              "type": "textarea",
+              "placeholder": "예: 1요인, 적재량 .62~.81"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "정치·경제 지면 비교",
+              "body": "【연구질문】선거보도 프레이밍 — 빈도·신뢰도 결과를 바탕으로 범주별 패턴 요약\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】TX-002·코딩 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「정치·경제 지면 비교」 상황에서 「빈도·신뢰도 결과를 바탕으로 범주별 패턴 요약」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "TV 선거보도 2주 180기사",
+              "body": "【연구질문】선거보도 프레이밍 — 빈도·신뢰도 결과를 바탕으로 범주별 패턴 요약\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】TX-002·코딩 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「TV 선거보도 2주 180기사」 상황에서 「빈도·신뢰도 결과를 바탕으로 범주별 패턴 요약」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "프레이밍 코드 12개",
+              "body": "【연구질문】선거보도 프레이밍 — 빈도·신뢰도 결과를 바탕으로 범주별 패턴 요약\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】TX-002·코딩 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「프레이밍 코드 12개」 상황에서 「빈도·신뢰도 결과를 바탕으로 범주별 패턴 요약」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "Cohen κ=.81",
+              "body": "【연구질문】선거보도 프레이밍 — 빈도·신뢰도 결과를 바탕으로 범주별 패턴 요약\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】TX-002·코딩 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「Cohen κ=.81」 상황에서 「빈도·신뢰도 결과를 바탕으로 범주별 패턴 요약」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "카이제곱 프레임×후보 p=.003",
+              "body": "【연구질문】선거보도 프레이밍 — 빈도·신뢰도 결과를 바탕으로 범주별 패턴 요약\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】TX-002·코딩 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「카이제곱 프레임×후보 p=.003」 상황에서 「빈도·신뢰도 결과를 바탕으로 범주별 패턴 요약」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · 빈도·신뢰도 결과를 바탕으로 범주별 패턴 요약",
+            "kind": "reliability_validity",
+            "hint": "이 태스크(빈도·신뢰도 결과를 바탕으로 범주별 패턴 요약)의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": null,
+          "nextTaskId": "b11-t13",
+          "linkPrevStageTaskId": "b11-t11"
+        },
+        {
+          "id": "b11-t13",
+          "task": "2) 범주 간 관계를 통계적으로 해석하기(Procedural Task)",
+          "taskRaw": "2) 범주 간 관계를 통계적으로 해석하기",
+          "processKey": "result",
+          "processLabel": "결과도출(Result Derivation)",
+          "stageLabel": "①빈도·신뢰도 결과를 바탕으로 범주별 패턴 요약 →②범주 간 관계를 통계적으로 해석",
+          "why": "이 절차적 태스크(Procedural Task) '2) 범주 간 관계를 통계적으로 해석하기'는 TX-002·코딩 아키타입(Content Analysis–Coding Archetype)의 '결과도출' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "표준 흐름: 1) 빈도·신뢰도 결과를 바탕으로 범주별 패턴 요약 → 2) 범주 간 관계를 통계적으로 해석. 각 하위 절차를 문서에 남기며 순서대로 실행하고, 완료 여부를 체크합니다.",
+          "protocol": "결과표·그림·해석을 연구질문별로 대응시키고, 한계(Limitation)와 함의(Implication)를 함께 적습니다. 태스크 초점: 2) 범주 간 관계를 통계적으로 해석하기.",
+          "sampleExplain": "TX-002·코딩 맥락에서 '2) 범주 간 관계를 통계적으로 해석하기' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'2) 범주 간 관계를 통계적으로 해석하기'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'2) 범주 간 관계를 통계적으로 해석하기'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 유의한 차이가 나옴. 올바른 다음 행동은?",
+              "options": [
+                "효과크기(Effect Size)와 함께 표·그림으로 해석한다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 효과크기(Effect Size)와 함께 표·그림으로 해석한다.",
+              "usable": "실습: '유의한 차이가 나옴'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'2) 범주 간 관계를 통계적으로 해석하기'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "result_viz",
+          "formFields": [
+            {
+              "key": "figure_type",
+              "label": "그래프 유형(Chart Type)",
+              "placeholder": "bar|line|scatter|hist|box"
+            },
+            {
+              "key": "table",
+              "label": "결과표(Result Table)",
+              "type": "textarea"
+            },
+            {
+              "key": "interp",
+              "label": "해석(Interpretation)",
+              "type": "textarea"
+            },
+            {
+              "key": "limitation",
+              "label": "한계(Limitation)",
+              "type": "textarea"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "Cohen κ=.81",
+              "body": "【연구질문】선거보도 프레이밍 — 범주 간 관계를 통계적으로 해석하기\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】TX-002·코딩 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「Cohen κ=.81」 상황에서 「범주 간 관계를 통계적으로 해석하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "카이제곱 프레임×후보 p=.003",
+              "body": "【연구질문】선거보도 프레이밍 — 범주 간 관계를 통계적으로 해석하기\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】TX-002·코딩 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「카이제곱 프레임×후보 p=.003」 상황에서 「범주 간 관계를 통계적으로 해석하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "정치·경제 지면 비교",
+              "body": "【연구질문】선거보도 프레이밍 — 범주 간 관계를 통계적으로 해석하기\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】TX-002·코딩 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「정치·경제 지면 비교」 상황에서 「범주 간 관계를 통계적으로 해석하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "TV 선거보도 2주 180기사",
+              "body": "【연구질문】선거보도 프레이밍 — 범주 간 관계를 통계적으로 해석하기\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】TX-002·코딩 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「TV 선거보도 2주 180기사」 상황에서 「범주 간 관계를 통계적으로 해석하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "프레이밍 코드 12개",
+              "body": "【연구질문】선거보도 프레이밍 — 범주 간 관계를 통계적으로 해석하기\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】TX-002·코딩 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「프레이밍 코드 12개」 상황에서 「범주 간 관계를 통계적으로 해석하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · 범주 간 관계를 통계적으로 해석하기",
+            "kind": "result_viz",
+            "hint": "이 태스크(범주 간 관계를 통계적으로 해석하기)의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": "b11-t12",
+          "nextTaskId": null
+        }
+      ],
+      "prevStageId": "stats-29374",
+      "nextStageId": "deliverable-14633"
+    },
+    {
+      "id": "deliverable-14633",
+      "processKey": "deliverable",
+      "processLabel": "최종 산출물(Final Deliverable)",
+      "name": "범주·주제별 빈도표 및 해석",
+      "name_ko": "범주·주제별 빈도표 및 해석",
+      "procedure": "범주·주제별 빈도표 및 해석",
+      "easy": "▸빈도(frequency): 몇 번 나왔는지 횟수.(예: '사과'를 12명이 골랐다.)",
+      "terms": [
+        {
+          "term": "빈도(frequency)",
+          "term_ko": "빈도",
+          "term_en": "frequency",
+          "definition": "몇 번 나왔는지 횟수. (예: '사과'를 12명이 골랐다.)"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "b11-t14",
+          "task": "▶ 산출물: 범주·주제별 빈도표 및 해석(Procedural Task)",
+          "taskRaw": "▶ 산출물: 범주·주제별 빈도표 및 해석",
+          "processKey": "deliverable",
+          "processLabel": "최종 산출물(Final Deliverable)",
+          "stageLabel": "범주·주제별 빈도표 및 해석",
+          "why": "이 절차적 태스크(Procedural Task) '▶ 산출물: 범주·주제별 빈도표 및 해석'는 TX-002·코딩 아키타입(Content Analysis–Coding Archetype)의 '최종 산출물' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "①목표를 한 문장으로 적기 → ②필요한 자료·도구 준비 → ③'▶ 산출물: 범주·주제별 빈도표 및 해석' 실행 → ④결과물 점검 → ⑤다음 절차적 단계(Procedural Stage)로 전달.",
+          "protocol": "산출물 템플릿(표·그림·요약문)에 맞춰 최종본을 정리하고 버전을 남깁니다. 태스크 초점: ▶ 산출물: 범주·주제별 빈도표 및 해석.",
+          "sampleExplain": "TX-002·코딩 맥락에서 '▶ 산출물: 범주·주제별 빈도표 및 해석' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'▶ 산출물: 범주·주제별 빈도표 및 해석'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'▶ 산출물: 범주·주제별 빈도표 및 해석'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 분석 완료. 올바른 다음 행동은?",
+              "options": [
+                "결과표·요약문·한계를 한 세트로 묶어 산출한다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 결과표·요약문·한계를 한 세트로 묶어 산출한다.",
+              "usable": "실습: '분석 완료'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'▶ 산출물: 범주·주제별 빈도표 및 해석'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "descriptive",
+          "formFields": [
+            {
+              "key": "var",
+              "label": "변수(Variable)",
+              "placeholder": "예: 직무만족"
+            },
+            {
+              "key": "stats",
+              "label": "기술통계(Descriptives)",
+              "type": "textarea",
+              "placeholder": "평균, SD, 범위, 빈도"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "정치·경제 지면 비교",
+              "body": "【분석】정치·경제 지면 비교 · 기술통계\nN=389, 직무만족 M=3.62, SD=0.71, 왜도=−0.18, 첨도=0.04\n성별: 남 203(52.2%), 여 186(47.8%)\nCronbach α=.89 (8문항)\n【표】Table 1. Sample characteristics (APA)",
+              "relevance": "이 예시는 「정치·경제 지면 비교」 상황에서 「▶ 산출물: 범주·주제별 빈도표 및 해석」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 기술통계 태스크는 N·평균·SD·빈도를 실제 숫자로 채운 표 형식이어야 합니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "TV 선거보도 2주 180기사",
+              "body": "【가설】H1: 실험>대조 (직무만족)\nLevene p=.31 → t(387)=2.91, p=.004, Cohen d=0.37\n실험 M=3.78 (SD=.68), 대조 M=3.51 (SD=.74)\n【보고】95% CI diff [0.09, 0.45]",
+              "relevance": "이 예시는 「TV 선거보도 2주 180기사」 상황에서 「▶ 산출물: 범주·주제별 빈도표 및 해석」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. t검정·ANOVA 태스크는 가정검정→검정통계량→효과크기 순으로 적습니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "프레이밍 코드 12개",
+              "body": "【모형】OLS: 만족 ~ 스트레스 + 지원 + 성별\nF(3,385)=42.1, p<.001, R²adj=.234\nβ(스트레스)=−.31, SE=.06, p<.001; VIFmax=1.8\n【잔차】Durbin-Watson=1.97",
+              "relevance": "이 예시는 「프레이밍 코드 12개」 상황에서 「▶ 산출물: 범주·주제별 빈도표 및 해석」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 회귀 예시는 계수표·모형적합·다중공선성을 함께 제시합니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "Cohen κ=.81",
+              "body": "【SEM】CFA 3요인, n=389\nχ²/df=1.82, CFI=.962, TLI=.951, RMSEA=.046 [.038–.054], SRMR=.038\n적재량 .62–.84\n【경로】조직지지 → 몰입 β=.42*** → 이직의도 β=−.28***",
+              "relevance": "이 예시는 「Cohen κ=.81」 상황에서 「▶ 산출물: 범주·주제별 빈도표 및 해석」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. SEM/요인 태스크는 적합도 지수와 경로를 구분해 적습니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "카이제곱 프레임×후보 p=.003",
+              "body": "【메타】k=18 RCT, random effects\nPooled SMD=0.41, 95% CI [0.28, 0.54], I²=42%, τ²=.04\nEgger p=.18, funnel 대칭\n【민감】고위험 편향 3편 제외 후 SMD=0.38",
+              "relevance": "이 예시는 「카이제곱 프레임×후보 p=.003」 상황에서 「▶ 산출물: 범주·주제별 빈도표 및 해석」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 메타분석은 효과크기·이질성·편향 점검을 한 블록으로 씁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · ▶ 산출물: 범주·주제별 빈도표 및 해석",
+            "kind": "descriptive",
+            "hint": "이 태스크(▶ 산출물: 범주·주제별 빈도표 및 해석)의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": null,
+          "nextTaskId": null,
+          "linkPrevStageTaskId": "b11-t13"
+        }
+      ],
+      "prevStageId": "result-72642",
+      "nextStageId": null
+    }
+  ],
+  "stats": {
+    "stageCount": 6,
+    "taskCount": 14
+  }
+}

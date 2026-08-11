@@ -1,0 +1,2221 @@
+{
+  "id": 17,
+  "name": "권력·비판담론 아키타입(Power and Critical Discourse Archetype)",
+  "name_ko": "권력·비판담론 아키타입",
+  "name_en": "Power and Critical Discourse Archetype",
+  "methodCount": 5,
+  "methods": [
+    {
+      "no": 7,
+      "name": "규율권력 분석",
+      "family": "질적·해석",
+      "label": "규율권력 분석(질적·해석)",
+      "methodKey": "QL-003",
+      "caseId": "A17-C188",
+      "perfSlug": "disciplinary-power-analysis",
+      "status": "linked"
+    },
+    {
+      "no": 8,
+      "name": "도구이성 비판 분석",
+      "family": "질적·해석",
+      "label": "도구이성 비판 분석(질적·해석)",
+      "methodKey": null,
+      "caseId": "A17-C187",
+      "status": "pending-registration",
+      "perfSlug": "critical-theory"
+    },
+    {
+      "no": 36,
+      "name": "정상화·지식권력 분석",
+      "family": "질적·해석",
+      "label": "정상화·지식권력 분석(질적·해석)",
+      "methodKey": "QL-003",
+      "caseId": "A17-C191",
+      "perfSlug": "disciplinary-power-analysis",
+      "status": "linked"
+    },
+    {
+      "no": 169,
+      "name": "문제화 분석",
+      "family": "기타",
+      "label": "문제화 분석(기타)",
+      "methodKey": "QL-003",
+      "caseId": "A17-C189",
+      "perfSlug": "disciplinary-power-analysis",
+      "status": "linked"
+    },
+    {
+      "no": 189,
+      "name": "고고학·계보학 분석",
+      "family": "기타",
+      "label": "고고학·계보학 분석(기타)",
+      "methodKey": "QL-003",
+      "caseId": "A17-C190",
+      "perfSlug": "disciplinary-power-analysis",
+      "status": "linked"
+    }
+  ],
+  "overview": "푸코·비판이론 아키타입(Foucauldian–Critical Theory Archetype)은(는) 연구 과정(수집→전처리→코딩→통계→결과→산출)이 같은 연구방법 5개를 하나의 방법론적 아키타입(Methodological Archetype)으로 묶은 유형입니다. 같은 프로세스 유형을 선택하면 공통 절차적 단계(Procedural Stage)와 절차적 태스크(Procedural Task)를 AI 기반 실습으로 따라갈 수 있습니다.",
+  "processes": [
+    {
+      "id": "collect",
+      "label": "자료수집(Data Collection)",
+      "label_ko": "① 자료수집",
+      "label_en": "Data Collection",
+      "order": 1,
+      "procedure": "①제도적 문헌·정책자료·역사적 기록 수집 →②담론이 형성된 시대적 맥락 자료(계보학적 자료) 수집",
+      "easy": "▸제도적 문헌(institutional documents): 기관·제도가 만든 공식 문서.(예: 학교 규칙집, 정부 발표문.)\n▸정책자료(policy materials): 나라·기관의 정책 관련 자료.(예: 교육부 발표 자료.)\n▸담론(discourse): 어떤 주제에 대해 사회가 말하고 생각하는 방식 전체.(예: '공부 잘해야 성공한다'는 사회의 말투.)\n▸계보학적 자료(genealogical data): 어떤 생각·제도가 시대에 따라 어떻게 생겨났는지 보여주는 옛 기록.(예: 옛날부터 지금까지 교칙이 바뀐 기록.)",
+      "steps": [
+        "제도적 문헌·정책자료·역사적 기록 수집",
+        "담론이 형성된 시대적 맥락 자료(계보학적 자료) 수집"
+      ],
+      "terms": [
+        {
+          "term": "제도적 문헌(institutional documents)",
+          "term_ko": "제도적 문헌",
+          "term_en": "institutional documents",
+          "definition": "기관·제도가 만든 공식 문서. (예: 학교 규칙집, 정부 발표문.)"
+        },
+        {
+          "term": "정책자료(policy materials)",
+          "term_ko": "정책자료",
+          "term_en": "policy materials",
+          "definition": "나라·기관의 정책 관련 자료. (예: 교육부 발표 자료.)"
+        },
+        {
+          "term": "담론(discourse)",
+          "term_ko": "담론",
+          "term_en": "discourse",
+          "definition": "어떤 주제에 대해 사회가 말하고 생각하는 방식 전체. (예: '공부 잘해야 성공한다'는 사회의 말투.)"
+        },
+        {
+          "term": "계보학적 자료(genealogical data)",
+          "term_ko": "계보학적 자료",
+          "term_en": "genealogical data",
+          "definition": "어떤 생각·제도가 시대에 따라 어떻게 생겨났는지 보여주는 옛 기록. (예: 옛날부터 지금까지 교칙이 바뀐 기록.)"
+        }
+      ]
+    },
+    {
+      "id": "preprocess",
+      "label": "전처리(Preprocessing)",
+      "label_ko": "② 전처리",
+      "label_en": "Preprocessing",
+      "order": 2,
+      "procedure": "①문헌 선정 및 시대순 배치 →②주요 개념·용어의 변화 추적을 위한 자료 정리",
+      "easy": "▸시대순 배치(chronological ordering): 시간 순서로 늘어놓기.(예: 옛날→최근 순 정렬.)",
+      "steps": [
+        "문헌 선정 및 시대순 배치",
+        "주요 개념·용어의 변화 추적을 위한 자료 정리"
+      ],
+      "terms": [
+        {
+          "term": "시대순 배치(chronological ordering)",
+          "term_ko": "시대순 배치",
+          "term_en": "chronological ordering",
+          "definition": "시간 순서로 늘어놓기. (예: 옛날→최근 순 정렬.)"
+        }
+      ]
+    },
+    {
+      "id": "coding",
+      "label": "코딩(Coding)",
+      "label_ko": "③ 코딩",
+      "label_en": "Coding",
+      "order": 3,
+      "procedure": "①개념적·계보학적 코딩으로 권력/지식 장치 식별 →②담론형성체(discursive formation) 및 규율기제 범주화 →③통치성(governmentality) 관련 개념 도출",
+      "easy": "▸개념적(conceptual coding):겉말이 아니라 속뜻(개념)으로 분류.(예: 여러 말을 '불안'이라는 개념으로 묶기.)\n▸계보학적 코딩(genealogical coding): 생각·제도가 어떻게 생겨났는지 추적하며 분류.(예: 규칙의 뿌리를 찾아 표시.)\n▸권력/지식 장치(power/knowledge apparatus): 힘과 지식이 얽혀 사람을 다루는 짜임.(예: 시험 제도가 사람을 줄 세움.)\n▸담론형성체(discursive formation): 한 시대의 말·생각이 뭉쳐 만든 틀.(예: '건강해야 한다'는 시대의 말 덩어리.)\n▸규율기제(disciplinary mechanism): 사람을 규칙으로 길들이는 장치.(예: 시간표·상벌 규정.)\n▸범주화(categorization): 코드들을 더 큰 묶음으로 정리.(예: 딱지들을 큰 상자에 분류.)\n▸통치성(governmentality): 사람들을 다스리고 스스로 관리하게 만드는 방식.(예: 시키지 않아도 규칙 지키게 만드는 힘.)",
+      "steps": [
+        "개념적·계보학적 코딩으로 권력/지식 장치 식별",
+        "담론형성체(discursive formation) 및 규율기제 범주화",
+        "통치성(governmentality) 관련 개념 도출"
+      ],
+      "terms": [
+        {
+          "term": "개념적(conceptual coding)",
+          "term_ko": "개념적",
+          "term_en": "conceptual coding",
+          "definition": "겉말이 아니라 속뜻(개념)으로 분류. (예: 여러 말을 '불안'이라는 개념으로 묶기.)"
+        },
+        {
+          "term": "계보학적 코딩(genealogical coding)",
+          "term_ko": "계보학적 코딩",
+          "term_en": "genealogical coding",
+          "definition": "생각·제도가 어떻게 생겨났는지 추적하며 분류. (예: 규칙의 뿌리를 찾아 표시.)"
+        },
+        {
+          "term": "권력/지식 장치(power/knowledge apparatus)",
+          "term_ko": "권력/지식 장치",
+          "term_en": "power/knowledge apparatus",
+          "definition": "힘과 지식이 얽혀 사람을 다루는 짜임. (예: 시험 제도가 사람을 줄 세움.)"
+        },
+        {
+          "term": "담론형성체(discursive formation)",
+          "term_ko": "담론형성체",
+          "term_en": "discursive formation",
+          "definition": "한 시대의 말·생각이 뭉쳐 만든 틀. (예: '건강해야 한다'는 시대의 말 덩어리.)"
+        },
+        {
+          "term": "규율기제(disciplinary mechanism)",
+          "term_ko": "규율기제",
+          "term_en": "disciplinary mechanism",
+          "definition": "사람을 규칙으로 길들이는 장치. (예: 시간표·상벌 규정.)"
+        },
+        {
+          "term": "범주화(categorization)",
+          "term_ko": "범주화",
+          "term_en": "categorization",
+          "definition": "코드들을 더 큰 묶음으로 정리. (예: 딱지들을 큰 상자에 분류.)"
+        },
+        {
+          "term": "통치성(governmentality)",
+          "term_ko": "통치성",
+          "term_en": "governmentality",
+          "definition": "사람들을 다스리고 스스로 관리하게 만드는 방식. (예: 시키지 않아도 규칙 지키게 만드는 힘.)"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "label": "통계기법(Statistical Technique)",
+      "label_ko": "④ 통계기법",
+      "label_en": "Statistical Technique",
+      "order": 4,
+      "procedure": "해당없음 — 통계적 검정을 사용하지 않음",
+      "easy": "▸통계적 검정(statistical test): 숫자로 결과가 우연인지 아닌지 따지는 것.(예: 차이가 의미 있는지 계산.)",
+      "steps": [
+        "해당없음 — 통계적 검정을 사용하지 않음"
+      ],
+      "terms": [
+        {
+          "term": "통계적 검정(statistical test)",
+          "term_ko": "통계적 검정",
+          "term_en": "statistical test",
+          "definition": "숫자로 결과가 우연인지 아닌지 따지는 것. (예: 차이가 의미 있는지 계산.)"
+        }
+      ]
+    },
+    {
+      "id": "result",
+      "label": "결과도출(Result Derivation)",
+      "label_ko": "⑤ 결과도출",
+      "label_en": "Result Derivation",
+      "order": 5,
+      "procedure": "①권력-지식 관계의 계보학적 해석 →②역사적 단절과 연속성을 개념적으로 서술",
+      "easy": "▸계보학적 해석(genealogical interpretation): 지금 것이 옛날부터 어떻게 생겼는지로 풀기.(예: 규칙의 유래로 설명.)\n▸역사적 단절과 연속성(rupture and continuity): 역사에서 끊긴 부분과 이어진 부분.(예: 옛 규칙이 바뀐 점과 남은 점.)\n▸개념적(conceptual coding):겉말이 아니라 속뜻(개념)으로 분류.(예: 여러 말을 '불안'이라는 개념으로 묶기.)",
+      "steps": [
+        "권력-지식 관계의 계보학적 해석",
+        "역사적 단절과 연속성을 개념적으로 서술"
+      ],
+      "terms": [
+        {
+          "term": "계보학적 해석(genealogical interpretation)",
+          "term_ko": "계보학적 해석",
+          "term_en": "genealogical interpretation",
+          "definition": "지금 것이 옛날부터 어떻게 생겼는지로 풀기. (예: 규칙의 유래로 설명.)"
+        },
+        {
+          "term": "역사적 단절과 연속성(rupture and continuity)",
+          "term_ko": "역사적 단절과 연속성",
+          "term_en": "rupture and continuity",
+          "definition": "역사에서 끊긴 부분과 이어진 부분. (예: 옛 규칙이 바뀐 점과 남은 점.)"
+        },
+        {
+          "term": "개념적(conceptual coding)",
+          "term_ko": "개념적",
+          "term_en": "conceptual coding",
+          "definition": "겉말이 아니라 속뜻(개념)으로 분류. (예: 여러 말을 '불안'이라는 개념으로 묶기.)"
+        }
+      ]
+    },
+    {
+      "id": "deliverable",
+      "label": "최종 산출물(Final Deliverable)",
+      "label_ko": "⑥ 최종 산출물",
+      "label_en": "Final Deliverable",
+      "order": 6,
+      "procedure": "비판적 개념분석 및 계보학적 해석",
+      "easy": "▸비판적 개념분석(critical conceptual analysis): 개념을 비판적으로 따져 분석하기.(예: '정상'이란 말이 옳은지 되묻기.)\n▸계보학적 해석(genealogical interpretation): 지금 것이 옛날부터 어떻게 생겼는지로 풀기.(예: 규칙의 유래로 설명.)",
+      "steps": [
+        "비판적 개념분석 및 계보학적 해석"
+      ],
+      "terms": [
+        {
+          "term": "비판적 개념분석(critical conceptual analysis)",
+          "term_ko": "비판적 개념분석",
+          "term_en": "critical conceptual analysis",
+          "definition": "개념을 비판적으로 따져 분석하기. (예: '정상'이란 말이 옳은지 되묻기.)"
+        },
+        {
+          "term": "계보학적 해석(genealogical interpretation)",
+          "term_ko": "계보학적 해석",
+          "term_en": "genealogical interpretation",
+          "definition": "지금 것이 옛날부터 어떻게 생겼는지로 풀기. (예: 규칙의 유래로 설명.)"
+        }
+      ]
+    }
+  ],
+  "deliverable": "비판적 개념분석 및 계보학적 해석",
+  "stages": [
+    {
+      "id": "collect-37642",
+      "processKey": "collect",
+      "processLabel": "자료수집(Data Collection)",
+      "name": "①제도적 문헌·정책자료·역사적 기록 수집 →②담론이 형성된 시대적 맥락 자료(계보학적 자료) 수집",
+      "name_ko": "①제도적 문헌·정책자료·역사적 기록 수집 →②담론이 형성된 시대적 맥락 자료(계보학적 자료) 수집",
+      "procedure": "①제도적 문헌·정책자료·역사적 기록 수집 →②담론이 형성된 시대적 맥락 자료(계보학적 자료) 수집",
+      "easy": "▸제도적 문헌(institutional documents): 기관·제도가 만든 공식 문서.(예: 학교 규칙집, 정부 발표문.)\n▸정책자료(policy materials): 나라·기관의 정책 관련 자료.(예: 교육부 발표 자료.)\n▸담론(discourse): 어떤 주제에 대해 사회가 말하고 생각하는 방식 전체.(예: '공부 잘해야 성공한다'는 사회의 말투.)\n▸계보학적 자료(genealogical data): 어떤 생각·제도가 시대에 따라 어떻게 생겨났는지 보여주는 옛 기록.(예: 옛날부터 지금까지 교칙이 바뀐 기록.)",
+      "terms": [
+        {
+          "term": "제도적 문헌(institutional documents)",
+          "term_ko": "제도적 문헌",
+          "term_en": "institutional documents",
+          "definition": "기관·제도가 만든 공식 문서. (예: 학교 규칙집, 정부 발표문.)"
+        },
+        {
+          "term": "정책자료(policy materials)",
+          "term_ko": "정책자료",
+          "term_en": "policy materials",
+          "definition": "나라·기관의 정책 관련 자료. (예: 교육부 발표 자료.)"
+        },
+        {
+          "term": "담론(discourse)",
+          "term_ko": "담론",
+          "term_en": "discourse",
+          "definition": "어떤 주제에 대해 사회가 말하고 생각하는 방식 전체. (예: '공부 잘해야 성공한다'는 사회의 말투.)"
+        },
+        {
+          "term": "계보학적 자료(genealogical data)",
+          "term_ko": "계보학적 자료",
+          "term_en": "genealogical data",
+          "definition": "어떤 생각·제도가 시대에 따라 어떻게 생겨났는지 보여주는 옛 기록. (예: 옛날부터 지금까지 교칙이 바뀐 기록.)"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "b17-t1",
+          "task": "1) 제도적 문헌·정책자료·역사적 기록 수집하기(Procedural Task)",
+          "taskRaw": "1) 제도적 문헌·정책자료·역사적 기록 수집하기",
+          "processKey": "collect",
+          "processLabel": "자료수집(Data Collection)",
+          "stageLabel": "①제도적 문헌·정책자료·역사적 기록 수집 →②담론이 형성된 시대적 맥락 자료(계보학적 자료) 수집",
+          "why": "이 절차적 태스크(Procedural Task) '1) 제도적 문헌·정책자료·역사적 기록 수집하기'는 푸코·비판이론 아키타입(Foucauldian–Critical Theory Archetype)의 '자료수집' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "표준 흐름: 1) 제도적 문헌·정책자료·역사적 기록 수집 → 2) 담론이 형성된 시대적 맥락 자료(계보학적 자료) 수집. 각 하위 절차를 문서에 남기며 순서대로 실행하고, 완료 여부를 체크합니다.",
+          "protocol": "연구질문(Research Question)과 모집단(Population)을 먼저 문서화하고, 수집 도구·동의·기록 양식을 준비합니다. 수집 로그(날짜·출처·담당)를 남깁니다. 태스크 초점: 1) 제도적 문헌·정책자료·역사적 기록 수집하기.",
+          "sampleExplain": "푸코·비판이론 맥락에서 '1) 제도적 문헌·정책자료·역사적 기록 수집하기' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'1) 제도적 문헌·정책자료·역사적 기록 수집하기'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'1) 제도적 문헌·정책자료·역사적 기록 수집하기'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 학교 급식 만족도 조사. 올바른 다음 행동은?",
+              "options": [
+                "모집단을 '우리 학교 전교생'으로 정의하고 표본 40명을 층화표집한다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 모집단을 '우리 학교 전교생'으로 정의하고 표본 40명을 층화표집한다.",
+              "usable": "실습: '학교 급식 만족도 조사'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'1) 제도적 문헌·정책자료·역사적 기록 수집하기'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "main_survey",
+          "formFields": [
+            {
+              "key": "mode",
+              "label": "조사방식(Survey Mode)",
+              "placeholder": "예: 온라인(Google Forms)"
+            },
+            {
+              "key": "period",
+              "label": "조사기간(Field Period)",
+              "placeholder": "예: 5일, 리마인더 2회"
+            },
+            {
+              "key": "sent",
+              "label": "발송수(Invited n)",
+              "placeholder": "예: 1200"
+            },
+            {
+              "key": "responded",
+              "label": "응답수(Responded n)",
+              "placeholder": "예: 412"
+            },
+            {
+              "key": "structure",
+              "label": "자료구조(Data Structure)",
+              "type": "textarea",
+              "placeholder": "1행=1응답자, 1열=1변수 예시"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "교육 평가 담론 권력 — 현장 사례 2",
+              "body": "【조사명】교육 평가 담론 권력 — 현장 사례 2\n【모드】온라인(Google Forms) + 문자 리마인더 2회\n【기간】2025-04-07~04-14 (7일)\n【초대】1,240명 / 【완료】412명 (33.2%)\n【결측】소득 11건, 소요시간<120초 18건 제외 → 분석 n=389\n【변수】ID, Q1–Q28, 성별, 연령, 거주구, 소요초\n【품질】중복 IP 3건 삭제, attention check 2문항",
+              "relevance": "이 예시는 「교육 평가 담론 권력 — 현장 사례 2」 상황에서 「제도적 문헌·정책자료·역사적 기록 수집하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 본조사 태스크는 초대·응답·제외 규칙과 변수 목록을 한 표처럼 적는 것이 핵심입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "권력·비판담론 현장 A",
+              "body": "【조사명】푸코·비판이론 현장 A\n【모드】온라인(Google Forms) + 문자 리마인더 2회\n【기간】2025-04-07~04-14 (7일)\n【초대】1,240명 / 【완료】412명 (33.2%)\n【결측】소득 11건, 소요시간<120초 18건 제외 → 분석 n=389\n【변수】ID, Q1–Q28, 성별, 연령, 거주구, 소요초\n【품질】중복 IP 3건 삭제, attention check 2문항",
+              "relevance": "이 예시는 「푸코·비판이론 현장 A」 상황에서 「제도적 문헌·정책자료·역사적 기록 수집하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 본조사 태스크는 초대·응답·제외 규칙과 변수 목록을 한 표처럼 적는 것이 핵심입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "권력·비판담론 현장 B",
+              "body": "【조사명】푸코·비판이론 현장 B\n【모드】온라인(Google Forms) + 문자 리마인더 2회\n【기간】2025-04-07~04-14 (7일)\n【초대】1,240명 / 【완료】412명 (33.2%)\n【결측】소득 11건, 소요시간<120초 18건 제외 → 분석 n=389\n【변수】ID, Q1–Q28, 성별, 연령, 거주구, 소요초\n【품질】중복 IP 3건 삭제, attention check 2문항",
+              "relevance": "이 예시는 「푸코·비판이론 현장 B」 상황에서 「제도적 문헌·정책자료·역사적 기록 수집하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 본조사 태스크는 초대·응답·제외 규칙과 변수 목록을 한 표처럼 적는 것이 핵심입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "교육 평가 담론 권력 다기관 협력",
+              "body": "【조사명】교육 평가 담론 권력 다기관 협력\n【모드】온라인(Google Forms) + 문자 리마인더 2회\n【기간】2025-04-07~04-14 (7일)\n【초대】1,240명 / 【완료】412명 (33.2%)\n【결측】소득 11건, 소요시간<120초 18건 제외 → 분석 n=389\n【변수】ID, Q1–Q28, 성별, 연령, 거주구, 소요초\n【품질】중복 IP 3건 삭제, attention check 2문항",
+              "relevance": "이 예시는 「교육 평가 담론 권력 다기관 협력」 상황에서 「제도적 문헌·정책자료·역사적 기록 수집하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 본조사 태스크는 초대·응답·제외 규칙과 변수 목록을 한 표처럼 적는 것이 핵심입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "교육 평가 담론 권력 예비 점검(n=15)",
+              "body": "【조사명】교육 평가 담론 권력 예비 점검(n=15)\n【모드】온라인(Google Forms) + 문자 리마인더 2회\n【기간】2025-04-07~04-14 (7일)\n【초대】1,240명 / 【완료】412명 (33.2%)\n【결측】소득 11건, 소요시간<120초 18건 제외 → 분석 n=389\n【변수】ID, Q1–Q28, 성별, 연령, 거주구, 소요초\n【품질】중복 IP 3건 삭제, attention check 2문항",
+              "relevance": "이 예시는 「교육 평가 담론 권력 예비 점검(n=15)」 상황에서 「제도적 문헌·정책자료·역사적 기록 수집하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 본조사 태스크는 초대·응답·제외 규칙과 변수 목록을 한 표처럼 적는 것이 핵심입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · 제도적 문헌·정책자료·역사적 기록 수집하기",
+            "kind": "main_survey",
+            "hint": "이 태스크(제도적 문헌·정책자료·역사적 기록 수집하기)의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": null,
+          "nextTaskId": "b17-t2"
+        },
+        {
+          "id": "b17-t2",
+          "task": "2)담론이 형성된 시대적 맥락 자료(계보학적 자료) 수집하기",
+          "taskRaw": "2)담론이 형성된 시대적 맥락 자료(계보학적 자료) 수집하기",
+          "processKey": "collect",
+          "processLabel": "자료수집(Data Collection)",
+          "stageLabel": "①제도적 문헌·정책자료·역사적 기록 수집 →②담론이 형성된 시대적 맥락 자료(계보학적 자료) 수집",
+          "why": "이 절차적 태스크(Procedural Task) '2)담론이 형성된 시대적 맥락 자료(계보학적 자료) 수집하기'는 푸코·비판이론 아키타입(Foucauldian–Critical Theory Archetype)의 '자료수집' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "표준 흐름: 1) 제도적 문헌·정책자료·역사적 기록 수집 → 2) 담론이 형성된 시대적 맥락 자료(계보학적 자료) 수집. 각 하위 절차를 문서에 남기며 순서대로 실행하고, 완료 여부를 체크합니다.",
+          "protocol": "연구질문(Research Question)과 모집단(Population)을 먼저 문서화하고, 수집 도구·동의·기록 양식을 준비합니다. 수집 로그(날짜·출처·담당)를 남깁니다. 태스크 초점: 2)담론이 형성된 시대적 맥락 자료(계보학적 자료) 수집하기.",
+          "sampleExplain": "푸코·비판이론 맥락에서 '2)담론이 형성된 시대적 맥락 자료(계보학적 자료) 수집하기' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'2)담론이 형성된 시대적 맥락 자료(계보학적 자료) 수집하기'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'2)담론이 형성된 시대적 맥락 자료(계보학적 자료) 수집하기'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 학교 급식 만족도 조사. 올바른 다음 행동은?",
+              "options": [
+                "모집단을 '우리 학교 전교생'으로 정의하고 표본 40명을 층화표집한다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 모집단을 '우리 학교 전교생'으로 정의하고 표본 40명을 층화표집한다.",
+              "usable": "실습: '학교 급식 만족도 조사'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'2)담론이 형성된 시대적 맥락 자료(계보학적 자료) 수집하기'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "main_survey",
+          "formFields": [
+            {
+              "key": "mode",
+              "label": "조사방식(Survey Mode)",
+              "placeholder": "예: 온라인(Google Forms)"
+            },
+            {
+              "key": "period",
+              "label": "조사기간(Field Period)",
+              "placeholder": "예: 5일, 리마인더 2회"
+            },
+            {
+              "key": "sent",
+              "label": "발송수(Invited n)",
+              "placeholder": "예: 1200"
+            },
+            {
+              "key": "responded",
+              "label": "응답수(Responded n)",
+              "placeholder": "예: 412"
+            },
+            {
+              "key": "structure",
+              "label": "자료구조(Data Structure)",
+              "type": "textarea",
+              "placeholder": "1행=1응답자, 1열=1변수 예시"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "권력·비판담론 현장 A",
+              "body": "【조사명】푸코·비판이론 현장 A\n【모드】온라인(Google Forms) + 문자 리마인더 2회\n【기간】2025-04-07~04-14 (7일)\n【초대】1,240명 / 【완료】412명 (33.2%)\n【결측】소득 11건, 소요시간<120초 18건 제외 → 분석 n=389\n【변수】ID, Q1–Q28, 성별, 연령, 거주구, 소요초\n【품질】중복 IP 3건 삭제, attention check 2문항",
+              "relevance": "이 예시는 「푸코·비판이론 현장 A」 상황에서 「담론이 형성된 시대적 맥락 자료(계보학적 자료) 수집하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 본조사 태스크는 초대·응답·제외 규칙과 변수 목록을 한 표처럼 적는 것이 핵심입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "권력·비판담론 현장 B",
+              "body": "【조사명】푸코·비판이론 현장 B\n【모드】온라인(Google Forms) + 문자 리마인더 2회\n【기간】2025-04-07~04-14 (7일)\n【초대】1,240명 / 【완료】412명 (33.2%)\n【결측】소득 11건, 소요시간<120초 18건 제외 → 분석 n=389\n【변수】ID, Q1–Q28, 성별, 연령, 거주구, 소요초\n【품질】중복 IP 3건 삭제, attention check 2문항",
+              "relevance": "이 예시는 「푸코·비판이론 현장 B」 상황에서 「담론이 형성된 시대적 맥락 자료(계보학적 자료) 수집하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 본조사 태스크는 초대·응답·제외 규칙과 변수 목록을 한 표처럼 적는 것이 핵심입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "교육 평가 담론 권력 다기관 협력",
+              "body": "【조사명】교육 평가 담론 권력 다기관 협력\n【모드】온라인(Google Forms) + 문자 리마인더 2회\n【기간】2025-04-07~04-14 (7일)\n【초대】1,240명 / 【완료】412명 (33.2%)\n【결측】소득 11건, 소요시간<120초 18건 제외 → 분석 n=389\n【변수】ID, Q1–Q28, 성별, 연령, 거주구, 소요초\n【품질】중복 IP 3건 삭제, attention check 2문항",
+              "relevance": "이 예시는 「교육 평가 담론 권력 다기관 협력」 상황에서 「담론이 형성된 시대적 맥락 자료(계보학적 자료) 수집하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 본조사 태스크는 초대·응답·제외 규칙과 변수 목록을 한 표처럼 적는 것이 핵심입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "교육 평가 담론 권력 예비 점검(n=15)",
+              "body": "【조사명】교육 평가 담론 권력 예비 점검(n=15)\n【모드】온라인(Google Forms) + 문자 리마인더 2회\n【기간】2025-04-07~04-14 (7일)\n【초대】1,240명 / 【완료】412명 (33.2%)\n【결측】소득 11건, 소요시간<120초 18건 제외 → 분석 n=389\n【변수】ID, Q1–Q28, 성별, 연령, 거주구, 소요초\n【품질】중복 IP 3건 삭제, attention check 2문항",
+              "relevance": "이 예시는 「교육 평가 담론 권력 예비 점검(n=15)」 상황에서 「담론이 형성된 시대적 맥락 자료(계보학적 자료) 수집하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 본조사 태스크는 초대·응답·제외 규칙과 변수 목록을 한 표처럼 적는 것이 핵심입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "교육 평가 담론 권력 본실행 기록",
+              "body": "【조사명】교육 평가 담론 권력 본실행 기록\n【모드】온라인(Google Forms) + 문자 리마인더 2회\n【기간】2025-04-07~04-14 (7일)\n【초대】1,240명 / 【완료】412명 (33.2%)\n【결측】소득 11건, 소요시간<120초 18건 제외 → 분석 n=389\n【변수】ID, Q1–Q28, 성별, 연령, 거주구, 소요초\n【품질】중복 IP 3건 삭제, attention check 2문항",
+              "relevance": "이 예시는 「교육 평가 담론 권력 본실행 기록」 상황에서 「담론이 형성된 시대적 맥락 자료(계보학적 자료) 수집하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 본조사 태스크는 초대·응답·제외 규칙과 변수 목록을 한 표처럼 적는 것이 핵심입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · 담론이 형성된 시대적 맥락 자료(계보학적 자료) 수집하기",
+            "kind": "main_survey",
+            "hint": "이 태스크(담론이 형성된 시대적 맥락 자료(계보학적 자료) 수집하기)의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": "b17-t1",
+          "nextTaskId": null
+        }
+      ],
+      "prevStageId": null,
+      "nextStageId": "preprocess-37833"
+    },
+    {
+      "id": "preprocess-37833",
+      "processKey": "preprocess",
+      "processLabel": "전처리(Preprocessing)",
+      "name": "①문헌 선정 및 시대순 배치 →②주요 개념·용어의 변화 추적을 위한 자료 정리",
+      "name_ko": "①문헌 선정 및 시대순 배치 →②주요 개념·용어의 변화 추적을 위한 자료 정리",
+      "procedure": "①문헌 선정 및 시대순 배치 →②주요 개념·용어의 변화 추적을 위한 자료 정리",
+      "easy": "▸시대순 배치(chronological ordering): 시간 순서로 늘어놓기.(예: 옛날→최근 순 정렬.)",
+      "terms": [
+        {
+          "term": "시대순 배치(chronological ordering)",
+          "term_ko": "시대순 배치",
+          "term_en": "chronological ordering",
+          "definition": "시간 순서로 늘어놓기. (예: 옛날→최근 순 정렬.)"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "b17-t3",
+          "task": "1) 문헌 선정 및 시대순 배치(Procedural Task)",
+          "taskRaw": "1) 문헌 선정 및 시대순 배치",
+          "processKey": "preprocess",
+          "processLabel": "전처리(Preprocessing)",
+          "stageLabel": "①문헌 선정 및 시대순 배치 →②주요 개념·용어의 변화 추적을 위한 자료 정리",
+          "why": "이 절차적 태스크(Procedural Task) '1) 문헌 선정 및 시대순 배치'는 푸코·비판이론 아키타입(Foucauldian–Critical Theory Archetype)의 '전처리' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "표준 흐름: 1) 문헌 선정 및 시대순 배치 → 2) 주요 개념·용어의 변화 추적을 위한 자료 정리. 각 하위 절차를 문서에 남기며 순서대로 실행하고, 완료 여부를 체크합니다.",
+          "protocol": "원본은 보존하고 작업본에서만 수정합니다. 결측·이상치·코딩 규칙을 코드북(Codebook)에 기록합니다. 태스크 초점: 1) 문헌 선정 및 시대순 배치.",
+          "sampleExplain": "푸코·비판이론 맥락에서 '1) 문헌 선정 및 시대순 배치' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'1) 문헌 선정 및 시대순 배치'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'1) 문헌 선정 및 시대순 배치'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 응답 표에 빈칸·극단값 있음. 올바른 다음 행동은?",
+              "options": [
+                "결측치(Missing Value)와 이상치(Outlier)를 표시한 뒤 처리 규칙을 적용한다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 결측치(Missing Value)와 이상치(Outlier)를 표시한 뒤 처리 규칙을 적용한다.",
+              "usable": "실습: '응답 표에 빈칸·극단값 있음'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'1) 문헌 선정 및 시대순 배치'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "lit_search",
+          "formFields": [
+            {
+              "key": "pico",
+              "label": "연구질문(PICO)",
+              "type": "textarea",
+              "placeholder": "P/I/C/O"
+            },
+            {
+              "key": "databases",
+              "label": "DB(Databases)",
+              "placeholder": "예: PubMed, RISS"
+            },
+            {
+              "key": "hits",
+              "label": "검색건수(Hits)",
+              "placeholder": "예: 1,240"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "권력·비판담론 현장 A",
+              "body": "【사례】푸코·비판이론 현장 A\n【원본】raw/20250312_T07.wav (SHA256 기록)\n【전사】Jefferson: (0.8) … (.) 침묵, [ ] 겹침\n【익명】학교명→S중, 지명→G구\n【QC】10% 재청취 오류율 1.2%\n【산출】transcripts/T07_v2.docx → NVivo import\n【로그】결측 발화 2건 [inaudible] 표기",
+              "relevance": "이 예시는 「푸코·비판이론 현장 A」 상황에서 「문헌 선정 및 시대순 배치」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 전처리는 원본 보존·전사 규칙·품질검사·파일명을 로그처럼 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "권력·비판담론 현장 B",
+              "body": "【사례】푸코·비판이론 현장 B\n【원본】raw/20250312_T07.wav (SHA256 기록)\n【전사】Jefferson: (0.8) … (.) 침묵, [ ] 겹침\n【익명】학교명→S중, 지명→G구\n【QC】10% 재청취 오류율 1.2%\n【산출】transcripts/T07_v2.docx → NVivo import\n【로그】결측 발화 2건 [inaudible] 표기",
+              "relevance": "이 예시는 「푸코·비판이론 현장 B」 상황에서 「문헌 선정 및 시대순 배치」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 전처리는 원본 보존·전사 규칙·품질검사·파일명을 로그처럼 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "교육 평가 담론 권력 다기관 협력",
+              "body": "【사례】교육 평가 담론 권력 다기관 협력\n【원본】raw/20250312_T07.wav (SHA256 기록)\n【전사】Jefferson: (0.8) … (.) 침묵, [ ] 겹침\n【익명】학교명→S중, 지명→G구\n【QC】10% 재청취 오류율 1.2%\n【산출】transcripts/T07_v2.docx → NVivo import\n【로그】결측 발화 2건 [inaudible] 표기",
+              "relevance": "이 예시는 「교육 평가 담론 권력 다기관 협력」 상황에서 「문헌 선정 및 시대순 배치」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 전처리는 원본 보존·전사 규칙·품질검사·파일명을 로그처럼 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "교육 평가 담론 권력 예비 점검(n=15)",
+              "body": "【사례】교육 평가 담론 권력 예비 점검(n=15)\n【원본】raw/20250312_T07.wav (SHA256 기록)\n【전사】Jefferson: (0.8) … (.) 침묵, [ ] 겹침\n【익명】학교명→S중, 지명→G구\n【QC】10% 재청취 오류율 1.2%\n【산출】transcripts/T07_v2.docx → NVivo import\n【로그】결측 발화 2건 [inaudible] 표기",
+              "relevance": "이 예시는 「교육 평가 담론 권력 예비 점검(n=15)」 상황에서 「문헌 선정 및 시대순 배치」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 전처리는 원본 보존·전사 규칙·품질검사·파일명을 로그처럼 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "교육 평가 담론 권력 본실행 기록",
+              "body": "【사례】교육 평가 담론 권력 본실행 기록\n【원본】raw/20250312_T07.wav (SHA256 기록)\n【전사】Jefferson: (0.8) … (.) 침묵, [ ] 겹침\n【익명】학교명→S중, 지명→G구\n【QC】10% 재청취 오류율 1.2%\n【산출】transcripts/T07_v2.docx → NVivo import\n【로그】결측 발화 2건 [inaudible] 표기",
+              "relevance": "이 예시는 「교육 평가 담론 권력 본실행 기록」 상황에서 「문헌 선정 및 시대순 배치」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 전처리는 원본 보존·전사 규칙·품질검사·파일명을 로그처럼 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · 문헌 선정 및 시대순 배치",
+            "kind": "lit_search",
+            "hint": "이 태스크(문헌 선정 및 시대순 배치)의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": null,
+          "nextTaskId": "b17-t4",
+          "linkPrevStageTaskId": "b17-t2"
+        },
+        {
+          "id": "b17-t4",
+          "task": "2) 주요 개념·용어의 변화 추적을 위한 자료 정리하기(Procedural Task)",
+          "taskRaw": "2) 주요 개념·용어의 변화 추적을 위한 자료 정리하기",
+          "processKey": "preprocess",
+          "processLabel": "전처리(Preprocessing)",
+          "stageLabel": "①문헌 선정 및 시대순 배치 →②주요 개념·용어의 변화 추적을 위한 자료 정리",
+          "why": "이 절차적 태스크(Procedural Task) '2) 주요 개념·용어의 변화 추적을 위한 자료 정리하기'는 푸코·비판이론 아키타입(Foucauldian–Critical Theory Archetype)의 '전처리' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "표준 흐름: 1) 문헌 선정 및 시대순 배치 → 2) 주요 개념·용어의 변화 추적을 위한 자료 정리. 각 하위 절차를 문서에 남기며 순서대로 실행하고, 완료 여부를 체크합니다.",
+          "protocol": "원본은 보존하고 작업본에서만 수정합니다. 결측·이상치·코딩 규칙을 코드북(Codebook)에 기록합니다. 태스크 초점: 2) 주요 개념·용어의 변화 추적을 위한 자료 정리하기.",
+          "sampleExplain": "푸코·비판이론 맥락에서 '2) 주요 개념·용어의 변화 추적을 위한 자료 정리하기' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'2) 주요 개념·용어의 변화 추적을 위한 자료 정리하기'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'2) 주요 개념·용어의 변화 추적을 위한 자료 정리하기'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 응답 표에 빈칸·극단값 있음. 올바른 다음 행동은?",
+              "options": [
+                "결측치(Missing Value)와 이상치(Outlier)를 표시한 뒤 처리 규칙을 적용한다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 결측치(Missing Value)와 이상치(Outlier)를 표시한 뒤 처리 규칙을 적용한다.",
+              "usable": "실습: '응답 표에 빈칸·극단값 있음'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'2) 주요 개념·용어의 변화 추적을 위한 자료 정리하기'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "generic",
+          "formFields": [
+            {
+              "key": "context",
+              "label": "연구·현장 맥락(Context)",
+              "placeholder": "누구·어디·언제"
+            },
+            {
+              "key": "input",
+              "label": "입력자료(Input Materials)",
+              "type": "textarea",
+              "placeholder": "파일명·건수·출처"
+            },
+            {
+              "key": "procedure",
+              "label": "실행 절차(Procedure Steps)",
+              "type": "textarea",
+              "placeholder": "순서·도구·소요"
+            },
+            {
+              "key": "output",
+              "label": "산출물(Output)",
+              "type": "textarea",
+              "placeholder": "표·코드북·로그·파일"
+            },
+            {
+              "key": "quality",
+              "label": "품질·윤리 점검(Quality & Ethics)",
+              "placeholder": "동의·익명·검증"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "권력·비판담론 현장 B",
+              "body": "【사례】푸코·비판이론 현장 B\n【원본】raw/20250312_T07.wav (SHA256 기록)\n【전사】Jefferson: (0.8) … (.) 침묵, [ ] 겹침\n【익명】학교명→S중, 지명→G구\n【QC】10% 재청취 오류율 1.2%\n【산출】transcripts/T07_v2.docx → NVivo import\n【로그】결측 발화 2건 [inaudible] 표기",
+              "relevance": "이 예시는 「푸코·비판이론 현장 B」 상황에서 「주요 개념·용어의 변화 추적을 위한 자료 정리하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 전처리는 원본 보존·전사 규칙·품질검사·파일명을 로그처럼 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "교육 평가 담론 권력 다기관 협력",
+              "body": "【사례】교육 평가 담론 권력 다기관 협력\n【원본】raw/20250312_T07.wav (SHA256 기록)\n【전사】Jefferson: (0.8) … (.) 침묵, [ ] 겹침\n【익명】학교명→S중, 지명→G구\n【QC】10% 재청취 오류율 1.2%\n【산출】transcripts/T07_v2.docx → NVivo import\n【로그】결측 발화 2건 [inaudible] 표기",
+              "relevance": "이 예시는 「교육 평가 담론 권력 다기관 협력」 상황에서 「주요 개념·용어의 변화 추적을 위한 자료 정리하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 전처리는 원본 보존·전사 규칙·품질검사·파일명을 로그처럼 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "교육 평가 담론 권력 예비 점검(n=15)",
+              "body": "【사례】교육 평가 담론 권력 예비 점검(n=15)\n【원본】raw/20250312_T07.wav (SHA256 기록)\n【전사】Jefferson: (0.8) … (.) 침묵, [ ] 겹침\n【익명】학교명→S중, 지명→G구\n【QC】10% 재청취 오류율 1.2%\n【산출】transcripts/T07_v2.docx → NVivo import\n【로그】결측 발화 2건 [inaudible] 표기",
+              "relevance": "이 예시는 「교육 평가 담론 권력 예비 점검(n=15)」 상황에서 「주요 개념·용어의 변화 추적을 위한 자료 정리하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 전처리는 원본 보존·전사 규칙·품질검사·파일명을 로그처럼 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "교육 평가 담론 권력 본실행 기록",
+              "body": "【사례】교육 평가 담론 권력 본실행 기록\n【원본】raw/20250312_T07.wav (SHA256 기록)\n【전사】Jefferson: (0.8) … (.) 침묵, [ ] 겹침\n【익명】학교명→S중, 지명→G구\n【QC】10% 재청취 오류율 1.2%\n【산출】transcripts/T07_v2.docx → NVivo import\n【로그】결측 발화 2건 [inaudible] 표기",
+              "relevance": "이 예시는 「교육 평가 담론 권력 본실행 기록」 상황에서 「주요 개념·용어의 변화 추적을 위한 자료 정리하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 전처리는 원본 보존·전사 규칙·품질검사·파일명을 로그처럼 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "교육 평가 담론 권력 — 현장 사례 1",
+              "body": "【사례】교육 평가 담론 권력 — 현장 사례 1\n【원본】raw/20250312_T07.wav (SHA256 기록)\n【전사】Jefferson: (0.8) … (.) 침묵, [ ] 겹침\n【익명】학교명→S중, 지명→G구\n【QC】10% 재청취 오류율 1.2%\n【산출】transcripts/T07_v2.docx → NVivo import\n【로그】결측 발화 2건 [inaudible] 표기",
+              "relevance": "이 예시는 「교육 평가 담론 권력 — 현장 사례 1」 상황에서 「주요 개념·용어의 변화 추적을 위한 자료 정리하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 전처리는 원본 보존·전사 규칙·품질검사·파일명을 로그처럼 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · 주요 개념·용어의 변화 추적을 위한 자료 정리하기",
+            "kind": "generic",
+            "hint": "이 태스크(주요 개념·용어의 변화 추적을 위한 자료 정리하기)의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": "b17-t3",
+          "nextTaskId": null
+        }
+      ],
+      "prevStageId": "collect-37642",
+      "nextStageId": "coding-13735"
+    },
+    {
+      "id": "coding-13735",
+      "processKey": "coding",
+      "processLabel": "코딩(Coding)",
+      "name": "①개념적·계보학적 코딩으로 권력/지식 장치 식별 →②담론형성체(discursive formation) 및 규율기제 범주화 →③통치성(governmentality) 관련 개념 도출",
+      "name_ko": "①개념적·계보학적 코딩으로 권력/지식 장치 식별 →②담론형성체(discursive formation) 및 규율기제 범주화 →③통치성(governmentality) 관련 개념 도출",
+      "procedure": "①개념적·계보학적 코딩으로 권력/지식 장치 식별 →②담론형성체(discursive formation) 및 규율기제 범주화 →③통치성(governmentality) 관련 개념 도출",
+      "easy": "▸개념적(conceptual coding):겉말이 아니라 속뜻(개념)으로 분류.(예: 여러 말을 '불안'이라는 개념으로 묶기.)\n▸계보학적 코딩(genealogical coding): 생각·제도가 어떻게 생겨났는지 추적하며 분류.(예: 규칙의 뿌리를 찾아 표시.)\n▸권력/지식 장치(power/knowledge apparatus): 힘과 지식이 얽혀 사람을 다루는 짜임.(예: 시험 제도가 사람을 줄 세움.)\n▸담론형성체(discursive formation): 한 시대의 말·생각이 뭉쳐 만든 틀.(예: '건강해야 한다'는 시대의 말 덩어리.)\n▸규율기제(disciplinary mechanism): 사람을 규칙으로 길들이는 장치.(예: 시간표·상벌 규정.)\n▸범주화(categorization): 코드들을 더 큰 묶음으로 정리.(예: 딱지들을 큰 상자에 분류.)\n▸통치성(governmentality): 사람들을 다스리고 스스로 관리하게 만드는 방식.(예: 시키지 않아도 규칙 지키게 만드는 힘.)",
+      "terms": [
+        {
+          "term": "개념적(conceptual coding)",
+          "term_ko": "개념적",
+          "term_en": "conceptual coding",
+          "definition": "겉말이 아니라 속뜻(개념)으로 분류. (예: 여러 말을 '불안'이라는 개념으로 묶기.)"
+        },
+        {
+          "term": "계보학적 코딩(genealogical coding)",
+          "term_ko": "계보학적 코딩",
+          "term_en": "genealogical coding",
+          "definition": "생각·제도가 어떻게 생겨났는지 추적하며 분류. (예: 규칙의 뿌리를 찾아 표시.)"
+        },
+        {
+          "term": "권력/지식 장치(power/knowledge apparatus)",
+          "term_ko": "권력/지식 장치",
+          "term_en": "power/knowledge apparatus",
+          "definition": "힘과 지식이 얽혀 사람을 다루는 짜임. (예: 시험 제도가 사람을 줄 세움.)"
+        },
+        {
+          "term": "담론형성체(discursive formation)",
+          "term_ko": "담론형성체",
+          "term_en": "discursive formation",
+          "definition": "한 시대의 말·생각이 뭉쳐 만든 틀. (예: '건강해야 한다'는 시대의 말 덩어리.)"
+        },
+        {
+          "term": "규율기제(disciplinary mechanism)",
+          "term_ko": "규율기제",
+          "term_en": "disciplinary mechanism",
+          "definition": "사람을 규칙으로 길들이는 장치. (예: 시간표·상벌 규정.)"
+        },
+        {
+          "term": "범주화(categorization)",
+          "term_ko": "범주화",
+          "term_en": "categorization",
+          "definition": "코드들을 더 큰 묶음으로 정리. (예: 딱지들을 큰 상자에 분류.)"
+        },
+        {
+          "term": "통치성(governmentality)",
+          "term_ko": "통치성",
+          "term_en": "governmentality",
+          "definition": "사람들을 다스리고 스스로 관리하게 만드는 방식. (예: 시키지 않아도 규칙 지키게 만드는 힘.)"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "b17-t5",
+          "task": "1) 개념적·계보학적 코딩으로 권력/지식 장치 식별(Procedural Task)",
+          "taskRaw": "1) 개념적·계보학적 코딩으로 권력/지식 장치 식별",
+          "processKey": "coding",
+          "processLabel": "코딩(Coding)",
+          "stageLabel": "①개념적·계보학적 코딩으로 권력/지식 장치 식별 →②담론형성체(discursive formation) 및 규율기제 범주화 →③통치성(governmentality) 관련 개념 도출",
+          "why": "이 절차적 태스크(Procedural Task) '1) 개념적·계보학적 코딩으로 권력/지식 장치 식별'는 푸코·비판이론 아키타입(Foucauldian–Critical Theory Archetype)의 '코딩' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "표준 흐름: 1) 개념적·계보학적 코딩으로 권력/지식 장치 식별 → 2) 담론형성체(discursive formation) 및 규율기제 범주화 → 3) 통치성(governmentality) 관련 개념 도출. 각 하위 절차를 문서에 남기며 순서대로 실행하고, 완료 여부를 체크합니다.",
+          "protocol": "코드북(Codebook)을 사전 정의하고, 이중코딩(Double Coding) 또는 동료검토로 일관성을 점검합니다. 태스크 초점: 1) 개념적·계보학적 코딩으로 권력/지식 장치 식별.",
+          "sampleExplain": "푸코·비판이론 맥락에서 '1) 개념적·계보학적 코딩으로 권력/지식 장치 식별' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'1) 개념적·계보학적 코딩으로 권력/지식 장치 식별'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'1) 개념적·계보학적 코딩으로 권력/지식 장치 식별'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 인터뷰 문장 20개. 올바른 다음 행동은?",
+              "options": [
+                "비슷한 뜻끼리 코드(Code)를 붙이고 상위 범주(Category)로 묶는다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 비슷한 뜻끼리 코드(Code)를 붙이고 상위 범주(Category)로 묶는다.",
+              "usable": "실습: '인터뷰 문장 20개'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'1) 개념적·계보학적 코딩으로 권력/지식 장치 식별'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "coding_generic",
+          "formFields": [
+            {
+              "key": "codebook",
+              "label": "코드북 조항(Codebook Entry)",
+              "type": "textarea",
+              "placeholder": "코드명·정의·포함/제외 기준"
+            },
+            {
+              "key": "excerpt",
+              "label": "자료발췌(Excerpt)",
+              "type": "textarea"
+            },
+            {
+              "key": "code",
+              "label": "코드(Code)",
+              "placeholder": "in-vivo / 개념코드"
+            },
+            {
+              "key": "category",
+              "label": "범주(Category)"
+            },
+            {
+              "key": "memo",
+              "label": "분석메모(Analytic Memo)",
+              "type": "textarea"
+            },
+            {
+              "key": "audit",
+              "label": "감사기록(Audit Trail)",
+              "placeholder": "일시·코더·합의"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "권력·비판담론 현장 B",
+              "body": "【출처】푸코·비판이론 현장 B · 면담 T07 (2025-03-12, 52분)\n【원문·줄번호】L34–L38\n  \"화면 공유 버튼이 안 보여서 … 아이들이랑 … 그냥 PPT만 돌렸어요.\"\n【in-vivo 코드】화면공유_실패\n【1차 범주】기술적 장벽(Technical Barrier)\n【메모】'그냥'은 차선책 → Axial: 조건(원격)·행위(대체수업)·결과(상호작용 감소)\n【코더】A,B 독립 → 불일치 1건 합의 → κ=.84",
+              "relevance": "이 예시는 「푸코·비판이론 현장 B」 상황에서 「개념적·계보학적 코딩으로 권력/지식 장치 식별」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 개방코딩은 실제 발화 한 덩어리·줄번호·코드·왜 그 코드인지 메모까지 한 세트로 보여 줍니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "교육 평가 담론 권력 다기관 협력",
+              "body": "【출처】교육 평가 담론 권력 다기관 협력 · T03 L12–L15\n  \"연수는 많은데 … 우리 학교 상황이랑 … 맞는 예시가 없었어요.\"\n【코드】연수-현장_불일치\n【범주】제도-현장 간극(Policy-Practice Gap)\n【비교】T11 유사 발화 2건 → constant comparison\n【다음】Axial: 중재조건 '학년부장 지원' 연결 검토",
+              "relevance": "이 예시는 「교육 평가 담론 권력 다기관 협력」 상황에서 「개념적·계보학적 코딩으로 권력/지식 장치 식별」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. QL-008·질적 코딩 태스크는 비슷한 발화끼리 묶는 과정을 적어야 합니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "교육 평가 담론 권력 예비 점검(n=15)",
+              "body": "【출처】교육 평가 담론 권력 예비 점검(n=15) · 현장노트 FN-2025-03-08\n  \"키보드 소리만 길게 … 침묵 4.2초 … '네, 알겠습니다'\"\n【코드】침묵_수용\n【범주】적응적 순응\n【화용】Jefferson (4.2) 표기 유지\n【감사】코드 정의를 코드북 v0.4에 반영",
+              "relevance": "이 예시는 「교육 평가 담론 권력 예비 점검(n=15)」 상황에서 「개념적·계보학적 코딩으로 권력/지식 장치 식별」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 현장·면담 혼합 시 노트와 전사를 같은 코드북으로 연결하는 예시입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "교육 평가 담론 권력 본실행 기록",
+              "body": "【출처】교육 평가 담론 권력 본실행 기록 · T15 L67–L71\n  \"아이들이 먼저 … '선생님, 링크요' … 그때부터는 … 제가 따라가기만 …\"\n【코드】역할_역전\n【범주】교사-학생 역할 재협상\n【선택코딩 후보】'따라가기' 반복 7/22명 → 핵심범주 검토",
+              "relevance": "이 예시는 「교육 평가 담론 권력 본실행 기록」 상황에서 「개념적·계보학적 코딩으로 권력/지식 장치 식별」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 반복되는 표현(in-vivo)을 세어 핵심범주로 올리는 과정을 보여 줍니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "교육 평가 담론 권력 — 현장 사례 1",
+              "body": "【출처】교육 평가 담론 권력 — 현장 사례 1 · T02 L21–L24\n  \"학부모 문자가 … 부담 … 그래서 … 녹화본만 올렸어요.\"\n【코드】학부모_압력\n【범주】외부 이해관계자\n【삼각】공문 2건·동료 T05와 교차 확인",
+              "relevance": "이 예시는 「교육 평가 담론 권력 — 현장 사례 1」 상황에서 「개념적·계보학적 코딩으로 권력/지식 장치 식별」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 코딩만이 아니라 문서로 교차 확인한 흔적을 남깁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · 개념적·계보학적 코딩으로 권력/지식 장치 식별",
+            "kind": "coding_generic",
+            "hint": "이 태스크(개념적·계보학적 코딩으로 권력/지식 장치 식별)의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": null,
+          "nextTaskId": "b17-t6",
+          "linkPrevStageTaskId": "b17-t4"
+        },
+        {
+          "id": "b17-t6",
+          "task": "2)담론형성체(discursive formation) 및 규율기제 범주화하기",
+          "taskRaw": "2)담론형성체(discursive formation) 및 규율기제 범주화하기",
+          "processKey": "coding",
+          "processLabel": "코딩(Coding)",
+          "stageLabel": "①개념적·계보학적 코딩으로 권력/지식 장치 식별 →②담론형성체(discursive formation) 및 규율기제 범주화 →③통치성(governmentality) 관련 개념 도출",
+          "why": "이 절차적 태스크(Procedural Task) '2)담론형성체(discursive formation) 및 규율기제 범주화하기'는 푸코·비판이론 아키타입(Foucauldian–Critical Theory Archetype)의 '코딩' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "표준 흐름: 1) 개념적·계보학적 코딩으로 권력/지식 장치 식별 → 2) 담론형성체(discursive formation) 및 규율기제 범주화 → 3) 통치성(governmentality) 관련 개념 도출. 각 하위 절차를 문서에 남기며 순서대로 실행하고, 완료 여부를 체크합니다.",
+          "protocol": "코드북(Codebook)을 사전 정의하고, 이중코딩(Double Coding) 또는 동료검토로 일관성을 점검합니다. 태스크 초점: 2)담론형성체(discursive formation) 및 규율기제 범주화하기.",
+          "sampleExplain": "푸코·비판이론 맥락에서 '2)담론형성체(discursive formation) 및 규율기제 범주화하기' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'2)담론형성체(discursive formation) 및 규율기제 범주화하기'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'2)담론형성체(discursive formation) 및 규율기제 범주화하기'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 인터뷰 문장 20개. 올바른 다음 행동은?",
+              "options": [
+                "비슷한 뜻끼리 코드(Code)를 붙이고 상위 범주(Category)로 묶는다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 비슷한 뜻끼리 코드(Code)를 붙이고 상위 범주(Category)로 묶는다.",
+              "usable": "실습: '인터뷰 문장 20개'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'2)담론형성체(discursive formation) 및 규율기제 범주화하기'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "generic",
+          "formFields": [
+            {
+              "key": "context",
+              "label": "연구·현장 맥락(Context)",
+              "placeholder": "누구·어디·언제"
+            },
+            {
+              "key": "input",
+              "label": "입력자료(Input Materials)",
+              "type": "textarea",
+              "placeholder": "파일명·건수·출처"
+            },
+            {
+              "key": "procedure",
+              "label": "실행 절차(Procedure Steps)",
+              "type": "textarea",
+              "placeholder": "순서·도구·소요"
+            },
+            {
+              "key": "output",
+              "label": "산출물(Output)",
+              "type": "textarea",
+              "placeholder": "표·코드북·로그·파일"
+            },
+            {
+              "key": "quality",
+              "label": "품질·윤리 점검(Quality & Ethics)",
+              "placeholder": "동의·익명·검증"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "교육 평가 담론 권력 본실행 기록",
+              "body": "【코드북】교육 평가 담론 권력 본실행 기록 · v0.6\n코드: C14_디지털_피로\n정의: 디지털 도구 사용과 감정적 소진을 동시에 언급\n포함: '지친다'+'화면/플랫폼' 공존\n제외: 단순 '바쁘다'만 있는 경우\n예: T07 L34–L38\nκ(A,B)=.86 (n=120 segment)",
+              "relevance": "이 예시는 「교육 평가 담론 권력 본실행 기록」 상황에서 「담론형성체(discursive formation) 및 규율기제 범주화하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 코드북 태스크는 정의·포함/제외·예시 인용·신뢰도를 한 카드에 모읍니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "교육 평가 담론 권력 — 현장 사례 1",
+              "body": "【코드북】교육 평가 담론 권력 — 현장 사례 1 · v0.6\n코드: C14_디지털_피로\n정의: 디지털 도구 사용과 감정적 소진을 동시에 언급\n포함: '지친다'+'화면/플랫폼' 공존\n제외: 단순 '바쁘다'만 있는 경우\n예: T07 L34–L38\nκ(A,B)=.86 (n=120 segment)",
+              "relevance": "이 예시는 「교육 평가 담론 권력 — 현장 사례 1」 상황에서 「담론형성체(discursive formation) 및 규율기제 범주화하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 코드북 태스크는 정의·포함/제외·예시 인용·신뢰도를 한 카드에 모읍니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "교육 평가 담론 권력 — 현장 사례 2",
+              "body": "【코드북】교육 평가 담론 권력 — 현장 사례 2 · v0.6\n코드: C14_디지털_피로\n정의: 디지털 도구 사용과 감정적 소진을 동시에 언급\n포함: '지친다'+'화면/플랫폼' 공존\n제외: 단순 '바쁘다'만 있는 경우\n예: T07 L34–L38\nκ(A,B)=.86 (n=120 segment)",
+              "relevance": "이 예시는 「교육 평가 담론 권력 — 현장 사례 2」 상황에서 「담론형성체(discursive formation) 및 규율기제 범주화하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 코드북 태스크는 정의·포함/제외·예시 인용·신뢰도를 한 카드에 모읍니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "권력·비판담론 현장 A",
+              "body": "【코드북】푸코·비판이론 현장 A · v0.6\n코드: C14_디지털_피로\n정의: 디지털 도구 사용과 감정적 소진을 동시에 언급\n포함: '지친다'+'화면/플랫폼' 공존\n제외: 단순 '바쁘다'만 있는 경우\n예: T07 L34–L38\nκ(A,B)=.86 (n=120 segment)",
+              "relevance": "이 예시는 「푸코·비판이론 현장 A」 상황에서 「담론형성체(discursive formation) 및 규율기제 범주화하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 코드북 태스크는 정의·포함/제외·예시 인용·신뢰도를 한 카드에 모읍니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "권력·비판담론 현장 B",
+              "body": "【코드북】푸코·비판이론 현장 B · v0.6\n코드: C14_디지털_피로\n정의: 디지털 도구 사용과 감정적 소진을 동시에 언급\n포함: '지친다'+'화면/플랫폼' 공존\n제외: 단순 '바쁘다'만 있는 경우\n예: T07 L34–L38\nκ(A,B)=.86 (n=120 segment)",
+              "relevance": "이 예시는 「푸코·비판이론 현장 B」 상황에서 「담론형성체(discursive formation) 및 규율기제 범주화하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 코드북 태스크는 정의·포함/제외·예시 인용·신뢰도를 한 카드에 모읍니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · 담론형성체(discursive formation) 및 규율기제 범주화하기",
+            "kind": "generic",
+            "hint": "이 태스크(담론형성체(discursive formation) 및 규율기제 범주화하기)의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": "b17-t5",
+          "nextTaskId": "b17-t7"
+        },
+        {
+          "id": "b17-t7",
+          "task": "3)통치성(governmentality) 관련 개념 도출하기",
+          "taskRaw": "3)통치성(governmentality) 관련 개념 도출하기",
+          "processKey": "coding",
+          "processLabel": "코딩(Coding)",
+          "stageLabel": "①개념적·계보학적 코딩으로 권력/지식 장치 식별 →②담론형성체(discursive formation) 및 규율기제 범주화 →③통치성(governmentality) 관련 개념 도출",
+          "why": "이 절차적 태스크(Procedural Task) '3)통치성(governmentality) 관련 개념 도출하기'는 푸코·비판이론 아키타입(Foucauldian–Critical Theory Archetype)의 '코딩' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "표준 흐름: 1) 개념적·계보학적 코딩으로 권력/지식 장치 식별 → 2) 담론형성체(discursive formation) 및 규율기제 범주화 → 3) 통치성(governmentality) 관련 개념 도출. 각 하위 절차를 문서에 남기며 순서대로 실행하고, 완료 여부를 체크합니다.",
+          "protocol": "코드북(Codebook)을 사전 정의하고, 이중코딩(Double Coding) 또는 동료검토로 일관성을 점검합니다. 태스크 초점: 3)통치성(governmentality) 관련 개념 도출하기.",
+          "sampleExplain": "푸코·비판이론 맥락에서 '3)통치성(governmentality) 관련 개념 도출하기' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'3)통치성(governmentality) 관련 개념 도출하기'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'3)통치성(governmentality) 관련 개념 도출하기'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 인터뷰 문장 20개. 올바른 다음 행동은?",
+              "options": [
+                "비슷한 뜻끼리 코드(Code)를 붙이고 상위 범주(Category)로 묶는다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 비슷한 뜻끼리 코드(Code)를 붙이고 상위 범주(Category)로 묶는다.",
+              "usable": "실습: '인터뷰 문장 20개'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'3)통치성(governmentality) 관련 개념 도출하기'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "generic",
+          "formFields": [
+            {
+              "key": "context",
+              "label": "연구·현장 맥락(Context)",
+              "placeholder": "누구·어디·언제"
+            },
+            {
+              "key": "input",
+              "label": "입력자료(Input Materials)",
+              "type": "textarea",
+              "placeholder": "파일명·건수·출처"
+            },
+            {
+              "key": "procedure",
+              "label": "실행 절차(Procedure Steps)",
+              "type": "textarea",
+              "placeholder": "순서·도구·소요"
+            },
+            {
+              "key": "output",
+              "label": "산출물(Output)",
+              "type": "textarea",
+              "placeholder": "표·코드북·로그·파일"
+            },
+            {
+              "key": "quality",
+              "label": "품질·윤리 점검(Quality & Ethics)",
+              "placeholder": "동의·익명·검증"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "교육 평가 담론 권력 — 현장 사례 2",
+              "body": "【코드북】교육 평가 담론 권력 — 현장 사례 2 · v0.6\n코드: C14_디지털_피로\n정의: 디지털 도구 사용과 감정적 소진을 동시에 언급\n포함: '지친다'+'화면/플랫폼' 공존\n제외: 단순 '바쁘다'만 있는 경우\n예: T07 L34–L38\nκ(A,B)=.86 (n=120 segment)",
+              "relevance": "이 예시는 「교육 평가 담론 권력 — 현장 사례 2」 상황에서 「통치성(governmentality) 관련 개념 도출하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 코드북 태스크는 정의·포함/제외·예시 인용·신뢰도를 한 카드에 모읍니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "권력·비판담론 현장 A",
+              "body": "【코드북】푸코·비판이론 현장 A · v0.6\n코드: C14_디지털_피로\n정의: 디지털 도구 사용과 감정적 소진을 동시에 언급\n포함: '지친다'+'화면/플랫폼' 공존\n제외: 단순 '바쁘다'만 있는 경우\n예: T07 L34–L38\nκ(A,B)=.86 (n=120 segment)",
+              "relevance": "이 예시는 「푸코·비판이론 현장 A」 상황에서 「통치성(governmentality) 관련 개념 도출하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 코드북 태스크는 정의·포함/제외·예시 인용·신뢰도를 한 카드에 모읍니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "권력·비판담론 현장 B",
+              "body": "【코드북】푸코·비판이론 현장 B · v0.6\n코드: C14_디지털_피로\n정의: 디지털 도구 사용과 감정적 소진을 동시에 언급\n포함: '지친다'+'화면/플랫폼' 공존\n제외: 단순 '바쁘다'만 있는 경우\n예: T07 L34–L38\nκ(A,B)=.86 (n=120 segment)",
+              "relevance": "이 예시는 「푸코·비판이론 현장 B」 상황에서 「통치성(governmentality) 관련 개념 도출하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 코드북 태스크는 정의·포함/제외·예시 인용·신뢰도를 한 카드에 모읍니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "교육 평가 담론 권력 다기관 협력",
+              "body": "【코드북】교육 평가 담론 권력 다기관 협력 · v0.6\n코드: C14_디지털_피로\n정의: 디지털 도구 사용과 감정적 소진을 동시에 언급\n포함: '지친다'+'화면/플랫폼' 공존\n제외: 단순 '바쁘다'만 있는 경우\n예: T07 L34–L38\nκ(A,B)=.86 (n=120 segment)",
+              "relevance": "이 예시는 「교육 평가 담론 권력 다기관 협력」 상황에서 「통치성(governmentality) 관련 개념 도출하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 코드북 태스크는 정의·포함/제외·예시 인용·신뢰도를 한 카드에 모읍니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "교육 평가 담론 권력 예비 점검(n=15)",
+              "body": "【코드북】교육 평가 담론 권력 예비 점검(n=15) · v0.6\n코드: C14_디지털_피로\n정의: 디지털 도구 사용과 감정적 소진을 동시에 언급\n포함: '지친다'+'화면/플랫폼' 공존\n제외: 단순 '바쁘다'만 있는 경우\n예: T07 L34–L38\nκ(A,B)=.86 (n=120 segment)",
+              "relevance": "이 예시는 「교육 평가 담론 권력 예비 점검(n=15)」 상황에서 「통치성(governmentality) 관련 개념 도출하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 코드북 태스크는 정의·포함/제외·예시 인용·신뢰도를 한 카드에 모읍니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · 통치성(governmentality) 관련 개념 도출하기",
+            "kind": "generic",
+            "hint": "이 태스크(통치성(governmentality) 관련 개념 도출하기)의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": "b17-t6",
+          "nextTaskId": null
+        }
+      ],
+      "prevStageId": "preprocess-37833",
+      "nextStageId": "stats-19387"
+    },
+    {
+      "id": "stats-19387",
+      "processKey": "stats",
+      "processLabel": "통계기법(Statistical Technique)",
+      "name": "해당없음 — 통계적 검정을 사용하지 않음",
+      "name_ko": "해당없음 — 통계적 검정을 사용하지 않음",
+      "procedure": "해당없음 — 통계적 검정을 사용하지 않음",
+      "easy": "▸통계적 검정(statistical test): 숫자로 결과가 우연인지 아닌지 따지는 것.(예: 차이가 의미 있는지 계산.)",
+      "terms": [
+        {
+          "term": "통계적 검정(statistical test)",
+          "term_ko": "통계적 검정",
+          "term_en": "statistical test",
+          "definition": "숫자로 결과가 우연인지 아닌지 따지는 것. (예: 차이가 의미 있는지 계산.)"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "b17-t8",
+          "task": "1) 해당없음 — 통계적 검정을 사용하지 않음(Procedural Task)",
+          "taskRaw": "1) 해당없음 — 통계적 검정을 사용하지 않음",
+          "processKey": "stats",
+          "processLabel": "통계기법(Statistical Technique)",
+          "stageLabel": "해당없음 — 통계적 검정을 사용하지 않음",
+          "why": "이 절차적 태스크(Procedural Task) '1) 해당없음 — 통계적 검정을 사용하지 않음'는 푸코·비판이론 아키타입(Foucauldian–Critical Theory Archetype)의 '통계기법' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "①목표를 한 문장으로 적기 → ②필요한 자료·도구 준비 → ③'1) 해당없음 — 통계적 검정을 사용하지 않음' 실행 → ④결과물 점검 → ⑤다음 절차적 단계(Procedural Stage)로 전달.",
+          "protocol": "분석 전 가정 검토(Assumption Checking)를 수행하고, 사용한 모형·소프트웨어·옵션을 재현 가능하게 기록합니다. 태스크 초점: 1) 해당없음 — 통계적 검정을 사용하지 않음.",
+          "sampleExplain": "푸코·비판이론 맥락에서 '1) 해당없음 — 통계적 검정을 사용하지 않음' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'1) 해당없음 — 통계적 검정을 사용하지 않음'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'1) 해당없음 — 통계적 검정을 사용하지 않음'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 두 반 평균 점수 비교. 올바른 다음 행동은?",
+              "options": [
+                "기술통계(Descriptive Statistics) 후 t검정(t-test) 가정을 점검한다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 기술통계(Descriptive Statistics) 후 t검정(t-test) 가정을 점검한다.",
+              "usable": "실습: '두 반 평균 점수 비교'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'1) 해당없음 — 통계적 검정을 사용하지 않음'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "generic",
+          "formFields": [
+            {
+              "key": "context",
+              "label": "연구·현장 맥락(Context)",
+              "placeholder": "누구·어디·언제"
+            },
+            {
+              "key": "input",
+              "label": "입력자료(Input Materials)",
+              "type": "textarea",
+              "placeholder": "파일명·건수·출처"
+            },
+            {
+              "key": "procedure",
+              "label": "실행 절차(Procedure Steps)",
+              "type": "textarea",
+              "placeholder": "순서·도구·소요"
+            },
+            {
+              "key": "output",
+              "label": "산출물(Output)",
+              "type": "textarea",
+              "placeholder": "표·코드북·로그·파일"
+            },
+            {
+              "key": "quality",
+              "label": "품질·윤리 점검(Quality & Ethics)",
+              "placeholder": "동의·익명·검증"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "권력·비판담론 현장 B",
+              "body": "【분석】푸코·비판이론 현장 B · 기술통계\nN=389, 직무만족 M=3.62, SD=0.71, 왜도=−0.18, 첨도=0.04\n성별: 남 203(52.2%), 여 186(47.8%)\nCronbach α=.89 (8문항)\n【표】Table 1. Sample characteristics (APA)",
+              "relevance": "이 예시는 「푸코·비판이론 현장 B」 상황에서 「해당없음 — 통계적 검정을 사용하지 않음」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 기술통계 태스크는 N·평균·SD·빈도를 실제 숫자로 채운 표 형식이어야 합니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "교육 평가 담론 권력 다기관 협력",
+              "body": "【가설】H1: 실험>대조 (직무만족)\nLevene p=.31 → t(387)=2.91, p=.004, Cohen d=0.37\n실험 M=3.78 (SD=.68), 대조 M=3.51 (SD=.74)\n【보고】95% CI diff [0.09, 0.45]",
+              "relevance": "이 예시는 「교육 평가 담론 권력 다기관 협력」 상황에서 「해당없음 — 통계적 검정을 사용하지 않음」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. t검정·ANOVA 태스크는 가정검정→검정통계량→효과크기 순으로 적습니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "교육 평가 담론 권력 예비 점검(n=15)",
+              "body": "【모형】OLS: 만족 ~ 스트레스 + 지원 + 성별\nF(3,385)=42.1, p<.001, R²adj=.234\nβ(스트레스)=−.31, SE=.06, p<.001; VIFmax=1.8\n【잔차】Durbin-Watson=1.97",
+              "relevance": "이 예시는 「교육 평가 담론 권력 예비 점검(n=15)」 상황에서 「해당없음 — 통계적 검정을 사용하지 않음」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 회귀 예시는 계수표·모형적합·다중공선성을 함께 제시합니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "교육 평가 담론 권력 본실행 기록",
+              "body": "【SEM】CFA 3요인, n=389\nχ²/df=1.82, CFI=.962, TLI=.951, RMSEA=.046 [.038–.054], SRMR=.038\n적재량 .62–.84\n【경로】조직지지 → 몰입 β=.42*** → 이직의도 β=−.28***",
+              "relevance": "이 예시는 「교육 평가 담론 권력 본실행 기록」 상황에서 「해당없음 — 통계적 검정을 사용하지 않음」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. SEM/요인 태스크는 적합도 지수와 경로를 구분해 적습니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "교육 평가 담론 권력 — 현장 사례 1",
+              "body": "【메타】k=18 RCT, random effects\nPooled SMD=0.41, 95% CI [0.28, 0.54], I²=42%, τ²=.04\nEgger p=.18, funnel 대칭\n【민감】고위험 편향 3편 제외 후 SMD=0.38",
+              "relevance": "이 예시는 「교육 평가 담론 권력 — 현장 사례 1」 상황에서 「해당없음 — 통계적 검정을 사용하지 않음」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 메타분석은 효과크기·이질성·편향 점검을 한 블록으로 씁니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · 해당없음 — 통계적 검정을 사용하지 않음",
+            "kind": "generic",
+            "hint": "이 태스크(해당없음 — 통계적 검정을 사용하지 않음)의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": null,
+          "nextTaskId": null,
+          "linkPrevStageTaskId": "b17-t7"
+        }
+      ],
+      "prevStageId": "coding-13735",
+      "nextStageId": "result-50994"
+    },
+    {
+      "id": "result-50994",
+      "processKey": "result",
+      "processLabel": "결과도출(Result Derivation)",
+      "name": "①권력-지식 관계의 계보학적 해석 →②역사적 단절과 연속성을 개념적으로 서술",
+      "name_ko": "①권력-지식 관계의 계보학적 해석 →②역사적 단절과 연속성을 개념적으로 서술",
+      "procedure": "①권력-지식 관계의 계보학적 해석 →②역사적 단절과 연속성을 개념적으로 서술",
+      "easy": "▸계보학적 해석(genealogical interpretation): 지금 것이 옛날부터 어떻게 생겼는지로 풀기.(예: 규칙의 유래로 설명.)\n▸역사적 단절과 연속성(rupture and continuity): 역사에서 끊긴 부분과 이어진 부분.(예: 옛 규칙이 바뀐 점과 남은 점.)\n▸개념적(conceptual coding):겉말이 아니라 속뜻(개념)으로 분류.(예: 여러 말을 '불안'이라는 개념으로 묶기.)",
+      "terms": [
+        {
+          "term": "계보학적 해석(genealogical interpretation)",
+          "term_ko": "계보학적 해석",
+          "term_en": "genealogical interpretation",
+          "definition": "지금 것이 옛날부터 어떻게 생겼는지로 풀기. (예: 규칙의 유래로 설명.)"
+        },
+        {
+          "term": "역사적 단절과 연속성(rupture and continuity)",
+          "term_ko": "역사적 단절과 연속성",
+          "term_en": "rupture and continuity",
+          "definition": "역사에서 끊긴 부분과 이어진 부분. (예: 옛 규칙이 바뀐 점과 남은 점.)"
+        },
+        {
+          "term": "개념적(conceptual coding)",
+          "term_ko": "개념적",
+          "term_en": "conceptual coding",
+          "definition": "겉말이 아니라 속뜻(개념)으로 분류. (예: 여러 말을 '불안'이라는 개념으로 묶기.)"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "b17-t9",
+          "task": "1) 권력-지식 관계의 계보학적 해석하기(Procedural Task)",
+          "taskRaw": "1) 권력-지식 관계의 계보학적 해석하기",
+          "processKey": "result",
+          "processLabel": "결과도출(Result Derivation)",
+          "stageLabel": "①권력-지식 관계의 계보학적 해석 →②역사적 단절과 연속성을 개념적으로 서술",
+          "why": "이 절차적 태스크(Procedural Task) '1) 권력-지식 관계의 계보학적 해석하기'는 푸코·비판이론 아키타입(Foucauldian–Critical Theory Archetype)의 '결과도출' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "표준 흐름: 1) 권력-지식 관계의 계보학적 해석 → 2) 역사적 단절과 연속성을 개념적으로 서술. 각 하위 절차를 문서에 남기며 순서대로 실행하고, 완료 여부를 체크합니다.",
+          "protocol": "결과표·그림·해석을 연구질문별로 대응시키고, 한계(Limitation)와 함의(Implication)를 함께 적습니다. 태스크 초점: 1) 권력-지식 관계의 계보학적 해석하기.",
+          "sampleExplain": "푸코·비판이론 맥락에서 '1) 권력-지식 관계의 계보학적 해석하기' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'1) 권력-지식 관계의 계보학적 해석하기'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'1) 권력-지식 관계의 계보학적 해석하기'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 유의한 차이가 나옴. 올바른 다음 행동은?",
+              "options": [
+                "효과크기(Effect Size)와 함께 표·그림으로 해석한다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 효과크기(Effect Size)와 함께 표·그림으로 해석한다.",
+              "usable": "실습: '유의한 차이가 나옴'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'1) 권력-지식 관계의 계보학적 해석하기'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "result_viz",
+          "formFields": [
+            {
+              "key": "figure_type",
+              "label": "그래프 유형(Chart Type)",
+              "placeholder": "bar|line|scatter|hist|box"
+            },
+            {
+              "key": "table",
+              "label": "결과표(Result Table)",
+              "type": "textarea"
+            },
+            {
+              "key": "interp",
+              "label": "해석(Interpretation)",
+              "type": "textarea"
+            },
+            {
+              "key": "limitation",
+              "label": "한계(Limitation)",
+              "type": "textarea"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "교육 평가 담론 권력 예비 점검(n=15)",
+              "body": "【연구질문】교육 평가 담론 권력 — 권력-지식 관계의 계보학적 해석하기\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】푸코·비판이론 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「교육 평가 담론 권력 예비 점검(n=15)」 상황에서 「권력-지식 관계의 계보학적 해석하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "교육 평가 담론 권력 본실행 기록",
+              "body": "【연구질문】교육 평가 담론 권력 — 권력-지식 관계의 계보학적 해석하기\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】푸코·비판이론 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「교육 평가 담론 권력 본실행 기록」 상황에서 「권력-지식 관계의 계보학적 해석하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "교육 평가 담론 권력 — 현장 사례 1",
+              "body": "【연구질문】교육 평가 담론 권력 — 권력-지식 관계의 계보학적 해석하기\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】푸코·비판이론 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「교육 평가 담론 권력 — 현장 사례 1」 상황에서 「권력-지식 관계의 계보학적 해석하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "교육 평가 담론 권력 — 현장 사례 2",
+              "body": "【연구질문】교육 평가 담론 권력 — 권력-지식 관계의 계보학적 해석하기\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】푸코·비판이론 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「교육 평가 담론 권력 — 현장 사례 2」 상황에서 「권력-지식 관계의 계보학적 해석하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "권력·비판담론 현장 A",
+              "body": "【연구질문】교육 평가 담론 권력 — 권력-지식 관계의 계보학적 해석하기\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】푸코·비판이론 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「푸코·비판이론 현장 A」 상황에서 「권력-지식 관계의 계보학적 해석하기」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · 권력-지식 관계의 계보학적 해석하기",
+            "kind": "result_viz",
+            "hint": "이 태스크(권력-지식 관계의 계보학적 해석하기)의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": null,
+          "nextTaskId": "b17-t10",
+          "linkPrevStageTaskId": "b17-t8"
+        },
+        {
+          "id": "b17-t10",
+          "task": "2) 역사적 단절과 연속성을 개념적으로 서술(Procedural Task)",
+          "taskRaw": "2) 역사적 단절과 연속성을 개념적으로 서술",
+          "processKey": "result",
+          "processLabel": "결과도출(Result Derivation)",
+          "stageLabel": "①권력-지식 관계의 계보학적 해석 →②역사적 단절과 연속성을 개념적으로 서술",
+          "why": "이 절차적 태스크(Procedural Task) '2) 역사적 단절과 연속성을 개념적으로 서술'는 푸코·비판이론 아키타입(Foucauldian–Critical Theory Archetype)의 '결과도출' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "표준 흐름: 1) 권력-지식 관계의 계보학적 해석 → 2) 역사적 단절과 연속성을 개념적으로 서술. 각 하위 절차를 문서에 남기며 순서대로 실행하고, 완료 여부를 체크합니다.",
+          "protocol": "결과표·그림·해석을 연구질문별로 대응시키고, 한계(Limitation)와 함의(Implication)를 함께 적습니다. 태스크 초점: 2) 역사적 단절과 연속성을 개념적으로 서술.",
+          "sampleExplain": "푸코·비판이론 맥락에서 '2) 역사적 단절과 연속성을 개념적으로 서술' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'2) 역사적 단절과 연속성을 개념적으로 서술'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'2) 역사적 단절과 연속성을 개념적으로 서술'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 유의한 차이가 나옴. 올바른 다음 행동은?",
+              "options": [
+                "효과크기(Effect Size)와 함께 표·그림으로 해석한다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 효과크기(Effect Size)와 함께 표·그림으로 해석한다.",
+              "usable": "실습: '유의한 차이가 나옴'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'2) 역사적 단절과 연속성을 개념적으로 서술'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "generic",
+          "formFields": [
+            {
+              "key": "context",
+              "label": "연구·현장 맥락(Context)",
+              "placeholder": "누구·어디·언제"
+            },
+            {
+              "key": "input",
+              "label": "입력자료(Input Materials)",
+              "type": "textarea",
+              "placeholder": "파일명·건수·출처"
+            },
+            {
+              "key": "procedure",
+              "label": "실행 절차(Procedure Steps)",
+              "type": "textarea",
+              "placeholder": "순서·도구·소요"
+            },
+            {
+              "key": "output",
+              "label": "산출물(Output)",
+              "type": "textarea",
+              "placeholder": "표·코드북·로그·파일"
+            },
+            {
+              "key": "quality",
+              "label": "품질·윤리 점검(Quality & Ethics)",
+              "placeholder": "동의·익명·검증"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "교육 평가 담론 권력 예비 점검(n=15)",
+              "body": "【연구질문】교육 평가 담론 권력 — 역사적 단절과 연속성을 개념적으로 서술\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】푸코·비판이론 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「교육 평가 담론 권력 예비 점검(n=15)」 상황에서 「역사적 단절과 연속성을 개념적으로 서술」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "교육 평가 담론 권력 본실행 기록",
+              "body": "【연구질문】교육 평가 담론 권력 — 역사적 단절과 연속성을 개념적으로 서술\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】푸코·비판이론 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「교육 평가 담론 권력 본실행 기록」 상황에서 「역사적 단절과 연속성을 개념적으로 서술」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "교육 평가 담론 권력 — 현장 사례 1",
+              "body": "【연구질문】교육 평가 담론 권력 — 역사적 단절과 연속성을 개념적으로 서술\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】푸코·비판이론 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「교육 평가 담론 권력 — 현장 사례 1」 상황에서 「역사적 단절과 연속성을 개념적으로 서술」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "교육 평가 담론 권력 — 현장 사례 2",
+              "body": "【연구질문】교육 평가 담론 권력 — 역사적 단절과 연속성을 개념적으로 서술\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】푸코·비판이론 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「교육 평가 담론 권력 — 현장 사례 2」 상황에서 「역사적 단절과 연속성을 개념적으로 서술」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "권력·비판담론 현장 A",
+              "body": "【연구질문】교육 평가 담론 권력 — 역사적 단절과 연속성을 개념적으로 서술\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】푸코·비판이론 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「푸코·비판이론 현장 A」 상황에서 「역사적 단절과 연속성을 개념적으로 서술」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · 역사적 단절과 연속성을 개념적으로 서술",
+            "kind": "generic",
+            "hint": "이 태스크(역사적 단절과 연속성을 개념적으로 서술)의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": "b17-t9",
+          "nextTaskId": null
+        }
+      ],
+      "prevStageId": "stats-19387",
+      "nextStageId": "deliverable-49841"
+    },
+    {
+      "id": "deliverable-49841",
+      "processKey": "deliverable",
+      "processLabel": "최종 산출물(Final Deliverable)",
+      "name": "비판적 개념분석 및 계보학적 해석",
+      "name_ko": "비판적 개념분석 및 계보학적 해석",
+      "procedure": "비판적 개념분석 및 계보학적 해석",
+      "easy": "▸비판적 개념분석(critical conceptual analysis): 개념을 비판적으로 따져 분석하기.(예: '정상'이란 말이 옳은지 되묻기.)\n▸계보학적 해석(genealogical interpretation): 지금 것이 옛날부터 어떻게 생겼는지로 풀기.(예: 규칙의 유래로 설명.)",
+      "terms": [
+        {
+          "term": "비판적 개념분석(critical conceptual analysis)",
+          "term_ko": "비판적 개념분석",
+          "term_en": "critical conceptual analysis",
+          "definition": "개념을 비판적으로 따져 분석하기. (예: '정상'이란 말이 옳은지 되묻기.)"
+        },
+        {
+          "term": "계보학적 해석(genealogical interpretation)",
+          "term_ko": "계보학적 해석",
+          "term_en": "genealogical interpretation",
+          "definition": "지금 것이 옛날부터 어떻게 생겼는지로 풀기. (예: 규칙의 유래로 설명.)"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "b17-t11",
+          "task": "▶ 산출물: 비판적 개념분석 및 계보학적 해석(Procedural Task)",
+          "taskRaw": "▶ 산출물: 비판적 개념분석 및 계보학적 해석",
+          "processKey": "deliverable",
+          "processLabel": "최종 산출물(Final Deliverable)",
+          "stageLabel": "비판적 개념분석 및 계보학적 해석",
+          "why": "이 절차적 태스크(Procedural Task) '▶ 산출물: 비판적 개념분석 및 계보학적 해석'는 푸코·비판이론 아키타입(Foucauldian–Critical Theory Archetype)의 '최종 산출물' 과정에서 다음 단계로 넘어가기 전에 반드시 갖춰야 할 근거를 만들기 위해 수행합니다. 이 단계를 건너뛰면 자료의 품질·해석의 설득력·결과의 재현성이 떨어집니다.",
+          "how": "①목표를 한 문장으로 적기 → ②필요한 자료·도구 준비 → ③'▶ 산출물: 비판적 개념분석 및 계보학적 해석' 실행 → ④결과물 점검 → ⑤다음 절차적 단계(Procedural Stage)로 전달.",
+          "protocol": "산출물 템플릿(표·그림·요약문)에 맞춰 최종본을 정리하고 버전을 남깁니다. 태스크 초점: ▶ 산출물: 비판적 개념분석 및 계보학적 해석.",
+          "sampleExplain": "푸코·비판이론 맥락에서 '▶ 산출물: 비판적 개념분석 및 계보학적 해석' 태스크는 다음 단계로 넘기기 전 품질·재현성·감사기록을 확보하기 위한 예시입니다.",
+          "samples": [
+            {
+              "id": "s1",
+              "title": "상황 판단(Scenario Judgment)",
+              "type": "choice",
+              "prompt": "'▶ 산출물: 비판적 개념분석 및 계보학적 해석'를 시작할 때 가장 먼저 해야 할 일은?",
+              "options": [
+                "결과 해석부터 쓰기",
+                "목표·준비물·기준을 짧게 문서화하기",
+                "통계 소프트웨어만 실행하기",
+                "최종 보고서 표지만 만들기"
+              ],
+              "answer": 1,
+              "feedback": "절차적 태스크는 목표와 준비 기준을 먼저 고정해야 오류가 줄어듭니다.",
+              "usable": "실습: 메모장에 목표 1문장 + 준비물 3개 + 완료기준 1개를 적고 체크하세요."
+            },
+            {
+              "id": "s2",
+              "title": "핵심 용어 확인(Key Term Check)",
+              "type": "choice",
+              "prompt": "'▶ 산출물: 비판적 개념분석 및 계보학적 해석'에서 결과의 신뢰를 높이려면 무엇을 남기는가?",
+              "options": [
+                "감정 기록만",
+                "감사기록(Audit Trail)·코드북(Codebook)·결정 이유",
+                "최종 문장만",
+                "비밀번호만"
+              ],
+              "answer": 1,
+              "feedback": "감사기록과 코드북은 다른 사람도 같은 절차를 따라갈 수 있게 합니다.",
+              "usable": "실습: 오늘 결정 3가지와 이유를 감사기록 형식으로 적어 보세요."
+            },
+            {
+              "id": "s3",
+              "title": "미니 사례 적용(Mini Case Application)",
+              "type": "choice",
+              "prompt": "사례: 분석 완료. 올바른 다음 행동은?",
+              "options": [
+                "결과표·요약문·한계를 한 세트로 묶어 산출한다.",
+                "아무 기록 없이 바로 결론만 발표",
+                "관련 없는 변수를 모두 삭제",
+                "표본을 숨기고 결과만 공개"
+              ],
+              "answer": 0,
+              "feedback": "올바른 적용: 결과표·요약문·한계를 한 세트로 묶어 산출한다.",
+              "usable": "실습: '분석 완료'를 본인 주제로 바꿔 같은 행동을 한 줄로 다시 쓰세요."
+            },
+            {
+              "id": "s4",
+              "title": "순서 점검(Sequence Check)",
+              "type": "choice",
+              "prompt": "절차적 단계(Procedural Stage) 안에서 태스크를 진행하는 바람직한 순서는?",
+              "options": [
+                "해석 → 수집 → 준비",
+                "준비(프로토콜) → 실행 → 점검 → 산출",
+                "산출 → 준비 → 실행",
+                "점검 없이 실행만 반복"
+              ],
+              "answer": 1,
+              "feedback": "표준 프로토콜(Standard Protocol)로 준비한 뒤 실행·점검·산출 순서가 안전합니다.",
+              "usable": "실습: 체크리스트 4칸(준비/실행/점검/산출)을 만들고 오늘 태스크에 표시하세요."
+            },
+            {
+              "id": "s5",
+              "title": "직접 작성 샘플(Write-Your-Own Sample)",
+              "type": "open",
+              "prompt": "'▶ 산출물: 비판적 개념분석 및 계보학적 해석'에 대해 ①입력 ②절차 ③출력 을 세 줄로 적어 보세요.",
+              "example": "입력: 원자료 표\n절차: 규칙에 따라 정리\n출력: 정제된 분석용 표",
+              "explain": "입·출력을 분명히 하면 AI·동료와 협업할 때도 오류가 줄어듭니다.",
+              "placeholder": "입력:\n절차:\n출력:",
+              "modelAnswer": "입력·절차·출력이 각각 한 줄 이상이면 완료입니다.",
+              "usable": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)"
+            }
+          ],
+          "excelSample": "입력: (자료명)\n절차: (이 태스크에서 할 일)\n출력: (다음 단계로 넘길 산출물)",
+          "taskKind": "result_viz",
+          "formFields": [
+            {
+              "key": "figure_type",
+              "label": "그래프 유형(Chart Type)",
+              "placeholder": "bar|line|scatter|hist|box"
+            },
+            {
+              "key": "table",
+              "label": "결과표(Result Table)",
+              "type": "textarea"
+            },
+            {
+              "key": "interp",
+              "label": "해석(Interpretation)",
+              "type": "textarea"
+            },
+            {
+              "key": "limitation",
+              "label": "한계(Limitation)",
+              "type": "textarea"
+            }
+          ],
+          "exampleGallery": [
+            {
+              "id": "ex1",
+              "title": "교육 평가 담론 권력 — 현장 사례 2",
+              "body": "【연구질문】교육 평가 담론 권력 — ▶ 산출물: 비판적 개념분석 및 계보학적 해석\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】푸코·비판이론 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「교육 평가 담론 권력 — 현장 사례 2」 상황에서 「▶ 산출물: 비판적 개념분석 및 계보학적 해석」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex2",
+              "title": "권력·비판담론 현장 A",
+              "body": "【연구질문】교육 평가 담론 권력 — ▶ 산출물: 비판적 개념분석 및 계보학적 해석\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】푸코·비판이론 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「푸코·비판이론 현장 A」 상황에서 「▶ 산출물: 비판적 개념분석 및 계보학적 해석」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex3",
+              "title": "권력·비판담론 현장 B",
+              "body": "【연구질문】교육 평가 담론 권력 — ▶ 산출물: 비판적 개념분석 및 계보학적 해석\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】푸코·비판이론 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「푸코·비판이론 현장 B」 상황에서 「▶ 산출물: 비판적 개념분석 및 계보학적 해석」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex4",
+              "title": "교육 평가 담론 권력 다기관 협력",
+              "body": "【연구질문】교육 평가 담론 권력 — ▶ 산출물: 비판적 개념분석 및 계보학적 해석\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】푸코·비판이론 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「교육 평가 담론 권력 다기관 협력」 상황에서 「▶ 산출물: 비판적 개념분석 및 계보학적 해석」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            },
+            {
+              "id": "ex5",
+              "title": "교육 평가 담론 권력 예비 점검(n=15)",
+              "body": "【연구질문】교육 평가 담론 권력 — ▶ 산출물: 비판적 개념분석 및 계보학적 해석\n【핵심결과】지원↑ → 만족↑ (β=.34, p<.001), d=0.37\n【표】Table 3. Regression coefficients\n【그래프】집단별 막대+95% CI 오차막대 (Comparison)\n【해석】푸코·비판이론 맥락에서 … 실무적으로는 …\n【한계】단면·자기보고, 인과 해석 자제\n【산출】Word §4.2 + figure3.png",
+              "relevance": "이 예시는 「교육 평가 담론 권력 예비 점검(n=15)」 상황에서 「▶ 산출물: 비판적 개념분석 및 계보학적 해석」을(를) 실행할 때 무엇을 적어야 하는지 보여 줍니다. 결과 태스크는 표·그래프·해석·한계·파일명까지 한 번에 정리하는 형식입니다. 같은 형식으로 적으면 다음 단계에서 자료를 이어 받기 쉽습니다.",
+              "source": "engine"
+            }
+          ],
+          "aiTransform": {
+            "title": "AI 변환기 · ▶ 산출물: 비판적 개념분석 및 계보학적 해석",
+            "kind": "result_viz",
+            "hint": "이 태스크(▶ 산출물: 비판적 개념분석 및 계보학적 해석)의 예시 샘플 형식을 따라, 사용자가 기입한 항목으로 완성된 산출물 초안을 만드세요. 표·수치가 있으면 표로, 없으면 번호 목록으로 출력하세요.",
+            "outputLabel": "태스크 산출물 초안(Task Output Draft)"
+          },
+          "prevTaskId": null,
+          "nextTaskId": null,
+          "linkPrevStageTaskId": "b17-t10"
+        }
+      ],
+      "prevStageId": "result-50994",
+      "nextStageId": null
+    }
+  ],
+  "stats": {
+    "stageCount": 6,
+    "taskCount": 11
+  }
+}
