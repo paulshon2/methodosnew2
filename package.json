@@ -17,7 +17,8 @@
     "test:goal": "npx --yes tsx scripts/verify-stats-goal.ts",
     "test:survey": "npx --yes tsx scripts/verify-survey-quality.ts",
     "test:coding": "npx --yes tsx scripts/verify-coding-reliability.ts",
-    "test:contrast": "npx --yes tsx scripts/verify-contrast.ts"
+    "test:contrast": "npx --yes tsx scripts/verify-contrast.ts",
+    "verify:methodos": "npx --yes tsx scripts/methodos/verify.ts"
   },
   "dependencies": {
     "@clerk/nextjs": "^6.9.0",

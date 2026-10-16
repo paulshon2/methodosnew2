@@ -1,0 +1,357 @@
+{
+ "version": "R19-web",
+ "engine": "Methodos Basic R19 (Python 3.11, numpy/scipy)",
+ "items": {
+  "M01": {
+   "exampleCells": 46,
+   "exampleMatched": 46,
+   "cases": 13,
+   "casesMatched": 13,
+   "casesEngineError": 0,
+   "maxRelDiff": 3.219646771412954e-14
+  },
+  "M02": {
+   "exampleCells": 50,
+   "exampleMatched": 50,
+   "cases": 13,
+   "casesMatched": 13,
+   "casesEngineError": 0,
+   "maxRelDiff": 2.1357353907240002e-16
+  },
+  "M03": {
+   "exampleCells": 40,
+   "exampleMatched": 40,
+   "cases": 13,
+   "casesMatched": 13,
+   "casesEngineError": 0,
+   "maxRelDiff": 6.38378239159465e-16
+  },
+  "M04": {
+   "exampleCells": 11,
+   "exampleMatched": 11,
+   "cases": 13,
+   "casesMatched": 13,
+   "casesEngineError": 0,
+   "maxRelDiff": 3.441691376337985e-14
+  },
+  "M05": {
+   "exampleCells": 26,
+   "exampleMatched": 26,
+   "cases": 13,
+   "casesMatched": 13,
+   "casesEngineError": 0,
+   "maxRelDiff": 9.002798506685394e-13
+  },
+  "M06": {
+   "exampleCells": 19,
+   "exampleMatched": 19,
+   "cases": 13,
+   "casesMatched": 13,
+   "casesEngineError": 0,
+   "maxRelDiff": 6.74673518702703e-14
+  },
+  "M07": {
+   "exampleCells": 46,
+   "exampleMatched": 46,
+   "cases": 13,
+   "casesMatched": 13,
+   "casesEngineError": 0,
+   "maxRelDiff": 8.15347789284715e-13
+  },
+  "M08": {
+   "exampleCells": 18,
+   "exampleMatched": 18,
+   "cases": 13,
+   "casesMatched": 13,
+   "casesEngineError": 0,
+   "maxRelDiff": 7.771561172376096e-16
+  },
+  "M09": {
+   "exampleCells": 26,
+   "exampleMatched": 26,
+   "cases": 14,
+   "casesMatched": 14,
+   "casesEngineError": 0,
+   "maxRelDiff": 2.0700920661795852e-13
+  },
+  "M10": {
+   "exampleCells": 40,
+   "exampleMatched": 40,
+   "cases": 14,
+   "casesMatched": 14,
+   "casesEngineError": 0,
+   "maxRelDiff": 7.936871639060696e-12
+  },
+  "M11": {
+   "exampleCells": 43,
+   "exampleMatched": 43,
+   "cases": 14,
+   "casesMatched": 14,
+   "casesEngineError": 0,
+   "maxRelDiff": 1.1439653252597401e-12
+  },
+  "M12": {
+   "exampleCells": 40,
+   "exampleMatched": 40,
+   "cases": 15,
+   "casesMatched": 15,
+   "casesEngineError": 0,
+   "maxRelDiff": 1.1760985494868657e-12
+  },
+  "M13": {
+   "exampleCells": 37,
+   "exampleMatched": 37,
+   "cases": 13,
+   "casesMatched": 13,
+   "casesEngineError": 0,
+   "maxRelDiff": 5.043642666934845e-13,
+   "note": "부트스트랩은 numpy 와 같은 난수열(PCG64)로 재현"
+  },
+  "M14": {
+   "exampleCells": 32,
+   "exampleMatched": 32,
+   "cases": 13,
+   "casesMatched": 13,
+   "casesEngineError": 0,
+   "maxRelDiff": 1.289185651739126e-11
+  },
+  "M15": {
+   "exampleCells": 34,
+   "exampleMatched": 34,
+   "cases": 13,
+   "casesMatched": 13,
+   "casesEngineError": 0,
+   "maxRelDiff": 1.9786829537496427e-13
+  },
+  "M16": {
+   "exampleCells": 5,
+   "exampleMatched": 5,
+   "cases": 14,
+   "casesMatched": 14,
+   "casesEngineError": 0,
+   "maxRelDiff": 5.5846599578409346e-15
+  },
+  "M17": {
+   "exampleCells": 41,
+   "exampleMatched": 41,
+   "cases": 14,
+   "casesMatched": 14,
+   "casesEngineError": 0,
+   "maxRelDiff": 2.116418151842936e-12
+  },
+  "M18": {
+   "exampleCells": 38,
+   "exampleMatched": 38,
+   "cases": 13,
+   "casesMatched": 13,
+   "casesEngineError": 0,
+   "maxRelDiff": 1.7874219581206704e-12
+  },
+  "M19": {
+   "exampleCells": 24,
+   "exampleMatched": 24,
+   "cases": 16,
+   "casesMatched": 16,
+   "casesEngineError": 0,
+   "maxRelDiff": 1.1019777644591721e-10
+  },
+  "M20": {
+   "exampleCells": 40,
+   "exampleMatched": 40,
+   "cases": 13,
+   "casesMatched": 13,
+   "casesEngineError": 0,
+   "maxRelDiff": 1.572273442485785e-7
+  },
+  "M21": {
+   "exampleCells": 40,
+   "exampleMatched": 40,
+   "cases": 14,
+   "casesMatched": 14,
+   "casesEngineError": 0,
+   "maxRelDiff": 1.509903313490213e-14
+  },
+  "M22": {
+   "exampleCells": 84,
+   "exampleMatched": 84,
+   "cases": 16,
+   "casesMatched": 16,
+   "casesEngineError": 0,
+   "maxRelDiff": 1.0131478989094944e-13
+  },
+  "M23": {
+   "exampleCells": 12,
+   "exampleMatched": 12,
+   "cases": 17,
+   "casesMatched": 17,
+   "casesEngineError": 0,
+   "maxRelDiff": 4.996003610813204e-16
+  },
+  "M24": {
+   "exampleCells": 14,
+   "exampleMatched": 14,
+   "cases": 18,
+   "casesMatched": 18,
+   "casesEngineError": 0,
+   "maxRelDiff": 0
+  },
+  "M25": {
+   "exampleCells": 38,
+   "exampleMatched": 38,
+   "cases": 14,
+   "casesMatched": 14,
+   "casesEngineError": 0,
+   "maxRelDiff": 5.768915053017274e-7
+  },
+  "M26": {
+   "exampleCells": 48,
+   "exampleMatched": 48,
+   "cases": 13,
+   "casesMatched": 13,
+   "casesEngineError": 0,
+   "maxRelDiff": 2.058033015680518e-11
+  },
+  "M27": {
+   "exampleCells": 76,
+   "exampleMatched": 76,
+   "cases": 15,
+   "casesMatched": 15,
+   "casesEngineError": 0,
+   "maxRelDiff": 0.000025394043694218112,
+   "note": "EM 되풀이 횟수는 견주지 않음"
+  },
+  "M28": {
+   "exampleCells": 39,
+   "exampleMatched": 39,
+   "cases": 15,
+   "casesMatched": 15,
+   "casesEngineError": 0,
+   "maxRelDiff": 4.856764933512263e-13
+  },
+  "M29": {
+   "exampleCells": 24,
+   "exampleMatched": 24,
+   "cases": 13,
+   "casesMatched": 13,
+   "casesEngineError": 0,
+   "maxRelDiff": 4.856764933512263e-13
+  },
+  "M30": {
+   "exampleCells": 8,
+   "exampleMatched": 8,
+   "cases": 14,
+   "casesMatched": 14,
+   "casesEngineError": 0,
+   "maxRelDiff": 7.392080080014838e-7
+  },
+  "M31": {
+   "exampleCells": 44,
+   "exampleMatched": 44,
+   "cases": 14,
+   "casesMatched": 14,
+   "casesEngineError": 0,
+   "maxRelDiff": 2.722694110972459e-12,
+   "note": "유형 번호와 시작 횟수는 난수라 견주지 않음"
+  },
+  "M32": {
+   "exampleCells": 40,
+   "exampleMatched": 40,
+   "cases": 13,
+   "casesMatched": 13,
+   "casesEngineError": 0,
+   "maxRelDiff": 0.000003925040264633787
+  },
+  "M33": {
+   "exampleCells": 864,
+   "exampleMatched": 864,
+   "cases": 15,
+   "casesMatched": 15,
+   "casesEngineError": 0,
+   "maxRelDiff": 7.749356711883593e-14
+  },
+  "M34": {
+   "exampleCells": 36,
+   "exampleMatched": 36,
+   "cases": 13,
+   "casesMatched": 13,
+   "casesEngineError": 0,
+   "maxRelDiff": 6.449061412672208e-8
+  },
+  "M35": {
+   "exampleCells": 6,
+   "exampleMatched": 6,
+   "cases": 13,
+   "casesMatched": 13,
+   "casesEngineError": 0,
+   "maxRelDiff": 3.6821391491415056e-9
+  },
+  "M36": {
+   "exampleCells": 18,
+   "exampleMatched": 18,
+   "cases": 13,
+   "casesMatched": 13,
+   "casesEngineError": 0,
+   "maxRelDiff": 0.0007203678858480373,
+   "note": "부트스트랩은 numpy 와 같은 난수열로 재현, LP 해가 여럿인 표본은 오차 2e-3 허용"
+  },
+  "M37": {
+   "exampleCells": 18,
+   "exampleMatched": 18,
+   "cases": 13,
+   "casesMatched": 13,
+   "casesEngineError": 0,
+   "maxRelDiff": 0,
+   "note": "난수 대체 — 추정은 3·SE, 대체내 SE 는 25% 안으로 견줌"
+  },
+  "M38": {
+   "exampleCells": 20,
+   "exampleMatched": 20,
+   "cases": 15,
+   "casesMatched": 15,
+   "casesEngineError": 0,
+   "maxRelDiff": 2.409988495888773e-13
+  },
+  "M39": {
+   "exampleCells": 33,
+   "exampleMatched": 33,
+   "cases": 3,
+   "casesMatched": 3,
+   "casesEngineError": 0,
+   "maxRelDiff": 2.2470914018413168e-13,
+   "note": "처치·시점을 숫자 목록으로 준 옛 방식은 웹판에 없음"
+  },
+  "M40": {
+   "exampleCells": 162,
+   "exampleMatched": 162,
+   "cases": 10,
+   "casesMatched": 10,
+   "casesEngineError": 0,
+   "maxRelDiff": 4.759400879352879e-16
+  },
+  "M41": {
+   "exampleCells": 76,
+   "exampleMatched": 76,
+   "cases": 20,
+   "casesMatched": 20,
+   "casesEngineError": 0,
+   "maxRelDiff": 8.881784197001252e-16
+  },
+  "M42": {
+   "exampleCells": 16,
+   "exampleMatched": 16,
+   "cases": 16,
+   "casesMatched": 16,
+   "casesEngineError": 0,
+   "maxRelDiff": 2.230930995494873e-10
+  },
+  "M43": {
+   "exampleCells": 32,
+   "exampleMatched": 32,
+   "cases": 16,
+   "casesMatched": 16,
+   "casesEngineError": 0,
+   "maxRelDiff": 2.8041093690791195e-8,
+   "note": "자료가 정하지 못하는 모수·함수 호출 횟수는 견주지 않음"
+  }
+ }
+}

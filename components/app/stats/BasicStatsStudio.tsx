@@ -213,7 +213,7 @@ export default function BasicStatsStudio({ nav }: { nav: (r: string) => void }) 
     <div>
       <PageHead
         title="기본통계 · 목적으로 시작하기"
-        expert={{ label: "검정 이름으로 찾기 (기존 47종)", onOpen: () => nav("basic-stats/hub") }}
+        expert={{ label: "기법 이름으로 찾기 (Methodos 43기법)", onOpen: () => nav("basic-stats/hub") }}
       />
 
       <StudioGuide
