@@ -7,6 +7,8 @@ import { useEffect, useMemo, useState } from "react";
 import { loadBasicStatsCurriculum, getModule, type BsCurriculum } from "@/lib/basic-stats-guide";
 import MethodosHub from "./stats/MethodosHub";
 import MethodosStudio from "./stats/MethodosStudio";
+import MethodosCharts from "./stats/MethodosCharts";
+import MethodosResults from "./stats/MethodosResults";
 
 const card = "rounded-2xl border p-4 md:p-5";
 const cardStyle = { borderColor: "var(--color-border-tertiary)" };
@@ -41,7 +43,7 @@ export default function BasicStatsStudio({
 
   const mod = useMemo(() => {
     if (!cur || !sub) return null;
-    if (["basics", "sem-overview", "decision", "hub"].includes(sub)) return null;
+    if (["basics", "sem-overview", "decision", "hub", "charts", "results"].includes(sub)) return null;
     return getModule(cur, sub) || null;
   }, [cur, sub]);
 
@@ -50,6 +52,8 @@ export default function BasicStatsStudio({
   useEffect(() => {
     if (legacyTarget) nav(`basic-stats/${legacyTarget}`);
   }, [legacyTarget, nav]);
+  if (sub === "charts") return <MethodosCharts nav={nav} />;
+  if (sub === "results") return <MethodosResults nav={nav} />;
   if (sub && /^M\d{2}$/.test(sub)) return <MethodosStudio code={sub} nav={nav} />;
   if (legacyTarget) return <div className="p-6 text-ink-3">Methodos 기법({legacyTarget})으로 이동합니다…</div>;
 

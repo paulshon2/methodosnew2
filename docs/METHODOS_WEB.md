@@ -35,3 +35,23 @@ npm run verify:methodos        # scripts/methodos/reference 의 엔진 결과표
 - M43 에서 자료가 모수를 정하지 못하는 경우(평평한 자료) 추정값이 엔진과 다를 수 있다(표준오차는 비움 처리가 같다).
 - 파일 형식은 CSV·Excel. SPSS·R 파일, PDF 내보내기는 없다. 결과는 표 복사·엑셀·JSON.
 - 큰 자료에서 M25·M26·M27 은 수 초 걸릴 수 있다(워커에서 돌아 화면은 멈추지 않는다).
+
+## 네 화면 (renew-20) — 데스크톱판과 같은 흐름, 화면은 Expert 모드 방식
+데스크톱 Methodos Basic 의 네 화면을 같은 순서·같은 일로 옮기고, 겉모양은 사이트의 Expert 모드(유리 카드·Stepper 톤)로 맞췄다. 화면 위의 탭으로 오간다.
+
+| 화면 | 주소 | 하는 일 | 데스크톱 대응 |
+|---|---|---|---|
+| 통계방법 라이브러리 | `#/tools/stats/hub` | 43기법 카드(수준·갈래·검색) → 설명·필요한 변수·**분야별 예제(548건)** 고르기 → 「예제 실행」 | 예제 실습실(`Examples.jsx`) |
+| 분석 실행 | `#/tools/stats/M01~M43` | 기법 고르기 · 자료(올리기·붙여넣기·예제) · **자료 준비**(사례 선택·역코딩·재부호화·중심화·표준화·로그·문항 평균) · 변수·옵션 · 실행 | `Workbench.jsx` + `DataPrep.jsx` |
+| 그래프 그리기 | `#/tools/stats/charts` | 최근 결과를 **기법별로 설계한 그림**(`components/methodos/dviz/*`, 데스크톱 Ngraph 와 같은 코드)으로 · 읽는 법 · 표로 보기 · PNG/SVG | `Charts.jsx` + `dviz` |
+| 통계분석결과 | `#/tools/stats/results` | 결과 기록(최근 30건, 브라우저 `localStorage`) 열기·지우기, 결과표 + 그림 | `Results.jsx` |
+
+네 화면은 `lib/methodos/session.ts`(zustand)로 자료·최근 결과를 함께 쓴다. 결과는 서버로 가지 않는다.
+- 라이브러리 예제: `public/methodos/library.json` + `public/methodos/data/*.csv` (`scripts/methodos/build-catalog.py` 가 엔진의 `multi_examples.json` 에서 생성).
+- 그림 어댑터: `lib/methodos/adapt.ts` 가 웹 결과(`MResult`)를 dviz 가 읽는 엔진 결과꼴로 바꾼다.
+- 점검: `NODE_OPTIONS="--require ./scripts/methodos/css-stub.cjs" npx tsx scripts/methodos/smoke-library.tsx` — 예제 548건 전부 실행 + 그림 렌더(실행 실패 0, 렌더 오류 0).
+
+### 네 화면의 한계
+- 엔진이 만드는 matplotlib 그림·가정 점검 카드(`assumption_results`)는 없다. 그림은 결과표 값으로 그린 설계 그림뿐이다.
+- 설계 그림이 없는 기법(M02·M16·M20·M26·M27)은 결과표만 나온다(데스크톱에서도 엔진 그림에 기대던 기법).
+- 자료 준비는 가중·유형 편집을 뺀 가벼운 변환 7종이다.

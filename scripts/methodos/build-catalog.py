@@ -36,3 +36,22 @@ for code in sorted(cat):
     shutil.copyfile(ex / m["csv"], dst / "public" / "methodos" / "examples" / f"{code}.csv")
 (dst / "public" / "methodos" / "catalog.json").write_text(json.dumps({"version": "R19-web", "items": items}, ensure_ascii=False), encoding="utf-8")
 print(len(items), "techniques")
+
+
+# ── 통계방법 라이브러리: 기법마다 적용 가능한 예제(분야별 자료) 묶음 ──────────────────────────
+import re
+multi = json.loads((ex / "multi_examples.json").read_text(encoding="utf-8"))["by_code"]
+(dst / "public" / "methodos" / "data").mkdir(parents=True, exist_ok=True)
+lib = {}
+for code, items in multi.items():
+    out = []
+    for i, it in enumerate(items):
+        if code == "M39" and isinstance(it["options"].get("treat"), list):
+            continue  # 처치·시점을 숫자 목록으로 준 옛 방식은 웹판에 없다
+        name = re.sub(r"[^0-9A-Za-z_.가-힣]+", "_", Path(it["csv"]).stem) + ".csv"
+        shutil.copyfile(ex / it["csv"], dst / "public" / "methodos" / "data" / name)
+        out.append({"id": f"{code}#{i}", "label": it["label"], "csv": name, "n": it.get("case_count"), "field": it.get("field"), "group": it.get("group"),
+                    "slots": it["variable_slots"], "options": it["options"]})
+    lib[code] = out
+(dst / "public" / "methodos" / "library.json").write_text(json.dumps(lib, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+print(sum(len(v) for v in lib.values()), "library examples")
