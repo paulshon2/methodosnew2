@@ -1,4 +1,4 @@
-# MethodOS (renew-19)
+# MethodOS
 
 연구방법 가상 학습·자동화 웹앱(Next.js 15 · React 19, Clerk · Supabase 선택).
 
